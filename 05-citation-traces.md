@@ -1,0 +1,95 @@
+# Citation traces of the pivotal papers
+
+**Status:** first pass (v0.2), 2026-09-30. Item 2 of the README's "how this analysis is meant to evolve" list. Data: `data/openalex-traces.json` (137 papers, OpenAlex, queried 2026-09-30), `data/s2-traces.json` (8 papers, Semantic Scholar, full citing lists), `data/citation-pairs.json` (the 123 citation-link tests discussed in `04-acceptance-checks.md`). Regenerate with `scripts/openalex_traces.py`.
+
+## 1. What was traced and why
+
+The P-files date the acceptance of each answer partly by criterion (B), premise adoption, and the README said that citation data could "replace judgment with data" for that criterion. This pass pulled, for every one of the 137 papers the P-files single out as pivotal, the full year-by-year curve of citing works from OpenAlex, and for 77 of them the most-cited works citing them within eight years of publication ("early adopters"). Two things were then compared with the P-files: *when* each paper began to be built on, and *by whom*.
+
+Three cautions govern everything below.
+
+- **Citation counts are not comparable across eras.** The literature has grown roughly tenfold; a paper published in 2020 reaches 100 citations in a year or two, one published in 1967 took eight years, and one from 1960 took 47 (table in §2). What is comparable is the *shape* of a curve and the *identity* of the early citers.
+- **A citation is not adoption.** Most citations of an origin paper after its first decade are historical — Arrhenius 1896 has 1,691 citations, 1,100 of them since 2010, none of which builds on his radiative calculation. The early window is the one that tests criterion (B); the late curve measures canonization.
+- **A falling curve is not rejection.** As `04-acceptance-checks.md` §5 shows, an accepted result migrates to its latest restatement and to the assessments; the origin paper's curve then falls precisely because the result has been absorbed (Santer 1996, Mitchell 1995, Cess 1989, Hansen 1988 all peak within five years and then decline steadily while their results become textbook). Conversely a contested paper can be cited heavily *as the thing being rebutted* (Lindzen 1990; Svensmark 1997).
+
+Two data caveats: OpenAlex holds several of the oldest papers as duplicate records (Stommel 1961 in three; Hasselmann 1976, Budyko 1969, Keeling 1960 and Plass 1956 in two); the merged curves are used here and the ids are listed in the data file. Semantic Scholar, used first, under-counts citations before about 1990 by a factor of 5–7 (Hasselmann 1976: 18 pre-1990 citations in S2, 126 in OpenAlex) and is kept only as a cross-check.
+
+## 2. Speed of adoption by era
+
+Years from publication to the 25th and 100th citing work, for the 128 pivotal papers with ≥ 100 citations:
+
+| Publication period | Papers | Median years to 25 citations | Median years to 100 |
+|---|---|---|---|
+| before 1980 | 20 | 4 | 13 |
+| 1980–1999 | 31 | 2 | 4 |
+| 2000–2014 | 52 | 1 | 3 |
+| 2015– | 25 | 1 | 2 |
+
+So a "slow" adoption in 1970 (Manabe & Wetherald 1967: 25 citations by 1970, 100 by 1975) is a fast one by the standards of its decade, and a 1960s paper that took a decade to be built on (Manabe & Bryan 1969: 25 citations by 1979) is not thereby a neglected one. The comparisons in §4 are made within era.
+
+## 3. Curve shapes
+
+Four shapes recur; examples name the paper, its OpenAlex citation total, and its peak year.
+
+**(i) Canonized origin.** A first adoption wave within five years, a trough, and a second, larger rise after ~2005 as the literature grows and the paper is cited as the origin of its field. Manabe & Wetherald 1967 (1,763; peak 2023), Budyko 1969 (2,475 merged; peak 2021), Sellers 1969 (1,155; 2021), Hays et al. 1976 (3,789; 2021), Revelle & Suess 1957 (1,042; 2022), Hansen et al. 1981 (1,091; 2023), Hasselmann 1976 (2,403 merged; 2022 — the year after the Nobel), Arrhenius 1896, Callendar 1938, Keeling 1960 (832 merged; 2022). Keeling is the extreme case: 19 citations in 1960–64, then fewer than 10 per five years through the 1980s, then 235 in 2020–24 — the *record* was adopted operationally within a few years (Bolin & Keeling 1963; Pales & Keeling 1965), the *paper* is cited now as a monument. For these papers criterion (B) must be read off the first decade only.
+
+**(ii) Absorbed result.** A sharp peak within 2–6 years and a monotonic decline as the result enters assessments and successors. Cess et al. 1989 (599; peak 1991), Schlesinger & Mitchell 1987 (484; 1991), Hansen et al. 1988 (992; 1991), Jones et al. 1986 (529; 1992), Lorius et al. 1990 (378; 1992), Mitchell et al. 1995 (757; 2000), Santer et al. 1996 (448; 1998), Tett et al. 1999 (514; 2000), Stott et al. 2000 (681; 2005), Hansen et al. 2005 (926; 2007), Mears & Wentz 2005 (195; 2008), Rahmstorf 2007 (1,671; 2011), Pfeffer 2008 (900; 2013), Knutti & Hegerl 2008 (513; 2012). This is the signature of a methodological or observational result that was accepted and superseded; the decline is the acceptance.
+
+**(iii) Live problem.** Sustained or rising citation through the present: Charlson et al. 1992 (3,861; rising every five-year bin since 1995, peak 2022) — aerosol forcing is still the largest forcing uncertainty; Held & Soden 2006 (5,142; 2024); Allen & Ingram 2002 (3,106; 2021); Twomey 1977 (3,875; 2022); Lenton et al. 2008 (4,094; 2023); Dansgaard et al. 1993 (4,901; 2013 then steady); Matthews et al. 2009 and Allen et al. 2009 (1,220 and 1,746; both peak 2021 with the net-zero literature); Solomon et al. 2009 (3,268; 2023). These are results that are accepted *and* still being used as premises — the cumulative-emissions papers because every carbon-budget calculation cites them, Charlson because every aerosol paper does.
+
+**(iv) Closed controversy.** A peak during the dispute and a fall to near zero. McIntyre & McKitrick 2005 (179; peak 2007, then 10–14 per five years), Lindzen & Choi 2009 (106; peak 2010, one citation in 2025), Douglass-era tropospheric papers, Svensmark & Friis-Christensen 1997 (1,115; peak 2004, halving each five years after 2010 as the CLOUD results came in), Friis-Christensen & Lassen 1991 (889; peak 2011, declining), Lindzen 1990 (441; peak 1992). MBH 1998/1999 themselves (2,016 and 1,883) peak in 2005–07 — the controversy years — and decline after 2010, when the reconstructions they started had been superseded by Mann 2008/2009 and PAGES 2k and, as `04` shows, the reference reconstruction of 2019 no longer cites them at all. Lindzen 2001 (iris) is the exception among the contested papers: it peaks in 2005, falls, and then has a second life in 2020–24 (86 citations) as the "missing iris" discussion (Mauritsen & Stevens 2015) and the convective-aggregation literature revisit the mechanism.
+
+## 4. Who adopted what, and when — compared with the P-files
+
+For each transition the P-files date, the table gives the P-file's claim, the years in which the paper reached 25 and 100 citing works, and the early adopters (most-cited works citing it within eight years; full lists in the data file). "Consistent" means the citation evidence supports the dating and the named adopters; the last column notes anything the traces add.
+
+| Transition (P-file claim) | Paper | 25 / 100 citations by | Early adopters (year, [citations of the adopter]) | Verdict; what the trace adds |
+|---|---|---|---|---|
+| Radiative–convective result accepted by ~1970 (P01, marker B) | Manabe & Wetherald 1967 | 1970 / 1975 | Budyko 1969 [1,434], Lilly 1968 [961], Ingersoll 1969 [357], Rasool & Schneider 1971 [323], Landsberg 1970 [284], Sawyer 1972 [240], Schneider & Dickinson 1974 [363], Dickinson 1975 [276] | Consistent. The adopters are exactly the set P01 names; note the reach into planetary science (Ingersoll's runaway greenhouse) and boundary-layer meteorology (Lilly) within two years. |
+| Energy-balance models as a rung of the hierarchy, early 1970s (P03) | Budyko 1969; Sellers 1969 | 1973 / 1977; 1973 / 1979 | Twomey 1974, Hasselmann 1976, Paltridge 1975, Schneider & Dickinson 1974, Rasool & Schneider 1971, Ramanathan 1975, Chýlek & Coakley 1974 | Consistent. Both papers are cited by the same 1971–76 cohort; Hasselmann 1976 cites both (P13). |
+| Orbital pacing settled by ~1980 (P09) | Hays, Imbrie & Shackleton 1976 | 1977 / 1979 | Berger 1978 [1,442], Mercer 1978, Imbrie & Imbrie 1980 [1,093], Kutzbach 1981 [937], Benzi et al. 1982, Rossignol-Strick 1983, Dansgaard 1982 | Consistent; adoption complete within five years, across paleoceanography, ice cores and modelling. The fastest adoption of any pre-1980 paper in the set. |
+| Stochastic climate model as the null hypothesis (P13, `SETTLED`) | Hasselmann 1976 | 1979 / 1987 | Hays et al. 1976 (in press) [3,789], Frankignoul & Hasselmann 1977 [786], Imbrie & Imbrie 1980, Benzi et al. 1982 (stochastic resonance), Pisias & Moore 1981, Nicolis 1981, North 1981 [593], Le Treut & Ghil 1983 | Consistent, with a qualification: the first decade's adopters are paleoclimatologists and dynamicists (the ice-age problem), not detection theorists. Its use as the detection null (P07) belongs to the 1990s; the curve's largest bins are 2015–24. P13 amended to say so. |
+| Aerosol forcing a first-order term by 1992–95 (P06) | Charlson et al. 1992 | 1992 / 1994 | Hansen et al. 1997 (forcing and response) [2,442], Haywood & Boucher 2000 [2,347], Vitousek 1994, Kaufman 1997, Andreae & Crutzen 1997, Gordon & Wang 1994, Edwards & Slingo 1996, Dentener 1996 | Consistent: 50 citations within a year, the SAR endorsement in 1995. The trace adds that the *detection* papers of 1995–96 cite the result through IPCC 1994 rather than directly (`04` §5a). |
+| Detection/attribution established 1995–2001 (P07) | Santer et al. 1996 | 1997 / 1999 | Allen & Ingram 2002 [3,106], Crowley 2000 [2,139], Stott et al. 2000, Allen & Tett 1999, Tett et al. 1999, Allen 2000, Knutson & Tuleya 2004; also Boykoff & Boykoff 2004 (media studies) and Legates & McCabe 1999 | Consistent; the chain Santer → Tett → Stott → Allen is confirmed link by link in `04`. Shape (ii): peak 1998, decline after the TAR absorbed it. |
+| Twentieth-century tuning concern (P03/P04) | Kiehl 2007 | 2009 / 2012 | Andrews et al. 2012 [843], Mauritsen et al. 2012 "Tuning the climate of a global model" [583], Knutti 2010 "The end of model democracy?" [520], Shindell 2013, Forster et al. 2013, Quinn 2008; Jimenez 2009 (aerosol chemistry) | Consistent: the concern was taken up by the model-tuning and forcing-adjustment literature within five years and reaches Hourdin 2017 and Sherwood 2020 by citation. |
+| ECS pdf "irreducibly" fat-tailed → resolved as a statement about pdfs (P04) | Roe & Baker 2007 | 2008 / 2010 | Hawkins & Sutton 2009 [2,849], Hulme 2009, Weitzman 2009 [1,831], Hallegatte 2009, Sherwood & Huber 2010, Golosov 2014, Pindyck 2013, Rogelj 2012; Knutti & Hegerl 2008 (the physical response) | Consistent, and the trace adds something the P-file did not have: the paper's largest uptake was in economics and adaptation science (Weitzman's "dismal theorem", Pindyck, Golosov), where the fat tail became a premise, while the physical-science reply (Knutti & Hegerl 2008; Hannart et al. 2009 "may not be so unpredictable") came within two years. The physical question closed; the policy premise persisted. |
+| TCRE accepted by AR5 (P10) | Matthews et al. 2009; Allen et al. 2009 | 2010 / 2012; 2009 / 2011 | Meinshausen et al. 2011 (RCP concentrations) [3,813], Allen 2009 ↔ Matthews 2009, Arora 2011, Rogelj 2015, McGlade & Ekins 2015 (unburnable carbon) [1,817], Friedlingstein 2014, Heede 2013, Seneviratne 2016, Collins et al. 2013 (AR5 ch. 12) | Consistent: operational adoption (RCP design, carbon budgets) within two years, assessment endorsement in four. Shape (iii): still rising in 2021 with the net-zero literature. |
+| ZEC ≈ 0 accepted 2008–2020 (P10) | Matthews & Caldeira 2008; Solomon 2009; MacDougall 2020 | 2009 / 2011; 2009 / 2010; 2021 / 2022 | Solomon 2009 [3,268], Allen 2009, Davis 2010, Rogelj 2016, DeConto & Pollard 2016; for MacDougall: Fankhauser 2021 "The meaning of net zero", Matthews 2022, Lamboll 2023, Riahi 2021, Allen 2022 | Consistent; the ZEC result propagated into the net-zero policy literature within a year of the intercomparison. |
+| Tipping elements as a framework (P12, `ACCEPTED`) | Lenton et al. 2008 | 2008 / 2009 | Rockström et al. 2009 "A safe operating space" [13,354], Steffen et al. 2015 [12,621], Scheffer et al. 2009 "Early-warning signals" [4,950], Allen et al. 2009 (tree mortality), Costello 2009 (Lancet), Hulme 2009 | Consistent as to speed; the trace adds that the earliest and largest adopters are sustainability science and ecology, not the physical modelling community — which is where the "assessments have been more conservative than the tipping literature" remark in P12 comes from. |
+| Sherwood 2020 as the sensitivity anchor (P04) | Sherwood et al. 2020 | 2020 / 2021 | Tebaldi et al. 2021 (ScenarioMIP) [837], Jägermeyr 2021 (agriculture) [1,022], Beck 2023 (Köppen maps constrained by ECS), Kemp 2022, Kelley 2020 (GISS model paper), Kikstra 2022 (AR6 WGIII), Previdi 2021, Meehl 2020 | Consistent; the fastest operational adoption in the set — used to constrain projections within twelve months, endorsed by AR6 within one. |
+| "Hot model" problem (P03/P04) | Zelinka et al. 2020 | 2020 / 2020 | Sherwood 2020, Dunne 2020 (GFDL ESM4.1), Meehl 2020, Tokarska 2020, Tebaldi 2021, Notz 2020, Hausfather 2022 | Consistent; 100 citations in the year of publication. |
+| Hiatus explained and closed (P08) | Kosaka & Xie 2013; Karl et al. 2015; Medhaug 2017 | 2014 / 2014; 2015 / 2016; 2017 / 2019 | Kay et al. 2015 (CESM large ensemble) [2,622], England 2014, Cai 2015, Danabasoglu 2020; for Karl 2015: Hersbach 2020 (ERA5) [32,527], Huang 2017 (ERSSTv5), Morice 2020 (HadCRUT5), Lenssen 2019 (GISTEMP), Cheng 2017 | Consistent. Karl 2015's SST correction was adopted by every major dataset within five years — criterion (E) — whatever its political reception. Kosaka & Xie peaks in 2018 and declines: the hiatus literature ended. |
+| Hockey-stick controversy closed by ~2010 (P09) | MBH 1998/1999; McIntyre & McKitrick 2005 | 1999 / 2000; 2000 / 2001; 2006 / 2009 | Crowley 2000, Jones et al. 1999, Luterbacher 2004, Moberg 2005, Hansen 2006, Mann 2008/2009 | Consistent: MM05 peaks in 2007 (44 citations) and is cited about twice a year after 2015; MBH declines after 2010; Neukom 2019 cites none of them. The controversy's afterlife is outside the citation record. |
+| AMOC bistability from Stommel (P12) | Stommel 1961 | 1993 / 1996 (merged records) | Bryan 1986, Manabe & Stouffer 1988, Rahmstorf 1995, Marotzke, Stocker & Wright 1991 | **Amended.** The merged curve shows almost no citations before 1985 (8 in 1961–84) and a rise that begins with the coupled-model discoveries of 1986–88: Stommel's two-box model was *rediscovered* as the origin of bistability in the late 1980s. P12's "origin" claim stands, but the acceptance date of the two-box picture as the field's framework is ~1988–95, not 1961. |
+| Solar/cosmic-ray alternative abandoned ~2010 (P06/P07) | Svensmark & Friis-Christensen 1997 | 1998 / 2000 | Burrows 1999, Haigh 2002, Masarik & Beer 1999, Carslaw 2002 "Cosmic rays, clouds and climate", Lockwood 1999, Bard 2000, Marsh & Svensmark 2000, Tett 2002 | Consistent: the mainstream *engaged* (Carslaw, Haigh, Lockwood) rather than ignored, and the curve halves every five years after 2010 as the CLOUD experiment (Kirkby 2011, 2016; Dunne 2016) and Pierce & Adams 2009 closed the mechanism. |
+| Consensus-measurement literature (context for the later strands) | Oreskes 2004; Cook et al. 2013 | 2006 / 2008; 2013 / 2014 | (not traced for adopters) | Both are cited overwhelmingly in social-science and communication venues; Cook 2013 peaks in 2019 (126). A citation cluster of its own, separate from the physical literature it describes — relevant to `08-manufactured-consensus.md`. |
+
+## 5. What the traces change in the P-files
+
+- **P12:** the Stommel amendment above (the two-box model as a rediscovered origin, accepted ~1988–95).
+- **P13:** Hasselmann 1976's first decade of adopters is paleoclimate and dynamics; its detection role is a 1990s development.
+- **P04:** Roe & Baker's afterlife in economics is now noted as the reason the "fat tail" persists in policy discussion after the physical question closed.
+- **P12:** the tipping-elements framework's earliest adopters were the planetary-boundaries and early-warning literatures.
+- **P08:** Karl 2015's adoption by ERA5, ERSSTv5, HadCRUT5 and GISTEMP within five years is recorded as marker (E).
+
+None of the acceptance dates claimed in the P-files is contradicted by the traces; three (Hasselmann, Stommel, Lenton) are made more precise about *which community* accepted first.
+
+## 6. Contested papers: engagement or neglect?
+
+A question the later strands will ask is whether the mainstream literature engaged with skeptical papers or ignored them. The early-adopter lists answer it for the papers traced here:
+
+| Paper | Total citations | Early citers from the mainstream | Curve |
+|---|---|---|---|
+| Lindzen 1990 "Some coolness" | 441 | Hansen & Lacis 1990, Chahine 1992, Stokes & Schwartz 1994 (ARM programme), Webster 1998; Held & Soden 2000 and Soden 2005 cite it as the objection they answer | peak 1992; declining since 2000 |
+| Lindzen et al. 2001 (iris) | 406 | Hartmann & Michelsen 2002 (reply), Stephens 2005 review, Bony 2006 review, Randall 2007 (AR4 ch. 8), Khain 2005 | peak 2005; revival 2020–24 |
+| Lindzen & Choi 2009 | 106 | Trenberth 2010, Murphy 2010, Dessler 2010 (replies) | peak 2010; ~1/yr since 2022 |
+| Svensmark & Friis-Christensen 1997 | 1,115 | Carslaw 2002, Haigh 2002, Lockwood 1999, Tett 2002 | peak 2004; falling |
+| McIntyre & McKitrick 2005 | 179 | Huybers 2005, von Storch & Zorita 2005, Wahl & Ammann 2007, NRC 2006 | peak 2007; ~2/yr since 2015 |
+| McKitrick & Christy 2018 | 26 | (few; does not itself cite Santer 2017) | — |
+| Douglass et al. 2008 / Santer et al. 2008 | (not traced) | | |
+
+The pattern: the physical-science objections of 1990–2009 were cited, answered in print within one to three years, and then stopped being cited; the tropospheric-warming exchange of 2017–20 is the one case in this set where the two sides' papers are not citing one another (`04` §5e).
+
+## 7. Reproducibility
+
+`scripts/openalex_traces.py` regenerates `data/openalex-traces.json` and refreshes the OpenAlex verdicts in `data/citation-pairs.json` from `data/pivotal-openalex.csv` (which lists each pivotal paper's DOI and OpenAlex id). It reads the API key from `OPENALEX_API_KEY`; keyless use is limited to a few dozen requests a day. The early-adopter lists are the eight most-cited citing works in the eight years after publication; the full lists (twenty per paper) were retrieved but only the top eight are stored, to keep the file small. Semantic Scholar's complete citing lists for eight papers are in `data/s2-traces.json`.

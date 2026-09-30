@@ -24,7 +24,7 @@ The models are the field's instrument for every quantitative question in this pr
 
 ### The hierarchy as a concept (1974–2005)
 
-**Schneider & Dickinson (1974)**, *Climate modeling* (Rev. Geophys. Space Phys.), is the review that named the *hierarchy* — energy-balance, radiative–convective, statistical-dynamical, and general-circulation models — and argued that its levels answer different questions. **Held (2005)**, *The gap between simulation and understanding in climate modeling* (BAMS), restated the case thirty years later, arguing that the field had let its comprehensive models outrun its ability to understand them and needed to cultivate the intermediate rungs. The two papers bracket the period in which the hierarchy went from a research strategy to the accepted epistemology of the field.
+**Schneider & Dickinson (1974)**, *Climate modeling* (Rev. Geophys. Space Phys.), is the review that named the *hierarchy* — energy-balance, radiative–convective, statistical-dynamical, and general-circulation models — and argued that its levels answer different questions. **Held (2005)**, *The gap between simulation and understanding in climate modeling* (BAMS), restated the case thirty years later, arguing that the field had let its comprehensive models outrun its ability to understand them and needed to cultivate the intermediate rungs. The two papers bracket the period in which the hierarchy went from a research strategy to the accepted epistemology of the field. (Held cites the earlier review directly — "See, for example, Schneider and Dickinson (1974), and, especially, Hoskins (1983)" — a link OpenAlex misses because it indexes only seven of the essay's references; `04-acceptance-checks.md`.)
 
 ### CO₂ in three dimensions (1975–1988)
 
@@ -53,7 +53,7 @@ The AR6 (2021) broke with model democracy: its projections were constrained by o
 ## What was accepted, when, and on what evidence
 
 - **GCMs as the primary instrument for the CO₂ problem:** by 1979. Marker (A): the Charney report rested its number on the Manabe and Hansen GCMs and used the 1-D models to explain them. Marker (C): Washington & Parkinson's textbook (1986).
-- **The hierarchy as the interpretive framework:** Schneider & Dickinson (1974) → Held (2005); marker (B): the feedback-decomposition practice (Hansen et al. 1984; Soden & Held 2006; radiative kernels, Soden et al. 2008) reads 3-D output through a 1-D energy balance; marker (E): the two-layer energy-balance emulators (Held et al. 2010; Geoffroy et al. 2013) used in AR6 are 0-D models calibrated to GCMs.
+- **The hierarchy as the interpretive framework:** Schneider & Dickinson (1974) → Held (2005); marker (B): the feedback-decomposition practice (Hansen et al. 1984; Soden & Held 2006; radiative kernels, Soden et al. 2008) reads 3-D output through a 1-D energy balance — though by 2006 the practice is cited to Wetherald & Manabe 1988, Colman 2003 and Webb et al. 2006 rather than to Hansen 1984, i.e. it had reached criterion (C); marker (E): the two-layer energy-balance emulators (Held et al. 2010; Geoffroy et al. 2013) used in AR6 are 0-D models calibrated to GCMs.
 - **Flux adjustment abandoned:** ~2000–2007 (marker D).
 - **Model democracy abandoned in favour of observational constraint:** 2020–21 (marker A: AR6).
 - **The models' transient skill:** Hausfather et al. (2020) is the marker most often cited; there is no serious mainstream dissent from it, though there is dissent about the tropical troposphere (P08).

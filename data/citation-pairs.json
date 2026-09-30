@@ -1,0 +1,848 @@
+{
+ "generated": "2026-09-30",
+ "method": "OpenAlex works/<B>?select=referenced_works, membership test of A's OpenAlex id; manual checks of publisher reference lists where noted",
+ "codes": {
+  "CITES": "A in B's OpenAlex referenced_works",
+  "NOT-IN-REFS": "A not in B's OpenAlex referenced_works",
+  "VERIFIED-CITES": "printed reference list contains A",
+  "VERIFIED-NO": "printed/resolved reference list inspected, A absent",
+  "VARIANT": "B cites a different version or predecessor of A (see note)",
+  "UNVERIFIABLE": "reference list not reachable"
+ },
+ "pairs": [
+  {
+   "A": "plass1956",
+   "B": "revelle1957",
+   "openalex": "CITES",
+   "B_refs_indexed": 21
+  },
+  {
+   "A": "plass1956",
+   "B": "keeling1960",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 10,
+   "check": "VERIFIED-NO",
+   "note": "Keeling 1960 (11 refs) cites Revelle & Suess 1957, Callendar 1958, Bray 1959, Slocum 1955, Fonselius 1956; Plass 1956 not cited."
+  },
+  {
+   "A": "revelle1957",
+   "B": "keeling1960",
+   "openalex": "CITES",
+   "B_refs_indexed": 10
+  },
+  {
+   "A": "moller1963",
+   "B": "mw1967",
+   "openalex": "CITES",
+   "B_refs_indexed": 7
+  },
+  {
+   "A": "mw1967",
+   "B": "mw1975",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 0,
+   "check": "UNVERIFIABLE",
+   "note": "OpenAlex has no reference list for MW75 (0 indexed); AMS full text not reachable from this session. MW75 is known to build on the 1967 radiative–convective scheme."
+  },
+  {
+   "A": "mw1967",
+   "B": "schneider1974",
+   "openalex": "CITES",
+   "B_refs_indexed": 176
+  },
+  {
+   "A": "mw1967",
+   "B": "hansen1981",
+   "openalex": "CITES",
+   "B_refs_indexed": 53
+  },
+  {
+   "A": "mw1975",
+   "B": "hansen1981",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 53,
+   "check": "UNVERIFIABLE",
+   "note": "Hansen 1981 has 53 of its references indexed (MW67, Manabe & Stouffer 1980, Hoffert 1980, Schneider & Thompson 1981 present); Science full text not reachable."
+  },
+  {
+   "A": "woodwell1978",
+   "B": "broecker1979",
+   "openalex": "CITES",
+   "B_refs_indexed": 38
+  },
+  {
+   "A": "tans1990",
+   "B": "sabine2004",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 18,
+   "check": "VERIFIED-NO",
+   "note": "Sabine et al. 2004 (17 resolved refs) cites Revelle & Suess 1957, Gruber 1996, Feely 2004; Tans et al. 1990 not cited."
+  },
+  {
+   "A": "archer2009",
+   "B": "solomon2009",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 55,
+   "check": "VERIFIED-NO",
+   "note": "Anachronistic pair: Solomon et al. was published Feb 2009, Archer et al. Annu. Rev. May 2009. Solomon cites Archer 2005 / Archer & Brovkin 2008 instead."
+  },
+  {
+   "A": "revelle1957",
+   "B": "solomon2009",
+   "openalex": "CITES",
+   "B_refs_indexed": 55
+  },
+  {
+   "A": "schneider1974",
+   "B": "held2005",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 7,
+   "check": "VERIFIED-CITES",
+   "note": "Held 2005 (GFDL preprint text): 'See, for example, Schneider and Dickinson (1974), and, especially, Hoskins (1983)'. OpenAlex indexes only 7 of the essay's references, so NOT-IN-REFS is an indexing gap. (Corrected 2026-09-30; an earlier version of this file said VERIFIED-NO.)"
+  },
+  {
+   "A": "cess1989",
+   "B": "bonydufresne2005",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 25,
+   "check": "VARIANT",
+   "note": "Bony & Dufresne 2005 ref. 3 cites Cess et al. 1990 JGR (the full 19-model intercomparison), not Cess et al. 1989 Science."
+  },
+  {
+   "A": "cess1989",
+   "B": "sodenheld2006",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 20,
+   "check": "VARIANT",
+   "note": "Soden & Held 2006 cites Cess et al. 1990 JGR and Cess et al. 1996; the 1989 Science letter is not cited (18 of 20 references resolved)."
+  },
+  {
+   "A": "bonydufresne2005",
+   "B": "sodenheld2006",
+   "openalex": "CITES",
+   "B_refs_indexed": 20
+  },
+  {
+   "A": "hansen1984",
+   "B": "schlesingermitchell1987",
+   "openalex": "CITES",
+   "B_refs_indexed": 71
+  },
+  {
+   "A": "hansen1984",
+   "B": "sodenheld2006",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 20,
+   "check": "VERIFIED-NO",
+   "note": "Not among the 18 resolved references (Wetherald & Manabe 1988, Colman 2003, Webb 2006 are the feedback-decomposition anchors)."
+  },
+  {
+   "A": "manabebryan1969",
+   "B": "stouffer1989",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 20,
+   "check": "VERIFIED-NO",
+   "note": "Stouffer et al. 1989 (21 refs) cites Bryan et al. 1982, Bryan & Spelman 1985, Manabe & Bryan 1985, Manabe & Stouffer 1988; Manabe & Bryan 1969 not cited."
+  },
+  {
+   "A": "kiehl2007",
+   "B": "hourdin2017",
+   "openalex": "CITES",
+   "B_refs_indexed": 62
+  },
+  {
+   "A": "kiehl2007",
+   "B": "sherwood2020",
+   "openalex": "CITES",
+   "B_refs_indexed": 521
+  },
+  {
+   "A": "mw1967",
+   "B": "hausfather2020",
+   "openalex": "CITES",
+   "B_refs_indexed": 58
+  },
+  {
+   "A": "mw1975",
+   "B": "hausfather2020",
+   "openalex": "CITES",
+   "B_refs_indexed": 58
+  },
+  {
+   "A": "roebaker2007",
+   "B": "knuttihegerl2008",
+   "openalex": "CITES",
+   "B_refs_indexed": 104
+  },
+  {
+   "A": "otto2013",
+   "B": "sherwood2020",
+   "openalex": "CITES",
+   "B_refs_indexed": 521
+  },
+  {
+   "A": "armour2013",
+   "B": "sherwood2020",
+   "openalex": "CITES",
+   "B_refs_indexed": 521
+  },
+  {
+   "A": "andrews2015",
+   "B": "sherwood2020",
+   "openalex": "CITES",
+   "B_refs_indexed": 521
+  },
+  {
+   "A": "gregoryandrews2016",
+   "B": "sherwood2020",
+   "openalex": "CITES",
+   "B_refs_indexed": 521
+  },
+  {
+   "A": "zelinka2020",
+   "B": "hausfather2022",
+   "openalex": "CITES",
+   "B_refs_indexed": 10
+  },
+  {
+   "A": "sherwood2020",
+   "B": "hausfather2022",
+   "openalex": "CITES",
+   "B_refs_indexed": 10
+  },
+  {
+   "A": "lorius1990",
+   "B": "palaeosens2012",
+   "openalex": "CITES",
+   "B_refs_indexed": 91
+  },
+  {
+   "A": "palaeosens2012",
+   "B": "sherwood2020",
+   "openalex": "CITES",
+   "B_refs_indexed": 521
+  },
+  {
+   "A": "tierney2020",
+   "B": "sherwood2020",
+   "openalex": "CITES",
+   "B_refs_indexed": 521
+  },
+  {
+   "A": "annanhargreaves2011",
+   "B": "sherwood2020",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 521,
+   "check": "VERIFIED-NO",
+   "note": "Not among the 521 indexed references of Sherwood et al. 2020; Annan & Hargreaves 2006 GRL is the usually cited paper."
+  },
+  {
+   "A": "otto2013",
+   "B": "lewiscurry2018",
+   "openalex": "CITES",
+   "B_refs_indexed": 87
+  },
+  {
+   "A": "lewiscurry2018",
+   "B": "sherwood2020",
+   "openalex": "CITES",
+   "B_refs_indexed": 521
+  },
+  {
+   "A": "sherwood2020",
+   "B": "lewis2023",
+   "openalex": "CITES",
+   "B_refs_indexed": 63
+  },
+  {
+   "A": "sherwood2020",
+   "B": "hansen2023",
+   "openalex": "CITES",
+   "B_refs_indexed": 186
+  },
+  {
+   "A": "mw1967",
+   "B": "heldsoden2000",
+   "openalex": "CITES",
+   "B_refs_indexed": 91
+  },
+  {
+   "A": "lindzen1990",
+   "B": "heldsoden2000",
+   "openalex": "CITES",
+   "B_refs_indexed": 91
+  },
+  {
+   "A": "lindzen1990",
+   "B": "soden2005",
+   "openalex": "CITES",
+   "B_refs_indexed": 35
+  },
+  {
+   "A": "soden2005",
+   "B": "desslersherwood2009",
+   "openalex": "CITES",
+   "B_refs_indexed": 15
+  },
+  {
+   "A": "lindzen2001",
+   "B": "hartmannmichelsen2002",
+   "openalex": "CITES",
+   "B_refs_indexed": 7
+  },
+  {
+   "A": "sodenheld2006",
+   "B": "zelinka2020",
+   "openalex": "CITES",
+   "B_refs_indexed": 82
+  },
+  {
+   "A": "tan2016",
+   "B": "zelinka2020",
+   "openalex": "CITES",
+   "B_refs_indexed": 82
+  },
+  {
+   "A": "cess1989",
+   "B": "zelinka2020",
+   "openalex": "CITES",
+   "B_refs_indexed": 82
+  },
+  {
+   "A": "zelinka2020",
+   "B": "myers2021",
+   "openalex": "CITES",
+   "B_refs_indexed": 67
+  },
+  {
+   "A": "twomey1977",
+   "B": "charlson1992",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 60,
+   "check": "VARIANT",
+   "note": "Charlson et al. 1992 (60 refs, all resolved) cites Twomey 1984 Tellus and Twomey 1991 for the cloud-albedo effect, plus Charlson 1987/1991, Coakley 1987, Radke 1989; Twomey 1977 J. Atmos. Sci. not cited."
+  },
+  {
+   "A": "charlson1992",
+   "B": "mitchell1995",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 20,
+   "check": "VARIANT",
+   "note": "Mitchell et al. 1995 (25 refs) cites Charlson et al. 1991 Tellus (ref. 22) and IPCC 1994 'Radiative Forcing' (ref. 3) for sulphate forcing; Charlson 1992 Science not cited."
+  },
+  {
+   "A": "mitchell1995",
+   "B": "santer1996",
+   "openalex": "CITES",
+   "B_refs_indexed": 49
+  },
+  {
+   "A": "charlson1992",
+   "B": "santer1996",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 49,
+   "check": "VARIANT",
+   "note": "Santer 1996 ref. 19 cites Charlson & Wigley 1994 (Sci. Am.) for sulphate forcing, not Charlson et al. 1992 Science."
+  },
+  {
+   "A": "stevens2015",
+   "B": "bellouin2020",
+   "openalex": "CITES",
+   "B_refs_indexed": 337
+  },
+  {
+   "A": "ramanathan1985",
+   "B": "hansen1988",
+   "openalex": "CITES",
+   "B_refs_indexed": 58
+  },
+  {
+   "A": "charlson1992",
+   "B": "kiehl2007",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 26,
+   "check": "VERIFIED-NO",
+   "note": "Kiehl 2007 (26 refs) cites Anderson et al. 2003, Andreae et al. 2005, Mitchell 1995, Hansen 2005, Kerr 2007; Charlson 1992 not cited."
+  },
+  {
+   "A": "hasselmann1976",
+   "B": "hasselmann1993",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 21,
+   "check": "VARIANT",
+   "note": "Hasselmann 1993 J. Climate (21 refs) cites Hasselmann 1979 'signal-to-noise problem', Bell 1982, Barnett & Schlesinger 1987, Madden & Ramanathan 1980, Karoly 1989; the 1976 stochastic-model paper is not cited."
+  },
+  {
+   "A": "hasselmann1993",
+   "B": "hegerl1996",
+   "openalex": "CITES",
+   "B_refs_indexed": 32
+  },
+  {
+   "A": "hasselmann1993",
+   "B": "santer1996",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 49,
+   "check": "VARIANT",
+   "note": "Santer 1996 ref. 38 cites Hasselmann et al. 1995, MPI Rep. 168 (the multi-pattern fingerprint report), not Hasselmann 1993 J. Climate."
+  },
+  {
+   "A": "hegerl1996",
+   "B": "santer1996",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 49,
+   "check": "VERIFIED-CITES",
+   "note": "Santer et al. 1996 ref. 42: 'Hegerl, G. C. et al. J. Clim. (in press)' — in-press citation not resolved by OpenAlex."
+  },
+  {
+   "A": "santer1996",
+   "B": "tett1999",
+   "openalex": "CITES",
+   "B_refs_indexed": 30
+  },
+  {
+   "A": "tett1999",
+   "B": "stott2000",
+   "openalex": "CITES",
+   "B_refs_indexed": 29
+  },
+  {
+   "A": "santer1996",
+   "B": "stott2000",
+   "openalex": "CITES",
+   "B_refs_indexed": 29
+  },
+  {
+   "A": "maddenramanathan1980",
+   "B": "hansen1981",
+   "openalex": "CITES",
+   "B_refs_indexed": 53
+  },
+  {
+   "A": "hansen1981",
+   "B": "hansen1988",
+   "openalex": "CITES",
+   "B_refs_indexed": 58
+  },
+  {
+   "A": "fcl1991",
+   "B": "lockwood2007",
+   "openalex": "CITES",
+   "B_refs_indexed": 90
+  },
+  {
+   "A": "svensmark1997",
+   "B": "lockwood2007",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 90,
+   "check": "VARIANT",
+   "note": "Lockwood & Fröhlich 2007 cites Svensmark 2007 'Cosmoclimatology', Carslaw 2002, Harrison & Stephenson 2006; Svensmark & Friis-Christensen 1997 not among the 90 resolved references."
+  },
+  {
+   "A": "spencerchristy1990",
+   "B": "mearswentz2005",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 27,
+   "check": "VARIANT",
+   "note": "Mears & Wentz 2005 (27 refs, all resolved) cites Christy et al. 2000, 2003 and Spencer & Christy 1992; the 1990 Science paper is not cited."
+  },
+  {
+   "A": "kosakaxie2013",
+   "B": "medhaug2017",
+   "openalex": "CITES",
+   "B_refs_indexed": 231
+  },
+  {
+   "A": "karl2015",
+   "B": "medhaug2017",
+   "openalex": "CITES",
+   "B_refs_indexed": 231
+  },
+  {
+   "A": "cowtanway2014",
+   "B": "medhaug2017",
+   "openalex": "CITES",
+   "B_refs_indexed": 231
+  },
+  {
+   "A": "fyfe2013",
+   "B": "medhaug2017",
+   "openalex": "CITES",
+   "B_refs_indexed": 231
+  },
+  {
+   "A": "levitus2000",
+   "B": "hansen2005eei",
+   "openalex": "CITES",
+   "B_refs_indexed": 33
+  },
+  {
+   "A": "hansen2005eei",
+   "B": "loeb2021",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 28,
+   "check": "VERIFIED-NO",
+   "note": "Loeb et al. 2021 (29 refs) cites von Schuckmann et al. 2016/2020 and Johnson et al. 2016 for the energy-imbalance framing; Hansen 2005 not cited."
+  },
+  {
+   "A": "santer2017",
+   "B": "mckitrickchristy2018",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 15,
+   "check": "VERIFIED-NO",
+   "note": "McKitrick & Christy 2018 (20 refs) does not cite Santer et al. 2017 (nor any Santer paper)."
+  },
+  {
+   "A": "jones1986",
+   "B": "hansen1988",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 58,
+   "check": "VERIFIED-NO",
+   "note": "Hansen et al. 1988 (69 refs) uses Hansen & Lebedeff 1987/1988 for observations; Jones et al. 1986 not cited. Charney 1979, Smagorinsky 1982, NAS 1975, MW75 are cited."
+  },
+  {
+   "A": "hays1976",
+   "B": "lorius1990",
+   "openalex": "CITES",
+   "B_refs_indexed": 64
+  },
+  {
+   "A": "mbh1998",
+   "B": "mbh1999",
+   "openalex": "CITES",
+   "B_refs_indexed": 17
+  },
+  {
+   "A": "mbh1999",
+   "B": "mm2005",
+   "openalex": "CITES",
+   "B_refs_indexed": 14
+  },
+  {
+   "A": "mbh1998",
+   "B": "neukom2019",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 81,
+   "check": "VERIFIED-NO",
+   "note": "Neukom et al. 2019 (80 refs) cites Mann et al. 2008 PNAS and 2009 Science and PAGES 2k 2013/2017; MBH98 not cited."
+  },
+  {
+   "A": "mbh1999",
+   "B": "neukom2019",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 81,
+   "check": "VERIFIED-NO",
+   "note": "As above; MBH99 not cited."
+  },
+  {
+   "A": "mm2005",
+   "B": "neukom2019",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 81,
+   "check": "VERIFIED-NO",
+   "note": "As above; McIntyre & McKitrick 2005 not cited."
+  },
+  {
+   "A": "shakun2012",
+   "B": "tierney2020",
+   "openalex": "CITES",
+   "B_refs_indexed": 82
+  },
+  {
+   "A": "palaeosens2012",
+   "B": "tierney2020",
+   "openalex": "CITES",
+   "B_refs_indexed": 82
+  },
+  {
+   "A": "hansen1985",
+   "B": "stouffer1989",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 20,
+   "check": "VERIFIED-NO",
+   "note": "Stouffer 1989 cites Hansen et al. 1988 JGR (ref. 9), Thompson & Schneider 1982 and Broecker 1987; Hansen et al. 1985 Science not cited."
+  },
+  {
+   "A": "matthewscaldeira2008",
+   "B": "solomon2009",
+   "openalex": "CITES",
+   "B_refs_indexed": 55,
+   "check": "VERIFIED-CITES",
+   "note": "Solomon et al. 2009 ref. 6; premise sentence in the introduction: 'It is not generally appreciated that the atmospheric temperature increases caused by rising carbon dioxide concentrations are not expected to decrease significantly even if carbon emissions were to completely cease (5–7)'."
+  },
+  {
+   "A": "matthewscaldeira2008",
+   "B": "macdougall2020",
+   "openalex": "CITES",
+   "B_refs_indexed": 115
+  },
+  {
+   "A": "solomon2009",
+   "B": "macdougall2020",
+   "openalex": "CITES",
+   "B_refs_indexed": 115
+  },
+  {
+   "A": "matthews2009",
+   "B": "macdougall2020",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 115,
+   "check": "VERIFIED-NO",
+   "note": "MacDougall et al. 2020 intro cites Matthews & Caldeira 2008, Plattner 2008, Solomon 2009, Gillett 2011, Frölicher & Paynter 2015, Ehlert & Zickfeld 2017; TCRE papers not cited (WebFetch read of the Copernicus HTML)."
+  },
+  {
+   "A": "allen2009",
+   "B": "macdougall2020",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 115,
+   "check": "VERIFIED-NO",
+   "note": "As above."
+  },
+  {
+   "A": "armour2013",
+   "B": "andrews2015",
+   "openalex": "CITES",
+   "B_refs_indexed": 41
+  },
+  {
+   "A": "andrews2015",
+   "B": "gregoryandrews2016",
+   "openalex": "CITES",
+   "B_refs_indexed": 60
+  },
+  {
+   "A": "matthews2009",
+   "B": "allen2009",
+   "openalex": "CITES",
+   "B_refs_indexed": 36
+  },
+  {
+   "A": "allen2009",
+   "B": "matthews2009",
+   "openalex": "CITES",
+   "B_refs_indexed": 21
+  },
+  {
+   "A": "alleningram2002",
+   "B": "heldsoden2006",
+   "openalex": "CITES",
+   "B_refs_indexed": 24
+  },
+  {
+   "A": "mw1975",
+   "B": "heldsoden2006",
+   "openalex": "CITES",
+   "B_refs_indexed": 24
+  },
+  {
+   "A": "stommel1961",
+   "B": "rahmstorf1995",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 36,
+   "check": "VERIFIED-CITES",
+   "note": "Rahmstorf 1995 ref. 5: Stommel, H. Tellus 13, 224–230 (1961). OpenAlex miss caused by fragmented Stommel records (W2024330627 / W4255338144 / W2322298591)."
+  },
+  {
+   "A": "manabestouffer1988",
+   "B": "rahmstorf1995",
+   "openalex": "CITES",
+   "B_refs_indexed": 36
+  },
+  {
+   "A": "broecker1987",
+   "B": "rahmstorf1995",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 36,
+   "check": "VERIFIED-NO",
+   "note": "Rahmstorf 1995 (39 refs) cites Broecker, Peteet & Rind 1985 (ref. 12), not Broecker 1987 'Unpleasant surprises'."
+  },
+  {
+   "A": "rahmstorf1995",
+   "B": "stockerschmittner1997",
+   "openalex": "CITES",
+   "B_refs_indexed": 33
+  },
+  {
+   "A": "stockerschmittner1997",
+   "B": "vanwesten2026",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 0,
+   "check": "UNVERIFIABLE",
+   "note": "No reference list indexed yet for the 2026 paper."
+  },
+  {
+   "A": "stockerschmittner1997",
+   "B": "vanwesten2024",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 61,
+   "check": "VERIFIED-NO",
+   "note": "van Westen et al. 2024 (60 resolved refs) cites Stommel 1961, Rahmstorf 1996/2005, Weijer 2019, Ditlevsen & Ditlevsen 2023; Stocker & Schmittner 1997 not cited."
+  },
+  {
+   "A": "ditlevsen2023",
+   "B": "vanwesten2024",
+   "openalex": "CITES",
+   "B_refs_indexed": 61
+  },
+  {
+   "A": "vanwesten2024",
+   "B": "baker2025",
+   "openalex": "CITES",
+   "B_refs_indexed": 58
+  },
+  {
+   "A": "ditlevsen2023",
+   "B": "baker2025",
+   "openalex": "CITES",
+   "B_refs_indexed": 58
+  },
+  {
+   "A": "lenton2008",
+   "B": "armstrongmckay2022",
+   "openalex": "CITES",
+   "B_refs_indexed": 278
+  },
+  {
+   "A": "decontopollard2016",
+   "B": "edwards2019",
+   "openalex": "CITES",
+   "B_refs_indexed": 50
+  },
+  {
+   "A": "rahmstorf2007",
+   "B": "pfeffer2008",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 21,
+   "check": "VERIFIED-NO",
+   "note": "Pfeffer et al. 2008 (21 refs) cites Hansen 2007 'Scientific reticence' and 'Climate change and trace gases' and IPCC AR4; Rahmstorf 2007 not cited."
+  },
+  {
+   "A": "dansgaard1993",
+   "B": "broecker1997",
+   "openalex": "CITES",
+   "B_refs_indexed": 71
+  },
+  {
+   "A": "stommel1961",
+   "B": "lenton2008",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 115,
+   "check": "VERIFIED-CITES",
+   "note": "Lenton et al. 2008 ref. 45: Stommel, Tellus 13, 224–230 (1961). Same fragmented-record miss."
+  },
+  {
+   "A": "rahmstorf1995",
+   "B": "lenton2008",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 115,
+   "check": "VARIANT",
+   "note": "Lenton 2008 cites Rahmstorf 2002 Nature review, Rahmstorf et al. 2005 hysteresis intercomparison, Stocker & Schmittner 1997 (ref. 51); Rahmstorf 1995 not cited."
+  },
+  {
+   "A": "broecker1997",
+   "B": "lenton2008",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 115,
+   "check": "VERIFIED-NO",
+   "note": "No Broecker reference in Lenton et al. 2008 (112 refs)."
+  },
+  {
+   "A": "vanwesten2024",
+   "B": "vanwesten2026",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 0,
+   "check": "UNVERIFIABLE",
+   "note": "No reference list indexed yet for the 2026 paper."
+  },
+  {
+   "A": "baker2025",
+   "B": "vanwesten2026",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 0,
+   "check": "UNVERIFIABLE",
+   "note": "No reference list indexed yet for the 2026 paper."
+  },
+  {
+   "A": "lorenz1963",
+   "B": "hasselmann1976",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 14,
+   "check": "VARIANT",
+   "note": "Hasselmann 1976 (Tellus, 20 refs) cites Lorenz 1965 (predictability) and Lorenz 1968 'Climate determinism', J. M. Mitchell Jr. 1966 (stochastic air–sea model), Budyko 1969, Sellers 1969; Lorenz 1963 not cited."
+  },
+  {
+   "A": "hasselmann1976",
+   "B": "deser2012",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 23,
+   "check": "VERIFIED-NO",
+   "note": "Deser et al. 2012 Nat. Clim. Change has 24 refs (Hawkins & Sutton 2009, 2011; Deser et al. 2012 Clim. Dyn.); Hasselmann 1976 not cited."
+  },
+  {
+   "A": "hawkinssutton2009",
+   "B": "deser2012",
+   "openalex": "CITES",
+   "B_refs_indexed": 23
+  },
+  {
+   "A": "cohnlins2005",
+   "B": "laepplehuybers2014",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 50,
+   "check": "VERIFIED-NO",
+   "note": "Laepple & Huybers 2014 PNAS (47 refs) cites neither Cohn & Lins 2005 nor Hasselmann 1976; its spectral lineage is Huybers & Curry 2006."
+  },
+  {
+   "A": "hasselmann1976",
+   "B": "cohnlins2005",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 29,
+   "check": "VERIFIED-NO",
+   "note": "Cohn & Lins 2005 (29 refs) cites Hurst 1951, Mandelbrot & Wallis 1968/1969, Klemes 1974, Koutsoyiannis 2000/2003, Beran; Hasselmann 1976 not cited."
+  },
+  {
+   "A": "budyko1969",
+   "B": "sellers1969",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 0,
+   "check": "UNVERIFIABLE",
+   "note": "Sellers 1969 has no indexed reference list; the two papers were essentially simultaneous (Sellers received Aug 1968)."
+  },
+  {
+   "A": "sellers1969",
+   "B": "schneider1974",
+   "openalex": "CITES",
+   "B_refs_indexed": 176
+  },
+  {
+   "A": "budyko1969",
+   "B": "schneider1974",
+   "openalex": "CITES",
+   "B_refs_indexed": 176
+  },
+  {
+   "A": "mw1967",
+   "B": "budyko1969",
+   "openalex": "CITES",
+   "B_refs_indexed": 7,
+   "check": "VERIFIED-CITES",
+   "note": "Budyko 1969 Tellus (5 resolved refs) cites Manabe & Wetherald 1967."
+  },
+  {
+   "A": "charney1979",
+   "B": "hansen1981",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 53,
+   "check": "UNVERIFIABLE",
+   "note": "Not among the 53 indexed references of Hansen 1981; Science full text not reachable. (Hansen et al. 1988 does cite Charney 1979.)"
+  },
+  {
+   "A": "hansen1981",
+   "B": "maddenramanathan1980",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 16,
+   "check": "VERIFIED-NO",
+   "note": "Pair entered backwards (B predates A); ignore."
+  }
+ ]
+}

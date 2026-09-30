@@ -1,0 +1,138 @@
+key,wanted_year,s2_paperId,s2_year,s2_citations,doi,title
+arrhenius1896,1896,ef9e70ad9e7d35f2a1d0bea8c2dc0d85a68ec358,2015*,277*,10.1080/14786449608620846,On the influence of carbonic acid in the air upon the temperature of the ground (*S2 record is a reprint)
+plass1956,1956,8ec9a0861fb0fc2a0a7f285404a93cb5cb33b10e,1956,249,10.1111/j.2153-3490.1956.tb01206.x,The carbon dioxide theory of climatic change
+moller1963,1963,380b05b2a135cdb17fb5d130d8fc02820f4ccc83,1963,170,10.1029/JZ068i013p03877,On the influence of changes in the CO2 concentration in air on the radiation balance...
+mw1967,1967,7b56d7bf945417b84d936a44b4204b393278697a,1967,1578,10.1175/1520-0469(1967)024<0241:TEOTAW>2.0.CO;2,Thermal equilibrium of the atmosphere with a given distribution of relative humidity
+revelle1957,1957,d01406a57bff758203390e36247bd96e0c9f8102,1957,1031,10.3402/tellusa.v9i1.9075,Carbon dioxide exchange between atmosphere and ocean...
+keeling1960,1960,3ba78ef211ecfd0eabd74ad54d83293546e7dfd2,1960,568,10.3402/tellusa.v12i2.9366,The concentration and isotopic abundances of carbon dioxide in the atmosphere
+tans1990,1990,,1990,1991,10.1126/science.247.4949.1431,Observational constraints on the global atmospheric CO2 budget
+sabine2004,2004,4d569e722b8abbe381016897ca283e7c78e6e330,2004,4448,10.1126/science.1097403,The oceanic sink for anthropogenic CO2
+archer2009,2009,4e7e8ab4bb2da459b55dbf38ce991c858b063246,2009,862,10.1146/annurev.earth.031208.100206,Atmospheric lifetime of fossil-fuel carbon dioxide
+friedlingstein2006,2006,,,,10.1175/JCLI3800.1,Climate–carbon cycle feedback analysis: results from the C4MIP model intercomparison (not resolved in S2)
+mw1975,1975,38d744e282a0256c6b98ace0b3e859858aa29e6d,1975,891,10.1175/1520-0469(1975)032<0003:TEODTC>2.0.CO;2,The effects of doubling the CO2 concentration on the climate of a general circulation model
+schneider1974,1974,,,,10.1029/RG012i003p00447,Climate modeling (S2 match failed)
+held2005,2005,bfebd900c7f82b170bce65ff96f2fe1fbfebf6fd,2005,533,10.1175/BAMS-86-11-1609,The gap between simulation and understanding in climate modeling
+cess1989,1989,596cbcbdbcffe5b983ca1d64e08a1882120c879f,1989,527,10.1126/science.245.4917.513,Interpretation of cloud-climate feedback as produced by 14 atmospheric GCMs
+hausfather2020,2020,93cf8a01b3674e63a74d983573f05f5136c6ca1d,2020,169,10.1029/2019GL085378,Evaluating the performance of past climate model projections
+hourdin2017,2017,29e3e658d4d1c3224d736fa756490fdc97a530bb,2017,473,10.1175/BAMS-D-15-00135.1,The art and science of climate model tuning
+budyko1969,1969,c03ce7e66e5a5aa0dd5ed09a44e0d6d512e6f19d,1969,1041,10.1111/j.2153-3490.1969.tb00466.x,The effect of solar radiation variations on the climate of the Earth
+sellers1969,1969,8d8dc4da2895dbde7e6fa490e3972f5b27bc46be,1969,1028,10.1175/1520-0450(1969)008<0392:AGCMBO>2.0.CO;2,A global climatic model based on the energy balance of the Earth-atmosphere system
+manabebryan1969,1969,d5d30c6b4dc56004f805b2bd37266487a51fc51a,1969,294,10.1175/1520-0469(1969)026<0786:CCWACO>2.0.CO;2,Climate calculations with a combined ocean-atmosphere model
+roebaker2007,2007,9a0c81f6887db897000dbce576b139a486f62c77,2007,656,10.1126/science.1144735,Why is climate sensitivity so unpredictable?
+knuttihegerl2008,2008,a1c6696448329ab09348423f640a3a283e33e001,2008,534,10.1038/ngeo337,The equilibrium sensitivity of the Earth's temperature to radiation changes
+otto2013,2013,4977644593c23089700e28604e0b90272bb23111,2013,347,10.1038/ngeo1836,Energy budget constraints on climate response
+sherwood2020,2020,05c658043efb5934eb092aba9d53f5403a491e53,2020,896,10.1029/2019RG000678,An assessment of Earth's climate sensitivity using multiple lines of evidence
+zelinka2020,2020,b0a76aa576df8a81baecd893ad2e0e5c5e674f4c,2020,1329,10.1029/2019GL085782,Causes of higher climate sensitivity in CMIP6 models
+lewiscurry2018,2018,91874728be0e774971cd03456a92d9849e441c2d,2018,76,10.1175/JCLI-D-17-0667.1,The impact of recent forcing and ocean heat uptake data on estimates of climate sensitivity
+cox2018,2018,34519f5fdb83c7a0789fe1402c11f90e54ce4ae4,2018,333,10.1038/nature25450,Emergent constraint on equilibrium climate sensitivity from global temperature variability
+hausfather2022,2022,5e5c4f946b04759b40538902be69d8bef1063251,2022,402,10.1038/d41586-022-01192-2,Climate simulations: recognize the 'hot model' problem
+lindzen1990,1990,79c394f26014f5524acb788c93423ad390a358d4,1990,420,10.1175/1520-0477(1990)071<0288:SCCGW>2.0.CO;2,Some coolness concerning global warming
+soden2005,2005,1d9190ef973a69c3b2204e251f6260a38e0ffca3,2005,297,10.1126/science.1115602,The radiative signature of upper tropospheric moistening
+desslersherwood2009,2009,a1a7813f5c8c1248b9014493628a32fe43a1863b,2009,141,10.1126/science.1171264,A matter of humidity
+lindzen2001,2001,2f1f0a3d92b0186cb7a9ce5d19fb4b2a40c95101,2001,64,10.1175/1520-0477(2001)082<0417:DTEHAA>2.3.CO;2,Does the Earth have an adaptive infrared iris?
+hartmannmichelsen2002,2002,f9dedc3afe2636dec91ca018777da887f9c4c68d,2002,112,10.1175/1520-0477(2002)083<0249:NEFI>2.3.CO;2,No evidence for iris
+bonydufresne2005,2005,93f77ba753c58159927168749a04f333c063ff5d,2005,1262,10.1029/2005GL023851,Marine boundary layer clouds at the heart of tropical cloud feedback uncertainties
+sodenheld2006,2006,9ef6ee23729b569dd3cc6c30542ec25b1a5a6f60,2006,1095,10.1175/JCLI3799.1,An assessment of climate feedbacks in coupled ocean–atmosphere models
+lindzenchoi2009,2009,d6c2cad53c176c53aecb4938bd6b37e06d5233ce,2009,104,10.1029/2009GL039628,On the determination of climate feedbacks from ERBE data
+hansen1984,1984,e6037e8456825218eceecb6552fa2055b88a602c,1984,393,10.1029/GM029p0130,Climate sensitivity: analysis of feedback mechanisms
+charlson1992,1992,abe8f3c4cc4a1306d8989a9e04a20987cd1fae1b,1992,3634,10.1126/science.255.5043.423,Climate forcing by anthropogenic aerosols
+mitchell1995,1995,af0d814147ea4509a71566de41f35440e45b5ae3,1995,776,10.1038/376501a0,Climate response to increasing levels of greenhouse gases and sulphate aerosols
+ramanathan1985,1985,c2e4424f88faf86bc725b1dea82ff60b8b6c4b8d,1985,774,10.1029/JD090iD03p05547,Trace gas trends and their potential role in climate change
+myhre1998,1998,9e006847e9b5c605a0b3a536508b03ecacd69722,1998,822,10.1029/98GL01908,New estimates of radiative forcing due to well mixed greenhouse gases
+kiehl2007,2007,fa9cfa825ad4784bbf587567a45e469af5347d3b,2007,286,10.1029/2007GL031383,Twentieth century climate model response and climate sensitivity
+stevens2015,2015,17758974b4711ae674ef6e764e1cd8eba9a4ff4c,2015,41,10.1175/JCLI-D-14-00656.1,Rethinking the lower bound on aerosol radiative forcing
+bellouin2020,2020,1c7d128669d5f6e901c1220a4596be5373846bab,2020,895,10.1029/2019RG000660,Bounding global aerosol radiative forcing of climate change
+twomey1977,1977,0e57cfab339f757dfd3cb50e21ba66bf32748b46,1977,3460,10.1175/1520-0469(1977)034<1149:TIOPOT>2.0.CO;2,The influence of pollution on the shortwave albedo of clouds
+maddenramanathan1980,1980,ad288711eaa92bf9e251c4efeeab189112d05c31,1980,129,10.1126/science.209.4458.763,Detecting climate change due to increasing carbon dioxide
+hansen1981,1981,a9baa532450a3b587a1365ef384e36ee47b15315,1981,1018,10.1126/science.213.4511.957,Climate impact of increasing atmospheric carbon dioxide
+hasselmann1993,1993,d4929882ff79128a1d8958148dc75f477f1c07a0,1993,358,10.1175/1520-0442(1993)006<1957:OFFTDO>2.0.CO;2,Optimal fingerprints for the detection of time-dependent climate change
+santer1996,1996,2a51b644b2654573912d57eb41aa3e7397b86aa2,1995*,484,10.1038/382039a0,A search for human influences on the thermal structure of the atmosphere (*S2 record is the 1995 report version)
+hegerl1996,1996,8051d865dc34bc58eab9e2e947977f77e0956419,1996,361,10.1175/1520-0442(1996)009<2281:DGGICC>2.0.CO;2,Detecting greenhouse-gas-induced climate change with an optimal fingerprint method
+tett1999,1999,cef6191282f707244a663e3cde424b23adbfbabe,1999,509,10.1038/21164,Causes of twentieth-century temperature change near the Earth's surface
+stott2000,2000,adc89b5f7b6a4b455ee6822c365be4a62049b6d1,2000,699,10.1126/science.290.5499.2133,External control of 20th century temperature by natural and anthropogenic forcings
+lockwood2007,2007,4991c1d2f2d365fd5e381fd50a20c3e754aa741c,2007,211,10.1098/rspa.2007.1880,Recent oppositely directed trends in solar climate forcings and the global mean surface air temperature
+svensmark1997,1997,1a737121696532c4708244151276ba601b2dc9b4,1997,1133,10.1016/S1364-6826(97)00001-1,Variation of cosmic ray flux and global cloud coverage
+fcl1991,1991,43d83eaf11d56807abeb8ce810685af4429a7317,1991,896,10.1126/science.254.5032.698,Length of the solar cycle: an indicator of solar activity closely associated with climate
+spencerchristy1990,1990,3df98bcb9339eef80fa230754280b69798890c48,1990,293,10.1126/science.247.4950.1558,Precise monitoring of global temperature trends from satellites
+mearswentz2005,2005,3edbdcf989d06ca887cb73b057d1c0839f8a4ec6,2005,184,10.1126/science.1114772,The effect of diurnal correction on satellite-derived lower tropospheric temperature
+karl2015,2015,,,,10.1126/science.aaa5632,Possible artifacts of data biases in the recent global surface warming hiatus (not resolved in S2)
+cowtanway2014,2014,6184b48efced4e0357cc74fa3ac2cbb323cc1ac8,2014,623,10.1002/qj.2297,Coverage bias in the HadCRUT4 temperature series and its impact on recent temperature trends
+kosakaxie2013,2013,6030631be2b932fa63ed1e5cb5a758d14d9a8462,2013,1585,10.1038/nature12534,Recent global-warming hiatus tied to equatorial Pacific surface cooling
+medhaug2017,2017,d031b5a6bd585fb5e00f36ead98838a27430564c,2017,438,10.1038/nature22315,Reconciling controversies about the 'global warming hiatus'
+levitus2000,2000,cc35d93e3212547bb885d3345e0ab25ddad86afa,2000,1810,10.1126/science.287.5461.2225,Warming of the world ocean
+hansen2005eei,2005,898660c2cf7d7228531fa8a05d8c68e1f593e717,2005,921,10.1126/science.1110252,Earth's energy imbalance: confirmation and implications
+parker2004,2004,,,,10.1038/432290a,Large-scale warming is not urban (S2 matched the 2006 J. Climate follow-up instead; DOI given is the 2004 Nature paper)
+hays1976,1976,365cf92ddf56b26dfbb0ee2f5001308a0d16bca6,1976,3597,10.1126/science.194.4270.1121,Variations in the Earth's orbit: pacemaker of the ice ages
+lorius1990,1990,6c27a3d92da22b948417e8c8b9b050dcfcf46fcb,1990,345,10.1038/347139a0,The ice-core record: climate sensitivity and future greenhouse warming
+mbh1998,1998,230318f178ae917606230823c873a4fbce52643a,1998,1536,10.1038/33859,Global-scale temperature patterns and climate forcing over the past six centuries
+mbh1999,1999,f0f0695064cb2d53d1812b674175344f3b055f11,1999,1852,10.1029/1999GL900070,Northern Hemisphere temperatures during the past millennium
+mm2005,2005,9e4eb5505579d0cf58ebc0c66efb97213aab51cd,2005,183,10.1029/2004GL021750,Hockey sticks principal components and spurious significance
+tierney2020,2020,345e344bdca32532608178f72937303308c11192,2020,414,10.1038/s41586-020-2617-x,Glacial cooling and climate sensitivity revisited
+shakun2012,2012,78a00c57f8309bee1260889c593ff4424ddf67c3,2012,1382,10.1038/nature10915,Global warming preceded by increasing carbon dioxide concentrations during the last deglaciation
+palaeosens2012,2012,b724cbe0e02a30578e4ca985ffc3828816456dde,2012,308,10.1038/nature11574,Making sense of palaeoclimate sensitivity
+neukom2019,2019,52318c47b5282a58cc9e7c56c0994831be9e998f,2019,377,10.1038/s41586-019-1401-2,No evidence for globally coherent warm and cold periods over the preindustrial Common Era
+hansen1985,1985,c99f4d85ad46c22a0633350395378bd27aa4eefa,1985,173,10.1126/science.229.4716.857,Climate response times: dependence on climate sensitivity and ocean mixing
+stouffer1989,1989,5087f289fac48ce85c8c1134088198a8515a3e7e,1989,329,10.1038/342660a0,Interhemispheric asymmetry in climate response to a gradual increase of atmospheric CO2
+matthews2009,2009,b15964d388efb9e558a01d1b9a1ef5135bdfcabc,2009,1157,10.1038/nature08047,The proportionality of global warming to cumulative carbon emissions
+allen2009,2009,57abe065e7a158c03a875485471d02ff056a0f10,2009,1677,10.1038/nature08019,Warming caused by cumulative carbon emissions towards the trillionth tonne
+matthewscaldeira2008,2008,04431040b878e30c7f7c6309eea009ee50100742,2008,521,10.1029/2007GL032388,Stabilizing climate requires near-zero emissions
+solomon2009,2009,625b38edff146c56f6a2dcb7535c0102f0f8a638,2009,3103,10.1073/pnas.0812721106,Irreversible climate change due to carbon dioxide emissions
+macdougall2020,2020,d4200a201b4293b943066e1b5142586261eeb7d3,2020,201,10.5194/bg-17-2987-2020,Is there warming in the pipeline? ZECMIP
+armour2013,2013,ab808872b2130ef31d413d22af43d68a82c093c9,2013,368,10.1175/JCLI-D-12-00544.1,Time-varying climate sensitivity from regional feedbacks
+andrews2015,2015,26e48d9507d50c54d1975660b25d8a22a2c9a8e0,2015,322,10.1175/JCLI-D-14-00545.1,The dependence of radiative forcing and feedback on evolving patterns of surface temperature change
+gregoryandrews2016,2016,dd028ec18b4a9d7f56e9a32d44c4d936917ee2ad,2016,179,10.1002/2016GL068406,Variation in climate sensitivity and feedback parameters during the historical period
+heldsoden2006,2006,1645c9989714a72702adcbef2798cfb115f5f7bb,2006,2103,10.1175/JCLI3990.1,Robust responses of the hydrological cycle to global warming
+alleningram2002,2002,0162782dead5c934e0df7c6218e02f4cdba6cc6d,2002,3044,10.1038/nature01092,Constraints on future changes in climate and the hydrologic cycle
+stott2004,2004,074771d4292a5f035ff0022fea1a11f22550d62f,2004,1740,10.1038/nature03089,Human contribution to the European heatwave of 2003
+francisvavrus2012,2012,62d223153d726bfadcf65fa713ff5cc90341c28d,2012,1710,10.1029/2012GL051000,Evidence linking Arctic amplification to extreme weather in mid-latitudes
+knutson2010,2010,36c46839defd0dfc12eb0e86b3f2cfe1b4779b9a,2010,3391,10.1038/ngeo779,Tropical cyclones and climate change (S2 DOI field pointed to a 2010 WIREs review; Nature Geoscience DOI substituted)
+stommel1961,1961,fb0f84092776169eb2afde1c08c884b7100f14b2,1961,1575,10.3402/tellusb.v13i2.12985,Thermohaline convection with two stable regimes of flow
+broecker1987,1987,b3685ccaf1bd864a405f302312fb20df568a760c,1987,296,10.1038/328123a0,Unpleasant surprises in the greenhouse?
+rahmstorf1995,1995,8d4b4f4a9deedd22b9c04bf9b7c7a6cd3b2da3cd,1995,791,10.1038/378145a0,Bifurcations of the Atlantic thermohaline circulation in response to changes in the hydrological cycle
+stockerschmittner1997,1997,bf573edbba89ec78f577c569832f2d2e36d84a61,1997,537,10.1038/42224,Influence of CO2 emission rates on the stability of the thermohaline circulation
+lenton2008,2008,130b3ba2bce5849273c59e987d2dd4c1c670c3e1,2008,3746,10.1073/pnas.0705414105,Tipping elements in the Earth's climate system
+decontopollard2016,2016,822e979ec559eee0cfd0c91b4a25daa3fcfe52f5,2016,1878,10.1038/nature17145,Contribution of Antarctica to past and future sea-level rise
+edwards2019,2019,0b40dba84fa40de71818836de4c1b7a7fb204282,2019,123,10.1038/s41586-019-0901-4,Revisiting Antarctic ice loss due to marine ice-cliff instability
+ditlevsen2023,2023,09894216314cecf798de92457b1e4593c5ea453d,2023,350,10.1038/s41467-023-39810-w,Warning of a forthcoming collapse of the AMOC
+vanwesten2024,2024,0f865abee77dcbdf7be39e67f04a0abc5e525495,2024,273,10.1126/sciadv.adk1189,Physics-based early warning signal shows that AMOC is on tipping course
+rahmstorf2007,2007,25698d8d31142087f9647568cb6fb8e46f8aecf2,2007,1574,10.1126/science.1135456,A semi-empirical approach to projecting future sea-level rise
+pfeffer2008,2008,3ec8e09bc92b064510481d12d5740cd8c43f26c4,2008,947,10.1126/science.1159099,Kinematic constraints on glacier contributions to 21st-century sea-level rise
+lorenz1963,1963,b021e8cf155a7c4c8244506c7caaa99bea0eaac9,1963,18219,10.1175/1520-0469(1963)020<0130:DNF>2.0.CO;2,Deterministic nonperiodic flow
+hasselmann1976,1976,c4fa2384c3de127de1ed70a92a3ac0b954e83ecf,1976,436,10.3402/tellusa.v28i6.11316,Stochastic climate models Part I. Theory
+deser2012,2012,5b9c18d8efca436e32da9cd0efcf1f079b82a72f,2012,898,10.1038/nclimate1562,Communication of the role of natural variability in future North American climate
+cohnlins2005,2005,bf413ae9cb1f6e52b35cf5b01551511cd11e735c,2005,395,10.1029/2005GL024476,Nature's style: naturally trendy
+laepplehuybers2014,2014,100b9dc85dbf018f102678b79e92c4995fcb9a57,2014,160,10.1073/pnas.1412077111,Ocean surface temperature variability: large model–data differences
+charney1979,1979,7ecaa699e1dd2c7b36ba9efc2b049296d1b63462,2008*,331,10.17226/12181,Carbon Dioxide and Climate: A Scientific Assessment (*S2 record year is the digitization date)
+callendar1938,1938,a12a781a331f08d6ae764b211f2a90239e235bc8,1938,496,10.1002/qj.49706427503,The artificial production of carbon dioxide and its influence on temperature
+schlesingermitchell1987,1987,7c22c2f77f1fe52e7bcb39c6665e4e8f78cdfaef,1987,477,10.1029/RG025i004p00760,Climate model simulations of the equilibrium climatic response to increased carbon dioxide
+manabestouffer1988,1988,ae24213e213c8a3b6ec752c62ebc0d14595808fb,1988,914,10.1175/1520-0442(1988)001<0841:TSEOAC>2.0.CO;2,Two stable equilibria of a coupled ocean-atmosphere model
+soden2002,2002,6e8ced0e93578525cdb631aca8bc6115dc9d440e,2002,521,10.1126/science.296.5568.727,Global cooling after the eruption of Mount Pinatubo
+heldsoden2000,2000,a0651e1430648cc0aac388e297a93e946e58feae,2000,1081,10.1146/annurev.energy.25.1.441,Water vapor feedback and global warming
+gregory2004,2004,1299d0ad8d0d74631c388eca843059345e2c6501,2004,961,10.1029/2003GL018747,A new method for diagnosing radiative forcing and climate sensitivity
+hansen1988,1988,d307058edc1bc64e45d70d0638fe374c2229850c,1988,934,10.1029/JD093iD08p09341,Global climate changes as forecast by GISS three-dimensional model
+jones1986,1986,62c71cefee817d574846383f9fbdcae53437ba52,1986,512,10.1038/322430a0,Global temperature variations between 1861 and 1984
+dansgaard1993,1993,f8de1da740a2e4edca5d7aa7d4f3876c21b55edb,1993,4738,10.1038/364218a0,Evidence for general instability of past climate from a 250-kyr ice-core record
+broecker1997,1997,09959aca41c167895562d2dfa182ae7d73afdff7,1997,939,10.1126/science.278.5343.1582,Thermohaline circulation the Achilles heel of our climate system
+hawkinssutton2009,2009,964105343f08d1ca48f7b76bd7cb0cdcd24a4c8b,2009,2614,10.1175/2009BAMS2607.1,The potential to narrow uncertainty in regional climate predictions
+woodwell1978,1978,86b82fbd2bb0d38ffd9209a334f6b44bfbd4dcf3,1978,594,10.1126/science.199.4325.141,The biota and the world carbon budget
+broecker1979,1979,10a045288af890328a69a51281843cd775951685,1979,474,10.1126/science.206.4417.409,Fate of fossil fuel carbon dioxide and the global carbon budget
+rasoolschneider1971,1971,4db21045b17ebcdd6a8c6adeb1f42eb5c2c39270,1971,272,10.1126/science.173.3992.138,Atmospheric carbon dioxide and aerosols: effects of large increases on global climate
+peterson2008,2008,cac3bc29d31b27529c79af1ccaaca2d7744f59e6,2008,109,10.1175/2008BAMS2370.1,The myth of the 1970s global cooling scientific consensus
+oreskes2004,2004,6775d2302ca7a30bc43945253b147fdc4ddd05a2,2004,1225,10.1126/science.1103618,The scientific consensus on climate change
+cook2013,2013,93bf71dd1a3f1e0557a8f71befb901a3995e9290,2013,915,10.1088/1748-9326/8/2/024024,Quantifying the consensus on anthropogenic global warming in the scientific literature
+fyfe2013,2013,90dffd4a6793f32a34413d67d5f840e76426099e,2013,304,10.1038/nclimate1972,Overestimated global warming over the past 20 years
+santer2017,2017,1674c0b5a85af4e160c93736ddfe701f320cee62,2017,47,10.1038/ngeo2973,Causes of differences in model and satellite tropospheric warming rates
+mckitrickchristy2018,2018,a0b2c74f12451481f090356915a69314668f53cd,2018,21,10.1029/2018EA000401,A test of the tropical 200- to 300-hPa warming rate in climate models
+loeb2021,2021,c187d63ddc832b4ab3ec99c3ef84ebb4542de3e7,2021,183,10.1029/2021GL093047,Satellite and ocean data reveal marked increase in Earth's heating rate
+goessling2024,2024,e3c5c9193fe2a3b3991a49fcb6c62005baf055f7,2024,144,10.1126/science.adq7280,Recent global temperature surge intensified by record-low planetary albedo
+fosterrahmstorf2026,2026,9cfd95eaa182a80e9f6d42084d2ac0cb7f2cacb9,2026,33,10.1029/2025GL118804,Global warming has accelerated significantly
+hansen2023,2023,286f56694c51da3c5e8d490b0fd17723627d5458,2023,267,10.1093/oxfclm/kgad008,Global warming in the pipeline
+lewis2023,2023,9d36351bdcaeac9c9f71c4630816620d66dc45d0,2022/23,26,10.1007/s00382-022-06468-x,Objectively combining climate sensitivity evidence
+baker2025,2025,28cfd610113322d1595e1762855a77ad3295f708,2025,62,10.1038/s41586-024-08544-0,Continued Atlantic overturning circulation even under climate extremes
+vanwesten2026,2026,eca37ed10e5c4430e42a9c5304ac1513943a0a74,2026,0,10.1038/s41558-026-02730-w,Failure to track a stable AMOC state under rapid climate change
+armstrongmckay2022,2022,528676e109e983be4f52ac6fbb4e14ffb29ef2cf,2022,1596,10.1126/science.abn7950,Exceeding 1.5°C global warming could trigger multiple climate tipping points
+tan2016,2016,aa80ca15064be27e8f8ab9cc0f3608e430b560c1,2016,466,10.1126/science.aad5300,Observational constraints on mixed-phase clouds imply higher climate sensitivity
+myers2021,2021,0af4a1b03cb7cc3cc740b7f9869215517776b9ee,2021,209,10.1038/s41558-021-01039-0,Observational constraints on low cloud feedback reduce uncertainty of climate sensitivity
+sherwood2014,2014,,,,10.1038/nature12829,Spread in model climate sensitivity traced to atmospheric convective mixing (S2 matched a science brief; DOI supplied manually)
+caldwell2018,2018,54403d6e6864e19a72f42120b39c8429c9da1fdd,2018,113,10.1175/JCLI-D-17-0631.1,Evaluating emergent constraints on equilibrium climate sensitivity
+annanhargreaves2011,2011,fb10e05c2ff6fabff87ae5f91325063af93aa9c0,2011,84,10.1007/s10584-009-9715-y,On the generation and interpretation of probabilistic estimates of climate sensitivity

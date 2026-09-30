@@ -1,0 +1,748 @@
+# References
+
+Every paper, report and book cited in `01-periods.md`, `02-problems/` and `03-open-problems.md`, listed as author(s), year, title, venue. Volume, issue, pages and DOIs were added on 2026-09-30 by resolving each journal entry against OpenAlex (title search within ±1 year, scored on title similarity and first-author surname; `data/references-resolved.csv` has the match scores; `scripts/resolve_dois.py` reproduces the step). 641 entries resolved with a confident match; 24 DOIs were added from memory and are marked; the entries listed at the end could not be resolved (book chapters, reports, or not found). Entries in brackets are descriptive where the exact title is uncertain. Assessments and books are listed after the journal literature.
+
+## Journal literature
+
+- Abe-Ouchi, A., et al. (2013). Insolation-driven 100,000-year glacial cycles and hysteresis of ice-sheet volume. *Nature*, 500(7461), 190–193. doi:10.1038/nature12374
+- Albrecht, B. A. (1989). Aerosols, cloud microphysics, and fractional cloudiness. *Science*, 245(4923), 1227–1230. doi:10.1126/science.245.4923.1227
+- Allen, M. R. (2003). Liability for climate change. *Nature*, 421(6926), 891–892. doi:10.1038/421891a
+- Allen, M. R., & Ingram, W. J. (2002). Constraints on future changes in climate and the hydrologic cycle. *Nature*, 419(6903), 224–232. doi:10.1038/nature01092
+- Allen, M. R., & Stott, P. A. (2003). Estimating signal amplitudes in optimal fingerprinting, Part I: Theory. *Climate Dynamics*, 21(5-6), 477–491. doi:10.1007/s00382-003-0313-9
+- Allen, M. R., & Tett, S. F. B. (1999). Checking for model consistency in optimal fingerprinting. *Climate Dynamics*, 15(6), 419–434. doi:10.1007/s003820050291
+- Allen, M. R., et al. (2009). Warming caused by cumulative carbon emissions towards the trillionth tonne. *Nature*, 458(7242), 1163–1166. doi:10.1038/nature08019
+- Alley, R. B., et al. (1993). Abrupt increase in Greenland snow accumulation at the end of the Younger Dryas event. *Nature*, 362(6420), 527–529. doi:10.1038/362527a0
+- Alley, R. B., et al. (2003). Abrupt climate change. *Science*, 299(5615), 2005–2010. doi:10.1126/science.1081056
+- Anderegg, W. R. L., et al. (2010). Expert credibility in climate change. *PNAS*, 107(27), 12107–12109. doi:10.1073/pnas.1003187107
+- Andrews, T., Gregory, J. M., & Webb, M. J. (2015). The dependence of radiative forcing and feedback on evolving patterns of surface temperature change in climate models. *J. Climate*, 28(4), 1630–1648. doi:10.1175/jcli-d-14-00545.1
+- Andrews, T., et al. (2018). Accounting for changing temperature patterns increases historical estimates of climate sensitivity. *Geophys. Res. Lett.*, 45(16), 8490–8499. doi:10.1029/2018gl078887
+- Ångström, K. (1900). Über die Bedeutung des Wasserdampfes und der Kohlensäure bei der Absorption der Erdatmosphäre. *Annalen der Physik*, 308(12), 720–732. doi:10.1002/andp.19003081208
+- Annan, J. D., & Hargreaves, J. C. (2006). Using multiple observationally-based constraints to estimate climate sensitivity. *Geophys. Res. Lett.*, 33(6). doi:10.1029/2005gl025259
+- Annan, J. D., & Hargreaves, J. C. (2011). On the generation and interpretation of probabilistic estimates of climate sensitivity. *Climatic Change*. doi:10.1007/s10584-009-9715-y *(DOI added from memory, not machine-verified)*
+- Annan, J. D., & Hargreaves, J. C. (2013). A new global reconstruction of temperature changes at the Last Glacial Maximum. *Climate of the Past*, 9(1), 367–376. doi:10.5194/cp-9-367-2013
+- Archer, D. (2005). Fate of fossil fuel CO₂ in geologic time. *J. Geophys. Res.*, 110(C9). doi:10.1029/2004jc002625
+- Archer, D. (2007). Methane hydrate stability and anthropogenic climate change. *Biogeosciences*, 4(4), 521–544. doi:10.5194/bg-4-521-2007
+- Archer, D., et al. (2009). Atmospheric lifetime of fossil fuel carbon dioxide. *Annual Review of Earth and Planetary Sciences*, 37(1), 117–134. doi:10.1146/annurev.earth.031208.100206
+- Armour, K. C. (2017). Energy budget constraints on climate sensitivity in light of inconstant climate feedbacks. *Nature Climate Change*, 7(5), 331–335. doi:10.1038/nclimate3278
+- Armour, K. C., Bitz, C. M., & Roe, G. H. (2013). Time-varying climate sensitivity from regional feedbacks. *J. Climate*, 26(13), 4518–4534. doi:10.1175/jcli-d-12-00544.1
+- Armstrong McKay, D. I., et al. (2022). Exceeding 1.5 °C global warming could trigger multiple climate tipping points. *Science*, 377(6611), eabn7950. doi:10.1126/science.abn7950
+- Arnold, J. R., & Anderson, E. C. (1957). The distribution of carbon-14 in nature. *Tellus*, 9(1), 28–32. doi:10.1111/j.2153-3490.1957.tb01850.x
+- Arora, V. K., et al. (2020). Carbon–concentration and carbon–climate feedbacks in CMIP6 models and their comparison to CMIP5 models. *Biogeosciences*, 17(16), 4173–4222. doi:10.5194/bg-17-4173-2020
+- Arrhenius, S. (1896). On the influence of carbonic acid in the air upon the temperature of the ground. *Philosophical Magazine*, 41(251), 237–276. doi:10.1080/14786449608620846
+- Arrhenius, S. (1901). Über die Wärmeabsorption durch Kohlensäure. *Annalen der Physik*, 309(4), 690–705. doi:10.1002/andp.19013090404
+- Arrhenius, S. (1906). Die vermutliche Ursache der Klimaschwankungen. *Meddelanden från K. Vetenskapsakademiens Nobelinstitut*.
+- Bacastow, R., & Keeling, C. D. (1973). Atmospheric carbon dioxide and radiocarbon in the natural carbon cycle. In *Carbon and the Biosphere* (Brookhaven Symposium).
+- Baker, J. A., et al. (2025). Continued Atlantic overturning circulation even under climate extremes. *Nature*, 638(8052), 987–994. doi:10.1038/s41586-024-08544-0
+- Bamber, J. L., et al. (2019). Ice sheet contributions to future sea-level rise from structured expert judgment. *PNAS*, 116(23), 11195–11200. doi:10.1073/pnas.1817205116
+- Barnes, E. A. (2013). Revisiting the evidence linking Arctic amplification to extreme weather in midlatitudes. *Geophys. Res. Lett.*, 40(17), 4734–4739. doi:10.1002/grl.50880
+- Barnett, T. P., & Schlesinger, M. E. (1987). Detecting changes in global climate induced by greenhouse gases. *J. Geophys. Res.*, 92(D12), 14772–14780. doi:10.1029/jd092id12p14772
+- Barnett, T. P., Pierce, D. W., & Schnur, R. (2001). Detection of anthropogenic climate change in the world's oceans. *Science*, 292(5515), 270–274. doi:10.1126/science.1058304
+- Barnett, T. P., et al. (2005). Penetration of human-induced warming into the world's oceans. *Science*, 309(5732), 284–287. doi:10.1126/science.1112418
+- Barnola, J. M., et al. (1987). Vostok ice core provides 160,000-year record of atmospheric CO₂. *Nature*, 329(6138), 408–414. doi:10.1038/329408a0
+- Bassis, J. N., & Walker, C. C. (2012). Upper and lower limits on the stability of calving glaciers from the yield strength envelope of ice. *Proc. R. Soc. A*, 468(2140), 913–931. doi:10.1098/rspa.2011.0422
+- Battle, M., et al. (2000). Global carbon sinks and their variability inferred from atmospheric O₂ and δ¹³C. *Science*, 287(5462), 2467–2470. doi:10.1126/science.287.5462.2467
+- Beaulieu, C., et al. (2024). A recent surge in global warming is not detectable yet. *Communications Earth & Environment*, 5(1). doi:10.1038/s43247-024-01711-1
+- Bellouin, N., et al. (2020). Bounding global aerosol radiative forcing of climate change. *Reviews of Geophysics*. doi:10.3929/ethz-b-000409274
+- Benestad, R. E., & Schmidt, G. A. (2009). Solar trends and global warming. *J. Geophys. Res.*, 114(D14). doi:10.1029/2008jd011639
+- Berger, A. (1978). Long-term variations of daily insolation and Quaternary climatic changes. *J. Atmos. Sci.*, 35(12), 2362–2367. doi:10.1175/1520-0469(1978)035<2362:ltvodi>2.0.co;2
+- Bjerknes, J. (1969). Atmospheric teleconnections from the equatorial Pacific. *Monthly Weather Review*, 97(3), 163–172. doi:10.1175/1520-0493(1969)097<0163:atftep>2.3.co;2
+- Bjordal, J., et al. (2020). Equilibrium climate sensitivity above 5 °C plausible due to state-dependent cloud feedback. *Nature Geoscience*, 13(11), 718–721. doi:10.1038/s41561-020-00649-1
+- Blackport, R., & Screen, J. A. (2020). Insignificant effect of Arctic amplification on the amplitude of midlatitude atmospheric waves. *Science Advances*, 6(8), eaay2880. doi:10.1126/sciadv.aay2880
+- Bodas-Salcedo, A., et al. (2019). Strong dependence of atmospheric feedbacks on mixed-phase microphysics and aerosol–cloud interactions in HadGEM3. *J. Adv. Model. Earth Syst.*, 11(6), 1735–1758. doi:10.1029/2019ms001688
+- Boers, N. (2021). Observation-based early-warning signals for a collapse of the Atlantic Meridional Overturning Circulation. *Nature Climate Change*, 11(8), 680–688. doi:10.1038/s41558-021-01097-4
+- Bolin, B., & Eriksson, E. (1959). Changes in the carbon dioxide content of the atmosphere and sea due to fossil fuel combustion. In *The Atmosphere and the Sea in Motion* (Rossby memorial volume).
+- Bond, G., et al. (1993). Correlations between climate records from North Atlantic sediments and Greenland ice. *Nature*, 365(6442), 143–147. doi:10.1038/365143a0
+- Bond, T. C., et al. (2013). Bounding the role of black carbon in the climate system: A scientific assessment. *J. Geophys. Res.*, 118(11), 5380–5552. doi:10.1002/jgrd.50171
+- Bony, S., & Dufresne, J.-L. (2005). Marine boundary layer clouds at the heart of tropical cloud feedback uncertainties in climate models. *Geophys. Res. Lett.*, 32(20). doi:10.1029/2005gl023851
+- Bony, S., et al. (2006). How well do we understand and evaluate climate change feedback processes? *J. Climate*, 19(15), 3445–3482. doi:10.1175/jcli3819.1
+- Bony, S., et al. (2015). Clouds, circulation and climate sensitivity. *Nature Geoscience*, 8(4), 261–268. doi:10.1038/ngeo2398
+- Bony, S., et al. (2016). Thermodynamic control of anvil cloud amount. *PNAS*, 113(32), 8927–8932. doi:10.1073/pnas.1601472113
+- Booth, B. B. B., et al. (2012). Aerosols implicated as a prime driver of twentieth-century North Atlantic climate variability. *Nature*, 484(7393), 228–232. doi:10.1038/nature10946
+- Boulton, C. A., Lenton, T. M., & Boers, N. (2022). Pronounced loss of Amazon rainforest resilience since the early 2000s. *Nature Climate Change*, 12(3), 271–278. doi:10.1038/s41558-022-01287-8
+- Bova, S., et al. (2021). Seasonal origin of the thermal maxima at the Holocene and the last interglacial. *Nature*, 589(7843), 548–553. doi:10.1038/s41586-020-03155-x
+- Box, J. E., et al. (2022). Greenland ice sheet climate disequilibrium and committed sea-level rise. *Nature Climate Change*, 12(9), 808–813. doi:10.1038/s41558-022-01441-2
+- Bradley, R. S., & Jones, P. D. (1993). "Little Ice Age" summer temperature variations: their nature and relevance to recent global warming trends. *The Holocene*, 3(4), 367–376. doi:10.1177/095968369300300409
+- Briffa, K. R., et al. (1998). Reduced sensitivity of recent tree-growth to temperature at high northern latitudes. *Nature*, 391(6668), 678–682. doi:10.1038/35596
+- Broecker, W. S. (1975). Climatic change: Are we on the brink of a pronounced global warming? *Science*, 189(4201), 460–463. doi:10.1126/science.189.4201.460
+- Broecker, W. S. (1987). Unpleasant surprises in the greenhouse? *Nature*, 328(6126), 123–126. doi:10.1038/328123a0
+- Broecker, W. S. (1991). The great ocean conveyor. *Oceanography*, 247, 129–161. doi:10.1063/1.41925
+- Broecker, W. S. (1997). Thermohaline circulation, the Achilles heel of our climate system: Will man-made CO₂ upset the current balance? *Science*, 278(5343), 1582–1588. doi:10.1126/science.278.5343.1582
+- Broecker, W. S., Peteet, D. M., & Rind, D. (1985). Does the ocean–atmosphere system have more than one stable mode of operation? *Nature*, 315(6014), 21–26. doi:10.1038/315021a0
+- Broecker, W. S., Thurber, D. L., et al. (1968). Milankovitch hypothesis supported by precise dating of coral reefs and deep-sea sediments. *Science*, 159(3812), 297–300. doi:10.1126/science.159.3812.297
+- Broecker, W. S., Takahashi, T., Simpson, H. J., & Peng, T.-H. (1979). Fate of fossil fuel carbon dioxide and the global carbon budget. *Science*, 206(4417), 409–418. doi:10.1126/science.206.4417.409
+- Bryan, F. (1986). High-latitude salinity effects and interhemispheric thermohaline circulations. *Nature*, 323(6086), 301–304. doi:10.1038/323301a0
+- Bryden, H. L., Longworth, H. R., & Cunningham, S. A. (2005). Slowing of the Atlantic meridional overturning circulation at 25° N. *Nature*, 438(7068), 655–657. doi:10.1038/nature04385
+- Budyko, M. I. (1969). The effect of solar radiation variations on the climate of the Earth. *Tellus*, 21(5), 611–619. doi:10.1111/j.2153-3490.1969.tb00466.x
+- Byrne, M. P., & O'Gorman, P. A. (2015). The response of precipitation minus evapotranspiration to climate warming: Why the "wet-get-wetter, dry-get-drier" scaling does not hold over land. *J. Climate*, 28(20), 8078–8092. doi:10.1175/jcli-d-15-0369.1
+- Caballero, R., & Huber, M. (2013). State-dependent climate sensitivity in past warm climates and its implications for future climate projections. *PNAS*, 110(35), 14162–14167. doi:10.1073/pnas.1303365110
+- Caesar, L., et al. (2018). Observed fingerprint of a weakening Atlantic Ocean overturning circulation. *Nature*, 556(7700), 191–196. doi:10.1038/s41586-018-0006-5
+- Caesar, L., et al. (2021). Current Atlantic Meridional Overturning Circulation weakest in last millennium. *Nature Geoscience*, 14(3), 118–120. doi:10.1038/s41561-021-00699-z
+- Cai, W., et al. (2014). Increasing frequency of extreme El Niño events due to greenhouse warming. *Nature Climate Change*, 4(2), 111–116. doi:10.1038/nclimate2100
+- Cai, W., et al. (2021). Changing El Niño–Southern Oscillation in a warming climate. *Nature Reviews Earth & Environment*, 2(9), 628–644. doi:10.1038/s43017-021-00199-z
+- Caillon, N., et al. (2003). Timing of atmospheric CO₂ and Antarctic temperature changes across Termination III. *Science*, 299(5613), 1728–1731. doi:10.1126/science.1078758
+- Caldwell, P. M., Zelinka, M. D., & Klein, S. A. (2018). Evaluating emergent constraints on equilibrium climate sensitivity. *J. Climate*, 31(10), 3921–3942. doi:10.1175/jcli-d-17-0631.1
+- Callendar, G. S. (1938). The artificial production of carbon dioxide and its influence on temperature. *Quarterly Journal of the Royal Meteorological Society*, 64(275), 223–240. doi:10.1002/qj.49706427503
+- Callendar, G. S. (1941). Infra-red absorption by carbon dioxide, with special reference to atmospheric radiation. *Quarterly Journal of the Royal Meteorological Society*, 67(291), 263–275. doi:10.1002/qj.49706729105
+- Callendar, G. S. (1961). Temperature fluctuations and trends over the Earth. *Quarterly Journal of the Royal Meteorological Society*, 87(371), 1–12. doi:10.1002/qj.49708737102
+- Canadell, J. G., et al. (2007). Contributions to accelerating atmospheric CO₂ growth from economic activity, carbon intensity, and efficiency of natural sinks. *PNAS*. doi:10.3410/f.1093824.554474
+- Cane, M. A., Zebiak, S. E., & Dolan, S. C. (1986). Experimental forecasts of El Niño. *Nature*, 321(6073), 827–832. doi:10.1038/321827a0
+- Ceppi, P., & Nowack, P. (2021). Observational evidence that cloud feedback amplifies global warming. *PNAS*, 118(30). doi:10.1073/pnas.2026290118
+- Ceppi, P., Brient, F., Zelinka, M. D., & Hartmann, D. L. (2017). Cloud feedback mechanisms and their representation in global climate models. *WIREs Climate Change*, 8(4). doi:10.1002/wcc.465
+- Cess, R. D. (1975). Global climate change: an investigation of atmospheric feedback mechanisms. *Tellus*, 27(3), 193. doi:10.3402/tellusa.v27i3.9901
+- Cess, R. D., et al. (1989). Interpretation of cloud–climate feedback as produced by 14 atmospheric general circulation models. *Science*, 245(4917), 513–516. doi:10.1126/science.245.4917.513
+- Cess, R. D., et al. (1990). Intercomparison and interpretation of climate feedback processes in 19 atmospheric general circulation models. *J. Geophys. Res.*, 95(D10), 16601–16615. doi:10.1029/jd095id10p16601
+- Chalk, T. B., et al. (2017). Causes of ice age intensification across the Mid-Pleistocene Transition. *PNAS*, 114(50), 13114–13119. doi:10.1073/pnas.1702143114
+- Chamberlin, T. C. (1899). An attempt to frame a working hypothesis of the cause of glacial periods on an atmospheric basis. *Journal of Geology*, 7(6), 545–584. doi:10.1086/608449
+- Chan, D., et al. (2019). Correcting datasets leads to more homogeneous early-twentieth-century sea surface warming. *Nature*, 571(7765), 393–397. doi:10.1038/s41586-019-1349-2
+- Charlson, R. J., et al. (1992). Climate forcing by anthropogenic aerosols. *Science*, 255(5043), 423–430. doi:10.1126/science.255.5043.423
+- Cheng, L., et al. (2017). Improved estimates of ocean heat content from 1960 to 2015. *Science Advances*, 3(3), e1601545. doi:10.1126/sciadv.1601545
+- Cheung, A. H., et al. (2017). Comparison of low-frequency internal climate variability in CMIP5 models and observations. *J. Climate*, 30(12), 4763–4776. doi:10.1175/jcli-d-16-0712.1
+- Christiansen, B., & Ljungqvist, F. C. (2012). The extra-tropical Northern Hemisphere temperature in the last two millennia: reconstructions of low-frequency variability. *Climate of the Past*, 8(2), 765–786. doi:10.5194/cp-8-765-2012
+- Church, J. A., & White, N. J. (2006). A 20th century acceleration in global sea-level rise. *Geophys. Res. Lett.*, 33(1). doi:10.1029/2005gl024826
+- Church, J. A., & White, N. J. (2011). Sea-level rise from the late 19th to the early 21st century. *Surveys in Geophysics*, 32(4-5), 585–602. doi:10.1007/s10712-011-9119-1
+- Clark, P. U., et al. (2006). The middle Pleistocene transition: characteristics, mechanisms, and implications for long-term changes in atmospheric pCO₂. *Quaternary Science Reviews*, 25(23-24), 3150–3184. doi:10.1016/j.quascirev.2006.07.008
+- Clark, P. U., et al. (2016). Consequences of twenty-first-century policy for multi-millennial climate and sea-level change. *Nature Climate Change*, 6(4), 360–369. doi:10.1038/nclimate2923
+- Clement, A. C., Burgman, R., & Norris, J. R. (2009). Observational and model evidence for positive low-level cloud feedback. *Science*, 325(5939), 460–464. doi:10.1126/science.1171255
+- Clement, A., et al. (2015). The Atlantic Multidecadal Oscillation without a role for ocean circulation. *Science*, 350(6258), 320–324. doi:10.1126/science.aab3980
+- CLIMAP Project Members (1976). The surface of the ice-age Earth. *Science*, 191(4232), 1131–1137. doi:10.1126/science.191.4232.1131
+- CLIMAP Project Members (1981). Seasonal reconstructions of the Earth's surface at the Last Glacial Maximum. *Geological Society of America Map and Chart Series*.
+- Coakley, J. A., Bernstein, R. L., & Durkee, P. A. (1987). Effect of ship-stack effluents on cloud reflectivity. *Science*, 237(4818), 1020–1022. doi:10.1126/science.237.4818.1020
+- Cohen, J., et al. (2014). Recent Arctic amplification and extreme mid-latitude weather. *Nature Geoscience*, 7(9), 627–637. doi:10.1038/ngeo2234
+- Cohen, J., et al. (2020). Divergent consensuses on Arctic amplification influence on midlatitude severe winter weather. *Nature Climate Change*, 10(1), 20–29. doi:10.1038/s41558-019-0662-y
+- Cohn, T. A., & Lins, H. F. (2005). Nature's style: Naturally trendy. *Geophys. Res. Lett.*, 32(23). doi:10.1029/2005gl024476
+- Collins, M., et al. (2010). The impact of global warming on the tropical Pacific Ocean and El Niño. *Nature Geoscience*, 3(6), 391–397. doi:10.1038/ngeo868
+- Colman, R. (2003). A comparison of climate feedbacks in general circulation models. *Climate Dynamics*, 20(7-8), 865–873. doi:10.1007/s00382-003-0310-z
+- Connolly, R., et al. (2021). How much has the Sun influenced Northern Hemisphere temperature trends? An ongoing debate. *Research in Astronomy and Astrophysics*, 21(6), 131. doi:10.1088/1674-4527/21/6/131
+- Cook, J., et al. (2013). Quantifying the consensus on anthropogenic global warming in the scientific literature. *Environmental Research Letters*, 8(2), 024024. doi:10.1088/1748-9326/8/2/024024
+- Cook, J., et al. (2016). Consensus on consensus: a synthesis of consensus estimates on human-caused global warming. *Environmental Research Letters*, 11(4), 048002. doi:10.1088/1748-9326/11/4/048002
+- Cowtan, K., & Way, R. G. (2014). Coverage bias in the HadCRUT4 temperature series and its impact on recent temperature trends. *Quarterly Journal of the Royal Meteorological Society*, 140(683), 1935–1944. doi:10.1002/qj.2297
+- Cowtan, K., et al. (2015). Robust comparison of climate models with observations using blended land air and ocean sea surface temperatures. *Geophys. Res. Lett.*, 42(15), 6526–6534. doi:10.1002/2015gl064888
+- Cox, P. M., et al. (2000). Acceleration of global warming due to carbon-cycle feedbacks in a coupled climate model. *Nature*, 408(6809), 184–187. doi:10.1038/35041539
+- Cox, P. M., Huntingford, C., & Williamson, M. S. (2018). Emergent constraint on equilibrium climate sensitivity from global temperature variability. *Nature*, 553(7688), 319–322. doi:10.1038/nature25450
+- Craig, H. (1957). The natural distribution of radiocarbon and the exchange time of carbon dioxide between atmosphere and sea. *Tellus*, 9(1), 1–17. doi:10.1111/j.2153-3490.1957.tb01848.x
+- Crowley, T. J. (2000). Causes of climate change over the past 1000 years. *Science*, 289(5477), 270–277. doi:10.1126/science.289.5477.270
+- Crowley, T. J. (2000). CLIMAP SSTs re-revisited. *Climate Dynamics*, 16(4), 241–255. doi:10.1007/s003820050325
+- Cunningham, S. A., et al. (2007). Temporal variability of the Atlantic meridional overturning circulation at 26.5° N. *Science*, 317(5840), 935–938. doi:10.1126/science.1141304
+- D'Arrigo, R., Wilson, R., & Jacoby, G. (2006). On the long-term context for late twentieth century warming. *J. Geophys. Res.*, 111(D3). doi:10.1029/2005jd006352
+- Dai, A. (2013). Increasing drought under global warming in observations and models. *Nature Climate Change*, 3(1), 52–58. doi:10.1038/nclimate1633
+- Dansgaard, W., et al. (1993). Evidence for general instability of past climate from a 250-kyr ice-core record. *Nature*, 364(6434), 218–220. doi:10.1038/364218a0
+- DeConto, R. M., & Pollard, D. (2016). Contribution of Antarctica to past and future sea-level rise. *Nature*, 531(7596), 591–597. doi:10.1038/nature17145
+- DeConto, R. M., et al. (2021). The Paris Climate Agreement and future sea-level rise from Antarctica. *Nature*, 593(7857), 83–89. doi:10.1038/s41586-021-03427-0
+- DelSole, T., Tippett, M. K., & Shukla, J. (2011). A significant component of unforced multidecadal variability in the recent acceleration of global warming. *J. Climate*, 24(3), 909–926. doi:10.1175/2010jcli3659.1
+- Delworth, T. L., & Mann, M. E. (2000). Observed and simulated multidecadal variability in the Northern Hemisphere. *Climate Dynamics*, 16(9), 661–676. doi:10.1007/s003820000075
+- Deser, C., et al. (2012). Communication of the role of natural variability in future North American climate. *Nature Climate Change*, 2(11), 775–779. doi:10.1038/nclimate1562
+- Deser, C., et al. (2020). Insights from Earth system model initial-condition large ensembles and future prospects. *Nature Climate Change*, 10(4), 277–286. doi:10.1038/s41558-020-0731-2
+- Dessler, A. E. (2010). A determination of the cloud feedback from climate variations over the past decade. *Science*, 330(6010), 1523–1527. doi:10.1126/science.1192546
+- Dessler, A. E. (2011). Cloud variations and the Earth's energy budget. *Geophys. Res. Lett.*, 38(19). doi:10.1029/2011gl049236
+- Dessler, A. E., & Sherwood, S. C. (2009). A matter of humidity. *Science*, 323(5917), 1020–1021. doi:10.1126/science.1171264
+- Dessler, A. E., Zhang, Z., & Yang, P. (2008). Water-vapor climate feedback inferred from climate fluctuations, 2003–2008. *Geophys. Res. Lett.*, 35(20). doi:10.1029/2008gl035333
+- Ditlevsen, P., & Ditlevsen, S. (2023). Warning of a forthcoming collapse of the Atlantic meridional overturning circulation. *Nature Communications*, 14(1), 4254. doi:10.1038/s41467-023-39810-w
+- Dole, R., et al. (2011). Was there a basis for anticipating the 2010 Russian heat wave? *Geophys. Res. Lett.*, 38(6). doi:10.1029/2010gl046582
+- Domingues, C. M., et al. (2008). Improved estimates of upper-ocean warming and multi-decadal sea-level rise. *Nature*, 453(7198), 1090–1093. doi:10.1038/nature07080
+- Dong, Y., et al. (2019). Attributing historical and future evolution of radiative feedbacks to regional warming patterns using a Green's function approach: The preeminence of the western Pacific. *J. Climate*. doi:10.1175/JCLI-D-18-0843.1 *(DOI added from memory, not machine-verified)*
+- Doran, P. T., & Zimmerman, M. K. (2009). Examining the scientific consensus on climate change. *Eos*, 90(3), 22–23. doi:10.1029/2009eo030002
+- Douglass, D. H., et al. (2008). A comparison of tropical temperature trends with model predictions. *International Journal of Climatology*, 28(13), 1693–1701. doi:10.1002/joc.1651
+- Drijfhout, S., et al. (2015). Catalogue of abrupt shifts in Intergovernmental Panel on Climate Change climate models. *PNAS*, 112(43), E5777–E5786. doi:10.1073/pnas.1511451112
+- Dunne, E. M., et al. (2016). Global atmospheric particle formation from CERN CLOUD measurements. *Science*, 354(6316), 1119–1124. doi:10.1126/science.aaf2649
+- Easterling, D. R., & Wehner, M. F. (2009). Is the climate warming or cooling? *Geophys. Res. Lett.*, 36(8). doi:10.1029/2009gl037810
+- Edwards, P. N., & Schneider, S. H. (2001). Self-governance and peer review in science-for-policy: the case of the IPCC Second Assessment Report. In *Changing the Atmosphere* (MIT Press), 219–246. doi:10.7551/mitpress/1789.003.0010
+- Edwards, T. L., et al. (2019). Revisiting Antarctic ice loss due to marine ice-cliff instability. *Nature*, 566(7742), 58–64. doi:10.1038/s41586-019-0901-4
+- Emanuel, K. A. (1987). The dependence of hurricane intensity on climate. *Nature*, 326(6112), 483–485. doi:10.1038/326483a0
+- Emanuel, K. (2005). Increasing destructiveness of tropical cyclones over the past 30 years. *Nature*, 436(7051), 686–688. doi:10.1038/nature03906
+- Emiliani, C. (1955). Pleistocene temperatures. *Journal of Geology*, 63(6), 538–578. doi:10.1086/626295
+- England, M. H., et al. (2014). Recent intensification of wind-driven circulation in the Pacific and the ongoing warming hiatus. *Nature Climate Change*, 4(3), 222–227. doi:10.1038/nclimate2106
+- EPICA Community Members (2004). Eight glacial cycles from an Antarctic ice core. *Nature*, 429(6992), 623–628. doi:10.1038/nature02599
+- Esper, J., Cook, E. R., & Schweingruber, F. H. (2002). Low-frequency signals in long tree-ring chronologies for reconstructing past temperature variability. *Science*, 295(5563), 2250–2253. doi:10.1126/science.1066208
+- Etminan, M., et al. (2016). Radiative forcing of carbon dioxide, methane, and nitrous oxide: A significant revision of the methane radiative forcing. *Geophys. Res. Lett.*, 43(24). doi:10.1002/2016gl071930
+- Ewing, M., & Donn, W. L. (1956). A theory of ice ages. *Science*, 123(3207), 1061–1066. doi:10.1126/science.123.3207.1061
+- Eyring, V., et al. (2016). Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization. *Geoscientific Model Development*, 9(5), 1937–1958. doi:10.5194/gmd-9-1937-2016
+- Fall, S., et al. (2011). Analysis of the impacts of station exposure on the U.S. Historical Climatology Network temperatures and temperature trends. *J. Geophys. Res.*, 116(D14). doi:10.1029/2010jd015146
+- Farman, J. C., Gardiner, B. G., & Shanklin, J. D. (1985). Large losses of total ozone in Antarctica reveal seasonal ClOₓ/NOₓ interaction. *Nature*, 315(6016), 207–210. doi:10.1038/315207a0
+- Farago, E. Z., et al. (2026). Quantification of the influence of anthropogenic and natural factors on the record-high temperatures in 2023 and 2024. *Earth System Dynamics*, 17(3), 451–474. doi:10.5194/esd-17-451-2026
+- Fasullo, J. T., & Trenberth, K. E. (2012). A less cloudy future: The role of subtropical subsidence in climate sensitivity. *Science*, 338(6108), 792–794. doi:10.1126/science.1227465
+- Favier, L., et al. (2014). Retreat of Pine Island Glacier controlled by marine ice-sheet instability. *Nature Climate Change*, 4(2), 117–121. doi:10.1038/nclimate2094
+- Feldman, D. R., et al. (2015). Observational determination of surface radiative forcing by CO₂ from 2000 to 2010. *Nature*, 519(7543), 339–343. doi:10.1038/nature14240
+- Fischer, E. M., & Knutti, R. (2015). Anthropogenic contribution to global occurrence of heavy-precipitation and high-temperature extremes. *Nature Climate Change*, 5(6), 560–564. doi:10.1038/nclimate2617
+- Fischer, E. M., Sippel, S., & Knutti, R. (2021). Increasing probability of record-shattering climate extremes. *Nature Climate Change*, 11(8), 689–695. doi:10.1038/s41558-021-01092-9
+- Fischer, H., et al. (1999). Ice core records of atmospheric CO₂ around the last three glacial terminations. *Science*, 283(5408), 1712–1714. doi:10.1126/science.283.5408.1712
+- Flanner, M. G., et al. (2011). Radiative forcing and albedo feedback from the Northern Hemisphere cryosphere between 1979 and 2008. *Nature Geoscience*, 4(3), 151–155. doi:10.1038/ngeo1062
+- Flores, B. M., et al. (2024). Critical transitions in the Amazon forest system. *Nature*, 626(7999), 555–564. doi:10.1038/s41586-023-06970-0
+- Folland, C. K., & Parker, D. E. (1995). Correction of instrumental biases in historical sea surface temperature data. *Quarterly Journal of the Royal Meteorological Society*, 121(522), 319–367. doi:10.1002/qj.49712152206
+- Foote, E. (1856). Circumstances affecting the heat of the sun's rays. *American Journal of Science and Arts*, 13(85), 167–172. doi:10.1080/14786445708642274 *(1857 reprint record; original Am. J. Sci. 22, 382–383, 1856)*
+- Forest, C. E., et al. (2002). Quantifying uncertainties in climate system properties with the use of recent climate observations. *Science*, 295(5552), 113–117. doi:10.1126/science.1064419
+- Forest, C. E., Stone, P. H., & Sokolov, A. P. (2006). Estimated PDFs of climate system properties including natural and anthropogenic forcings. *Geophys. Res. Lett.*, 33(1). doi:10.1029/2005gl023977
+- Forster, P. M., & Gregory, J. M. (2006). The climate sensitivity and its components diagnosed from Earth Radiation Budget data. *J. Climate*, 19(1), 39–52. doi:10.1175/jcli3611.1
+- Forster, P. M., et al. (2025). Indicators of Global Climate Change 2024: annual update of key indicators of the state of the climate system and human influence. *Earth System Science Data*, 17(6), 2641–2680. doi:10.5194/essd-17-2641-2025
+- Forster, P. M., et al. (2026). Indicators of Global Climate Change 2025: annual update of key indicators of the state of the climate system and human influence. *Earth System Science Data*, 18(6), 3889–3933. doi:10.5194/essd-18-3889-2026
+- Foster, G., & Rahmstorf, S. (2026). Global warming has accelerated significantly. *Geophys. Res. Lett.*, 53(5). doi:10.1029/2025gl118804
+- Fourier, J. (1824). Remarques générales sur les températures du globe terrestre et des espaces planétaires. *Annales de Chimie et de Physique*.
+- Francis, J. A., & Vavrus, S. J. (2012). Evidence linking Arctic amplification to extreme weather in mid-latitudes. *Geophys. Res. Lett.*, 39(6). doi:10.1029/2012gl051000
+- Frankignoul, C., & Hasselmann, K. (1977). Stochastic climate models, Part II: Application to sea-surface temperature anomalies and thermocline variability. *Tellus*, 29(4), 289. doi:10.3402/tellusa.v29i4.11362
+- Frederikse, T., et al. (2020). The causes of sea-level rise since 1900. *Nature*, 584(7821), 393–397. doi:10.1038/s41586-020-2591-3
+- Friedlingstein, P., et al. (2006). Climate–carbon cycle feedback analysis: Results from the C4MIP model intercomparison. *J. Climate*, 19(14), 3337–3353. doi:10.1175/jcli3800.1
+- Friedrich, T., et al. (2016). Nonlinear climate sensitivity and its implications for future greenhouse warming. *Science Advances*, 2(11), e1501923. doi:10.1126/sciadv.1501923
+- Friis-Christensen, E., & Lassen, K. (1991). Length of the solar cycle: An indicator of solar activity closely associated with climate. *Science*, 254(5032), 698–700. doi:10.1126/science.254.5032.698
+- Fröhlich, C. (2006). Solar irradiance variability since 1978: Revision of the PMOD composite during solar cycle 21. *Space Science Reviews*, 125(1-4), 53–65. doi:10.1007/s11214-006-9046-5
+- Frölicher, T. L., Winton, M., & Sarmiento, J. L. (2014). Continued global warming after CO₂ emissions stoppage. *Nature Climate Change*. doi:10.1038/nclimate2060 *(DOI added from memory, not machine-verified)*
+- Fu, Q., Baker, M., & Hartmann, D. L. (2002). Tropical cirrus and water vapor: an effective Earth infrared iris feedback? *Atmospheric Chemistry and Physics*, 2(1), 31–37. doi:10.5194/acp-2-31-2002
+- Fu, Q., Johanson, C. M., Warren, S. G., & Seidel, D. J. (2004). Contribution of stratospheric cooling to satellite-inferred tropospheric temperature trends. *Nature*, 429(6987), 55–58. doi:10.1038/nature02524
+- Fu, Q., Johanson, C. M., Wallace, J. M., & Reichler, T. (2006). Enhanced mid-latitude tropospheric warming in satellite measurements. *Science*, 312(5777), 1179. doi:10.1126/science.1125566
+- Fyfe, J. C., Gillett, N. P., & Zwiers, F. W. (2013). Overestimated global warming over the past 20 years. *Nature Climate Change*, 3(9), 767–769. doi:10.1038/nclimate1972
+- Fyfe, J. C., et al. (2016). Making sense of the early-2000s warming slowdown. *Nature Climate Change*, 6(3), 224–228. doi:10.1038/nclimate2938
+- Gates, W. L. (1992). AMIP: The Atmospheric Model Intercomparison Project. *Bull. Amer. Meteor. Soc.*, 73(12), 1962–1970. doi:10.1175/1520-0477(1992)073<1962:atamip>2.0.co;2
+- Geoffroy, O., et al. (2013). Transient climate response in a two-layer energy-balance model, Parts I and II. *J. Climate*, 26(6), 1841–1857. doi:10.1175/jcli-d-12-00195.1
+- Gerlich, G., & Tscheuschner, R. D. (2009). Falsification of the atmospheric CO₂ greenhouse effects within the frame of physics. *International Journal of Modern Physics B*, 23(03), 275–364. doi:10.1142/s021797920904984x
+- Gettelman, A., et al. (2019). High climate sensitivity in the Community Earth System Model version 2 (CESM2). *Geophys. Res. Lett.*, 46(14), 8329–8337. doi:10.1029/2019gl083978
+- Gettelman, A., et al. (2024). Has reducing ship emissions brought forward global warming? *Geophys. Res. Lett.*, 51(15). doi:10.1029/2024gl109077
+- Gillett, N. P., et al. (2011). Ongoing climate change following a complete cessation of carbon dioxide emissions. *Nature Geoscience*, 4(2), 83–87. doi:10.1038/ngeo1047
+- Gillett, N. P., et al. (2013). Constraining the ratio of global warming to cumulative CO₂ emissions using CMIP5 simulations. *J. Climate*, 26(18), 6844–6858. doi:10.1175/jcli-d-12-00476.1
+- Gillett, N. P., et al. (2021). Constraining human contributions to observed warming since the pre-industrial period. *Nature Climate Change*, 11(3), 207–212. doi:10.1038/s41558-020-00965-9
+- Giorgi, F., Jones, C., & Asrar, G. R. (2009). Addressing climate information needs at the regional level: the CORDEX framework. *WMO Bulletin*.
+- Goessling, H. F., Rackow, T., & Jung, T. (2024). Recent global temperature surge intensified by record-low planetary albedo. *Science*, 387(6729), 68–73. doi:10.1126/science.adq7280
+- Goodwin, P., Williams, R. G., & Ridgwell, A. (2015). Sensitivity of climate to cumulative carbon emissions due to compensation of ocean heat and carbon uptake. *Nature Geoscience*, 8(1), 29–34. doi:10.1038/ngeo2304
+- Gordon, C., et al. (2000). The simulation of SST, sea ice extents and ocean heat transports in a version of the Hadley Centre coupled model without flux adjustments. *Climate Dynamics*, 16(2-3), 147–168. doi:10.1007/s003820050010
+- Gordon, H., et al. (2017). Causes and importance of new particle formation in the present-day and preindustrial atmospheres. *J. Geophys. Res.*, 122(16), 8739–8760. doi:10.1002/2017jd026844
+- Gouretski, V., & Koltermann, K. P. (2007). How much is the ocean really warming? *Geophys. Res. Lett.*, 34(1). doi:10.1029/2006gl027834
+- Gregory, J. M. (2000). Vertical heat transports in the ocean and their effect on time-dependent climate change. *Climate Dynamics*, 16(7), 501–515. doi:10.1007/s003820000059
+- Gregory, J. M., & Andrews, T. (2016). Variation in climate sensitivity and feedback parameters during the historical period. *Geophys. Res. Lett.*, 43(8), 3911–3920. doi:10.1002/2016gl068406
+- Gregory, J. M., & Huybrechts, P. (2006). Ice-sheet contributions to future sea-level change. *Phil. Trans. R. Soc. A*, 364(1844), 1709–1732. doi:10.1098/rsta.2006.1796
+- Gregory, J. M., & Mitchell, J. F. B. (1997). The climate response to CO₂ of the Hadley Centre coupled AOGCM with and without flux adjustment. *Geophys. Res. Lett.*, 24(15), 1943–1946. doi:10.1029/97gl01930
+- Gregory, J. M., et al. (2002). An observationally based estimate of the climate sensitivity. *J. Climate*, 15(22), 3117–3121. doi:10.1175/1520-0442(2002)015<3117:aobeot>2.0.co;2
+- Gregory, J. M., et al. (2004). A new method for diagnosing radiative forcing and climate sensitivity. *Geophys. Res. Lett.*, 31(3). doi:10.1029/2003gl018747
+- Greve, P., et al. (2014). Global assessment of trends in wetting and drying over land. *Nature Geoscience*, 7(10), 716–721. doi:10.1038/ngeo2247
+- Grinsted, A., Moore, J. C., & Jevrejeva, S. (2010). Reconstructing sea level from paleo and projected temperatures 200 to 2100 AD. *Climate Dynamics*, 34(4), 461–472. doi:10.1007/s00382-008-0507-2
+- Grise, K. M., et al. (2019). Recent tropical expansion: Natural variability or forced response? *J. Climate*, 32(5), 1551–1571. doi:10.1175/jcli-d-18-0444.1
+- Guilderson, T. P., Fairbanks, R. G., & Rubenstone, J. L. (1994). Tropical temperature variations since 20,000 years ago: Modulating interhemispheric climate change. *Science*, 263(5147), 663–665. doi:10.1126/science.263.5147.663
+- Hall, A., & Qu, X. (2006). Using the current seasonal cycle to constrain snow albedo feedback in future climate change. *Geophys. Res. Lett.*, 33(3). doi:10.1029/2005gl025127
+- Halpern, J. B., et al. (2010). Comment on "Falsification of the atmospheric CO₂ greenhouse effects within the frame of physics." *International Journal of Modern Physics B*, 24(10), 1309–1332. doi:10.1142/s021797921005555x
+- Hannart, A., Dufresne, J.-L., & Naveau, P. (2009). Why climate sensitivity may not be so unpredictable. *Geophys. Res. Lett.*, 36, L16707. doi:10.1029/2009GL039640 *(entry corrected 2026-09-30: the earlier listing conflated this paper with Hannart, Ghil, Dufresne & Naveau (2013), Disconcerting learning on climate sensitivity and the uncertain future of uncertainty, Climatic Change 119, 585–601, doi:10.1007/s10584-013-0770-z)*
+- Hansen, J., & Lebedeff, S. (1987). Global trends of measured surface air temperature. *J. Geophys. Res.*, 92(D11), 13345–13372. doi:10.1029/jd092id11p13345
+- Hansen, J., et al. (1981). Climate impact of increasing atmospheric carbon dioxide. *Science*, 213(4511), 957–966. doi:10.1126/science.213.4511.957
+- Hansen, J., et al. (1983). Efficient three-dimensional global models for climate studies: Models I and II. *Monthly Weather Review*, 111(4), 609–662. doi:10.1175/1520-0493(1983)111<0609:etdgmf>2.0.co;2
+- Hansen, J., et al. (1984). Climate sensitivity: Analysis of feedback mechanisms. In *Climate Processes and Climate Sensitivity* (AGU Geophysical Monograph 29), 130–163. doi:10.1029/gm029p0130
+- Hansen, J., et al. (1985). Climate response times: Dependence on climate sensitivity and ocean mixing. *Science*, 229(4716), 857–859. doi:10.1126/science.229.4716.857
+- Hansen, J., et al. (1988). Global climate changes as forecast by Goddard Institute for Space Studies three-dimensional model. *J. Geophys. Res.*, 93(D8), 9341–9364. doi:10.1029/jd093id08p09341
+- Hansen, J., Lacis, A., Ruedy, R., & Sato, M. (1992). Potential climate impact of Mount Pinatubo eruption. *Geophys. Res. Lett.*, 19(2), 215–218. doi:10.1029/91gl02788
+- Hansen, J., Sato, M., & Ruedy, R. (1997). Radiative forcing and climate response. *J. Geophys. Res.*, 102(D6), 6831–6864. doi:10.1029/96jd03436
+- Hansen, J., et al. (2005). Earth's energy imbalance: Confirmation and implications. *Science*. doi:10.1126/science.1110252 *(DOI added from memory, not machine-verified)*
+- Hansen, J., et al. (2005). Efficacy of climate forcings. *J. Geophys. Res.*, 110(D18). doi:10.1029/2005jd005776
+- Hansen, J., et al. (2008). Target atmospheric CO₂: Where should humanity aim? *Open Atmospheric Science Journal*, 2(1), 217–231. doi:10.2174/1874282300802010217
+- Hansen, J. E., et al. (2023). Global warming in the pipeline. *Oxford Open Climate Change*, 3(1). doi:10.1093/oxfclm/kgad008
+- Hansen, J. E., et al. (2025). Global warming has accelerated: Are the United Nations and the public well-informed? *Environment: Science and Policy for Sustainable Development*, 67(1), 6–44. doi:10.1080/00139157.2025.2434494
+- Hargreaves, J. C., et al. (2012). Can the Last Glacial Maximum constrain climate sensitivity? *Geophys. Res. Lett.*, 39(24), L24702. doi:10.1029/2012gl053872
+- Harries, J. E., et al. (2001). Increases in greenhouse forcing inferred from the outgoing longwave radiation spectra of the Earth in 1970 and 1997. *Nature*, 410(6826), 355–357. doi:10.1038/35066553
+- Hartmann, D. L., & Larson, K. (2002). An important constraint on tropical cloud–climate feedback. *Geophys. Res. Lett.*, 29(20). doi:10.1029/2002gl015835
+- Hartmann, D. L., & Michelsen, M. L. (2002). No evidence for iris. *Bull. Amer. Meteor. Soc.*, 83(2), 249–254. doi:10.1175/1520-0477(2002)083<0249:nefi>2.3.co;2
+- Hartmann, D. L., Ockert-Bell, M. E., & Michelsen, M. L. (1992). The effect of cloud type on Earth's energy balance: Global analysis. *J. Climate*, 5(11), 1281–1304. doi:10.1175/1520-0442(1992)005<1281:teocto>2.0.co;2
+- Hasselmann, K. (1976). Stochastic climate models, Part I: Theory. *Tellus*, 28(6), 473. doi:10.3402/tellusa.v28i6.11316
+- Hasselmann, K. (1979). On the signal-to-noise problem in atmospheric response studies. In *Meteorology over the Tropical Oceans* (Royal Meteorological Society).
+- Hasselmann, K. (1993). Optimal fingerprints for the detection of time-dependent climate change. *J. Climate*, 6(10), 1957–1971. doi:10.1175/1520-0442(1993)006<1957:offtdo>2.0.co;2
+- Hausfather, Z., et al. (2013). Quantifying the effect of urbanization on U.S. Historical Climatology Network temperature records. *J. Geophys. Res.*, 118(2), 481–494. doi:10.1029/2012jd018509
+- Hausfather, Z., et al. (2016). Evaluating the impact of U.S. Historical Climatology Network homogenization using the U.S. Climate Reference Network. *Geophys. Res. Lett.*, 43(4), 1695–1701. doi:10.1002/2015gl067640
+- Hausfather, Z., et al. (2017). Assessing recent warming using instrumentally homogeneous sea surface temperature records. *Science Advances*, 3(1), e1601207. doi:10.1126/sciadv.1601207
+- Hausfather, Z., et al. (2020). Evaluating the performance of past climate model projections. *Geophys. Res. Lett.*, 47(1). doi:10.1029/2019gl085378
+- Hausfather, Z., Marvel, K., Schmidt, G. A., Nielsen-Gammon, J. W., & Zelinka, M. (2022). Climate simulations: recognize the "hot model" problem. *Nature*, 605(7908), 26–29. doi:10.1038/d41586-022-01192-2
+- Haustein, K., et al. (2017). A real-time Global Warming Index. *Scientific Reports*, 7(1), 15417. doi:10.1038/s41598-017-14828-5
+- Haustein, K., et al. (2019). A limited role for unforced internal variability in twentieth-century warming. *J. Climate*, 32(16), 4893–4917. doi:10.1175/jcli-d-18-0555.1
+- Hawkins, E., & Sutton, R. (2009). The potential to narrow uncertainty in regional climate predictions. *Bull. Amer. Meteor. Soc.*, 90(8), 1095–1108. doi:10.1175/2009bams2607.1
+- Hawkins, E., & Sutton, R. (2011). The potential to narrow uncertainty in projections of regional precipitation change. *Climate Dynamics*, 37(1-2), 407–418. doi:10.1007/s00382-010-0810-6
+- Hawkins, E., & Sutton, R. (2012). Time of emergence of climate signals. *Geophys. Res. Lett.*, 39(1). doi:10.1029/2011gl050087
+- Hawkins, E., et al. (2011). Bistability of the Atlantic overturning circulation in a global climate model and links to ocean freshwater transport. *Geophys. Res. Lett.*, 38(10). doi:10.1029/2011gl047208
+- Hays, J. D., Imbrie, J., & Shackleton, N. J. (1976). Variations in the Earth's orbit: Pacemaker of the ice ages. *Science*, 194(4270), 1121–1132. doi:10.1126/science.194.4270.1121
+- Hedemann, C., et al. (2017). The subtle origin of the global-warming hiatus. *Nature Climate Change*, 7(5), 336–339. doi:10.1038/nclimate3274
+- Hegerl, G. C., et al. (1996). Detecting greenhouse-gas-induced climate change with an optimal fingerprint method. *J. Climate*, 9(10), 2281–2306. doi:10.1175/1520-0442(1996)009<2281:dggicc>2.0.co;2
+- Held, I. M. (2005). The gap between simulation and understanding in climate modeling. *Bull. Amer. Meteor. Soc.*, 86(11), 1609–1614. doi:10.1175/bams-86-11-1609
+- Held, I. M., & Soden, B. J. (2000). Water vapor feedback and global warming. *Annual Review of Energy and the Environment*, 25(1), 441–475. doi:10.1146/annurev.energy.25.1.441
+- Held, I. M., & Soden, B. J. (2006). Robust responses of the hydrological cycle to global warming. *J. Climate*, 19(21), 5686–5699. doi:10.1175/jcli3990.1
+- Held, I. M., & Suarez, M. J. (1974). Simple albedo feedback models of the icecaps. *Tellus*, 26(6), 613. doi:10.3402/tellusa.v26i6.9870
+- Held, I. M., et al. (2010). Probing the fast and slow components of global warming by returning abruptly to preindustrial forcing. *J. Climate*, 23(9), 2418–2427. doi:10.1175/2009jcli3466.1
+- Hersbach, H., et al. (2020). The ERA5 global reanalysis. *Quarterly Journal of the Royal Meteorological Society*, 146(730), 1999–2049. doi:10.1002/qj.3803
+- Hoffert, M. I., Callegari, A. J., & Hsieh, C.-T. (1980). The role of deep sea heat storage in the secular response to climatic forcing. *J. Geophys. Res.*, 85(C11), 6667–6679. doi:10.1029/jc085ic11p06667
+- Holgate, S., et al. (2007). Comment on "A semi-empirical approach to projecting future sea-level rise." *Science*, 317(5846), 1866. doi:10.1126/science.1140942
+- Hourdin, F., et al. (2017). The art and science of climate model tuning. *Bull. Amer. Meteor. Soc.*, 98(3), 589–602. doi:10.1175/bams-d-15-00135.1
+- Huang, S., Pollack, H. N., & Shen, P.-Y. (2000). Temperature trends over the past five centuries reconstructed from borehole temperatures. *Nature*, 403(6771), 756–758. doi:10.1038/35001556
+- Huber, M., & Caballero, R. (2011). The early Eocene equable climate problem revisited. *Climate of the Past*, 7(2), 603–633. doi:10.5194/cp-7-603-2011
+- Huber, M., & Knutti, R. (2014). Natural variability, radiative forcing and climate response in the recent hiatus reconciled. *Nature Geoscience*, 7(9), 651–656. doi:10.1038/ngeo2228
+- Hughes, M. K., & Diaz, H. F. (1994). Was there a "Medieval Warm Period," and if so, where and when? *Climatic Change*, 26(2-3), 109–142. doi:10.1007/bf01092410
+- Hughes, T. (1981). The weak underbelly of the West Antarctic ice sheet. *Journal of Glaciology*, 27(97), 518–525. doi:10.1017/s002214300001159x
+- Hughes, T. P., et al. (2017). Global warming and recurrent mass bleaching of corals. *Nature*, 543(7645), 373–377. doi:10.1038/nature21707
+- Hughes, T. P., et al. (2018). Global warming transforms coral reef assemblages. *Nature*, 556(7702), 492–496. doi:10.1038/s41586-018-0041-2
+- Hulburt, E. O. (1931). The temperature of the lower atmosphere of the Earth. *Physical Review*, 38(10), 1876–1890. doi:10.1103/physrev.38.1876
+- Huybers, P. (2005). Comment on "Hockey sticks, principal components, and spurious significance." *Geophys. Res. Lett.*, 32(20). doi:10.1029/2005gl023395
+- Huybers, P. (2011). Combined obliquity and precession pacing of late Pleistocene deglaciations. *Nature*, 480(7376), 229–232. doi:10.1038/nature10626
+- Huybers, P., & Wunsch, C. (2005). Obliquity pacing of the late Pleistocene glacial terminations. *Nature*, 434(7032), 491–494. doi:10.1038/nature03401
+- Idso, S. B. (1980). The climatological significance of a doubling of Earth's atmospheric carbon dioxide concentration. *Science*, 207(4438), 1462–1463. doi:10.1126/science.207.4438.1462
+- Imbrie, J., et al. (1984). The orbital theory of Pleistocene climate: support from a revised chronology of the marine δ¹⁸O record. In *Milankovitch and Climate* (Reidel).
+- Imbrie, J., et al. (1993). On the structure and origin of major glaciation cycles, 2: The 100,000-year cycle. *Paleoceanography*, 8(6), 699–735. doi:10.1029/93pa02751
+- Ishii, M., & Kimoto, M. (2009). Reevaluation of historical ocean heat content variations with time-varying XBT and MBT depth bias corrections. *Journal of Oceanography*, 65(3), 287–299. doi:10.1007/s10872-009-0027-7
+- Jacobson, M. Z. (2001). Strong radiative heating due to the mixing state of black carbon in atmospheric aerosols. *Nature*, 409(6821), 695–697. doi:10.1038/35055518
+- Jones, P. D., et al. (1986). [Northern and Southern Hemisphere surface air temperature variations: 1851–1984.] *J. Climate and Applied Meteorology*; and Jones, Wigley & Wright (1986), Global temperature variations between 1861 and 1984, *Nature*. doi:10.1175/1520-0450(1986)025<0161:NHSATV>2.0.CO;2 *(DOI added from memory, not machine-verified)*
+- Jones, P. D., et al. (1990). Assessment of urbanization effects in time series of surface air temperature over land. *Nature*, 347(6289), 169–172. doi:10.1038/347169a0
+- Jones, P. D., Briffa, K. R., Barnett, T. P., & Tett, S. F. B. (1998). High-resolution palaeoclimatic records for the last millennium: interpretation, integration and comparison with General Circulation Model control-run temperatures. *The Holocene*, 8(4), 455–471. doi:10.1191/095968398667194956
+- Jones, P. D., Lister, D. H., & Li, Q. (2008). Urbanization effects in large-scale temperature records, with an emphasis on China. *J. Geophys. Res.*, 113(D16). doi:10.1029/2008jd009916
+- Jordan, G., & Henry, M. (2024). IMO2020 regulations accelerate global warming by up to 3 years in UKESM1. *Earth's Future*, 12(8). doi:10.1029/2024ef005011
+- Joughin, I., Smith, B. E., & Medley, B. (2014). Marine ice sheet collapse potentially under way for the Thwaites Glacier Basin, West Antarctica. *Science*, 344(6185), 735–738. doi:10.1126/science.1249055
+- Jouzel, J., et al. (1987). Vostok ice core: a continuous isotope temperature record over the last climatic cycle (160,000 years). *Nature*, 329(6138), 403–408. doi:10.1038/329403a0
+- Judd, E. J., et al. (2024). A 485-million-year history of Earth's surface temperature. *Science*, 385(6715), eadk3705. doi:10.1126/science.adk3705
+- Kaplan, L. D. (1960). The influence of carbon dioxide variations on the atmospheric heat balance. *Tellus*, 12(2), 204–208. doi:10.3402/tellusa.v12i2.9364
+- Karl, T. R., Diaz, H. F., & Kukla, G. (1988). Urbanization: Its detection and effect in the United States climate record. *J. Climate*, 1(11), 1099–1123. doi:10.1175/1520-0442(1988)001<1099:uidaei>2.0.co;2
+- Karl, T. R., et al. (2015). Possible artifacts of data biases in the recent global surface warming hiatus. *Science*, 348(6242), 1469–1472. doi:10.1126/science.aaa5632
+- Kaufman, D. S., & Broadman, E. (2023). Revisiting the Holocene global temperature conundrum. *Nature*, 614(7948), 425–435. doi:10.1038/s41586-022-05536-w
+- Kaufman, D., et al. (2020). Holocene global mean surface temperature, a multi-method reconstruction approach. *Scientific Data*, 7(1), 201. doi:10.1038/s41597-020-0530-7
+- Kay, J. E., et al. (2015). The Community Earth System Model (CESM) Large Ensemble Project. *Bull. Amer. Meteor. Soc.*, 96(8), 1333–1349. doi:10.1175/bams-d-13-00255.1
+- Ke, P., et al. (2024). Low latency carbon budget analysis reveals a large decline of the land carbon sink in 2023. *National Science Review*, 11(12), nwae367. doi:10.1093/nsr/nwae367
+- Keeling, C. D. (1960). The concentration and isotopic abundances of carbon dioxide in the atmosphere. *Tellus*, 12(2), 200–203. doi:10.3402/tellusa.v12i2.9366
+- Keeling, C. D. (1998). Rewards and penalties of monitoring the Earth. *Annual Review of Energy and the Environment*, 23(1), 25–82. doi:10.1146/annurev.energy.23.1.25
+- Keeling, C. D., et al. (1976). Atmospheric carbon dioxide variations at Mauna Loa Observatory, Hawaii. *Tellus*, 28(6), 538–551. doi:10.1111/j.2153-3490.1976.tb00701.x
+- Keeling, R. F., Piper, S. C., & Heimann, M. (1996). Global and hemispheric CO₂ sinks deduced from changes in atmospheric O₂ concentration. *Nature*, 381(6579), 218–221. doi:10.1038/381218a0
+- Keenlyside, N. S., et al. (2008). Advancing decadal-scale climate prediction in the North Atlantic sector. *Nature*, 453(7191), 84–88. doi:10.1038/nature06921
+- Kemp, L., et al. (2022). Climate Endgame: Exploring catastrophic climate change scenarios. *PNAS*, 119(34), e2108146119. doi:10.1073/pnas.2108146119
+- Kennedy, J. J., et al. (2011). Reassessing biases and other uncertainties in sea surface temperature observations measured in situ since 1850. *J. Geophys. Res.*, 116(D14). doi:10.1029/2010jd015220
+- Kennedy, J. J., et al. (2019). An ensemble data set of sea surface temperature change from 1850: the Met Office Hadley Centre HadSST.4.0.0.0 data set. *J. Geophys. Res.*, 124(14), 7719–7763. doi:10.1029/2018jd029867
+- Kennett, J. P., & Stott, L. D. (1991). Abrupt deep-sea warming, palaeoceanographic changes and benthic extinctions at the end of the Palaeocene. *Nature*, 353(6341), 225–229. doi:10.1038/353225a0
+- Kerr, R. A. (2000). A North Atlantic climate pacemaker for the centuries. *Science*, 288(5473), 1984–1985. doi:10.1126/science.288.5473.1984
+- Kiehl, J. T. (2007). Twentieth century climate model response and climate sensitivity. *Geophys. Res. Lett.*, 34(22). doi:10.1029/2007gl031383
+- Kiehl, J. T., & Briegleb, B. P. (1993). The relative roles of sulfate aerosols and greenhouse gases in climate forcing. *Science*, 260(5106), 311–314. doi:10.1126/science.260.5106.311
+- Kiehl, J. T., & Ramanathan, V. (1983). CO₂ radiative parameterization used in climate models: Comparison with narrow band models and with laboratory data. *J. Geophys. Res.*, 88(C9), 5191–5202. doi:10.1029/jc088ic09p05191
+- Kilbourne, K. H., et al. (2022). Atlantic circulation change still uncertain. *Nature Geoscience*, 15(3), 165–167. doi:10.1038/s41561-022-00896-4
+- Kirkby, J., et al. (2011). Role of sulphuric acid, ammonia and galactic cosmic rays in atmospheric aerosol nucleation. *Nature*, 476(7361), 429–433. doi:10.1038/nature10343
+- Kirkby, J., et al. (2016). Ion-induced nucleation of pure biogenic particles. *Nature*, 533(7604), 521–526. doi:10.1038/nature17953
+- Klein, S. A., Hall, A., Norris, J. R., & Pincus, R. (2017). Low-cloud feedbacks from cloud-controlling factors: A review. *Surveys in Geophysics*, 38(6), 1307–1329. doi:10.1007/s10712-017-9433-3
+- Knight, J., et al. (2009). Do global temperature trends over the last decade falsify climate predictions? In *State of the Climate in 2008*, *Bull. Amer. Meteor. Soc.*
+- Knorr, W. (2009). Is the airborne fraction of anthropogenic CO₂ emissions increasing? *Geophys. Res. Lett.*, 36(21). doi:10.1029/2009gl040613
+- Knutson, T., et al. (2010). Tropical cyclones and climate change. *Nature Geoscience*, 3(3), 157–163. doi:10.1038/ngeo779
+- Knutson, T., et al. (2019, 2020). Tropical cyclones and climate change assessment, Parts I and II. *Bull. Amer. Meteor. Soc.*, 100(10), 1987–2007. doi:10.1175/bams-d-18-0189.1
+- Knutti, R. (2010). The end of model democracy? *Climatic Change*, 102(3-4), 395–404. doi:10.1007/s10584-010-9800-2
+- Knutti, R., & Hegerl, G. C. (2008). The equilibrium sensitivity of the Earth's temperature to radiation changes. *Nature Geoscience*, 1(11), 735–743. doi:10.1038/ngeo337
+- Knutti, R., Rugenstein, M. A. A., & Hegerl, G. C. (2017). Beyond equilibrium climate sensitivity. *Nature Geoscience*, 10(10), 727–736. doi:10.1038/ngeo3017
+- Kopp, G., & Lean, J. L. (2011). A new, lower value of total solar irradiance: Evidence and climate significance. *Geophys. Res. Lett.*, 38(1). doi:10.1029/2010gl045777
+- Kosaka, Y., & Xie, S.-P. (2013). Recent global-warming hiatus tied to equatorial Pacific surface cooling. *Nature*, 501(7467), 403–407. doi:10.1038/nature12534
+- Kossin, J. P. (2018). A global slowdown of tropical-cyclone translation speed. *Nature*, 558(7708), 104–107. doi:10.1038/s41586-018-0158-3
+- Kossin, J. P., et al. (2020). Global increase in major tropical cyclone exceedance probability over the past four decades. *PNAS*, 117(22), 11975–11980. doi:10.1073/pnas.1920849117
+- Koutsoyiannis, D. (2003). Climate change, the Hurst phenomenon, and hydrological statistics. *Hydrological Sciences Journal*, 48(1), 3–24. doi:10.1623/hysj.48.1.3.43481
+- Kravtsov, S., Grimm, C., & Gu, S. (2018). Global-scale multidecadal variability missing in state-of-the-art climate models. *npj Climate and Atmospheric Science*, 1(1). doi:10.1038/s41612-018-0044-6
+- Kretzschmar, J., et al. (2017). Comment on "Rethinking the lower bound on aerosol radiative forcing." *J. Climate*, 30(16), 6579–6584. doi:10.1175/jcli-d-16-0668.1
+- Kriegler, E., et al. (2009). Imprecise probability assessment of tipping points in the climate system. *PNAS*, 106(13), 5041–5046. doi:10.1073/pnas.0809117106
+- Laepple, T., & Huybers, P. (2014). Ocean surface temperature variability: Large model–data differences at decadal and longer periods. *PNAS*, 111(47), 16682–16687. doi:10.1073/pnas.1412077111
+- Lamb, H. H. (1965). The early medieval warm epoch and its sequel. *Palaeogeography, Palaeoclimatology, Palaeoecology*, 1, 13–37. doi:10.1016/0031-0182(65)90004-0
+- Lamboll, R. D., et al. (2023). Assessing the size and uncertainty of remaining carbon budgets. *Nature Climate Change*, 13(12), 1360–1367. doi:10.1038/s41558-023-01848-5
+- Landsea, C. W., et al. (2006). Can we detect trends in extreme tropical cyclones? *Science*, 313(5786), 452–454. doi:10.1126/science.1128448
+- Laut, P. (2003). Solar activity and terrestrial climate: an analysis of some purported correlations. *J. Atmos. Solar-Terr. Phys.*, 65(7), 801–812. doi:10.1016/s1364-6826(03)00041-5
+- Lean, J., Beer, J., & Bradley, R. (1995). Reconstruction of solar irradiance since 1610: Implications for climate change. *Geophys. Res. Lett.*, 22(23), 3195–3198. doi:10.1029/95gl03093
+- Leith, C. E. (1975). Climate response and fluctuation dissipation. *J. Atmos. Sci.*, 32(10), 2022–2026. doi:10.1175/1520-0469(1975)032<2022:crafd>2.0.co;2
+- Lenton, T. M., et al. (2008). Tipping elements in the Earth's climate system. *PNAS*, 106(49), 20561–20563. doi:10.1073/pnas.0911106106
+- Lenton, T. M., et al. (2019). Climate tipping points — too risky to bet against. *Nature*, 575(7784), 592–595. doi:10.1038/d41586-019-03595-0
+- Levermann, A., et al. (2013). The multimillennial sea-level commitment of global warming. *PNAS*, 110(34), 13745–13750. doi:10.1073/pnas.1219414110
+- Levitus, S., et al. (2000). Warming of the world ocean. *Science*, 287(5461), 2225–2229. doi:10.1126/science.287.5461.2225
+- Levitus, S., et al. (2005). Warming of the world ocean, 1955–2003. *Geophys. Res. Lett.*, 32(2). doi:10.1029/2004gl021592
+- Levitus, S., et al. (2009). Global ocean heat content 1955–2008 in light of recently revealed instrumentation problems. *Geophys. Res. Lett.*, 36(7). doi:10.1029/2008gl037155
+- Levitus, S., et al. (2012). World ocean heat content and thermosteric sea level change (0–2000 m), 1955–2010. *Geophys. Res. Lett.*, 39(10). doi:10.1029/2012gl051106
+- Lewis, N. (2023). Objectively combining climate sensitivity evidence. *Climate Dynamics*, 60(9-10), 3139–3165. doi:10.1007/s00382-022-06468-x
+- Lewis, N., & Curry, J. A. (2015). The implications for climate sensitivity of AR5 forcing and heat uptake estimates. *Climate Dynamics*, 45(3-4), 1009–1023. doi:10.1007/s00382-014-2342-y
+- Lewis, N., & Curry, J. (2018). The impact of recent forcing and ocean heat uptake data on estimates of climate sensitivity. *J. Climate*, 31(15), 6051–6071. doi:10.1175/jcli-d-17-0667.1
+- Lin, B., et al. (2002). The iris hypothesis: A negative or positive cloud feedback? *J. Climate*, 15(1), 3–7. doi:10.1175/1520-0442(2002)015<0003:tihano>2.0.co;2
+- Lindzen, R. S. (1990). Some coolness concerning global warming. *Bull. Amer. Meteor. Soc.*, 71(3), 288–299. doi:10.1175/1520-0477(1990)071<0288:sccgw>2.0.co;2
+- Lindzen, R. S., & Choi, Y.-S. (2009). On the determination of climate feedbacks from ERBE data. *Geophys. Res. Lett.*, 36(16). doi:10.1029/2009gl039628
+- Lindzen, R. S., & Choi, Y.-S. (2011). On the observational determination of climate sensitivity and its implications. *Asia-Pacific J. Atmos. Sci.*, 47(4), 377–390. doi:10.1007/s13143-011-0023-x
+- Lindzen, R. S., Chou, M.-D., & Hou, A. Y. (2001). Does the Earth have an adaptive infrared iris? *Bull. Amer. Meteor. Soc.*, 82(3), 417–432. doi:10.1175/1520-0477(2001)082<0417:dtehaa>2.3.co;2
+- Lisiecki, L. E., & Raymo, M. E. (2005). A Pliocene–Pleistocene stack of 57 globally distributed benthic δ¹⁸O records. *Paleoceanography*, 20(1). doi:10.1029/2004pa001071
+- Liu, W., et al. (2017). Overlooked possibility of a collapsed Atlantic Meridional Overturning Circulation in warming climate. *Science Advances*, 3(1), e1601666. doi:10.1126/sciadv.1601666
+- Liu, Z., et al. (2014). The Holocene temperature conundrum. *PNAS*, 111(34), E3501–E3505. doi:10.1073/pnas.1407229111
+- Ljungqvist, F. C. (2010). A new reconstruction of temperature variability in the extra-tropical Northern Hemisphere during the last two millennia. *Geografiska Annaler A*, 92(3), 339–351. doi:10.1111/j.1468-0459.2010.00399.x
+- Lockwood, M., & Fröhlich, C. (2007). Recent oppositely directed trends in solar climate forcings and the global mean surface air temperature. *Proc. R. Soc. A*, 463(2086), 2447–2460. doi:10.1098/rspa.2007.1880
+- Loeb, N. G., et al. (2021). Satellite and ocean data reveal marked increase in Earth's heating rate. *Geophys. Res. Lett.*, 48(13). doi:10.1029/2021gl093047
+- Loehle, C. (2007). A 2000-year global temperature reconstruction based on non-treering proxies. *Energy & Environment*, 18(7), 1049–1058. doi:10.1260/095830507782616797
+- Lohmann, U., & Feichter, J. (2005). Global indirect aerosol effects: a review. *Atmospheric Chemistry and Physics*, 5(3), 715–737. doi:10.5194/acp-5-715-2005
+- Lorenz, E. N. (1963). Deterministic nonperiodic flow. *J. Atmos. Sci.*, 20(2), 130–141. doi:10.1175/1520-0469(1963)020<0130:dnf>2.0.co;2
+- Lorenz, E. N. (1968). Climatic determinism. *Meteorological Monographs*, 1–3. doi:10.1007/978-1-935704-38-6_1
+- Lorenz, E. N. (1975). Climatic predictability. In *The Physical Basis of Climate and Climate Modelling* (GARP Publication Series 16).
+- Lorius, C., et al. (1990). The ice-core record: climate sensitivity and future greenhouse warming. *Nature*, 347(6289), 139–145. doi:10.1038/347139a0
+- Lovejoy, S. (2014). Scaling fluctuation analysis and statistical hypothesis testing of anthropogenic warming. *Climate Dynamics*, 42(9-10), 2339–2351. doi:10.1007/s00382-014-2128-2
+- Lozier, M. S., et al. (2019). A sea change in our view of overturning in the subpolar North Atlantic. *Science*, 363(6426), 516–521. doi:10.1126/science.aau6592
+- Lu, J., Vecchi, G. A., & Reichler, T. (2007). Expansion of the Hadley cell under global warming. *Geophys. Res. Lett.*, 34(6). doi:10.1029/2006gl028443
+- Lüthi, D., et al. (2008). High-resolution carbon dioxide concentration record 650,000–800,000 years before present. *Nature*, 453(7193), 379–382. doi:10.1038/nature06949
+- Lyman, J. M., et al. (2010). Robust warming of the global upper ocean. *Nature*, 465(7296), 334–337. doi:10.1038/nature09043
+- Lynas, M., Houlton, B. Z., & Perry, S. (2021). Greater than 99% consensus on human caused climate change in the peer-reviewed scientific literature. *Environmental Research Letters*, 16(11), 114005. doi:10.1088/1748-9326/ac2966
+- MacDougall, A. H., & Friedlingstein, P. (2015). The origin and limits of the near proportionality between climate warming and cumulative CO₂ emissions. *J. Climate*, 28(10), 4217–4230. doi:10.1175/jcli-d-14-00036.1
+- MacDougall, A. H., et al. (2020). Is there warming in the pipeline? A multi-model analysis of the Zero Emissions Commitment from CO₂. *Biogeosciences*, 17(11), 2987–3016. doi:10.5194/bg-17-2987-2020
+- Madden, R. A., & Ramanathan, V. (1980). Detecting climate change due to increasing carbon dioxide. *Science*, 209(4458), 763–768. doi:10.1126/science.209.4458.763
+- Manabe, S., & Bryan, K. (1969). Climate calculations with a combined ocean–atmosphere model. *J. Atmos. Sci.*, 26(4), 786–789. doi:10.1175/1520-0469(1969)026<0786:ccwaco>2.0.co;2
+- Manabe, S., & Möller, F. (1961). On the radiative equilibrium and heat balance of the atmosphere. *Monthly Weather Review*, 89(12), 503–532. doi:10.1175/1520-0493(1961)089<0503:otreah>2.0.co;2
+- Manabe, S., & Stouffer, R. J. (1980). Sensitivity of a global climate model to an increase of CO₂ concentration in the atmosphere. *J. Geophys. Res.*, 85(C10), 5529–5554. doi:10.1029/jc085ic10p05529
+- Manabe, S., & Stouffer, R. J. (1988). Two stable equilibria of a coupled ocean–atmosphere model. *J. Climate*, 1(9), 841–866. doi:10.1175/1520-0442(1988)001<0841:tseoac>2.0.co;2
+- Manabe, S., & Stouffer, R. J. (1993). Century-scale effects of increased atmospheric CO₂ on the ocean–atmosphere system. *Nature*, 364(6434), 215–218. doi:10.1038/364215a0
+- Manabe, S., & Stouffer, R. J. (1995). Simulation of abrupt climate change induced by freshwater input to the North Atlantic Ocean. *Nature*, 378(6553), 165–167. doi:10.1038/378165a0
+- Manabe, S., & Strickler, R. F. (1964). Thermal equilibrium of the atmosphere with a convective adjustment. *J. Atmos. Sci.*, 21(4), 361–385. doi:10.1175/1520-0469(1964)021<0361:teotaw>2.0.co;2
+- Manabe, S., & Wetherald, R. T. (1967). Thermal equilibrium of the atmosphere with a given distribution of relative humidity. *J. Atmos. Sci.*, 24(3), 241–259. doi:10.1175/1520-0469(1967)024<0241:teotaw>2.0.co;2
+- Manabe, S., & Wetherald, R. T. (1975). The effects of doubling the CO₂ concentration on the climate of a general circulation model. *J. Atmos. Sci.*, 32(1), 3–15. doi:10.1175/1520-0469(1975)032<0003:teodtc>2.0.co;2
+- Manabe, S., & Wetherald, R. T. (1987). Large-scale changes of soil wetness induced by an increase in atmospheric carbon dioxide. *J. Atmos. Sci.*, 44(8), 1211–1236. doi:10.1175/1520-0469(1987)044<1211:lscosw>2.0.co;2
+- Manabe, S., Smagorinsky, J., & Strickler, R. F. (1965). Simulated climatology of a general circulation model with a hydrologic cycle. *Monthly Weather Review*, 93(12), 769–798. doi:10.1175/1520-0493(1965)093<0769:scoagc>2.3.co;2
+- Mann, M. E., Bradley, R. S., & Hughes, M. K. (1998). Global-scale temperature patterns and climate forcing over the past six centuries. *Nature*, 392(6678), 779–787. doi:10.1038/33859
+- Mann, M. E., Bradley, R. S., & Hughes, M. K. (1999). Northern Hemisphere temperatures during the past millennium: Inferences, uncertainties, and limitations. *Geophys. Res. Lett.*, 26(6), 759–762. doi:10.1029/1999gl900070
+- Mann, M. E., et al. (2008). Proxy-based reconstructions of hemispheric and global surface temperature variations over the past two millennia. *PNAS*, 105(36), 13252–13257. doi:10.1073/pnas.0805721105
+- Mann, M. E., et al. (2009). Global signatures and dynamical origins of the Little Ice Age and Medieval Climate Anomaly. *Science*, 326(5957), 1256–1260. doi:10.1126/science.1177303
+- Mann, M. E., Steinman, B. A., & Miller, S. K. (2014). On forced temperature changes, internal variability, and the AMO. *Geophys. Res. Lett.*, 41(9), 3211–3219. doi:10.1002/2014gl059233
+- Mann, M. E., Steinman, B. A., & Miller, S. K. (2020). Absence of internal multidecadal and interdecadal oscillations in climate model simulations. *Nature Communications*, 11(1), 49. doi:10.1038/s41467-019-13823-w
+- Mann, M. E., Steinman, B. A., Brouillette, D. J., & Miller, S. K. (2021). Multidecadal climate oscillations during the past millennium driven by volcanic forcing. *Science*, 371(6533), 1014–1019. doi:10.1126/science.abc5810
+- Mantua, N. J., et al. (1997). A Pacific interdecadal climate oscillation with impacts on salmon production. *Bull. Amer. Meteor. Soc.*, 78(6), 1069–1079. doi:10.1175/1520-0477(1997)078<1069:apicow>2.0.co;2
+- Marcott, S. A., et al. (2013). A reconstruction of regional and global temperature for the past 11,300 years. *Science*, 339(6124), 1198–1201. doi:10.1126/science.1228026
+- Marcott, S. A., et al. (2014). Centennial-scale changes in the global carbon cycle during the last deglaciation. *Nature*, 514(7524), 616–619. doi:10.1038/nature13799
+- MARGO Project Members (2009). Constraints on the magnitude and patterns of ocean cooling at the Last Glacial Maximum. *Nature Geoscience*, 2(2), 127–132. doi:10.1038/ngeo411
+- Martin, J. H. (1990). Glacial–interglacial CO₂ change: The iron hypothesis. *Paleoceanography*, 5(1), 1–13. doi:10.1029/pa005i001p00001
+- Marvel, K., et al. (2018). Internal variability and disequilibrium confound estimates of climate sensitivity from observations. *Geophys. Res. Lett.*, 45(3), 1595–1601. doi:10.1002/2017gl076468
+- Matthews, H. D., & Caldeira, K. (2008). Stabilizing climate requires near-zero emissions. *Geophys. Res. Lett.*, 35(4). doi:10.1029/2007gl032388
+- Matthews, H. D., Gillett, N. P., Stott, P. A., & Zickfeld, K. (2009). The proportionality of global warming to cumulative carbon emissions. *Nature*, 459(7248), 829–832. doi:10.1038/nature08047
+- Matthews, H. D., et al. (2021). An integrated approach to quantifying uncertainties in the remaining carbon budget. *Communications Earth & Environment*, 2(1). doi:10.1038/s43247-020-00064-9
+- Mauritsen, T., & Pincus, R. (2017). Committed warming inferred from observations. *Nature Climate Change*, 7(9), 652–655. doi:10.1038/nclimate3357
+- Mauritsen, T., & Stevens, B. (2015). Missing iris effect as a possible cause of muted hydrological change and high climate sensitivity in models. *Nature Geoscience*, 8(5), 346–351. doi:10.1038/ngeo2414
+- Mauritsen, T., et al. (2012). Tuning the climate of a global model. *J. Adv. Model. Earth Syst.*, 4(3). doi:10.1029/2012ms000154
+- Mauritsen, T., et al. (2025). Earth's energy imbalance more than doubled in recent decades. *AGU Advances*, 6(3). doi:10.1029/2024av001636
+- McIntyre, S., & McKitrick, R. (2003). Corrections to the Mann et al. (1998) proxy data base and Northern Hemispheric average temperature series. *Energy & Environment*, 14(6), 751–771. doi:10.1260/095830503322793632
+- McIntyre, S., & McKitrick, R. (2005). Hockey sticks, principal components, and spurious significance. *Geophys. Res. Lett.*, 32(3). doi:10.1029/2004gl021750
+- McKitrick, R., & Christy, J. (2018). A test of the tropical 200- to 300-hPa warming rate in climate models. *Earth and Space Science*, 5(9), 529–536. doi:10.1029/2018ea000401
+- McKitrick, R., & Christy, J. (2020). Pervasive warming bias in CMIP6 tropospheric layers. *Earth and Space Science*, 7(9). doi:10.1029/2020ea001281
+- McKitrick, R. R., & Michaels, P. J. (2004). A test of corrections for extraneous signals in gridded surface temperature data. *Climate Research*, 26, 159–173. doi:10.3354/cr026159
+- McKitrick, R. R., & Michaels, P. J. (2007). Quantifying the influence of anthropogenic surface processes and inhomogeneities on gridded global climate data. *J. Geophys. Res.*, 112(D24). doi:10.1029/2007jd008465
+- Mears, C. A., & Wentz, F. J. (2005). The effect of diurnal correction on satellite-derived lower tropospheric temperature. *Science*, 309(5740), 1548–1551. doi:10.1126/science.1114772
+- Mears, C. A., & Wentz, F. J. (2017). A satellite-derived lower-tropospheric atmospheric temperature dataset using an optimized adjustment for diurnal effects. *J. Climate*, 30(19), 7695–7718. doi:10.1175/jcli-d-16-0768.1
+- Medhaug, I., Stolpe, M. B., Fischer, E. M., & Knutti, R. (2017). Reconciling controversies about the "global warming hiatus." *Nature*, 545(7652), 41–47. doi:10.1038/nature22315
+- Meehl, G. A., et al. (2000). The Coupled Model Intercomparison Project (CMIP). *Bull. Amer. Meteor. Soc.*, 81(2), 313–318. doi:10.1175/1520-0477(2000)081<0313:tcmipc>2.3.co;2
+- Meehl, G. A., et al. (2005). How much more global warming and sea level rise? *Science*, 307(5716), 1769–1772. doi:10.1126/science.1106663
+- Meehl, G. A., et al. (2007). The WCRP CMIP3 multimodel dataset: A new era in climate change research. *Bull. Amer. Meteor. Soc.*, 88(9), 1383–1394. doi:10.1175/bams-88-9-1383
+- Meehl, G. A., et al. (2009). Decadal prediction: Can it be skillful? *Bull. Amer. Meteor. Soc.*, 90(10), 1467–1486. doi:10.1175/2009bams2778.1
+- Meehl, G. A., et al. (2011). Model-based evidence of deep-ocean heat uptake during surface-temperature hiatus periods. *Nature Climate Change*, 1(7), 360–364. doi:10.1038/nclimate1229
+- Meinshausen, M., et al. (2009). Greenhouse-gas emission targets for limiting global warming to 2 °C. *Nature*, 458(7242), 1158–1162. doi:10.1038/nature08017
+- Meinshausen, M., Raper, S. C. B., & Wigley, T. M. L. (2011). Emulating coupled atmosphere–ocean and carbon cycle models with a simpler model, MAGICC6. *Atmospheric Chemistry and Physics*, 11(4), 1417–1456. doi:10.5194/acp-11-1417-2011
+- Menne, M. J., & Williams, C. N. (2009). Homogenization of temperature series via pairwise comparisons. *J. Climate*, 22(7), 1700–1717. doi:10.1175/2008jcli2263.1
+- Menne, M. J., Williams, C. N., & Palecki, M. A. (2010). On the reliability of the U.S. surface temperature record. *J. Geophys. Res.*, 115(D11). doi:10.1029/2009jd013094
+- Mercer, J. H. (1978). West Antarctic ice sheet and CO₂ greenhouse effect: a threat of disaster. *Nature*, 271(5643), 321–325. doi:10.1038/271321a0
+- Min, S.-K., Zhang, X., Zwiers, F. W., & Hegerl, G. C. (2011). Human contribution to more-intense precipitation extremes. *Nature*, 470(7334), 378–381. doi:10.1038/nature09763
+- Mitchell, J. F. B., Johns, T. C., Gregory, J. M., & Tett, S. F. B. (1995). Climate response to increasing levels of greenhouse gases and sulphate aerosols. *Nature*, 376(6540), 501–504. doi:10.1038/376501a0
+- Mitchell, J. F. B., Wilson, C. A., & Cunnington, W. M. (1987). On CO₂ climate sensitivity and model dependence of results. *Quarterly Journal of the Royal Meteorological Society*, 113(475), 293–322. doi:10.1002/qj.49711347517
+- Mitchell, J. M. (1961). Recent secular changes of global temperature. *Annals of the New York Academy of Sciences*, 95(1), 235–250. doi:10.1111/j.1749-6632.1961.tb50036.x
+- Mitchell, J. M. (1963). On the world-wide pattern of secular temperature change. In *Changes of Climate* (UNESCO Arid Zone Research).
+- Mitchell, J. M. (1971). The effect of atmospheric aerosols on climate with special reference to temperature near the Earth's surface. *J. Applied Meteorology*, 10(4), 703–714. doi:10.1175/1520-0450(1971)010<0703:teoaao>2.0.co;2
+- Moberg, A., et al. (2005). Highly variable Northern Hemisphere temperatures reconstructed from low- and high-resolution proxy data. *Nature*, 433(7026), 613–617. doi:10.1038/nature03265
+- Möller, F. (1963). On the influence of changes in the CO₂ concentration in air on the radiation balance of the Earth's surface and on the climate. *J. Geophys. Res.*, 68(13), 3877–3886. doi:10.1029/jz068i013p03877
+- Muller, R. A., & MacDonald, G. J. (1997). Glacial cycles and astronomical forcing. *Science*, 277(5323), 215–218. doi:10.1126/science.277.5323.215
+- Murphy, D. M. (2010). Constraining climate sensitivity with linear fits to outgoing radiation. *Geophys. Res. Lett.*, 37(9). doi:10.1029/2010gl042911
+- Myers, T. A., et al. (2021). Observational constraints on low cloud feedback reduce uncertainty of climate sensitivity. *Nature Climate Change*, 11(6), 501–507. doi:10.1038/s41558-021-01039-0
+- Myers, K. F., et al. (2021). Consensus revisited: quantifying scientific agreement on climate change and climate expertise among Earth scientists 10 years later. *Environmental Research Letters*, 16(10), 104030. doi:10.1088/1748-9326/ac2774
+- Myhre, G., Highwood, E. J., Shine, K. P., & Stordal, F. (1998). New estimates of radiative forcing due to well mixed greenhouse gases. *Geophys. Res. Lett.*, 25(14), 2715–2718. doi:10.1029/98gl01908
+- Nerem, R. S., et al. (2018). Climate-change–driven accelerated sea-level rise detected in the altimeter era. *PNAS*, 115(9), 2022–2025. doi:10.1073/pnas.1717312115
+- Neukom, R., et al. (2019). No evidence for globally coherent warm and cold periods over the preindustrial Common Era. *Nature*, 571(7766), 550–554. doi:10.1038/s41586-019-1401-2
+- Newell, R. E., & Dopplick, T. G. (1979). Questions concerning the possible influence of anthropogenic CO₂ on atmospheric temperature. *J. Applied Meteorology*, 18(6), 822–825. doi:10.1175/1520-0450(1979)018<0822:qctpio>2.0.co;2
+- Nordhaus, W. D. (1975). Can we control carbon dioxide? IIASA Working Paper WP-75-63.
+- Nordhaus, W. D. (1977). Economic growth and climate: The carbon dioxide problem. *American Economic Review*.
+- North, G. R. (1975). Theory of energy-balance climate models. *J. Atmos. Sci.*, 32(11), 2033–2043. doi:10.1175/1520-0469(1975)032<2033:toebcm>2.0.co;2
+- North, G. R., & Stevens, M. J. (1998). Detecting climate signals in the surface temperature record. *J. Climate*, 11(4), 563–577. doi:10.1175/1520-0442(1998)011<0563:dcsits>2.0.co;2
+- Notz, D., & Marotzke, J. (2012). Observations reveal external driver for Arctic sea-ice retreat. *Geophys. Res. Lett.*, 39(8). doi:10.1029/2012gl051094
+- Notz, D., & SIMIP Community (2020). Arctic sea ice in CMIP6. *Geophys. Res. Lett.*, 47(10). doi:10.1029/2019gl086749
+- Notz, D., & Stroeve, J. (2016). Observed Arctic sea-ice loss directly follows anthropogenic CO₂ emission. *Science*, 354(6313), 747–750. doi:10.1126/science.aag2345
+- Oeschger, H., Siegenthaler, U., Schotterer, U., & Gugelmann, A. (1975). A box diffusion model to study the carbon dioxide exchange in nature. *Tellus*, 27(2), 168. doi:10.3402/tellusa.v27i2.9900
+- O'Gorman, P. A., & Schneider, T. (2009). The physical basis for increases in precipitation extremes in simulations of 21st-century climate change. *PNAS*, 106(35), 14773–14777. doi:10.1073/pnas.0907610106
+- Oreskes, N. (2004). The scientific consensus on climate change. *Science*, 306(5702), 1686. doi:10.1126/science.1103618
+- Oreskes, N., Shrader-Frechette, K., & Belitz, K. (1994). Verification, validation, and confirmation of numerical models in the Earth sciences. *Science*, 263(5147), 641–646. doi:10.1126/science.263.5147.641
+- Osman, M. B., et al. (2021). Globally resolved surface temperatures since the Last Glacial Maximum. *Nature*, 599(7884), 239–244. doi:10.1038/s41586-021-03984-4
+- Otto, A., et al. (2013). Energy budget constraints on climate response. *Nature Geoscience*, 6(6), 415–416. doi:10.1038/ngeo1836
+- Otto, F. E. L. (2017). Attribution of weather and climate events. *Annual Review of Environment and Resources*, 42(1), 627–646. doi:10.1146/annurev-environ-102016-060847
+- Otto, F. E. L., et al. (2012). Reconciling two approaches to attribution of the 2010 Russian heat wave. *Geophys. Res. Lett.*, 39(4). doi:10.1029/2011gl050422
+- PAGES 2k Consortium (2013). Continental-scale temperature variability during the past two millennia. *Nature Geoscience*, 6(5), 339–346. doi:10.1038/ngeo1797
+- PAGES 2k Consortium (2019). Consistent multidecadal variability in global temperature reconstructions and simulations over the Common Era. *Nature Geoscience*, 12(8), 643–649. doi:10.1038/s41561-019-0400-0
+- Paillard, D. (1998). The timing of Pleistocene glaciations from a simple multiple-state climate model. *Nature*, 391(6665), 378–381. doi:10.1038/34891
+- Pall, P., et al. (2011). Anthropogenic greenhouse gas contribution to flood risk in England and Wales in autumn 2000. *Nature*, 470(7334), 382–385. doi:10.1038/nature09762
+- Palmer, T., & Stevens, B. (2019). The scientific challenge of understanding and estimating climate change. *PNAS*, 116(49), 24390–24395. doi:10.1073/pnas.1906691116
+- Parker, D. E. (2004). Large-scale warming is not urban. *Nature*, 432(7015), 290. doi:10.1038/432290a
+- Parkinson, C. L. (2019). A 40-y record reveals gradual Antarctic sea ice increases followed by decreases at rates far exceeding the rates seen in the Arctic. *PNAS*, 116(29), 14414–14423. doi:10.1073/pnas.1906556116
+- Parrenin, F., et al. (2013). Synchronous change of atmospheric CO₂ and Antarctic temperature during the last deglacial warming. *Science*. doi:10.3410/f.718000149.793474932
+- Pattyn, F., & Morlighem, M. (2020). The uncertain future of the Antarctic Ice Sheet. *Science*, 367(6484), 1331–1335. doi:10.1126/science.aaz5487
+- Peterson, T. C. (2003). Assessment of urban versus rural in situ surface temperatures in the contiguous United States: No difference found. *J. Climate*, 16(18), 2941–2959. doi:10.1175/1520-0442(2003)016<2941:aouvri>2.0.co;2
+- Peterson, T. C., Connolley, W. M., & Fleck, J. (2008). The myth of the 1970s global cooling scientific consensus. *Bull. Amer. Meteor. Soc.*, 89(9), 1325–1338. doi:10.1175/2008bams2370.1
+- Petit, J. R., et al. (1999). Climate and atmospheric history of the past 420,000 years from the Vostok ice core, Antarctica. *Nature*, 399(6735), 429–436. doi:10.1038/20859
+- Pfeffer, W. T., Harper, J. T., & O'Neel, S. (2008). Kinematic constraints on glacier contributions to 21st-century sea-level rise. *Science*, 321(5894), 1340–1343. doi:10.1126/science.1159099
+- Philip, S., et al. (2020). A protocol for probabilistic extreme event attribution analyses. *Advances in Statistical Climatology, Meteorology and Oceanography*, 6(2), 177–203. doi:10.5194/ascmo-6-177-2020
+- Philip, S. Y., et al. (2022). Rapid attribution analysis of the extraordinary heat wave on the Pacific coast of the US and Canada in June 2021. *Earth System Dynamics*, 13(4), 1689–1713. doi:10.5194/esd-13-1689-2022
+- Phillips, N. A. (1956). The general circulation of the atmosphere: a numerical experiment. *Quarterly Journal of the Royal Meteorological Society*, 82(352), 123–164. doi:10.1002/qj.49708235202
+- Pierce, J. R., & Adams, P. J. (2009). Can cosmic rays affect cloud condensation nuclei by altering new particle formation rates? *Geophys. Res. Lett.*, 36(9). doi:10.1029/2009gl037946
+- Pistone, K., Eisenman, I., & Ramanathan, V. (2014). Observational determination of albedo decrease caused by vanishing Arctic sea ice. *PNAS*, 111(9), 3322–3326. doi:10.1073/pnas.1318201111
+- Pithan, F., & Mauritsen, T. (2014). Arctic amplification dominated by temperature feedbacks in contemporary climate models. *Nature Geoscience*, 7(3), 181–184. doi:10.1038/ngeo2071
+- Plass, G. N. (1956). The carbon dioxide theory of climatic change. *Tellus*, 8(2), 140–154. doi:10.1111/j.2153-3490.1956.tb01206.x
+- Pollard, D., DeConto, R. M., & Alley, R. B. (2015). Potential Antarctic Ice Sheet retreat driven by hydrofracturing and ice cliff failure. *Earth and Planetary Science Letters*, 412, 112–121. doi:10.1016/j.epsl.2014.12.035
+- Proistosescu, C., & Huybers, P. J. (2017). Slow climate mode reconciles historical and model-based estimates of climate sensitivity. *Science Advances*, 3(7), e1602821. doi:10.1126/sciadv.1602821
+- Purich, A., & Doddridge, E. W. (2023). Record low Antarctic sea ice coverage indicates a new sea ice state. *Communications Earth & Environment*, 4(1). doi:10.1038/s43247-023-00961-9
+- Quaas, J., et al. (2022). Robust evidence for reversal of the trend in aerosol effective climate forcing. *Atmospheric Chemistry and Physics*, 22(18), 12221–12239. doi:10.5194/acp-22-12221-2022
+- Quaglia, I., & Visioni, D. (2024). Modeling 2020 regulatory changes in international shipping emissions helps explain anomalous 2023 warming. *Earth System Dynamics*, 15(6), 1527–1541. doi:10.5194/esd-15-1527-2024
+- Raghuraman, S. P., et al. (2024). The 2023 global warming spike was driven by the El Niño–Southern Oscillation. *Atmospheric Chemistry and Physics*, 24(19), 11275–11283. doi:10.5194/acp-24-11275-2024
+- Rahmstorf, S. (1995). Bifurcations of the Atlantic thermohaline circulation in response to changes in the hydrological cycle. *Nature*, 378(6553), 145–149. doi:10.1038/378145a0
+- Rahmstorf, S. (2002). Ocean circulation and climate during the past 120,000 years. *Nature*, 419(6903), 207–214. doi:10.1038/nature01090
+- Rahmstorf, S. (2007). A semi-empirical approach to projecting future sea-level rise. *Science*, 315(5810), 140–145. doi:10.1126/science.1135456
+- Rahmstorf, S., & Coumou, D. (2011). Increase of extreme events in a warming world. *PNAS*, 108(44), 17905–17909. doi:10.1073/pnas.1101766108
+- Rahmstorf, S., Foster, G., & Cahill, N. (2017). Global temperature evolution: recent trends and some pitfalls. *Environmental Research Letters*, 12(5), 054001. doi:10.1088/1748-9326/aa6825
+- Rahmstorf, S., et al. (2005). Thermohaline circulation hysteresis: A model intercomparison. *Geophys. Res. Lett.*, 32(23). doi:10.1029/2005gl023655
+- Rahmstorf, S., et al. (2015). Exceptional twentieth-century slowdown in Atlantic Ocean overturning circulation. *Nature Climate Change*, 5(5), 475–480. doi:10.1038/nclimate2554
+- Ramanathan, V. (1975). Greenhouse effect due to chlorofluorocarbons: Climatic implications. *Science*, 190(4209), 50–52. doi:10.1126/science.190.4209.50
+- Ramanathan, V. (1981). The role of ocean–atmosphere interactions in the CO₂ climate problem. *J. Atmos. Sci.*, 82, 275–291. doi:10.1063/1.33470
+- Ramanathan, V., & Carmichael, G. (2008). Global and regional climate changes due to black carbon. *Nature Geoscience*, 1(4), 221–227. doi:10.1038/ngeo156
+- Ramanathan, V., & Coakley, J. A. (1978). Climate modeling through radiative–convective models. *Reviews of Geophysics and Space Physics*, 16(4), 465–489. doi:10.1029/rg016i004p00465
+- Ramanathan, V., Cicerone, R. J., Singh, H. B., & Kiehl, J. T. (1985). Trace gas trends and their potential role in climate change. *J. Geophys. Res.*, 90(D3), 5547–5566. doi:10.1029/jd090id03p05547
+- Ramanathan, V., et al. (1989). Cloud-radiative forcing and climate: Results from the Earth Radiation Budget Experiment. *Science*, 243(4887), 57–63. doi:10.1126/science.243.4887.57
+- Randalls, S. (2010). History of the 2 °C climate target. *WIREs Climate Change*, 1(4), 598–605. doi:10.1002/wcc.62
+- Rantanen, M., & Laaksonen, A. (2024). The jump in global temperatures in September 2023 is extremely unlikely due to internal climate variability alone. *npj Climate and Atmospheric Science*, 7(1). doi:10.1038/s41612-024-00582-9
+- Rasool, S. I., & Schneider, S. H. (1971). Atmospheric carbon dioxide and aerosols: Effects of large increases on global climate. *Science*, 173(3992), 138–141. doi:10.1126/science.173.3992.138
+- Raval, A., & Ramanathan, V. (1989). Observational determination of the greenhouse effect. *Nature*, 342(6251), 758–761. doi:10.1038/342758a0
+- Revelle, R., & Suess, H. E. (1957). Carbon dioxide exchange between atmosphere and ocean and the question of an increase of atmospheric CO₂ during the past decades. *Tellus*, 9(1), 18–27. doi:10.3402/tellusa.v9i1.9075
+- Ribes, A., Qasmi, S., & Gillett, N. P. (2021). Making climate projections conditional on historical observations. *Science Advances*, 7(4). doi:10.1126/sciadv.abc0671
+- Richardson, M., & Benestad, R. E. (2022). Erroneous use of statistics behind claims of a major solar role in recent warming. *Research in Astronomy and Astrophysics*, 22(12), 125008. doi:10.1088/1674-4527/ac981c
+- Richardson, M., Cowtan, K., Hawkins, E., & Stolpe, M. B. (2016). Reconciled climate response estimates from climate models and the energy budget of Earth. *Nature Climate Change*, 6(10), 931–935. doi:10.1038/nclimate3066
+- Rignot, E., et al. (2014). Widespread, rapid grounding line retreat of Pine Island, Thwaites, Smith, and Kohler glaciers, West Antarctica, from 1992 to 2011. *Geophys. Res. Lett.*, 41(10), 3502–3509. doi:10.1002/2014gl060140
+- Rind, D., et al. (1991). Positive water vapour feedback in climate models confirmed by satellite data. *Nature*, 349(6309), 500–503. doi:10.1038/349500a0
+- Risbey, J. S., et al. (2018). A fluctuation in surface temperature in historical context: reassessment and retrospective on the evidence. *Environmental Research Letters*, 13(12), 123008. doi:10.1088/1748-9326/aaf342
+- Robinson, A., Calov, R., & Ganopolski, A. (2012). Multistability and critical thresholds of the Greenland ice sheet. *Nature Climate Change*, 2(6), 429–432. doi:10.1038/nclimate1449
+- Robock, A. (2000). Volcanic eruptions and climate. *Reviews of Geophysics*, 38(2), 191–219. doi:10.1029/1998rg000054
+- Roderick, M. L., Sun, F., Lim, W. H., & Farquhar, G. D. (2014). A general framework for understanding the response of the water cycle to global warming over land and ocean. *Hydrology and Earth System Sciences*, 18(5), 1575–1589. doi:10.5194/hess-18-1575-2014
+- Roe, G. H., & Baker, M. B. (2007). Why is climate sensitivity so unpredictable? *Science*, 318(5850), 629–632. doi:10.1126/science.1144735
+- Rogelj, J., et al. (2019). Estimating and tracking the remaining carbon budget for stringent climate targets. *Nature*, 571(7765), 335–342. doi:10.1038/s41586-019-1368-z
+- Rohde, R., et al. (2013). A new estimate of the average Earth surface land temperature spanning 1753 to 2011. *Geoinformatics & Geostatistics: An Overview*, 01(01). doi:10.4172/2327-4581.1000101
+- Rohling, E. J., et al. (PALAEOSENS Project Members) (2012). Making sense of palaeoclimate sensitivity. *Nature*, 491(7426), 683–691. doi:10.1038/nature11574
+- Royer, D. L. (2006). CO₂-forced climate thresholds during the Phanerozoic. *Geochimica et Cosmochimica Acta*, 70(23), 5665–5675. doi:10.1016/j.gca.2005.11.031
+- Royer, D. L., et al. (2004). CO₂ as a primary driver of Phanerozoic climate. *GSA Today*, 14(3), 4. doi:10.1130/1052-5173(2004)014<4:caapdo>2.0.co;2
+- Rugenstein, M., et al. (2020). Equilibrium climate sensitivity estimated by equilibrating climate models. *Geophys. Res. Lett.*, 47(4). doi:10.1029/2019gl083898
+- Ruppel, C. D., & Kessler, J. D. (2017). The interaction of climate change and methane hydrates. *Reviews of Geophysics*, 55(1), 126–168. doi:10.1002/2016rg000534
+- Rybski, D., et al. (2006). Long-term persistence in climate and the detection problem. *Geophys. Res. Lett.*, 33(6). doi:10.1029/2005gl025591
+- Sabine, C. L., et al. (2004). The oceanic sink for anthropogenic CO₂. *Science*, 305(5682), 367–371. doi:10.1126/science.1097403
+- Samset, B. H., et al. (2018). Climate impacts from a removal of anthropogenic aerosol emissions. *Geophys. Res. Lett.*, 45(2), 1020–1029. doi:10.1002/2017gl076079
+- Samset, B. H., et al. (2024). 2023 temperatures reflect steady global warming and internal sea surface temperature variability. *Communications Earth & Environment*, 5(1). doi:10.1038/s43247-024-01637-8
+- Santer, B. D., et al. (1996). A search for human influences on the thermal structure of the atmosphere. *Nature*, 382(6586), 39–46. doi:10.1038/382039a0
+- Santer, B. D., et al. (2003). Contributions of anthropogenic and natural forcing to recent tropopause height changes. *Science*, 301(5632), 479–483. doi:10.1126/science.1084123
+- Santer, B. D., et al. (2005). Amplification of surface temperature trends and variability in the tropical atmosphere. *Science*, 309(5740), 1551–1556. doi:10.1126/science.1114867
+- Santer, B. D., et al. (2007). Identification of human-induced changes in atmospheric moisture content. *PNAS*, 104(39), 15248–15253. doi:10.1073/pnas.0702872104
+- Santer, B. D., et al. (2008). Consistency of modelled and observed temperature trends in the tropical troposphere. *International Journal of Climatology*, 28(13), 1703–1722. doi:10.1002/joc.1756
+- Santer, B. D., et al. (2011). Separating signal and noise in atmospheric temperature changes: The importance of timescale. *J. Geophys. Res.*, 116(D22). doi:10.1029/2011jd016263
+- Santer, B. D., et al. (2013). Human and natural influences on the changing thermal structure of the atmosphere. *PNAS*, 110(43), 17235–17240. doi:10.1073/pnas.1305332110
+- Santer, B. D., et al. (2014). Volcanic contribution to decadal changes in tropospheric temperature. *Nature Geoscience*, 7(3), 185–189. doi:10.1038/ngeo2098
+- Santer, B. D., et al. (2017). Causes of differences in model and satellite tropospheric warming rates. *Nature Geoscience*, 10(7), 478–485. doi:10.1038/ngeo2973
+- Sarmiento, J. L., & Sundquist, E. T. (1992). Revised budget for the oceanic uptake of anthropogenic carbon dioxide. *Nature*, 356(6370), 589–593. doi:10.1038/356589a0
+- Sarmiento, J. L., Orr, J. C., & Siegenthaler, U. (1992). A perturbation simulation of CO₂ uptake in an ocean general circulation model. *J. Geophys. Res.*, 97(C3), 3621–3645. doi:10.1029/91jc02849
+- Sausen, R., Barthel, K., & Hasselmann, K. (1988). Coupled ocean–atmosphere models with flux correction. *Climate Dynamics*, 2(3), 145–163. doi:10.1007/bf01053472
+- Scaife, A. A., & Smith, D. (2018). A signal-to-noise paradox in climate science. *npj Climate and Atmospheric Science*, 1(1). doi:10.1038/s41612-018-0038-4
+- Schlesinger, M. E. (1985). Feedback analysis of results from energy balance and radiative-convective models. In *Projecting the Climatic Effects of Increasing Carbon Dioxide* (US DOE).
+- Schlesinger, M. E., & Mitchell, J. F. B. (1987). Climate model simulations of the equilibrium climatic response to increased carbon dioxide. *Reviews of Geophysics*, 25(4), 760–798. doi:10.1029/rg025i004p00760
+- Schlesinger, M. E., & Ramankutty, N. (1994). An oscillation in the global climate system of period 65–70 years. *Nature*, 367(6465), 723–726. doi:10.1038/367723a0
+- Schlund, M., et al. (2020). Emergent constraints on equilibrium climate sensitivity in CMIP5: do they hold for CMIP6? *Earth System Dynamics*, 11(4), 1233–1258. doi:10.5194/esd-11-1233-2020
+- Schmidt, G. A. (2009). Spurious correlations between recent warming and indices of local economic activity. *International Journal of Climatology*, 29(14), 2041–2048. doi:10.1002/joc.1831
+- Schmidt, G. A. (2024). Climate models can't explain 2023's huge heat anomaly — we could be flying blind. *Nature*, 627(8004), 467. doi:10.1038/d41586-024-00816-z
+- Schmidt, G. A., Shindell, D. T., & Tsigaridis, K. (2014). Reconciling warming trends. *Nature Geoscience*, 7(3), 158–160. doi:10.1038/ngeo2105
+- Schmidt, G. A., et al. (2017). Overestimate of committed warming. *Nature*, 547(7662), E16–E17. doi:10.1038/nature22803
+- Schmith, T., Johansen, S., & Thejll, P. (2007). Comment on "A semi-empirical approach to projecting future sea-level rise." *Science*, 317(5846), 1866. doi:10.1126/science.1143286
+- Schmittner, A., et al. (2011). Climate sensitivity estimated from temperature reconstructions of the Last Glacial Maximum. *Science*, 334(6061), 1385–1388. doi:10.1126/science.1203513
+- Schneider, S. H. (1972). Cloudiness as a global climatic feedback mechanism: The effects on the radiation balance and surface temperature of variations in cloudiness. *J. Atmos. Sci.*, 29(8), 1413–1422. doi:10.1175/1520-0469(1972)029<1413:caagcf>2.0.co;2
+- Schneider, S. H. (1975). On the carbon dioxide–climate confusion. *J. Atmos. Sci.*, 32(11), 2060–2066. doi:10.1175/1520-0469(1975)032<2060:otcdc>2.0.co;2
+- Schneider, S. H., & Dickinson, R. E. (1974). Climate modeling. *Reviews of Geophysics and Space Physics*, 12(3), 447–493. doi:10.1029/rg012i003p00447
+- Schneider, T., Kaul, C. M., & Pressel, K. G. (2019). Possible climate transitions from breakup of stratocumulus decks under greenhouse warming. *Nature Geoscience*, 12(3), 163–167. doi:10.1038/s41561-019-0310-1
+- Schoof, C. (2007). Ice sheet grounding line dynamics: Steady states, stability, and hysteresis. *J. Geophys. Res.*, 112(F3). doi:10.1029/2006jf000664
+- Schuur, E. A. G., et al. (2015). Climate change and the permafrost carbon feedback. *Nature*, 520(7546), 171–179. doi:10.1038/nature14338
+- Screen, J. A., & Simmonds, I. (2013). Exploring links between Arctic amplification and mid-latitude weather. *Geophys. Res. Lett.*, 40(5), 959–964. doi:10.1002/grl.50174
+- Seager, R., et al. (2019). Strengthening tropical Pacific zonal sea surface temperature gradient consistent with rising greenhouse gases. *Nature Climate Change*, 9(7), 517–522. doi:10.1038/s41558-019-0505-x
+- Seidel, D. J., et al. (2008). Widening of the tropical belt in a changing climate. *Nature Geoscience*, 1(1), 21–24. doi:10.1038/ngeo.2007.38
+- Sellers, W. D. (1969). A global climatic model based on the energy balance of the Earth–atmosphere system. *J. Applied Meteorology*, 8(3), 392–400. doi:10.1175/1520-0450(1969)008<0392:agcmbo>2.0.co;2
+- Shackleton, N. J. (1967). Oxygen isotope analyses and Pleistocene temperatures re-assessed. *Nature*, 215(5096), 15–17. doi:10.1038/215015a0
+- Shakhova, N., et al. (2010). Extensive methane venting to the atmosphere from sediments of the East Siberian Arctic Shelf. *Science*, 327(5970), 1246–1250. doi:10.1126/science.1182221
+- Shakun, J. D., et al. (2012). Global warming preceded by increasing carbon dioxide concentrations during the last deglaciation. *Nature*, 484(7392), 49–54. doi:10.1038/nature10915
+- Sheffield, J., Wood, E. F., & Roderick, M. L. (2012). Little change in global drought over the past 60 years. *Nature*, 491(7424), 435–438. doi:10.1038/nature11575
+- Shepherd, A., et al. (IMBIE Team) (2018). Mass balance of the Antarctic Ice Sheet from 1992 to 2017. *Nature*, 558(7709), 219–222. doi:10.1038/s41586-018-0179-y
+- Shepherd, A., et al. (IMBIE Team) (2020). Mass balance of the Greenland Ice Sheet from 1992 to 2018. *Nature*, 579(7798), 233–239. doi:10.1038/s41586-019-1855-2
+- Shepherd, T. G. (2014). Atmospheric circulation as a source of uncertainty in climate change projections. *Nature Geoscience*, 7(10), 703–708. doi:10.1038/ngeo2253
+- Shepherd, T. G. (2016). A common framework for approaches to extreme event attribution. *Current Climate Change Reports*, 2(1), 28–38. doi:10.1007/s40641-016-0033-y
+- Shepherd, T. G., et al. (2018). Storylines: an alternative approach to representing uncertainty in physical aspects of climate change. *Climatic Change*, 151(3-4), 555–571. doi:10.1007/s10584-018-2317-9
+- Sherwood, S. C., Lanzante, J. R., & Meyer, C. L. (2005). Radiosonde daytime biases and late-20th century warming. *Science*, 309(5740), 1556–1559. doi:10.1126/science.1115640
+- Sherwood, S. C., et al. (2010). Relative humidity changes in a warmer climate. *J. Geophys. Res.*, 115(D9). doi:10.1029/2009jd012585
+- Sherwood, S. C., Bony, S., & Dufresne, J.-L. (2014). Spread in model climate sensitivity traced to atmospheric convective mixing. *Nature*, 505(7481), 37–42. doi:10.1038/nature12829
+- Sherwood, S. C., et al. (2015). Adjustments in the forcing–feedback framework for understanding climate change. *Bull. Amer. Meteor. Soc.*, 96(2), 217–228. doi:10.1175/bams-d-13-00167.1
+- Sherwood, S. C., et al. (2020). An assessment of Earth's climate sensitivity using multiple lines of evidence. *Reviews of Geophysics*. doi:10.1029/2019RG000678 *(DOI added from memory, not machine-verified)*
+- Shindell, D. T., et al. (2009). Improved attribution of climate forcing to emissions. *Science*, 326(5953), 716–718. doi:10.1126/science.1174760
+- Shine, K. P., et al. (2003). An alternative to radiative forcing for estimating the relative importance of climate change mechanisms. *Geophys. Res. Lett.*, 30(20). doi:10.1029/2003gl018141
+- Siegenthaler, U., & Oeschger, H. (1978). Predicting future atmospheric carbon dioxide levels. *Science*, 199(4327), 388–395. doi:10.1126/science.199.4327.388
+- Sigman, D. M., & Boyle, E. A. (2000). Glacial/interglacial variations in atmospheric carbon dioxide. *Nature*, 407(6806), 859–869. doi:10.1038/35038000
+- Sigman, D. M., Hain, M. P., & Haug, G. H. (2010). The polar ocean and glacial cycles in atmospheric CO₂ concentration. *Nature*, 466(7302), 47–55. doi:10.1038/nature09149
+- Skeie, R. B., et al. (2025). Surface temperature effects of recent reductions in shipping SO₂ emissions are within internal variability. *Atmospheric Chemistry and Physics*, 25(8), 4443–4454. doi:10.5194/acp-25-4443-2025
+- Slangen, A. B. A., et al. (2016). Anthropogenic forcing dominates global mean sea-level rise since 1970. *Nature Climate Change*, 6(7), 701–705. doi:10.1038/nclimate2991
+- Sloan, T., & Wolfendale, A. W. (2008). Testing the proposed causal link between cosmic rays and cloud cover. *Environmental Research Letters*, 3(2), 024001. doi:10.1088/1748-9326/3/2/024001
+- Slocum, G. (1955). Has the amount of carbon dioxide in the atmosphere changed significantly since the beginning of the twentieth century? *Monthly Weather Review*, 83(10), 225–231. doi:10.1175/1520-0493(1955)083<0225:htaocd>2.0.co;2
+- Smagorinsky, J. (1963). General circulation experiments with the primitive equations, I: The basic experiment. *Monthly Weather Review*. doi:10.1175/1520-0493(1963)091<0099:GCEWTP>2.3.CO;2 *(DOI added from memory, not machine-verified)*
+- Smeed, D. A., et al. (2018). The North Atlantic Ocean is in a state of reduced overturning. *Geophys. Res. Lett.*, 45(3), 1527–1533. doi:10.1002/2017gl076350
+- Smith, C. J., et al. (2018). FAIR v1.3: a simple emissions-based impulse response and carbon cycle model. *Geoscientific Model Development*, 11(6), 2273–2297. doi:10.5194/gmd-11-2273-2018
+- Smith, D. M., et al. (2007). Improved surface temperature prediction for the coming decade from a global climate model. *Science*, 317(5839), 796–799. doi:10.1126/science.1139540
+- Smith, D. M., et al. (2020). North Atlantic climate far more predictable than models imply. *Nature*, 583(7818), 796–800. doi:10.1038/s41586-020-2525-0
+- Snyder, C. W. (2016). Evolution of global temperature over the past two million years. *Nature*, 538(7624), 226–228. doi:10.1038/nature19798
+- Soden, B. J., & Held, I. M. (2006). An assessment of climate feedbacks in coupled ocean–atmosphere models. *J. Climate*, 19(14), 3354–3360. doi:10.1175/jcli3799.1
+- Soden, B. J., et al. (2002). Global cooling after the eruption of Mount Pinatubo: A test of climate feedback by water vapor. *Science*, 296(5568), 727–730. doi:10.1126/science.296.5568.727
+- Soden, B. J., et al. (2005). The radiative signature of upper tropospheric moistening. *Science*, 310(5749), 841–844. doi:10.1126/science.1115602
+- Soden, B. J., et al. (2008). Quantifying climate feedbacks using radiative kernels. *J. Climate*, 21(14), 3504–3520. doi:10.1175/2007jcli2110.1
+- Solomon, S., Plattner, G.-K., Knutti, R., & Friedlingstein, P. (2009). Irreversible climate change due to carbon dioxide emissions. *PNAS*, 106(6), 1704–1709. doi:10.1073/pnas.0812721106
+- Soon, W., & Baliunas, S. (2003). Proxy climatic and environmental changes of the past 1000 years. *Climate Research*, 23, 89–110. doi:10.3354/cr023089
+- Spencer, R. W., & Christy, J. R. (1990). Precise monitoring of global temperature trends from satellites. *Science*, 247(4950), 1558–1562. doi:10.1126/science.247.4950.1558
+- Spencer, R. W., Christy, J. R., & Braswell, W. D. (2017). UAH Version 6 global satellite temperature products: Methodology and results. *Asia-Pacific J. Atmos. Sci.*, 53(1), 121–130. doi:10.1007/s13143-017-0010-y
+- Steffen, W., et al. (2018). Trajectories of the Earth System in the Anthropocene. *PNAS*, 115(33), 8252–8259. doi:10.1073/pnas.1810141115
+- Stevens, B. (2015). Rethinking the lower bound on aerosol radiative forcing. *J. Climate*, 28(12), 4794–4819. doi:10.1175/jcli-d-14-00656.1
+- Stevens, B., & Bony, S. (2013). What are climate models missing? *Science*. doi:10.1126/science.1237554 *(DOI added from memory, not machine-verified)*
+- Stevens, B., & Feingold, G. (2009). Untangling aerosol effects on clouds and precipitation in a buffered system. *Nature*, 461(7264), 607–613. doi:10.1038/nature08281
+- Stevens, B., et al. (2019). DYAMOND: the DYnamics of the Atmospheric general circulation Modeled On Non-hydrostatic Domains. *Progress in Earth and Planetary Science*, 6(1). doi:10.1186/s40645-019-0304-z
+- Stocker, T. F., & Schmittner, A. (1997). Influence of CO₂ emission rates on the stability of the thermohaline circulation. *Nature*, 388(6645), 862–865. doi:10.1038/42224
+- Stommel, H. (1961). Thermohaline convection with two stable regimes of flow. *Tellus*, 13(2), 224–230. doi:10.3402/tellusa.v13i2.9491
+- Stott, P. A., Stone, D. A., & Allen, M. R. (2004). Human contribution to the European heatwave of 2003. *Nature*, 432(7017), 610–614. doi:10.1038/nature03089
+- Stott, P. A., et al. (2000). External control of 20th century temperature by natural and anthropogenic forcings. *Science*, 290(5499), 2133–2137. doi:10.1126/science.290.5499.2133
+- Stouffer, R. J., Manabe, S., & Bryan, K. (1989). Interhemispheric asymmetry in climate response to a gradual increase of atmospheric CO₂. *Nature*, 342(6250), 660–662. doi:10.1038/342660a0
+- Stroeve, J., et al. (2007). Arctic sea ice decline: Faster than forecast. *Geophys. Res. Lett.*, 34(9). doi:10.1029/2007gl029703
+- Stroeve, J. C., et al. (2012). Trends in Arctic sea ice extent from CMIP5, CMIP3 and observations. *Geophys. Res. Lett.*, 39(16). doi:10.1029/2012gl052676
+- Stuiver, M. (1978). Atmospheric carbon dioxide and carbon reservoir changes. *Science*, 199(4326), 253–258. doi:10.1126/science.199.4326.253
+- Stute, M., et al. (1995). Cooling of tropical Brazil (5 °C) during the Last Glacial Maximum. *Science*, 269(5222), 379–383. doi:10.1126/science.269.5222.379
+- Suess, H. E. (1955). Radiocarbon concentration in modern wood. *Science*, 122(3166), 415–417. doi:10.1126/science.122.3166.415-a
+- Sun, D.-Z., & Lindzen, R. S. (1993). Distribution of tropical tropospheric water vapor. *J. Atmos. Sci.*, 50(12), 1643–1660. doi:10.1175/1520-0469(1993)050<1643:dottwv>2.0.co;2
+- Svensmark, H., & Friis-Christensen, E. (1997). Variation of cosmic ray flux and global cloud coverage — a missing link in solar–climate relationships. *J. Atmos. Solar-Terr. Phys.*, 59(11), 1225–1232. doi:10.1016/s1364-6826(97)00001-1
+- Swanson, K. L., & Tsonis, A. A. (2009). Has the climate recently shifted? *Geophys. Res. Lett.*. doi:10.1029/2008GL037022 *(DOI added from memory, not machine-verified)*
+- Tan, I., Storelvmo, T., & Zelinka, M. D. (2016). Observational constraints on mixed-phase clouds imply higher climate sensitivity. *Science*, 352(6282), 224–227. doi:10.1126/science.aad5300
+- Tans, P. P., Fung, I. Y., & Takahashi, T. (1990). Observational constraints on the global atmospheric CO₂ budget. *Science*. doi:10.1126/science.247.4949.1431 *(DOI added from memory, not machine-verified)*
+- Taylor, K. E., & Penner, J. E. (1994). Response of the climate system to atmospheric aerosols and greenhouse gases. *Nature*, 369(6483), 734–737. doi:10.1038/369734a0
+- Taylor, K. E., Stouffer, R. J., & Meehl, G. A. (2012). An overview of CMIP5 and the experiment design. *Bull. Amer. Meteor. Soc.*, 93(4), 485–498. doi:10.1175/bams-d-11-00094.1
+- Terhaar, J., et al. (2025). Record sea surface temperature jump in 2023–2024 unlikely but not unexpected. *Nature*, 639(8056), 942–946. doi:10.1038/s41586-025-08674-z
+- Tett, S. F. B., Stott, P. A., Allen, M. R., Ingram, W. J., & Mitchell, J. F. B. (1999). Causes of twentieth-century temperature change near the Earth's surface. *Nature*. doi:10.1038/21164 *(DOI added from memory, not machine-verified)*
+- Thompson, D. W. J., et al. (2015). Quantifying the role of internal climate variability in future climate trends. *J. Climate*, 28(16), 6443–6456. doi:10.1175/jcli-d-14-00830.1
+- Thompson, V., et al. (2023). The most at-risk regions in the world for high-impact heatwaves. *Nature Communications*, 14(1), 2152. doi:10.1038/s41467-023-37554-1
+- Thorne, P. W., et al. (2005). Revisiting radiosonde upper air temperatures from 1958 to 2002. *J. Geophys. Res.*, 110(D18). doi:10.1029/2004jd005753
+- Thornton, B. F., et al. (2020). Shipborne eddy covariance observations of methane fluxes constrain Arctic sea emissions. *Science Advances*, 6(5), eaay7934. doi:10.1126/sciadv.aay7934
+- Tierney, J. E., et al. (2020). Glacial cooling and climate sensitivity revisited. *Nature*, 584(7822), 569–573. doi:10.1038/s41586-020-2617-x
+- Tokarska, K. B., et al. (2020). Past warming trend constrains future warming in CMIP6 models. *Science Advances*, 6(12), eaaz9549. doi:10.1126/sciadv.aaz9549
+- Tol, R. S. J. (2014). Quantifying the consensus on anthropogenic global warming in the literature: A re-analysis. *Energy Policy*, 73, 701–705. doi:10.1016/j.enpol.2014.04.045
+- Tol, R. S. J. (2016). Comment on "Quantifying the consensus on anthropogenic global warming in the scientific literature." *Environmental Research Letters*. doi:10.1088/1748-9326/11/4/048001 *(DOI added from memory, not machine-verified)*
+- Trenberth, K. E., Dai, A., Rasmussen, R. M., & Parsons, D. B. (2003). The changing character of precipitation. *Bull. Amer. Meteor. Soc.*, 84(9), 1205–1218. doi:10.1175/bams-84-9-1205
+- Trenberth, K. E., Fasullo, J. T., & Shepherd, T. G. (2015). Attribution of climate extreme events. *Nature Climate Change*, 5(8), 725–730. doi:10.1038/nclimate2657
+- Trenberth, K. E., et al. (2010). Relationships between tropical sea surface temperature and top-of-atmosphere radiation. *Geophys. Res. Lett.*, 37(3). doi:10.1029/2009gl042314
+- Trenberth, K. E., et al. (2014). Global warming and changes in drought. *Nature Climate Change*, 4(1), 17–22. doi:10.1038/nclimate2067
+- Tsonis, A. A., Swanson, K., & Kravtsov, S. (2007). A new dynamical mechanism for major climate shifts. *Geophys. Res. Lett.*, 34(13). doi:10.1029/2007gl030288
+- Turetsky, M. R., et al. (2020). Carbon release through abrupt permafrost thaw. *Nature Geoscience*, 13(2), 138–143. doi:10.1038/s41561-019-0526-0
+- Turner, J., et al. (2013). An initial assessment of Antarctic sea ice extent in the CMIP5 models. *J. Climate*, 26(5), 1473–1484. doi:10.1175/jcli-d-12-00068.1
+- Twomey, S. (1974). Pollution and the planetary albedo. *Atmospheric Environment*, 8(12), 1251–1256. doi:10.1016/0004-6981(74)90004-3
+- Twomey, S. (1977). The influence of pollution on the shortwave albedo of clouds. *J. Atmos. Sci.*, 34(7), 1149–1152. doi:10.1175/1520-0469(1977)034<1149:tiopot>2.0.co;2
+- Tyndall, J. (1861). On the absorption and radiation of heat by gases and vapours, and on the physical connexion of radiation, absorption, and conduction. *Philosophical Transactions of the Royal Society*, 1–36. doi:10.1098/rstl.1861.0001
+- van Oldenborgh, G. J., et al. (2021). Pathways and pitfalls in extreme event attribution. *Climatic Change*, 166(1-2). doi:10.1007/s10584-021-03071-7
+- van Westen, R. M., Kliphuis, M., & Dijkstra, H. A. (2024). Physics-based early warning signal shows that AMOC is on tipping course. *Science Advances*, 10(6), eadk1189. doi:10.1126/sciadv.adk1189
+- van Westen, R. M., Börner, R., & Dijkstra, H. A. (2026). Failure to track a stable AMOC state under rapid climate change. *Nature Climate Change*. doi:10.1038/s41558-026-02730-w
+- Vautard, R., et al. (2023). Heat extremes in Western Europe increasing faster than simulated due to atmospheric circulation trends. *Nature Communications*, 14(1), 6803. doi:10.1038/s41467-023-42143-3
+- Vecchi, G. A., et al. (2006). Weakening of tropical Pacific atmospheric circulation due to anthropogenic forcing. *Nature*, 441(7089), 73–76. doi:10.1038/nature04744
+- Velders, G. J. M., et al. (2007). The importance of the Montreal Protocol in protecting climate. *PNAS*, 104(12), 4814–4819. doi:10.1073/pnas.0610328104
+- Venema, V. K. C., et al. (2012). Benchmarking homogenization algorithms for monthly data. *Climate of the Past*, 8(1), 89–115. doi:10.5194/cp-8-89-2012
+- Verheggen, B., et al. (2014). Scientists' views about attribution of global warming. *Environmental Science & Technology*, 48(16), 8963–8971. doi:10.1021/es501998e
+- Vermeer, M., & Rahmstorf, S. (2009). Global sea level linked to global temperature. *PNAS*, 106(51), 21527–21532. doi:10.1073/pnas.0907765106
+- von Schuckmann, K., et al. (2020). Heat stored in the Earth system: where does the energy go? *Earth System Science Data*. doi:10.5194/essd-12-2013-2020 *(DOI added from memory, not machine-verified)*
+- von Schuckmann, K., et al. (2023). Heat stored in the Earth system 1960–2020: where does the energy go? *Earth System Science Data*, 15(4), 1675–1709. doi:10.5194/essd-15-1675-2023
+- von Storch, H., & Zorita, E. (2005). Comment on "Hockey sticks, principal components, and spurious significance." *Geophys. Res. Lett.*. doi:10.1029/2005GL022753 *(DOI added from memory, not machine-verified)*
+- von Storch, H., et al. (2004). Reconstructing past climate from noisy data. *Science*, 306(5696), 679–682. doi:10.1126/science.1096109
+- Vose, R. S., et al. (2012). NOAA's merged land–ocean surface temperature analysis. *Bull. Amer. Meteor. Soc.*. doi:10.1175/BAMS-D-11-00241.1 *(DOI added from memory, not machine-verified)*
+- Wahl, E. R., & Ammann, C. M. (2007). Robustness of the Mann, Bradley, Hughes reconstruction of Northern Hemisphere surface temperatures. *Climatic Change*, 85(1-2), 33–69. doi:10.1007/s10584-006-9105-7
+- Wahl, E. R., Ritson, D. M., & Ammann, C. M. (2006). Comment on "Reconstructing past climate from noisy data." *Science*. doi:10.1126/science.1120866 *(DOI added from memory, not machine-verified)*
+- Wang, W. C., Yung, Y. L., Lacis, A. A., Mo, T., & Hansen, J. E. (1976). Greenhouse effects due to man-made perturbations of trace gases. *Science*, 194(4266), 685–690. doi:10.1126/science.194.4266.685
+- Wang, Y.-M., Lean, J. L., & Sheeley, N. R. (2005). Modeling the Sun's magnetic field and irradiance since 1713. *Astrophysical Journal*. doi:10.1086/429689 *(DOI added from memory, not machine-verified)*
+- Washington, W. M., & Meehl, G. A. (1984). Seasonal cycle experiment on the climate sensitivity due to a doubling of CO₂ with an atmospheric general circulation model coupled to a simple mixed-layer ocean model. *J. Geophys. Res.*, 89(D6), 9475–9503. doi:10.1029/jd089id06p09475
+- Washington, W. M., & Meehl, G. A. (1989). Climate sensitivity due to increased CO₂: experiments with a coupled atmosphere and ocean general circulation model. *Climate Dynamics*, 4(1), 1–38. doi:10.1007/bf00207397
+- Watanabe, M., et al. (2021). Enhanced warming constrained by past trends in equatorial Pacific sea surface temperature gradient. *Nature Climate Change*, 11(1), 33–37. doi:10.1038/s41558-020-00933-3
+- Webb, M. J., et al. (2006). On the contribution of local feedback mechanisms to the range of climate sensitivity in two GCM ensembles. *Climate Dynamics*, 27(1), 17–38. doi:10.1007/s00382-006-0111-2
+- Webster, P. J., et al. (2005). Changes in tropical cyclone number, duration, and intensity in a warming environment. *Science*, 309(5742), 1844–1846. doi:10.1126/science.1116448
+- Weertman, J. (1974). Stability of the junction of an ice sheet and an ice shelf. *Journal of Glaciology*, 13(67), 3–11. doi:10.1017/s0022143000023327
+- Weijer, W., et al. (2019). Stability of the Atlantic Meridional Overturning Circulation: A review and synthesis. *J. Geophys. Res. Oceans*, 124(8), 5336–5375. doi:10.1029/2019jc015083
+- Weitzman, M. L. (2009). On modeling and interpreting the economics of catastrophic climate change. *Review of Economics and Statistics*, 91(1), 1–19. doi:10.1162/rest.91.1.1
+- Wentz, F. J., & Schabel, M. (1998). Effects of orbital decay on satellite-derived lower-tropospheric temperature trends. *Nature*, 394(6694), 661–664. doi:10.1038/29267
+- Westra, S., Alexander, L. V., & Zwiers, F. W. (2013). Global increasing trends in annual maximum daily precipitation. *J. Climate*. doi:10.1175/JCLI-D-12-00502.1 *(DOI added from memory, not machine-verified)*
+- Wetherald, R. T., & Manabe, S. (1988). Cloud feedback processes in a general circulation model. *J. Atmos. Sci.*, 45(8), 1397–1416. doi:10.1175/1520-0469(1988)045<1397:cfpiag>2.0.co;2
+- Wickham, C., et al. (2013). Influence of urban heating on the global temperature land average using rural sites identified from MODIS classifications. *Geoinformatics & Geostatistics: An Overview*, 01(02). doi:10.4172/2327-4581.1000104
+- Wigley, T. M. L. (2005). The climate change commitment. *Science*, 307(5716), 1766–1769. doi:10.1126/science.1103934
+- Wigley, T. M. L., & Jones, P. D. (1981). Detecting CO₂-induced climatic change. *Nature*, 292(5820), 205–208. doi:10.1038/292205a0
+- Wigley, T. M. L., & Schlesinger, M. E. (1985). Analytical solution for the effect of increasing CO₂ on global mean temperature. *Nature*, 315(6021), 649–652. doi:10.1038/315649a0
+- Wijffels, S. E., et al. (2008). Changing expendable bathythermograph fall rates and their impact on estimates of thermosteric sea level rise. *J. Climate*, 21(21), 5657–5672. doi:10.1175/2008jcli2290.1
+- Willeit, M., et al. (2019). Mid-Pleistocene transition in glacial cycles explained by declining CO₂ and regolith removal. *Science Advances*. doi:10.1126/sciadv.aav7337 *(DOI added from memory, not machine-verified)*
+- Williams, A. P., et al. (2020). Large contribution from anthropogenic warming to an emerging North American megadrought. *Science*, 368(6488), 314–318. doi:10.1126/science.aaz9600
+- Wills, R. C. J., et al. (2022). Systematic climate model biases in the large-scale patterns of recent sea-surface temperature and sea-level pressure change. *Geophys. Res. Lett.*, 49(17). doi:10.1029/2022gl100011
+- Willson, R. C., & Mordvinov, A. V. (2003). Secular total solar irradiance trend during solar cycles 21–23. *Geophys. Res. Lett.*, 30(5). doi:10.1029/2002gl016038
+- Wilson, C. A., & Mitchell, J. F. B. (1987). A doubled CO₂ climate sensitivity experiment with a global climate model including a simple ocean. *J. Geophys. Res.*, 92(D11), 13315–13343. doi:10.1029/jd092id11p13315
+- Winton, M., Takahashi, K., & Held, I. M. (2010). Importance of ocean heat uptake efficacy to transient climate change. *J. Climate*, 23(9), 2333–2344. doi:10.1175/2009jcli3139.1
+- Woodwell, G. M., et al. (1978). The biota and the world carbon budget. *Science*, 199(4325), 141–146. doi:10.1126/science.199.4325.141
+- Wunderling, N., et al. (2021). Interacting tipping elements increase risk of climate domino effects under global warming. *Earth System Dynamics*, 12(2), 601–619. doi:10.5194/esd-12-601-2021
+- Wunsch, C. (1999). The interpretation of short climate records, with comments on the North Atlantic and Southern Oscillations. *Bull. Amer. Meteor. Soc.*, 80(2), 245–255. doi:10.1175/1520-0477(1999)080<0245:tioscr>2.0.co;2
+- Wyatt, M. G., & Curry, J. A. (2014). Role for Eurasian Arctic shelf sea ice in a secularly varying hemispheric climate signal during the 20th century. *Climate Dynamics*, 42(9-10), 2763–2782. doi:10.1007/s00382-013-1950-2
+- Yin, J. H. (2005). A consistent poleward shift of the storm tracks in simulations of 21st century climate. *Geophys. Res. Lett.*, 32(18). doi:10.1029/2005gl023684
+- Yuan, T., et al. (2024). Abrupt reduction in shipping emission as an inadvertent geoengineering termination shock produces substantial radiative warming. *Communications Earth & Environment*, 5(1), 281. doi:10.1038/s43247-024-01442-3
+- Zachos, J., et al. (2001). Trends, rhythms, and aberrations in global climate 65 Ma to present. *Science*, 292(5517), 686–693. doi:10.1126/science.1059412
+- Zachos, J. C., Dickens, G. R., & Zeebe, R. E. (2008). An early Cenozoic perspective on greenhouse warming and carbon-cycle dynamics. *Nature*, 451(7176), 279–283. doi:10.1038/nature06588
+- Zanna, L., et al. (2019). Global reconstruction of historical ocean heat storage and transport. *PNAS*, 116(4), 1126–1131. doi:10.1073/pnas.1808838115
+- Zebiak, S. E., & Cane, M. A. (1987). A model El Niño–Southern Oscillation. *Monthly Weather Review*. doi:10.1175/1520-0493(1987)115<2262:AMENO>2.0.CO;2 *(DOI added from memory, not machine-verified)*
+- Zeebe, R. E., Ridgwell, A., & Zachos, J. C. (2016). Anthropogenic carbon release rate unprecedented during the past 66 million years. *Nature Geoscience*, 9(4), 325–329. doi:10.1038/ngeo2681
+- Zelinka, M. D., Klein, S. A., & Hartmann, D. L. (2012). Computing and partitioning cloud feedbacks using cloud property histograms. *J. Climate*. doi:10.1175/JCLI-D-11-00248.1 *(DOI added from memory, not machine-verified)*
+- Zelinka, M. D., et al. (2020). Causes of higher climate sensitivity in CMIP6 models. *Geophys. Res. Lett.*, 47(1). doi:10.1029/2019gl085782
+- Zhang, R., et al. (2013). Have aerosols caused the observed Atlantic multidecadal variability? *J. Atmos. Sci.*, 70(4), 1135–1144. doi:10.1175/jas-d-12-0331.1
+- Zhang, R., et al. (2016). Comment on "The Atlantic Multidecadal Oscillation without a role for ocean circulation." *Science*. doi:10.1126/science.aaf1660 *(DOI added from memory, not machine-verified)*
+- Zhang, X., et al. (2007). Detection of human influence on twentieth-century precipitation trends. *Nature*, 448(7152), 461–465. doi:10.1038/nature06025
+- Zhou, C., Zelinka, M. D., & Klein, S. A. (2016). Impact of decadal cloud variations on the Earth's energy budget. *Nature Geoscience*. doi:10.1038/ngeo2828 *(DOI added from memory, not machine-verified)*
+- Zhou, C., Zelinka, M. D., Dessler, A. E., & Wang, M. (2021). Greater committed warming after accounting for the pattern effect. *Nature Climate Change*, 11(2), 132–136. doi:10.1038/s41558-020-00955-x
+- Zhu, J., Poulsen, C. J., & Tierney, J. E. (2019). Simulation of Eocene extreme warmth and high climate sensitivity through cloud feedbacks. *Science Advances*, 5(9), eaax1874. doi:10.1126/sciadv.aax1874
+- Zickfeld, K., et al. (2009). Setting cumulative emissions targets to reduce the risk of dangerous climate change. *PNAS*, 106(38), 16129–16134. doi:10.1073/pnas.0805800106
+- Zorita, E., von Storch, H., & Stocker, T. F. (2008). How unusual is the recent series of warm years? *Geophys. Res. Lett.*. doi:10.1029/2008GL036228 *(DOI added from memory, not machine-verified)*
+
+## Assessments and reports
+
+- President's Science Advisory Committee (1965). *Restoring the Quality of Our Environment* (Appendix Y4, "Atmospheric carbon dioxide," by Revelle, Broecker, Craig, Keeling and Smagorinsky). The White House.
+- SMIC (1971). *Inadvertent Climate Modification: Report of the Study of Man's Impact on Climate*. MIT Press.
+- National Academy of Sciences (1975). *Understanding Climatic Change: A Program for Action*.
+- Charney, J. G., et al. (1979). *Carbon Dioxide and Climate: A Scientific Assessment*. National Academy of Sciences.
+- National Academy of Sciences (1982). *Carbon Dioxide and Climate: A Second Assessment* (Smagorinsky panel).
+- National Academy of Sciences (1983). *Changing Climate* (Nierenberg committee).
+- WMO/UNEP/ICSU (1985). Villach conference statement on the assessment of the role of carbon dioxide and other greenhouse gases in climate variations.
+- IPCC (1990). *Climate Change: The IPCC Scientific Assessment* (FAR). Cambridge University Press.
+- IPCC (1996). *Climate Change 1995: The Science of Climate Change* (SAR).
+- IPCC (2001). *Climate Change 2001: The Scientific Basis* (TAR).
+- IPCC (2007). *Climate Change 2007: The Physical Science Basis* (AR4).
+- IPCC (2013). *Climate Change 2013: The Physical Science Basis* (AR5).
+- IPCC (2018). *Global Warming of 1.5 °C* (SR15).
+- IPCC (2019). *Special Report on the Ocean and Cryosphere in a Changing Climate* (SROCC).
+- IPCC (2021). *Climate Change 2021: The Physical Science Basis* (AR6), especially Forster, P., et al., Chapter 7 (The Earth's energy budget, climate feedbacks and climate sensitivity); Eyring, V., et al., Chapter 3 (Human influence on the climate system); Fox-Kemper, B., et al., Chapter 9 (Ocean, cryosphere and sea level change).
+- National Research Council (2000). *Reconciling Observations of Global Temperature Change*.
+- National Research Council (2002). *Abrupt Climate Change: Inevitable Surprises*.
+- National Research Council (2006). *Surface Temperature Reconstructions for the Last 2,000 Years* (North committee).
+- U.S. Climate Change Science Program (2006). *Temperature Trends in the Lower Atmosphere: Steps for Understanding and Reconciling Differences* (Synthesis and Assessment Product 1.1).
+- Wegman, E. J., Scott, D. W., & Said, Y. H. (2006). *Ad Hoc Committee Report on the "Hockey Stick" Global Climate Reconstruction*. Report to the U.S. House Committee on Energy and Commerce.
+- National Academies of Sciences, Engineering, and Medicine (2016). *Attribution of Extreme Weather Events in the Context of Climate Change*.
+- WBGU (German Advisory Council on Global Change) (1995). *Scenario for the Derivation of Global CO₂ Reduction Targets and Implementation Strategies*.
+- Global Carbon Project. *Global Carbon Budget* (annual; Le Quéré et al. 2009–2018; Friedlingstein et al. 2019–).
+- Seitz, F. (1996). A major deception on global warming. *Wall Street Journal*, 12 June 1996 (op-ed).
+- Bates, J. J. (2017). Climate scientists versus climate data. Guest post at *Climate Etc.* (blog), 4 February 2017 — the allegation against Karl et al. (2015); not peer-reviewed.
+- Open letter (2024). Letter from 44 climate scientists to the Nordic Council of Ministers on the risk of a collapse of the Atlantic overturning circulation, October 2024.
+
+## Books and histories
+
+- Broecker, W. S., & Peng, T.-H. (1982). *Tracers in the Sea*. Lamont-Doherty Geological Observatory.
+- Edwards, P. N. (2010). *A Vast Machine: Computer Models, Climate Data, and the Politics of Global Warming*. MIT Press.
+- Fleming, J. R. (1998). *Historical Perspectives on Climate Change*. Oxford University Press.
+- Goody, R. M., & Yung, Y. L. (1989). *Atmospheric Radiation: Theoretical Basis* (2nd ed.). Oxford University Press.
+- Hartmann, D. L. (1994; 2nd ed. 2016). *Global Physical Climatology*. Academic Press / Elsevier.
+- Imbrie, J., & Imbrie, K. P. (1979). *Ice Ages: Solving the Mystery*. Harvard University Press.
+- Kennett, J. P., Cannariato, K. G., Hendy, I. L., & Behl, R. J. (2003). *Methane Hydrates in Quaternary Climate Change: The Clathrate Gun Hypothesis*. American Geophysical Union.
+- Manabe, S., & Broccoli, A. J. (2020). *Beyond Global Warming: How Numerical Models Revealed the Secrets of Climate Change*. Princeton University Press.
+- Peixoto, J. P., & Oort, A. H. (1992). *Physics of Climate*. American Institute of Physics.
+- Pierrehumbert, R. T. (2010). *Principles of Planetary Climate*. Cambridge University Press.
+- Washington, W. M., & Parkinson, C. L. (1986). *An Introduction to Three-Dimensional Climate Modeling*. University Science Books.
+- Weart, S. R. (2008). *The Discovery of Global Warming* (revised ed.). Harvard University Press; with the expanded online version at history.aip.org/climate.
+
+## Journal entries not resolved to a DOI
+
+- Arrhenius, S. (1906). Die vermutliche Ursache der Klimaschwankungen
+- Bacastow, R., & Keeling, C. D. (1973). Atmospheric carbon dioxide and radiocarbon in the natural carbon cycle. In *Carbon and the Biosphere* (Brookhaven Symposium)
+- Bolin, B., & Eriksson, E. (1959). Changes in the carbon dioxide content of the atmosphere and sea due to fossil fuel combustion. In *The Atmosphere and the Sea in Motion* (Rossby memorial volume) — matched a different Bolin paper (Tellus 1960); the 1959 Rossby-volume chapter has no DOI
+- CLIMAP Project Members (1981). Seasonal reconstructions of the Earth's surface at the Last Glacial Maximum
+- Fourier, J. (1824). Remarques générales sur les températures du globe terrestre et des espaces planétaires
+- Giorgi, F., Jones, C., & Asrar, G. R. (2009). Addressing climate information needs at the regional level: the CORDEX framework
+- Hasselmann, K. (1979). On the signal-to-noise problem in atmospheric response studies. In *Meteorology over the Tropical Oceans* (Royal Meteorological Society)
+- Imbrie, J., et al. (1984). The orbital theory of Pleistocene climate: support from a revised chronology of the marine δ¹⁸O record. In *Milankovitch and Climate* (Reidel)
+- Knight, J., et al. (2009). Do global temperature trends over the last decade falsify climate predictions? In *State of the Climate in 2008*, *Bull
+- Lorenz, E. N. (1975). Climatic predictability. In *The Physical Basis of Climate and Climate Modelling* (GARP Publication Series 16)
+- Mitchell, J. M. (1963). On the world-wide pattern of secular temperature change. In *Changes of Climate* (UNESCO Arid Zone Research)
+- Nordhaus, W. D. (1975). Can we control carbon dioxide? IIASA Working Paper WP-75-63
+- Nordhaus, W. D. (1977). Economic growth and climate: The carbon dioxide problem
+- Schlesinger, M. E. (1985). Feedback analysis of results from energy balance and radiative-convective models. In *Projecting the Climatic Effects of Increasing Carbon Dioxide* (US DOE)

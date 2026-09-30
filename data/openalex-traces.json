@@ -1,0 +1,11487 @@
+{
+ "generated": "2026-09-30",
+ "source": "OpenAlex API (api.openalex.org), queried 2026-09-30 with an API key; group_by=publication_year citation curves; early adopters = most-cited citing works within 8 years of publication",
+ "fields": {
+  "id": "OpenAlex work id",
+  "y": "publication year in OpenAlex",
+  "c": "cited_by_count",
+  "r": "referenced_works_count",
+  "first": "first year with a citing work",
+  "y10/y25/y50/y100/y500": "year cumulative citations reached N",
+  "peak": "[year, citations in that year]",
+  "bins": "[5-year bin start, citations in bin]",
+  "ec": "number of citing works within 8 years",
+  "e": "early adopters: [year, cited_by_count, first author, title (58 chars, ASCII-folded), venue]",
+  "alt": "duplicate OpenAlex records of the same paper, with their own curves"
+ },
+ "papers": {
+  "moller1963": {
+   "id": "W2137838502",
+   "y": 1963,
+   "c": 178,
+   "r": 20,
+   "first": 1964,
+   "y10": 1968,
+   "y25": 1973,
+   "y50": 1977,
+   "y100": 1992,
+   "y500": null,
+   "peak": [
+    1971,
+    8
+   ],
+   "bins": [
+    [
+     1960,
+     1
+    ],
+    [
+     1965,
+     9
+    ],
+    [
+     1970,
+     23
+    ],
+    [
+     1975,
+     24
+    ],
+    [
+     1980,
+     24
+    ],
+    [
+     1985,
+     13
+    ],
+    [
+     1990,
+     11
+    ],
+    [
+     1995,
+     6
+    ],
+    [
+     2000,
+     9
+    ],
+    [
+     2005,
+     6
+    ],
+    [
+     2010,
+     11
+    ],
+    [
+     2015,
+     16
+    ],
+    [
+     2020,
+     21
+    ],
+    [
+     2025,
+     4
+    ]
+   ]
+  },
+  "mw1967": {
+   "id": "W2174335611",
+   "y": 1967,
+   "c": 1763,
+   "r": 7,
+   "first": 1900,
+   "y10": 1969,
+   "y25": 1970,
+   "y50": 1972,
+   "y100": 1975,
+   "y500": 1992,
+   "peak": [
+    2023,
+    106
+   ],
+   "bins": [
+    [
+     1900,
+     1
+    ],
+    [
+     1965,
+     11
+    ],
+    [
+     1970,
+     72
+    ],
+    [
+     1975,
+     132
+    ],
+    [
+     1980,
+     130
+    ],
+    [
+     1985,
+     116
+    ],
+    [
+     1990,
+     83
+    ],
+    [
+     1995,
+     86
+    ],
+    [
+     2000,
+     102
+    ],
+    [
+     2005,
+     122
+    ],
+    [
+     2010,
+     195
+    ],
+    [
+     2015,
+     212
+    ],
+    [
+     2020,
+     384
+    ],
+    [
+     2025,
+     115
+    ]
+   ],
+   "ec": 104,
+   "e": [
+    [
+     1969,
+     1434,
+     "I. Budyko",
+     "The effect of solar radiation variations on the climate of",
+     "Tellus"
+    ],
+    [
+     1968,
+     961,
+     "Douglas K. Lilly",
+     "Models of cloud_topped mixed layers under a strong inversi",
+     "Quarterly Journal of t"
+    ],
+    [
+     1974,
+     363,
+     "Stephen H. Schneider",
+     "Climate modeling",
+     "Reviews of Geophysics"
+    ],
+    [
+     1969,
+     357,
+     "Andrew P. Ingersoll",
+     "The Runaway Greenhouse: A History of Water on Venus",
+     "Journal of the Atmosph"
+    ],
+    [
+     1971,
+     323,
+     "Ichtiaque Rasool",
+     "Atmospheric Carbon Dioxide and Aerosols: Effects of Large ",
+     "Science"
+    ],
+    [
+     1970,
+     284,
+     "Helmut E. Landsberg",
+     "Man-Made Climatic Changes",
+     "Science"
+    ],
+    [
+     1975,
+     276,
+     "Robert E. Dickinson",
+     "Solar Variability and the Lower Atmosphere",
+     "Bulletin of the Americ"
+    ],
+    [
+     1972,
+     240,
+     "John Stanley Sawyer",
+     "Man-made Carbon Dioxide and the _Greenhouse_ Effect",
+     "Nature"
+    ]
+   ]
+  },
+  "arrhenius1896": {
+   "id": "W4243566455",
+   "y": 1896,
+   "c": 1691,
+   "r": 4,
+   "first": 1896,
+   "y10": 1951,
+   "y25": 1977,
+   "y50": 1987,
+   "y100": 1993,
+   "y500": 2012,
+   "peak": [
+    2020,
+    148
+   ],
+   "bins": [
+    [
+     1895,
+     1
+    ],
+    [
+     1900,
+     2
+    ],
+    [
+     1905,
+     1
+    ],
+    [
+     1915,
+     1
+    ],
+    [
+     1925,
+     1
+    ],
+    [
+     1930,
+     3
+    ],
+    [
+     1950,
+     2
+    ],
+    [
+     1955,
+     4
+    ],
+    [
+     1960,
+     2
+    ],
+    [
+     1965,
+     3
+    ],
+    [
+     1970,
+     3
+    ],
+    [
+     1975,
+     6
+    ],
+    [
+     1980,
+     12
+    ],
+    [
+     1985,
+     20
+    ],
+    [
+     1990,
+     54
+    ],
+    [
+     1995,
+     64
+    ],
+    [
+     2000,
+     96
+    ],
+    [
+     2005,
+     113
+    ],
+    [
+     2010,
+     216
+    ],
+    [
+     2015,
+     337
+    ],
+    [
+     2020,
+     591
+    ],
+    [
+     2025,
+     154
+    ]
+   ],
+   "ec": 3,
+   "e": [
+    [
+     1900,
+     39,
+     "Knut Angstrom",
+     "Ueber die Bedeutung des Wasserdampfes und der Kohlensaure ",
+     "Annalen der Physik"
+    ],
+    [
+     1901,
+     9,
+     "Svante A. Arrhenius",
+     "Ueber die Warmeabsorption durch Kohlensaure",
+     "Annalen der Physik"
+    ],
+    [
+     1896,
+     0,
+     "Stefanini",
+     "Rivista",
+     "Il Nuovo Cimento"
+    ]
+   ]
+  },
+  "plass1956": {
+   "id": "W2065096815",
+   "y": 1956,
+   "c": 251,
+   "r": 29,
+   "first": 1955,
+   "y10": 1959,
+   "y25": 1961,
+   "y50": 1971,
+   "y100": 1984,
+   "y500": null,
+   "peak": [
+    2015,
+    11
+   ],
+   "bins": [
+    [
+     1955,
+     12
+    ],
+    [
+     1960,
+     18
+    ],
+    [
+     1965,
+     10
+    ],
+    [
+     1970,
+     24
+    ],
+    [
+     1975,
+     23
+    ],
+    [
+     1980,
+     14
+    ],
+    [
+     1985,
+     10
+    ],
+    [
+     1990,
+     14
+    ],
+    [
+     1995,
+     6
+    ],
+    [
+     2000,
+     5
+    ],
+    [
+     2005,
+     10
+    ],
+    [
+     2010,
+     33
+    ],
+    [
+     2015,
+     30
+    ],
+    [
+     2020,
+     31
+    ],
+    [
+     2025,
+     11
+    ]
+   ],
+   "ec": 29,
+   "e": [
+    [
+     1957,
+     1042,
+     "Roger R. Revelle",
+     "Carbon Dioxide Exchange Between Atmosphere and Ocean and t",
+     "Tellus A Dynamic Meteo"
+    ],
+    [
+     1962,
+     628,
+     "Joseph W. Chamberlain",
+     "Physics of the Aurora and Airglow",
+     "Physics Today"
+    ],
+    [
+     1957,
+     285,
+     "Harmon Craig",
+     "The Natural Distribution of Radiocarbon and the Exchange T",
+     "Tellus"
+    ],
+    [
+     1956,
+     251,
+     "Gilbert N. Plass",
+     "The Carbon Dioxide Theory of Climatic Change",
+     "Tellus"
+    ],
+    [
+     1963,
+     178,
+     "Flemming V. M_ller",
+     "On the influence of changes in the CO2concentration in air",
+     "Journal of Geophysical"
+    ],
+    [
+     1959,
+     143,
+     "Cesare Emiliani",
+     "On glaciations and their causes",
+     "International Journal "
+    ],
+    [
+     1961,
+     128,
+     "Taro Takahashi",
+     "Carbon dioxide in the atmosphere and in Atlantic Ocean wat",
+     "Journal of Geophysical"
+    ],
+    [
+     1961,
+     118,
+     "S. Callendar",
+     "Temperature fluctuations and trends over the earth",
+     "Quarterly Journal of t"
+    ]
+   ],
+   "alt": [
+    {
+     "id": "W4212815610",
+     "total": 126,
+     "first": 1956,
+     "bins": [
+      [
+       1955,
+       9
+      ],
+      [
+       1960,
+       5
+      ],
+      [
+       1965,
+       1
+      ],
+      [
+       1970,
+       4
+      ],
+      [
+       1975,
+       4
+      ],
+      [
+       1980,
+       3
+      ],
+      [
+       1985,
+       3
+      ],
+      [
+       1990,
+       6
+      ],
+      [
+       1995,
+       1
+      ],
+      [
+       2000,
+       3
+      ],
+      [
+       2005,
+       2
+      ],
+      [
+       2010,
+       7
+      ],
+      [
+       2015,
+       16
+      ],
+      [
+       2020,
+       45
+      ],
+      [
+       2025,
+       17
+      ]
+     ],
+     "ec": 14,
+     "e": [
+      [
+       1957,
+       525,
+       "Roger R. Revelle",
+       "Carbon Dioxide Exchange Between Atmosphere and Ocean and t",
+       "Tellus"
+      ],
+      [
+       1957,
+       285,
+       "Harmon Craig",
+       "The Natural Distribution of Radiocarbon and the Exchange T",
+       "Tellus"
+      ],
+      [
+       1957,
+       156,
+       "Harmon Craig",
+       "The Natural Distribution of Radiocarbon and the Exchange T",
+       "Tellus A Dynamic Meteo"
+      ],
+      [
+       1959,
+       143,
+       "Cesare Emiliani",
+       "On glaciations and their causes",
+       "International Journal "
+      ],
+      [
+       1956,
+       75,
+       "Gilbert N. Plass",
+       "The influence of the 15_ carbon_dioxide band on the atmosp",
+       "Quarterly Journal of t"
+      ],
+      [
+       1960,
+       41,
+       "L. D. Kaplan",
+       "The Influence of Carbon Dioxide Variations on the Atmosphe",
+       "Tellus"
+      ],
+      [
+       1958,
+       12,
+       "Hermann Flohn",
+       "Bemerkungen zum Problem der globalen Klimaschwankungen",
+       "Theoretical and Applie"
+      ],
+      [
+       1959,
+       10,
+       "Frederick Johnson",
+       "A Bibliography of Radiocarbon Dating",
+       "Radiocarbon"
+      ]
+     ]
+    }
+   ],
+   "bins_all_records": [
+    [
+     1955,
+     21
+    ],
+    [
+     1960,
+     23
+    ],
+    [
+     1965,
+     11
+    ],
+    [
+     1970,
+     28
+    ],
+    [
+     1975,
+     27
+    ],
+    [
+     1980,
+     17
+    ],
+    [
+     1985,
+     13
+    ],
+    [
+     1990,
+     20
+    ],
+    [
+     1995,
+     7
+    ],
+    [
+     2000,
+     8
+    ],
+    [
+     2005,
+     12
+    ],
+    [
+     2010,
+     40
+    ],
+    [
+     2015,
+     46
+    ],
+    [
+     2020,
+     76
+    ],
+    [
+     2025,
+     28
+    ]
+   ],
+   "c_all_records": 377
+  },
+  "keeling1960": {
+   "id": "W2045577557",
+   "y": 1960,
+   "c": 508,
+   "r": 10,
+   "first": 1961,
+   "y10": 1963,
+   "y25": 1970,
+   "y50": 1984,
+   "y100": 2007,
+   "y500": 2025,
+   "peak": [
+    2022,
+    34
+   ],
+   "bins": [
+    [
+     1960,
+     13
+    ],
+    [
+     1965,
+     9
+    ],
+    [
+     1970,
+     15
+    ],
+    [
+     1975,
+     8
+    ],
+    [
+     1980,
+     5
+    ],
+    [
+     1985,
+     3
+    ],
+    [
+     1990,
+     8
+    ],
+    [
+     1995,
+     9
+    ],
+    [
+     2000,
+     14
+    ],
+    [
+     2005,
+     49
+    ],
+    [
+     2010,
+     125
+    ],
+    [
+     2015,
+     111
+    ],
+    [
+     2020,
+     120
+    ],
+    [
+     2025,
+     19
+    ]
+   ],
+   "ec": 20,
+   "e": [
+    [
+     1963,
+     284,
+     "Bolin",
+     "Large-scale atmospheric mixing as deduced from the seasona",
+     "Journal of Geophysical"
+    ],
+    [
+     1961,
+     128,
+     "Taro Takahashi",
+     "Carbon dioxide in the atmosphere and in Atlantic Ocean wat",
+     "Journal of Geophysical"
+    ],
+    [
+     1966,
+     87,
+     "Hans P. Eugster",
+     "Sodium carbonate-bicarbonate minerals as indicators ofPco2",
+     "Journal of Geophysical"
+    ],
+    [
+     1964,
+     85,
+     "Harold A. Mooney",
+     "The Gas Exchange Capacity of Plants in Relation to Vegetat",
+     "The American Midland N"
+    ],
+    [
+     1965,
+     70,
+     "Craig William Brown",
+     "The concentration of atmospheric carbon dioxide in Antarct",
+     "Journal of Geophysical"
+    ],
+    [
+     1961,
+     64,
+     "William Dwight Billing",
+     "Effect of Low Concentrations of Carbon Dioxide on Photosyn",
+     "Science"
+    ],
+    [
+     1968,
+     54,
+     "Christian Junge",
+     "Some aspects of the seasonal variation of carbon dioxide a",
+     "Tellus A Dynamic Meteo"
+    ],
+    [
+     1963,
+     35,
+     "Percival Albert Sheppa",
+     "Atmospheric tracers and the study of the general circulati",
+     "Reports on Progress in"
+    ]
+   ],
+   "alt": [
+    {
+     "id": "W4244033490",
+     "total": 324,
+     "first": 1961,
+     "bins": [
+      [
+       1960,
+       6
+      ],
+      [
+       1965,
+       9
+      ],
+      [
+       1970,
+       4
+      ],
+      [
+       1975,
+       2
+      ],
+      [
+       1980,
+       3
+      ],
+      [
+       1985,
+       2
+      ],
+      [
+       1990,
+       2
+      ],
+      [
+       1995,
+       7
+      ],
+      [
+       2000,
+       12
+      ],
+      [
+       2005,
+       21
+      ],
+      [
+       2010,
+       66
+      ],
+      [
+       2015,
+       53
+      ],
+      [
+       2020,
+       115
+      ],
+      [
+       2025,
+       22
+      ]
+     ],
+     "ec": 11,
+     "e": [
+      [
+       1963,
+       284,
+       "B. Bolin",
+       "Large-scale atmospheric mixing as deduced from the seasona",
+       "Journal of Geophysical"
+      ],
+      [
+       1961,
+       128,
+       "Taro Takahashi",
+       "Carbon dioxide in the atmosphere and in Atlantic Ocean wat",
+       "Journal of Geophysical"
+      ],
+      [
+       1966,
+       87,
+       "Hans P. Eugster",
+       "Sodium carbonate-bicarbonate minerals as indicators ofPco2",
+       "Journal of Geophysical"
+      ],
+      [
+       1965,
+       70,
+       "Craig William Brown",
+       "The concentration of atmospheric carbon dioxide in Antarct",
+       "Journal of Geophysical"
+      ],
+      [
+       1963,
+       32,
+       "Christian Junge",
+       "Studies of global exchange processes in the atmosphere by ",
+       "Journal of Geophysical"
+      ],
+      [
+       1968,
+       29,
+       "Arie J. Haagen-Smit",
+       "Atmospheric Reactions and Scavenging Processes",
+       "Elsevier eBooks"
+      ],
+      [
+       1968,
+       10,
+       "Elmer Robinson",
+       "Effect on the Physical Properties of the Atmosphere",
+       "Elsevier eBooks"
+      ],
+      [
+       1965,
+       0,
+       "",
+       "References",
+       "International geophysi"
+      ]
+     ]
+    }
+   ],
+   "bins_all_records": [
+    [
+     1960,
+     19
+    ],
+    [
+     1965,
+     18
+    ],
+    [
+     1970,
+     19
+    ],
+    [
+     1975,
+     10
+    ],
+    [
+     1980,
+     8
+    ],
+    [
+     1985,
+     5
+    ],
+    [
+     1990,
+     10
+    ],
+    [
+     1995,
+     16
+    ],
+    [
+     2000,
+     26
+    ],
+    [
+     2005,
+     70
+    ],
+    [
+     2010,
+     191
+    ],
+    [
+     2015,
+     164
+    ],
+    [
+     2020,
+     235
+    ],
+    [
+     2025,
+     41
+    ]
+   ],
+   "c_all_records": 832
+  },
+  "sabine2004": {
+   "id": "W2168062665",
+   "y": 2004,
+   "c": 4232,
+   "r": 18,
+   "first": 1970,
+   "y10": 2004,
+   "y25": 2005,
+   "y50": 2005,
+   "y100": 2006,
+   "y500": 2009,
+   "peak": [
+    2022,
+    288
+   ],
+   "bins": [
+    [
+     1970,
+     1
+    ],
+    [
+     2000,
+     12
+    ],
+    [
+     2005,
+     556
+    ],
+    [
+     2010,
+     1168
+    ],
+    [
+     2015,
+     1072
+    ],
+    [
+     2020,
+     1145
+    ],
+    [
+     2025,
+     275
+    ]
+   ]
+  },
+  "tans1990": {
+   "id": "W2074247901",
+   "y": 1990,
+   "c": 2120,
+   "r": 51,
+   "first": 1989,
+   "y10": 1990,
+   "y25": 1991,
+   "y50": 1991,
+   "y100": 1992,
+   "y500": 1995,
+   "peak": [
+    1993,
+    140
+   ],
+   "bins": [
+    [
+     1985,
+     1
+    ],
+    [
+     1990,
+     387
+    ],
+    [
+     1995,
+     503
+    ],
+    [
+     2000,
+     421
+    ],
+    [
+     2005,
+     259
+    ],
+    [
+     2010,
+     223
+    ],
+    [
+     2015,
+     155
+    ],
+    [
+     2020,
+     145
+    ],
+    [
+     2025,
+     24
+    ]
+   ]
+  },
+  "revelle1957": {
+   "id": "W2073378033",
+   "y": 1957,
+   "c": 1042,
+   "r": 21,
+   "first": 1956,
+   "y10": 1958,
+   "y25": 1960,
+   "y50": 1962,
+   "y100": 1973,
+   "y500": 2013,
+   "peak": [
+    2022,
+    54
+   ],
+   "bins": [
+    [
+     1955,
+     24
+    ],
+    [
+     1960,
+     35
+    ],
+    [
+     1965,
+     18
+    ],
+    [
+     1970,
+     32
+    ],
+    [
+     1975,
+     28
+    ],
+    [
+     1980,
+     23
+    ],
+    [
+     1985,
+     24
+    ],
+    [
+     1990,
+     36
+    ],
+    [
+     1995,
+     34
+    ],
+    [
+     2000,
+     42
+    ],
+    [
+     2005,
+     91
+    ],
+    [
+     2010,
+     169
+    ],
+    [
+     2015,
+     194
+    ],
+    [
+     2020,
+     245
+    ],
+    [
+     2025,
+     46
+    ]
+   ],
+   "ec": 61,
+   "e": [
+    [
+     1960,
+     508,
+     "Charles D. Keeling",
+     "The Concentration and Isotopic Abundances of Carbon Dioxid",
+     "Tellus A Dynamic Meteo"
+    ],
+    [
+     1960,
+     324,
+     "Charles D. Keeling",
+     "The Concentration and Isotopic Abundances of Carbon Dioxid",
+     "Tellus"
+    ],
+    [
+     1965,
+     288,
+     "Jack C. Pales",
+     "The concentration of atmospheric carbon dioxide in Hawaii",
+     "Journal of Geophysical"
+    ],
+    [
+     1957,
+     285,
+     "Harmon Craig",
+     "The Natural Distribution of Radiocarbon and the Exchange T",
+     "Tellus"
+    ],
+    [
+     1960,
+     256,
+     "Wallace S. Broecker",
+     "Natural radiocarbon in the Atlantic Ocean",
+     "Journal of Geophysical"
+    ],
+    [
+     1959,
+     245,
+     "Wallace S. Broecker",
+     "Lamont Radiocarbon Measurements VI",
+     "Radiocarbon"
+    ],
+    [
+     1965,
+     226,
+     "Hans E. Sue_",
+     "Secular variations of the cosmic-ray-produced carbon 14 in",
+     "Journal of Geophysical"
+    ],
+    [
+     1959,
+     202,
+     "Wallace S. Broecker",
+     "The geochemistry of C14 in fresh-water systems",
+     "Geochimica et Cosmochi"
+    ]
+   ]
+  },
+  "friedlingstein2006": {
+   "id": "W2151328940",
+   "y": 2006,
+   "c": 3202,
+   "r": 121,
+   "first": 2004,
+   "y10": 2006,
+   "y25": 2007,
+   "y50": 2007,
+   "y100": 2007,
+   "y500": 2010,
+   "peak": [
+    2013,
+    265
+   ],
+   "bins": [
+    [
+     2000,
+     1
+    ],
+    [
+     2005,
+     426
+    ],
+    [
+     2010,
+     1152
+    ],
+    [
+     2015,
+     826
+    ],
+    [
+     2020,
+     685
+    ],
+    [
+     2025,
+     106
+    ]
+   ]
+  },
+  "archer2009": {
+   "id": "W2149521176",
+   "y": 2009,
+   "c": 1032,
+   "r": 82,
+   "first": 1989,
+   "y10": 2009,
+   "y25": 2010,
+   "y50": 2011,
+   "y100": 2012,
+   "y500": 2020,
+   "peak": [
+    2021,
+    109
+   ],
+   "bins": [
+    [
+     1985,
+     1
+    ],
+    [
+     2005,
+     10
+    ],
+    [
+     2010,
+     240
+    ],
+    [
+     2015,
+     227
+    ],
+    [
+     2020,
+     438
+    ],
+    [
+     2025,
+     113
+    ]
+   ]
+  },
+  "mw1975": {
+   "id": "W1989561469",
+   "y": 1975,
+   "c": 1109,
+   "r": 0,
+   "first": 1975,
+   "y10": 1976,
+   "y25": 1977,
+   "y50": 1978,
+   "y100": 1979,
+   "y500": 2007,
+   "peak": [
+    2024,
+    64
+   ],
+   "bins": [
+    [
+     1975,
+     104
+    ],
+    [
+     1980,
+     158
+    ],
+    [
+     1985,
+     70
+    ],
+    [
+     1990,
+     57
+    ],
+    [
+     1995,
+     42
+    ],
+    [
+     2000,
+     43
+    ],
+    [
+     2005,
+     59
+    ],
+    [
+     2010,
+     97
+    ],
+    [
+     2015,
+     142
+    ],
+    [
+     2020,
+     276
+    ],
+    [
+     2025,
+     61
+    ]
+   ],
+   "ec": 233,
+   "e": [
+    [
+     1980,
+     1459,
+     "Seiler",
+     "Estimates of gross and net fluxes of carbon between the bi",
+     "Climatic Change"
+    ],
+    [
+     1978,
+     1102,
+     "John Mercer",
+     "West Antarctic ice sheet and CO2 greenhouse effect: a thre",
+     "Nature"
+    ],
+    [
+     1980,
+     1076,
+     "Syukuro Manabe",
+     "Sensitivity of a global climate model to an increase of CO",
+     "Journal of Geophysical"
+    ],
+    [
+     1982,
+     875,
+     "Sandra Brown",
+     "The Storage and Production of Organic Matter in Tropical F",
+     "Biotropica"
+    ],
+    [
+     1981,
+     593,
+     "Gerald R. North",
+     "Energy balance climate models",
+     "Reviews of Geophysics"
+    ],
+    [
+     1976,
+     539,
+     "C. Wang",
+     "Greenhouse Effects due to Man-Made Perturbations of Trace ",
+     "Science"
+    ],
+    [
+     1975,
+     415,
+     "Wallace S. Broecker",
+     "Climatic Change: Are We on the Brink of a Pronounced Globa",
+     "Science"
+    ],
+    [
+     1982,
+     335,
+     "William Dwight Billing",
+     "Arctic tundra: A source or sink for atmospheric carbon dio",
+     "Oecologia"
+    ]
+   ]
+  },
+  "schneider1974": {
+   "id": "W4211014885",
+   "y": 1974,
+   "c": 363,
+   "r": 176,
+   "first": 1974,
+   "y10": 1975,
+   "y25": 1977,
+   "y50": 1979,
+   "y100": 1982,
+   "y500": null,
+   "peak": [
+    2025,
+    22
+   ],
+   "bins": [
+    [
+     1970,
+     1
+    ],
+    [
+     1975,
+     56
+    ],
+    [
+     1980,
+     67
+    ],
+    [
+     1985,
+     32
+    ],
+    [
+     1990,
+     13
+    ],
+    [
+     1995,
+     8
+    ],
+    [
+     2000,
+     12
+    ],
+    [
+     2005,
+     16
+    ],
+    [
+     2010,
+     15
+    ],
+    [
+     2015,
+     47
+    ],
+    [
+     2020,
+     58
+    ],
+    [
+     2025,
+     37
+    ]
+   ],
+   "ec": 101,
+   "e": [
+    [
+     1978,
+     1442,
+     "Andre Berger",
+     "Long-Term Variations of Caloric Insolation Resulting from ",
+     "Quaternary Research"
+    ],
+    [
+     1978,
+     1102,
+     "John Mercer",
+     "West Antarctic ice sheet and CO2 greenhouse effect: a thre",
+     "Nature"
+    ],
+    [
+     1980,
+     1093,
+     "John Z Imbrie",
+     "Modeling the Climatic Response to Orbital Variations",
+     "Science"
+    ],
+    [
+     1981,
+     593,
+     "Gerald R. North",
+     "Energy balance climate models",
+     "Reviews of Geophysics"
+    ],
+    [
+     1978,
+     317,
+     "Ramanathan",
+     "Climate modeling through radiative_convective models",
+     "Reviews of Geophysics"
+    ],
+    [
+     1976,
+     314,
+     "James B. Pollack",
+     "Volcanic explosions and climatic change: A theoretical ass",
+     "Journal of Geophysical"
+    ],
+    [
+     1975,
+     307,
+     "Ramanathan",
+     "Greenhouse Effect Due to Chlorofluorocarbons: Climatic Imp",
+     "Science"
+    ],
+    [
+     1976,
+     284,
+     "RONALD T. H. COLLIS",
+     "Lidar measurement of particles and gases by elastic backsc",
+     "Topics in applied phys"
+    ]
+   ]
+  },
+  "hourdin2017": {
+   "id": "W2495412896",
+   "y": 2016,
+   "c": 666,
+   "r": 62,
+   "first": 1995,
+   "y10": 2017,
+   "y25": 2017,
+   "y50": 2018,
+   "y100": 2019,
+   "y500": 2023,
+   "peak": [
+    2022,
+    98
+   ],
+   "bins": [
+    [
+     1995,
+     1
+    ],
+    [
+     2015,
+     155
+    ],
+    [
+     2020,
+     423
+    ],
+    [
+     2025,
+     85
+    ]
+   ],
+   "ec": 578,
+   "e": [
+    [
+     2020,
+     1829,
+     "Olivier Boucher",
+     "Presentation and Evaluation of the IPSL_CM6A_LR Climate Mo",
+     "Journal of Advances in"
+    ],
+    [
+     2019,
+     1496,
+     "Alistair Sellar",
+     "UKESM1: Description and Evaluation of the U.K. Earth Syste",
+     "Journal of Advances in"
+    ],
+    [
+     2019,
+     1246,
+     "Aurore Voldoire",
+     "Evaluation of CMIP6 DECK Experiments With CNRM_CM6_1",
+     "Journal of Advances in"
+    ],
+    [
+     2019,
+     1128,
+     "David Walters",
+     "The Met Office Unified Model Global Atmosphere 7.0/7.1 and",
+     "Geoscientific model de"
+    ],
+    [
+     2019,
+     1121,
+     "Hiroaki Tatebe",
+     "Description and basic evaluation of simulated mean state, ",
+     "Geoscientific model de"
+    ],
+    [
+     2018,
+     1119,
+     "Stephan Rasp",
+     "Deep learning to represent subgrid processes in climate mo",
+     "Proceedings of the Nat"
+    ],
+    [
+     2022,
+     1007,
+     "Lynn H. Kaack",
+     "Tackling Climate Change with Machine Learning",
+     "OPUS 4 (Zuse Institute"
+    ],
+    [
+     2019,
+     909,
+     "Jean_Christophe Golaz",
+     "The DOE E3SM Coupled Model Version 1: Overview and Evaluat",
+     "Journal of Advances in"
+    ]
+   ]
+  },
+  "hausfather2020": {
+   "id": "W2992043579",
+   "y": 2019,
+   "c": 244,
+   "r": 58,
+   "first": 2020,
+   "y10": 2020,
+   "y25": 2020,
+   "y50": 2021,
+   "y100": 2023,
+   "y500": null,
+   "peak": [
+    2023,
+    52
+   ],
+   "bins": [
+    [
+     2020,
+     186
+    ],
+    [
+     2025,
+     57
+    ]
+   ],
+   "ec": 243,
+   "e": [
+    [
+     2022,
+     596,
+     "R. Shivanna",
+     "Climate change and its impact on biodiversity and human we",
+     "Proceedings of the Ind"
+    ],
+    [
+     2020,
+     484,
+     "Vasileios A. Tzanakaki",
+     "Water Supply and Water Scarcity",
+     "Water"
+    ],
+    [
+     2023,
+     323,
+     "Intergovernmental Pane",
+     "Framing, Context, and Methods",
+     "Cambridge University P"
+    ],
+    [
+     2023,
+     275,
+     "Geoffrey J. Supran",
+     "Assessing ExxonMobil_s global warming projections",
+     "Science"
+    ],
+    [
+     2021,
+     257,
+     "Peter Bauer",
+     "The digital revolution of Earth-system science",
+     "Nature Computational S"
+    ],
+    [
+     2020,
+     222,
+     "Noah S. Diffenbaugh",
+     "The COVID-19 lockdowns: a window into the Earth System",
+     "Nature Reviews Earth &"
+    ],
+    [
+     2021,
+     157,
+     "Tamir Klein",
+     "A vast increase in heat exposure in the 21st century is dr",
+     "Sustainable Cities and"
+    ],
+    [
+     2023,
+     152,
+     "Kai Kornhuber",
+     "Risks of synchronized low yields are underestimated in cli",
+     "Nature Communications"
+    ]
+   ]
+  },
+  "cess1989": {
+   "id": "W2034892926",
+   "y": 1989,
+   "c": 599,
+   "r": 16,
+   "first": 1989,
+   "y10": 1990,
+   "y25": 1990,
+   "y50": 1991,
+   "y100": 1993,
+   "y500": 2022,
+   "peak": [
+    1991,
+    38
+   ],
+   "bins": [
+    [
+     1985,
+     3
+    ],
+    [
+     1990,
+     140
+    ],
+    [
+     1995,
+     64
+    ],
+    [
+     2000,
+     41
+    ],
+    [
+     2005,
+     50
+    ],
+    [
+     2010,
+     70
+    ],
+    [
+     2015,
+     72
+    ],
+    [
+     2020,
+     132
+    ],
+    [
+     2025,
+     26
+    ]
+   ],
+   "ec": 188,
+   "e": [
+    [
+     1990,
+     1319,
+     "Teruyuki Nakajima",
+     "Determination of the Optical Thickness and Effective Parti",
+     "Journal of the Atmosph"
+    ],
+    [
+     1995,
+     1068,
+     "Michael P. McCormick",
+     "Atmospheric effects of the Mt Pinatubo eruption",
+     "Nature"
+    ],
+    [
+     1992,
+     1067,
+     "Michael D. King",
+     "Remote sensing of cloud, aerosol, and water vapor properti",
+     "IEEE Transactions on G"
+    ],
+    [
+     1994,
+     963,
+     "Pierre Deschamps",
+     "The POLDER mission: instrument characteristics and scienti",
+     "IEEE Transactions on G"
+    ],
+    [
+     1990,
+     914,
+     "ROBERT D. CESS",
+     "Intercomparison and interpretation of climate feedback pro",
+     "Journal of Geophysical"
+    ],
+    [
+     1991,
+     760,
+     "Ramanathan",
+     "Thermodynamic regulation of ocean warming by cirrus clouds",
+     "Nature"
+    ],
+    [
+     1994,
+     601,
+     "Thomas P. Guilderson",
+     "Tropical Temperature Variations Since 20,000 Years Ago: Mo",
+     "Science"
+    ],
+    [
+     1990,
+     464,
+     "Anthony Slingo",
+     "Sensitivity of the Earth's radiation budget to changes in ",
+     "Nature"
+    ]
+   ]
+  },
+  "held2005": {
+   "id": "W2128144169",
+   "y": 2005,
+   "c": 572,
+   "r": 7,
+   "first": 1991,
+   "y10": 2007,
+   "y25": 2008,
+   "y50": 2010,
+   "y100": 2012,
+   "y500": 2024,
+   "peak": [
+    2021,
+    72
+   ],
+   "bins": [
+    [
+     1990,
+     1
+    ],
+    [
+     2005,
+     43
+    ],
+    [
+     2010,
+     105
+    ],
+    [
+     2015,
+     132
+    ],
+    [
+     2020,
+     248
+    ],
+    [
+     2025,
+     42
+    ]
+   ],
+   "ec": 128,
+   "e": [
+    [
+     2009,
+     1309,
+     "Reto Knutti",
+     "Challenges in Combining Projections from Multiple Climate ",
+     "Journal of Climate"
+    ],
+    [
+     2008,
+     543,
+     "Eric Guilyardi",
+     "Understanding El Nino in Ocean_Atmosphere General Circulat",
+     "Bulletin of the Americ"
+    ],
+    [
+     2010,
+     520,
+     "Reto Knutti",
+     "The end of model democracy?",
+     "Climatic Change"
+    ],
+    [
+     2011,
+     417,
+     "Jonathan T. Overpeck",
+     "Climate Data Challenges in the 21st Century",
+     "Science"
+    ],
+    [
+     2012,
+     379,
+     "Chris Weaver",
+     "Improving the contribution of climate model information to",
+     "Wiley Interdisciplinar"
+    ],
+    [
+     2011,
+     367,
+     "David Masson",
+     "Climate model genealogy",
+     "Geophysical Research L"
+    ],
+    [
+     2009,
+     348,
+     "Sarah M. Kang",
+     "The Tropical Response to Extratropical Thermal Forcing in ",
+     "Journal of the Atmosph"
+    ],
+    [
+     2011,
+     324,
+     "Mickael D. Chekroun",
+     "Stochastic climate dynamics: Random attractors and time-de",
+     "Physica D Nonlinear Ph"
+    ]
+   ]
+  },
+  "roebaker2007": {
+   "id": "W2133631519",
+   "y": 2007,
+   "c": 628,
+   "r": 25,
+   "first": 1970,
+   "y10": 2007,
+   "y25": 2008,
+   "y50": 2009,
+   "y100": 2010,
+   "y500": 2020,
+   "peak": [
+    2011,
+    69
+   ],
+   "bins": [
+    [
+     1970,
+     1
+    ],
+    [
+     2000,
+     1
+    ],
+    [
+     2005,
+     96
+    ],
+    [
+     2010,
+     258
+    ],
+    [
+     2015,
+     139
+    ],
+    [
+     2020,
+     107
+    ],
+    [
+     2025,
+     26
+    ]
+   ],
+   "ec": 391,
+   "e": [
+    [
+     2009,
+     2849,
+     "Ed Hawkins",
+     "The Potential to Narrow Uncertainty in Regional Climate Pr",
+     "Bulletin of the Americ"
+    ],
+    [
+     2009,
+     2565,
+     "Mike Hulme",
+     "Why We Disagree about Climate Change",
+     "Cambridge University P"
+    ],
+    [
+     2009,
+     1831,
+     "Martin L. Weitzman",
+     "On Modeling and Interpreting the Economics of Catastrophic",
+     "The Review of Economic"
+    ],
+    [
+     2009,
+     1353,
+     "Stephane Hallegatte",
+     "Strategies to adapt to an uncertain climate change",
+     "Global Environmental C"
+    ],
+    [
+     2010,
+     1256,
+     "Steven C. Sherwood",
+     "An adaptability limit to climate change due to heat stress",
+     "Proceedings of the Nat"
+    ],
+    [
+     2014,
+     991,
+     "Mikhail Golosov",
+     "Optimal Taxes on Fossil Fuel in General Equilibrium",
+     "Econometrica"
+    ],
+    [
+     2013,
+     960,
+     "Robert S. Pindyck",
+     "Climate Change Policy: What Do the Models Tell Us?",
+     "Journal of Economic Li"
+    ],
+    [
+     2012,
+     808,
+     "Joeri Rogelj",
+     "Global warming under old and new scenarios using IPCC clim",
+     "Nature Climate Change"
+    ]
+   ]
+  },
+  "sellers1969": {
+   "id": "W1982297907",
+   "y": 1969,
+   "c": 1155,
+   "r": 0,
+   "first": 1969,
+   "y10": 1972,
+   "y25": 1973,
+   "y50": 1975,
+   "y100": 1979,
+   "y500": 2011,
+   "peak": [
+    2021,
+    65
+   ],
+   "bins": [
+    [
+     1965,
+     1
+    ],
+    [
+     1970,
+     42
+    ],
+    [
+     1975,
+     63
+    ],
+    [
+     1980,
+     87
+    ],
+    [
+     1985,
+     41
+    ],
+    [
+     1990,
+     61
+    ],
+    [
+     1995,
+     43
+    ],
+    [
+     2000,
+     46
+    ],
+    [
+     2005,
+     71
+    ],
+    [
+     2010,
+     176
+    ],
+    [
+     2015,
+     210
+    ],
+    [
+     2020,
+     256
+    ],
+    [
+     2025,
+     59
+    ]
+   ],
+   "ec": 72,
+   "e": [
+    [
+     1969,
+     1476,
+     "Edwin Kessler",
+     "On the Distribution and Continuity of Water Substance in A",
+     "American Meteorologica"
+    ],
+    [
+     1976,
+     1424,
+     "Klaus Hasselmann",
+     "Stochastic climate models: Part I. Theory",
+     "Tellus A Dynamic Meteo"
+    ],
+    [
+     1976,
+     979,
+     "Klaus Hasselmann",
+     "Stochastic climate models Part I. Theory",
+     "Tellus"
+    ],
+    [
+     1972,
+     952,
+     "Carl Sagan",
+     "Earth and Mars: Evolution of Atmospheres and Surface Tempe",
+     "Science"
+    ],
+    [
+     1974,
+     363,
+     "Stephen H. Schneider",
+     "Climate modeling",
+     "Reviews of Geophysics"
+    ],
+    [
+     1971,
+     323,
+     "Ichtiaque Rasool",
+     "Atmospheric Carbon Dioxide and Aerosols: Effects of Large ",
+     "Science"
+    ],
+    [
+     1974,
+     300,
+     "Petr Chlek",
+     "Aerosols and Climate",
+     "Science"
+    ],
+    [
+     1970,
+     284,
+     "Helmut E. Landsberg",
+     "Man-Made Climatic Changes",
+     "Science"
+    ]
+   ]
+  },
+  "budyko1969": {
+   "id": "W2118222708",
+   "y": 1969,
+   "c": 1434,
+   "r": 7,
+   "first": 1959,
+   "y10": 1972,
+   "y25": 1973,
+   "y50": 1975,
+   "y100": 1977,
+   "y500": 2001,
+   "peak": [
+    2021,
+    64
+   ],
+   "bins": [
+    [
+     1955,
+     1
+    ],
+    [
+     1970,
+     46
+    ],
+    [
+     1975,
+     107
+    ],
+    [
+     1980,
+     121
+    ],
+    [
+     1985,
+     67
+    ],
+    [
+     1990,
+     80
+    ],
+    [
+     1995,
+     57
+    ],
+    [
+     2000,
+     84
+    ],
+    [
+     2005,
+     109
+    ],
+    [
+     2010,
+     242
+    ],
+    [
+     2015,
+     246
+    ],
+    [
+     2020,
+     226
+    ],
+    [
+     2025,
+     48
+    ]
+   ],
+   "ec": 102,
+   "e": [
+    [
+     1974,
+     2328,
+     "Sean A. Twomey",
+     "Pollution and the planetary albedo",
+     "Atmospheric Environmen"
+    ],
+    [
+     1976,
+     1424,
+     "Klaus Hasselmann",
+     "Stochastic climate models: Part I. Theory",
+     "Tellus A Dynamic Meteo"
+    ],
+    [
+     1975,
+     367,
+     "W. Paltridge",
+     "Global dynamics and climate _ a system of minimum entropy ",
+     "Quarterly Journal of t"
+    ],
+    [
+     1974,
+     363,
+     "Stephen H. Schneider",
+     "Climate modeling",
+     "Reviews of Geophysics"
+    ],
+    [
+     1971,
+     323,
+     "Ichtiaque Rasool",
+     "Atmospheric Carbon Dioxide and Aerosols: Effects of Large ",
+     "Science"
+    ],
+    [
+     1975,
+     307,
+     "Ramanathan",
+     "Greenhouse Effect Due to Chlorofluorocarbons: Climatic Imp",
+     "Science"
+    ],
+    [
+     1974,
+     300,
+     "Petr Chlek",
+     "Aerosols and Climate",
+     "Science"
+    ],
+    [
+     1970,
+     284,
+     "Helmut E. Landsberg",
+     "Man-Made Climatic Changes",
+     "Science"
+    ]
+   ],
+   "alt": [
+    {
+     "id": "W4245826308",
+     "total": 1041,
+     "first": 1970,
+     "bins": [
+      [
+       1970,
+       28
+      ],
+      [
+       1975,
+       65
+      ],
+      [
+       1980,
+       54
+      ],
+      [
+       1985,
+       30
+      ],
+      [
+       1990,
+       21
+      ],
+      [
+       1995,
+       21
+      ],
+      [
+       2000,
+       23
+      ],
+      [
+       2005,
+       53
+      ],
+      [
+       2010,
+       89
+      ],
+      [
+       2015,
+       216
+      ],
+      [
+       2020,
+       380
+      ],
+      [
+       2025,
+       61
+      ]
+     ],
+     "ec": 64,
+     "e": [
+      [
+       1976,
+       1424,
+       "Klaus Hasselmann",
+       "Stochastic climate models: Part I. Theory",
+       "Tellus A Dynamic Meteo"
+      ],
+      [
+       1976,
+       979,
+       "Klaus Hasselmann",
+       "Stochastic climate models Part I. Theory",
+       "Tellus"
+      ],
+      [
+       1971,
+       323,
+       "S. Ichtiaque Rasool",
+       "Atmospheric Carbon Dioxide and Aerosols: Effects of Large ",
+       "Science"
+      ],
+      [
+       1975,
+       307,
+       "V. Ramanathan",
+       "Greenhouse Effect Due to Chlorofluorocarbons: Climatic Imp",
+       "Science"
+      ],
+      [
+       1974,
+       300,
+       "Petr Chlek",
+       "Aerosols and Climate",
+       "Science"
+      ],
+      [
+       1970,
+       284,
+       "Helmut E. Landsberg",
+       "Man-Made Climatic Changes",
+       "Science"
+      ],
+      [
+       1977,
+       281,
+       "Michael J. Newman",
+       "Implications of Solar Evolution for the Earth's Early Atmo",
+       "Science"
+      ],
+      [
+       1972,
+       240,
+       "John Stanley Sawyer",
+       "Man-made Carbon Dioxide and the _Greenhouse_ Effect",
+       "Nature"
+      ]
+     ]
+    }
+   ],
+   "bins_all_records": [
+    [
+     1955,
+     1
+    ],
+    [
+     1970,
+     74
+    ],
+    [
+     1975,
+     172
+    ],
+    [
+     1980,
+     175
+    ],
+    [
+     1985,
+     97
+    ],
+    [
+     1990,
+     101
+    ],
+    [
+     1995,
+     78
+    ],
+    [
+     2000,
+     107
+    ],
+    [
+     2005,
+     162
+    ],
+    [
+     2010,
+     331
+    ],
+    [
+     2015,
+     462
+    ],
+    [
+     2020,
+     606
+    ],
+    [
+     2025,
+     109
+    ]
+   ],
+   "c_all_records": 2475
+  },
+  "manabebryan1969": {
+   "id": "W2006200303",
+   "y": 1969,
+   "c": 304,
+   "r": 0,
+   "first": 1970,
+   "y10": 1972,
+   "y25": 1979,
+   "y50": 1986,
+   "y100": 2009,
+   "y500": null,
+   "peak": [
+    2019,
+    30
+   ],
+   "bins": [
+    [
+     1970,
+     17
+    ],
+    [
+     1975,
+     11
+    ],
+    [
+     1980,
+     14
+    ],
+    [
+     1985,
+     13
+    ],
+    [
+     1990,
+     5
+    ],
+    [
+     1995,
+     16
+    ],
+    [
+     2000,
+     12
+    ],
+    [
+     2005,
+     15
+    ],
+    [
+     2010,
+     41
+    ],
+    [
+     2015,
+     72
+    ],
+    [
+     2020,
+     72
+    ],
+    [
+     2025,
+     16
+    ]
+   ],
+   "ec": 24,
+   "e": [
+    [
+     1971,
+     1187,
+     "Gary A. Maykut",
+     "Some results from a time-dependent thermodynamic model of ",
+     "Journal of Geophysical"
+    ],
+    [
+     1974,
+     363,
+     "Stephen H. Schneider",
+     "Climate modeling",
+     "Reviews of Geophysics"
+    ],
+    [
+     1976,
+     314,
+     "James B. Pollack",
+     "Volcanic explosions and climatic change: A theoretical ass",
+     "Journal of Geophysical"
+    ],
+    [
+     1976,
+     243,
+     "Stephen F. Pond",
+     "Numerical models of the ocean circulation",
+     "Reviews of Geophysics"
+    ],
+    [
+     1977,
+     212,
+     "I. Budyko",
+     "Climatic Changes",
+     "Special publications"
+    ],
+    [
+     1971,
+     137,
+     "Jacinta Holloway",
+     "SIMULATION OF CLIMATE BY A GLOBAL GENERAL CIRCULATION MODE",
+     "Monthly Weather Review"
+    ],
+    [
+     1971,
+     136,
+     "Adrian Edmund Gill",
+     "Effects of geometry on the circulation of a three-dimensio",
+     "Deep Sea Research and "
+    ],
+    [
+     1976,
+     91,
+     "Wilfrid Bach",
+     "Global air pollution and climatic change",
+     "Reviews of Geophysics"
+    ]
+   ]
+  },
+  "zelinka2020": {
+   "id": "W2998500935",
+   "y": 2020,
+   "c": 1879,
+   "r": 82,
+   "first": 2018,
+   "y10": 2020,
+   "y25": 2020,
+   "y50": 2020,
+   "y100": 2020,
+   "y500": 2022,
+   "peak": [
+    2023,
+    367
+   ],
+   "bins": [
+    [
+     2015,
+     1
+    ],
+    [
+     2020,
+     1468
+    ],
+    [
+     2025,
+     410
+    ]
+   ],
+   "ec": 1878,
+   "e": [
+    [
+     2020,
+     1338,
+     "Steven C. Sherwood",
+     "An Assessment of Earth's Climate Sensitivity Using Multipl",
+     "Reviews of Geophysics"
+    ],
+    [
+     2022,
+     1081,
+     "Colin J. Carlson",
+     "Climate change increases cross-species viral transmission ",
+     "Nature"
+    ],
+    [
+     2020,
+     1049,
+     "John P. Dunne",
+     "The GFDL Earth System Model Version 4.1 (GFDL_ESM 4.1): Ov",
+     "Journal of Advances in"
+    ],
+    [
+     2021,
+     1022,
+     "Jonas Jagermeyr",
+     "Climate impacts on global agriculture emerge earlier in ne",
+     "Nature Food"
+    ],
+    [
+     2023,
+     900,
+     "Hylke E. Beck",
+     "High-resolution (1 km) Koppen-Geiger maps for 1901_2099 ba",
+     "Scientific Data"
+    ],
+    [
+     2020,
+     863,
+     "Gerald A. Meehl",
+     "Context for interpreting equilibrium climate sensitivity a",
+     "Science Advances"
+    ],
+    [
+     2021,
+     837,
+     "Claudia Tebaldi",
+     "Climate model projections from the Scenario Model Intercom",
+     "Earth System Dynamics"
+    ],
+    [
+     2020,
+     753,
+     "Dirk Notz",
+     "Arctic Sea Ice in CMIP6",
+     "Geophysical Research L"
+    ]
+   ]
+  },
+  "knuttihegerl2008": {
+   "id": "W2049766574",
+   "y": 2008,
+   "c": 513,
+   "r": 104,
+   "first": 2008,
+   "y10": 2009,
+   "y25": 2010,
+   "y50": 2010,
+   "y100": 2011,
+   "y500": 2025,
+   "peak": [
+    2012,
+    75
+   ],
+   "bins": [
+    [
+     2005,
+     19
+    ],
+    [
+     2010,
+     266
+    ],
+    [
+     2015,
+     133
+    ],
+    [
+     2020,
+     79
+    ],
+    [
+     2025,
+     15
+    ]
+   ]
+  },
+  "sherwood2020": {
+   "id": "W3044698812",
+   "y": 2020,
+   "c": 1338,
+   "r": 521,
+   "first": 2020,
+   "y10": 2020,
+   "y25": 2020,
+   "y50": 2021,
+   "y100": 2021,
+   "y500": 2022,
+   "peak": [
+    2022,
+    284
+   ],
+   "bins": [
+    [
+     2020,
+     1044
+    ],
+    [
+     2025,
+     290
+    ]
+   ],
+   "ec": 1334,
+   "e": [
+    [
+     2020,
+     1338,
+     "Steven C. Sherwood",
+     "An Assessment of Earth's Climate Sensitivity Using Multipl",
+     "Reviews of Geophysics"
+    ],
+    [
+     2021,
+     1022,
+     "Jonas Jagermeyr",
+     "Climate impacts on global agriculture emerge earlier in ne",
+     "Nature Food"
+    ],
+    [
+     2023,
+     900,
+     "Hylke E. Beck",
+     "High-resolution (1 km) Koppen-Geiger maps for 1901_2099 ba",
+     "Scientific Data"
+    ],
+    [
+     2021,
+     837,
+     "Claudia Tebaldi",
+     "Climate model projections from the Scenario Model Intercom",
+     "Earth System Dynamics"
+    ],
+    [
+     2022,
+     812,
+     "Luke Kemp",
+     "Climate Endgame: Exploring catastrophic climate change sce",
+     "Proceedings of the Nat"
+    ],
+    [
+     2020,
+     729,
+     "Maxwell Kelley",
+     "GISS_E2.1: Configurations and Climatology",
+     "Journal of Advances in"
+    ],
+    [
+     2023,
+     708,
+     "Intergovernmental Pane",
+     "Short-lived Climate Forcers",
+     "Cambridge University P"
+    ],
+    [
+     2021,
+     531,
+     "Michael Previdi",
+     "Arctic amplification of climate change: a review of underl",
+     "Environmental Research"
+    ]
+   ]
+  },
+  "otto2013": {
+   "id": "W2162901362",
+   "y": 2013,
+   "c": 340,
+   "r": 15,
+   "first": 2013,
+   "y10": 2013,
+   "y25": 2014,
+   "y50": 2014,
+   "y100": 2015,
+   "y500": null,
+   "peak": [
+    2020,
+    47
+   ],
+   "bins": [
+    [
+     2010,
+     65
+    ],
+    [
+     2015,
+     157
+    ],
+    [
+     2020,
+     107
+    ],
+    [
+     2025,
+     11
+    ]
+   ],
+   "ec": 290,
+   "e": [
+    [
+     2020,
+     1338,
+     "Steven C. Sherwood",
+     "An Assessment of Earth's Climate Sensitivity Using Multipl",
+     "Reviews of Geophysics"
+    ],
+    [
+     2013,
+     1273,
+     "S. Carslaw",
+     "Large contribution of natural aerosols to uncertainty in i",
+     "Nature"
+    ],
+    [
+     2013,
+     656,
+     "Kevin E. Trenberth",
+     "An apparent hiatus in global warming?",
+     "Earth s Future"
+    ],
+    [
+     2016,
+     612,
+     "Dirk Notz",
+     "Observed Arctic sea-ice loss directly follows anthropogeni",
+     "Science"
+    ],
+    [
+     2013,
+     545,
+     "Nicholas H. Stern",
+     "The Structure of Economic Modeling of the Potential Impact",
+     "Journal of Economic Li"
+    ],
+    [
+     2016,
+     486,
+     "Stephen M. Griffies",
+     "OMIP contribution to CMIP6: experimental and diagnostic pr",
+     "Geoscientific model de"
+    ],
+    [
+     2017,
+     478,
+     "Sarah E Perkins-Kirkpa",
+     "Changes in regional heatwave characteristics as a function",
+     "Scientific Reports"
+    ],
+    [
+     2017,
+     472,
+     "Iselin Medhaug",
+     "Reconciling controversies about the _global warming hiatus",
+     "Nature"
+    ]
+   ]
+  },
+  "cox2018": {
+   "id": "W2784008656",
+   "y": 2018,
+   "c": 441,
+   "r": 29,
+   "first": 2015,
+   "y10": 2018,
+   "y25": 2018,
+   "y50": 2019,
+   "y100": 2020,
+   "y500": null,
+   "peak": [
+    2021,
+    82
+   ],
+   "bins": [
+    [
+     2015,
+     84
+    ],
+    [
+     2020,
+     305
+    ],
+    [
+     2025,
+     51
+    ]
+   ]
+  },
+  "lindzen1990": {
+   "id": "W2082975500",
+   "y": 1990,
+   "c": 441,
+   "r": 18,
+   "first": 1989,
+   "y10": 1990,
+   "y25": 1991,
+   "y50": 1992,
+   "y100": 1994,
+   "y500": null,
+   "peak": [
+    1992,
+    28
+   ],
+   "bins": [
+    [
+     1985,
+     1
+    ],
+    [
+     1990,
+     113
+    ],
+    [
+     1995,
+     104
+    ],
+    [
+     2000,
+     74
+    ],
+    [
+     2005,
+     56
+    ],
+    [
+     2010,
+     29
+    ],
+    [
+     2015,
+     29
+    ],
+    [
+     2020,
+     33
+    ],
+    [
+     2025,
+     2
+    ]
+   ],
+   "ec": 194,
+   "e": [
+    [
+     1998,
+     3014,
+     "Peter John Webster",
+     "Monsoons: Processes, predictability, and the prospects for",
+     "Journal of Geophysical"
+    ],
+    [
+     1992,
+     1150,
+     "Wilfred Beckerman",
+     "Economic growth and the environment: Whose growth? whose e",
+     "World Development"
+    ],
+    [
+     1994,
+     841,
+     "Gerald M. Stokes",
+     "The Atmospheric Radiation Measurement (ARM) Program: Progr",
+     "Bulletin of the Americ"
+    ],
+    [
+     1992,
+     720,
+     "Moustafa T. Chahine",
+     "The hydrological cycle and its influence on climate",
+     "Nature"
+    ],
+    [
+     1996,
+     489,
+     "Simon J. Shackley",
+     "Representing Uncertainty in Global Climate Change Science ",
+     "Science Technology & H"
+    ],
+    [
+     1991,
+     376,
+     "Peter W. Glynn",
+     "Coral reef bleaching in the 1980s and possible connections",
+     "Trends in Ecology & Ev"
+    ],
+    [
+     1990,
+     338,
+     "James E. Hansen",
+     "Sun and dust versus greenhouse gases: an assessment of the",
+     "Nature"
+    ],
+    [
+     1996,
+     301,
+     "Hugo A. Loaiciga",
+     "Global warming and the hydrologic cycle",
+     "Journal of Hydrology"
+    ]
+   ]
+  },
+  "hausfather2022": {
+   "id": "W4225393582",
+   "y": 2022,
+   "c": 527,
+   "r": 10,
+   "first": 2022,
+   "y10": 2022,
+   "y25": 2022,
+   "y50": 2023,
+   "y100": 2023,
+   "y500": 2026,
+   "peak": [
+    2023,
+    143
+   ],
+   "bins": [
+    [
+     2020,
+     331
+    ],
+    [
+     2025,
+     193
+    ]
+   ],
+   "ec": 524,
+   "e": [
+    [
+     2023,
+     900,
+     "Hylke E. Beck",
+     "High-resolution (1 km) Koppen-Geiger maps for 1901_2099 ba",
+     "Scientific Data"
+    ],
+    [
+     2022,
+     420,
+     "Jarmo Kikstra",
+     "The IPCC Sixth Assessment Report WGIII climate assessment ",
+     "Geoscientific model de"
+    ],
+    [
+     2023,
+     278,
+     "Mohammed Ombadi",
+     "A warming-induced reduction in snow fraction amplifies rai",
+     "Nature"
+    ],
+    [
+     2024,
+     249,
+     "Jorge F. Assis",
+     "Bio_ORACLE v3.0. Pushing marine data layers to the CMIP6 E",
+     "Global Ecology and Bio"
+    ],
+    [
+     2023,
+     195,
+     "Gopal Murali",
+     "Future temperature extremes threaten land vertebrates",
+     "Nature"
+    ],
+    [
+     2023,
+     177,
+     "Noah S. Diffenbaugh",
+     "Data-driven predictions of the time remaining until critic",
+     "Proceedings of the Nat"
+    ],
+    [
+     2023,
+     143,
+     "Nicola Scafetta",
+     "Impacts and risks of _realistic_ global warming projection",
+     "Geoscience Frontiers"
+    ],
+    [
+     2022,
+     143,
+     "Qin Zhang",
+     "High Sensitivity of Compound Drought and Heatwave Events t",
+     "Earth s Future"
+    ]
+   ]
+  },
+  "lewiscurry2018": {
+   "id": "W2801715454",
+   "y": 2018,
+   "c": 90,
+   "r": 87,
+   "first": 2017,
+   "y10": 2019,
+   "y25": 2020,
+   "y50": 2022,
+   "y100": null,
+   "y500": null,
+   "peak": [
+    2022,
+    21
+   ],
+   "bins": [
+    [
+     2015,
+     14
+    ],
+    [
+     2020,
+     70
+    ],
+    [
+     2025,
+     6
+    ]
+   ],
+   "ec": 89,
+   "e": [
+    [
+     2020,
+     1338,
+     "Steven C. Sherwood",
+     "An Assessment of Earth's Climate Sensitivity Using Multipl",
+     "Reviews of Geophysics"
+    ],
+    [
+     2018,
+     234,
+     "Timothy Andrews",
+     "Accounting for Changing Temperature Patterns Increases His",
+     "Geophysical Research L"
+    ],
+    [
+     2019,
+     216,
+     "Yue Dong",
+     "Attributing Historical and Future Evolution of Radiative F",
+     "Journal of Climate"
+    ],
+    [
+     2020,
+     171,
+     "Yue Dong",
+     "Intermodel Spread in the Pattern Effect and Its Contributi",
+     "Journal of Climate"
+    ],
+    [
+     2019,
+     125,
+     "Thomas B. Richardson",
+     "Efficacy of Climate Forcings in PDRMIP Models",
+     "Journal of Geophysical"
+    ],
+    [
+     2022,
+     112,
+     "Timothy Andrews",
+     "On the Effect of Historical SST Patterns on Radiative Feed",
+     "Journal of Geophysical"
+    ],
+    [
+     2019,
+     100,
+     "Karsten Haustein",
+     "A Limited Role for Unforced Internal Variability in Twenti",
+     "Journal of Climate"
+    ],
+    [
+     2024,
+     79,
+     "Kyle C. Armour",
+     "Sea-surface temperature pattern effects have slowed global",
+     "Proceedings of the Nat"
+    ]
+   ]
+  },
+  "hartmannmichelsen2002": {
+   "id": "W2170352931",
+   "y": 2002,
+   "c": 113,
+   "r": 7,
+   "first": 2001,
+   "y10": 2002,
+   "y25": 2005,
+   "y50": 2009,
+   "y100": 2022,
+   "y500": null,
+   "peak": [
+    2023,
+    12
+   ],
+   "bins": [
+    [
+     2000,
+     20
+    ],
+    [
+     2005,
+     31
+    ],
+    [
+     2010,
+     19
+    ],
+    [
+     2015,
+     15
+    ],
+    [
+     2020,
+     28
+    ]
+   ]
+  },
+  "desslersherwood2009": {
+   "id": "W1492160811",
+   "y": 2009,
+   "c": 174,
+   "r": 15,
+   "first": 2009,
+   "y10": 2010,
+   "y25": 2012,
+   "y50": 2014,
+   "y100": 2019,
+   "y500": null,
+   "peak": [
+    2018,
+    18
+   ],
+   "bins": [
+    [
+     2005,
+     5
+    ],
+    [
+     2010,
+     49
+    ],
+    [
+     2015,
+     58
+    ],
+    [
+     2020,
+     52
+    ],
+    [
+     2025,
+     9
+    ]
+   ]
+  },
+  "soden2005": {
+   "id": "W2048819092",
+   "y": 2005,
+   "c": 304,
+   "r": 35,
+   "first": 2005,
+   "y10": 2006,
+   "y25": 2007,
+   "y50": 2008,
+   "y100": 2010,
+   "y500": null,
+   "peak": [
+    2007,
+    25
+   ],
+   "bins": [
+    [
+     2005,
+     84
+    ],
+    [
+     2010,
+     89
+    ],
+    [
+     2015,
+     59
+    ],
+    [
+     2020,
+     57
+    ],
+    [
+     2025,
+     15
+    ]
+   ],
+   "ec": 160,
+   "e": [
+    [
+     2010,
+     3899,
+     "Kevin E. Trenberth",
+     "Changes in precipitation with climate change",
+     "Climate Research"
+    ],
+    [
+     2008,
+     1586,
+     "Richard Philip Allan",
+     "Atmospheric Warming and the Amplification of Precipitation",
+     "Science"
+    ],
+    [
+     2007,
+     1338,
+     "Gabriel A. Vecchi",
+     "Global Warming and the Weakening of the Tropical Circulati",
+     "Journal of Climate"
+    ],
+    [
+     2006,
+     1072,
+     "Gabriel A. Vecchi",
+     "Weakening of tropical Pacific atmospheric circulation due ",
+     "Nature"
+    ],
+    [
+     2007,
+     1051,
+     "Xuebin Zhang",
+     "Detection of human influence on twentieth-century precipit",
+     "Nature"
+    ],
+    [
+     2007,
+     980,
+     "Kevin E. Trenberth",
+     "Estimates of the Global Water Budget and Its Annual Cycle ",
+     "Journal of Hydrometeor"
+    ],
+    [
+     2008,
+     827,
+     "Madhavan Nair Rajeevan",
+     "Analysis of variability and trends of extreme rainfall eve",
+     "Geophysical Research L"
+    ],
+    [
+     2008,
+     776,
+     "Chia Chou",
+     "Evaluating the _Rich-Get-Richer_ Mechanism in Tropical Pre",
+     "Journal of Climate"
+    ]
+   ]
+  },
+  "lindzen2001": {
+   "id": "W2052768090",
+   "y": 2001,
+   "c": 406,
+   "r": 38,
+   "first": 2000,
+   "y10": 2001,
+   "y25": 2002,
+   "y50": 2003,
+   "y100": 2005,
+   "y500": null,
+   "peak": [
+    2005,
+    45
+   ],
+   "bins": [
+    [
+     2000,
+     80
+    ],
+    [
+     2005,
+     123
+    ],
+    [
+     2010,
+     65
+    ],
+    [
+     2015,
+     45
+    ],
+    [
+     2020,
+     86
+    ],
+    [
+     2025,
+     5
+    ]
+   ],
+   "ec": 201,
+   "e": [
+    [
+     2007,
+     1412,
+     "David Allan Randall",
+     "Climate models and their evaluation",
+     "University of Southern"
+    ],
+    [
+     2005,
+     1204,
+     "Graeme L. Stephens",
+     "Cloud Feedbacks in the Climate System: A Critical Review",
+     "Journal of Climate"
+    ],
+    [
+     2006,
+     1095,
+     "Sandrine Bony",
+     "How Well Do We Understand and Evaluate Climate Change Feed",
+     "Journal of Climate"
+    ],
+    [
+     2002,
+     952,
+     "Johannes Schmetz",
+     "An Introduction to Meteosat Second Generation (MSG)",
+     "Bulletin of the Americ"
+    ],
+    [
+     2005,
+     730,
+     "Alexander P. Khain",
+     "Aerosol impact on the dynamics and microphysics of deep co",
+     "Quarterly Journal of t"
+    ],
+    [
+     2007,
+     628,
+     "Gerard H. Roe",
+     "Why Is Climate Sensitivity So Unpredictable?",
+     "Science"
+    ],
+    [
+     2005,
+     524,
+     "Ad Stoffelen",
+     "THE ATMOSPHERIC DYNAMICS MISSION FOR GLOBAL WIND FIELD MEA",
+     "Bulletin of the Americ"
+    ],
+    [
+     2003,
+     462,
+     "Claire L. Parkinson",
+     "Aqua: an Earth-Observing Satellite mission to examine wate",
+     "IEEE Transactions on G"
+    ]
+   ]
+  },
+  "bonydufresne2005": {
+   "id": "W2045386802",
+   "y": 2005,
+   "c": 1416,
+   "r": 25,
+   "first": 2006,
+   "y10": 2006,
+   "y25": 2007,
+   "y50": 2008,
+   "y100": 2009,
+   "y500": 2015,
+   "peak": [
+    2021,
+    166
+   ],
+   "bins": [
+    [
+     2005,
+     111
+    ],
+    [
+     2010,
+     331
+    ],
+    [
+     2015,
+     348
+    ],
+    [
+     2020,
+     539
+    ],
+    [
+     2025,
+     86
+    ]
+   ],
+   "ec": 366,
+   "e": [
+    [
+     2013,
+     6904,
+     "Tami C. Bond",
+     "Bounding the role of black carbon in the climate system: A",
+     "Journal of Geophysical"
+    ],
+    [
+     2007,
+     1412,
+     "David Allan Randall",
+     "Climate models and their evaluation",
+     "University of Southern"
+    ],
+    [
+     2010,
+     1407,
+     "Masahiro Watanabe",
+     "Improved Climate Simulation by MIROC5: Mean States, Variab",
+     "Journal of Climate"
+    ],
+    [
+     2009,
+     1380,
+     "Bjorn Stevens",
+     "Untangling aerosol effects on clouds and precipitation in ",
+     "Nature"
+    ],
+    [
+     2007,
+     1338,
+     "Gabriel A. Vecchi",
+     "Global Warming and the Weakening of the Tropical Circulati",
+     "Journal of Climate"
+    ],
+    [
+     2012,
+     1322,
+     "Robert W. Wood",
+     "Stratocumulus Clouds",
+     "Monthly Weather Review"
+    ],
+    [
+     2010,
+     1308,
+     "David M. M Winker",
+     "The CALIPSO Mission",
+     "Bulletin of the Americ"
+    ],
+    [
+     2010,
+     1259,
+     "Matthew David Collins",
+     "The impact of global warming on the tropical Pacific Ocean",
+     "Nature Geoscience"
+    ]
+   ]
+  },
+  "sodenheld2006": {
+   "id": "W2035221792",
+   "y": 2006,
+   "c": 1125,
+   "r": 20,
+   "first": 1995,
+   "y10": 2006,
+   "y25": 2007,
+   "y50": 2007,
+   "y100": 2009,
+   "y500": 2014,
+   "peak": [
+    2011,
+    78
+   ],
+   "bins": [
+    [
+     1995,
+     1
+    ],
+    [
+     2005,
+     147
+    ],
+    [
+     2010,
+     355
+    ],
+    [
+     2015,
+     269
+    ],
+    [
+     2020,
+     280
+    ],
+    [
+     2025,
+     72
+    ]
+   ],
+   "ec": 502,
+   "e": [
+    [
+     2013,
+     6904,
+     "Tami C. Bond",
+     "Bounding the role of black carbon in the climate system: A",
+     "Journal of Geophysical"
+    ],
+    [
+     2006,
+     5142,
+     "Isaac M. Held",
+     "Robust Responses of the Hydrological Cycle to Global Warmi",
+     "Journal of Climate"
+    ],
+    [
+     2007,
+     1338,
+     "Gabriel A. Vecchi",
+     "Global Warming and the Weakening of the Tropical Circulati",
+     "Journal of Climate"
+    ],
+    [
+     2009,
+     1309,
+     "Reto Knutti",
+     "Challenges in Combining Projections from Multiple Climate ",
+     "Journal of Climate"
+    ],
+    [
+     2009,
+     1222,
+     "Shang_Ping Xie",
+     "Global Warming Pattern Formation: Sea Surface Temperature ",
+     "Journal of Climate"
+    ],
+    [
+     2006,
+     1095,
+     "Sandrine Bony",
+     "How Well Do We Understand and Evaluate Climate Change Feed",
+     "Journal of Climate"
+    ],
+    [
+     2008,
+     909,
+     "Brian J. Soden",
+     "Quantifying Climate Feedbacks Using Radiative Kernels",
+     "Journal of Climate"
+    ],
+    [
+     2013,
+     821,
+     "Steven C. Sherwood",
+     "Spread in model climate sensitivity traced to atmospheric ",
+     "Nature"
+    ]
+   ]
+  },
+  "hansen1984": {
+   "id": "W2104127988",
+   "y": 1984,
+   "c": 1151,
+   "r": 57,
+   "first": 1984,
+   "y10": 1985,
+   "y25": 1986,
+   "y50": 1987,
+   "y100": 1988,
+   "y500": 1998,
+   "peak": [
+    1991,
+    61
+   ],
+   "bins": [
+    [
+     1980,
+     8
+    ],
+    [
+     1985,
+     135
+    ],
+    [
+     1990,
+     231
+    ],
+    [
+     1995,
+     149
+    ],
+    [
+     2000,
+     88
+    ],
+    [
+     2005,
+     113
+    ],
+    [
+     2010,
+     145
+    ],
+    [
+     2015,
+     146
+    ],
+    [
+     2020,
+     114
+    ],
+    [
+     2025,
+     21
+    ]
+   ],
+   "ec": 303,
+   "e": [
+    [
+     1991,
+     1071,
+     "Andrew A. Lacis",
+     "A description of the correlated k distribution method for ",
+     "Journal of Geophysical"
+    ],
+    [
+     1987,
+     1057,
+     "James E. Hansen",
+     "Global trends of measured surface air temperature",
+     "Journal of Geophysical"
+    ],
+    [
+     1988,
+     992,
+     "James E. Hansen",
+     "Global climate changes as forecast by Goddard Institute fo",
+     "Journal of Geophysical"
+    ],
+    [
+     1990,
+     914,
+     "ROBERT D. CESS",
+     "Intercomparison and interpretation of climate feedback pro",
+     "Journal of Geophysical"
+    ],
+    [
+     1991,
+     900,
+     "Filippo Giorgi",
+     "Approaches to the simulation of regional climate change: A",
+     "Reviews of Geophysics"
+    ],
+    [
+     1987,
+     900,
+     "Warren L Prell",
+     "Monsoon variability over the past 150,000 years",
+     "Journal of Geophysical"
+    ],
+    [
+     1985,
+     840,
+     "Ramanathan",
+     "Trace gas trends and their potential role in climate chang",
+     "Journal of Geophysical"
+    ],
+    [
+     1992,
+     720,
+     "Moustafa T. Chahine",
+     "The hydrological cycle and its influence on climate",
+     "Nature"
+    ]
+   ]
+  },
+  "lindzenchoi2009": {
+   "id": "W2104283066",
+   "y": 2009,
+   "c": 106,
+   "r": 21,
+   "first": 2009,
+   "y10": 2010,
+   "y25": 2011,
+   "y50": 2012,
+   "y100": 2022,
+   "y500": null,
+   "peak": [
+    2010,
+    18
+   ],
+   "bins": [
+    [
+     2005,
+     3
+    ],
+    [
+     2010,
+     61
+    ],
+    [
+     2015,
+     27
+    ],
+    [
+     2020,
+     14
+    ],
+    [
+     2025,
+     1
+    ]
+   ]
+  },
+  "mitchell1995": {
+   "id": "W2111481946",
+   "y": 1995,
+   "c": 757,
+   "r": 20,
+   "first": 1995,
+   "y10": 1996,
+   "y25": 1996,
+   "y50": 1997,
+   "y100": 1997,
+   "y500": 2005,
+   "peak": [
+    2000,
+    81
+   ],
+   "bins": [
+    [
+     1995,
+     236
+    ],
+    [
+     2000,
+     254
+    ],
+    [
+     2005,
+     104
+    ],
+    [
+     2010,
+     52
+    ],
+    [
+     2015,
+     44
+    ],
+    [
+     2020,
+     61
+    ],
+    [
+     2025,
+     5
+    ]
+   ],
+   "ec": 448,
+   "e": [
+    [
+     2000,
+     4276,
+     "Peter M. Cox",
+     "Acceleration of global warming due to carbon-cycle feedbac",
+     "Nature"
+    ],
+    [
+     2001,
+     2089,
+     "Wolfgang Cramer",
+     "Global response of terrestrial ecosystem structure and fun",
+     "Global Change Biology"
+    ],
+    [
+     1997,
+     1516,
+     "Robert Leonard Wilby",
+     "Downscaling general circulation model output: a review of ",
+     "Progress in Physical G"
+    ],
+    [
+     2000,
+     1408,
+     "John J. Magnuson",
+     "Historical Trends in Lake and River Ice Cover in the North",
+     "Science"
+    ],
+    [
+     1998,
+     1336,
+     "Robert Tony Watson",
+     "The Regional Impacts of Climate Change: An Assessment of V",
+     ""
+    ],
+    [
+     2000,
+     1332,
+     "Isaac M. Held",
+     "Water Vapor Feedback and Global Warming",
+     "Annual Review of Energ"
+    ],
+    [
+     2001,
+     1071,
+     "Colin Prentice",
+     "The Carbon Cycle and Atmospheric Carbon Dioxide",
+     "HAL (Le Centre pour la"
+    ],
+    [
+     1996,
+     1023,
+     "Ina Tegen",
+     "The influence on climate forcing of mineral aerosols from ",
+     "Nature"
+    ]
+   ]
+  },
+  "ramanathan1985": {
+   "id": "W2020965636",
+   "y": 1985,
+   "c": 840,
+   "r": 87,
+   "first": 1900,
+   "y10": 1986,
+   "y25": 1986,
+   "y50": 1987,
+   "y100": 1988,
+   "y500": 1998,
+   "peak": [
+    1990,
+    69
+   ],
+   "bins": [
+    [
+     1900,
+     1
+    ],
+    [
+     1985,
+     169
+    ],
+    [
+     1990,
+     258
+    ],
+    [
+     1995,
+     105
+    ],
+    [
+     2000,
+     66
+    ],
+    [
+     2005,
+     63
+    ],
+    [
+     2010,
+     44
+    ],
+    [
+     2015,
+     41
+    ],
+    [
+     2020,
+     82
+    ],
+    [
+     2025,
+     10
+    ]
+   ],
+   "ec": 393,
+   "e": [
+    [
+     1990,
+     1613,
+     "Daniel A. Lashof",
+     "Relative contributions of greenhouse gas emissions to glob",
+     "Nature"
+    ],
+    [
+     1988,
+     1605,
+     "Ralph J. Cicerone",
+     "Biogeochemical aspects of atmospheric methane",
+     "Global Biogeochemical "
+    ],
+    [
+     1988,
+     1411,
+     "Dennis Baldocchi",
+     "Measuring Biosphere_Atmosphere Exchanges of Biologically R",
+     "Ecology"
+    ],
+    [
+     1988,
+     992,
+     "James E. Hansen",
+     "Global climate changes as forecast by Goddard Institute fo",
+     "Journal of Geophysical"
+    ],
+    [
+     1990,
+     841,
+     "Henning Rodhe",
+     "A Comparison of the Contribution of Various Gases to the G",
+     "Science"
+    ],
+    [
+     1990,
+     831,
+     "Mark E. Harmon",
+     "Effects on Carbon Storage of Conversion of Old-Growth Fore",
+     "Science"
+    ],
+    [
+     1989,
+     696,
+     "John F. B. Mitchell",
+     "The _Greenhouse_ effect and climate change",
+     "Reviews of Geophysics"
+    ],
+    [
+     1991,
+     654,
+     "Rik Leemans",
+     "The IIASA Database for Mean Monthly Values of Temperature,",
+     "IIASA PURE (Internatio"
+    ]
+   ]
+  },
+  "charlson1992": {
+   "id": "W1981719480",
+   "y": 1992,
+   "c": 3861,
+   "r": 60,
+   "first": 1970,
+   "y10": 1992,
+   "y25": 1992,
+   "y50": 1993,
+   "y100": 1994,
+   "y500": 1998,
+   "peak": [
+    2022,
+    164
+   ],
+   "bins": [
+    [
+     1970,
+     3
+    ],
+    [
+     1990,
+     172
+    ],
+    [
+     1995,
+     449
+    ],
+    [
+     2000,
+     505
+    ],
+    [
+     2005,
+     552
+    ],
+    [
+     2010,
+     698
+    ],
+    [
+     2015,
+     613
+    ],
+    [
+     2020,
+     706
+    ],
+    [
+     2025,
+     163
+    ]
+   ],
+   "ec": 706,
+   "e": [
+    [
+     1997,
+     2442,
+     "James E. Hansen",
+     "Radiative forcing and climate response",
+     "Journal of Geophysical"
+    ],
+    [
+     2000,
+     2347,
+     "Jim Haywood",
+     "Estimates of the direct and indirect radiative forcing due",
+     "Reviews of Geophysics"
+    ],
+    [
+     1994,
+     1854,
+     "Peter M. Vitousek",
+     "Beyond Global Warming: Ecology and Global Change",
+     "Ecology"
+    ],
+    [
+     1997,
+     1840,
+     "Yoram J. Kaufman",
+     "Operational remote sensing of tropospheric aerosol over la",
+     "Journal of Geophysical"
+    ],
+    [
+     1997,
+     1789,
+     "Meinrat Otto Andreae",
+     "Atmospheric Aerosols: Biogeochemical Sources and Role in A",
+     "Science"
+    ],
+    [
+     1994,
+     1726,
+     "Howard R. Gordon",
+     "Retrieval of water-leaving radiance and aerosol optical th",
+     "Applied Optics"
+    ],
+    [
+     1996,
+     1191,
+     "John Edwards",
+     "Studies with a flexible new radiation code. I: Choosing a ",
+     "Quarterly Journal of t"
+    ],
+    [
+     1996,
+     1189,
+     "Frank J. Dentener",
+     "Role of mineral aerosol as a reactive surface in the globa",
+     "Journal of Geophysical"
+    ]
+   ]
+  },
+  "myhre1998": {
+   "id": "W2051257671",
+   "y": 1998,
+   "c": 905,
+   "r": 17,
+   "first": 1998,
+   "y10": 2000,
+   "y25": 2001,
+   "y50": 2004,
+   "y100": 2008,
+   "y500": 2018,
+   "peak": [
+    2024,
+    64
+   ],
+   "bins": [
+    [
+     1995,
+     5
+    ],
+    [
+     2000,
+     49
+    ],
+    [
+     2005,
+     79
+    ],
+    [
+     2010,
+     199
+    ],
+    [
+     2015,
+     238
+    ],
+    [
+     2020,
+     273
+    ],
+    [
+     2025,
+     61
+    ]
+   ]
+  },
+  "kiehl2007": {
+   "id": "W2049451608",
+   "y": 2007,
+   "c": 329,
+   "r": 26,
+   "first": 2008,
+   "y10": 2008,
+   "y25": 2009,
+   "y50": 2010,
+   "y100": 2012,
+   "y500": null,
+   "peak": [
+    2010,
+    29
+   ],
+   "bins": [
+    [
+     2005,
+     26
+    ],
+    [
+     2010,
+     127
+    ],
+    [
+     2015,
+     62
+    ],
+    [
+     2020,
+     107
+    ],
+    [
+     2025,
+     6
+    ]
+   ],
+   "ec": 168,
+   "e": [
+    [
+     2009,
+     4912,
+     "Jose Luis Jimenez",
+     "Evolution of Organic Aerosols in the Atmosphere",
+     "Science"
+    ],
+    [
+     2012,
+     843,
+     "Timothy Andrews",
+     "Forcing, feedbacks and climate sensitivity in CMIP5 couple",
+     "Geophysical Research L"
+    ],
+    [
+     2012,
+     583,
+     "Thorsten Mauritsen",
+     "Tuning the climate of a global model",
+     "Journal of Advances in"
+    ],
+    [
+     2015,
+     564,
+     "Arlene M. Fiore",
+     "Air Quality and Climate Connections",
+     "Journal of the Air & W"
+    ],
+    [
+     2010,
+     520,
+     "Reto Knutti",
+     "The end of model democracy?",
+     "Climatic Change"
+    ],
+    [
+     2013,
+     484,
+     "Drew T. Shindell",
+     "Radiative forcing in the ACCMIP historical and future clim",
+     "Atmospheric chemistry "
+    ],
+    [
+     2008,
+     425,
+     "Patricia K. Quinn",
+     "Short-lived pollutants in the Arctic: their climate impact",
+     "Atmospheric chemistry "
+    ],
+    [
+     2013,
+     371,
+     "Piers M. de F. Forster",
+     "Evaluating adjusted forcing and model spread for historica",
+     "Journal of Geophysical"
+    ]
+   ]
+  },
+  "stevens2015": {
+   "id": "W2137077767",
+   "y": 2015,
+   "c": 257,
+   "r": 89,
+   "first": 2015,
+   "y10": 2015,
+   "y25": 2016,
+   "y50": 2017,
+   "y100": 2019,
+   "y500": null,
+   "peak": [
+    2020,
+    45
+   ],
+   "bins": [
+    [
+     2015,
+     116
+    ],
+    [
+     2020,
+     132
+    ],
+    [
+     2025,
+     9
+    ]
+   ]
+  },
+  "twomey1977": {
+   "id": "W2173852084",
+   "y": 1977,
+   "c": 3875,
+   "r": 0,
+   "first": 1970,
+   "y10": 1981,
+   "y25": 1984,
+   "y50": 1991,
+   "y100": 1995,
+   "y500": 2007,
+   "peak": [
+    2022,
+    281
+   ],
+   "bins": [
+    [
+     1970,
+     1
+    ],
+    [
+     1975,
+     4
+    ],
+    [
+     1980,
+     20
+    ],
+    [
+     1985,
+     10
+    ],
+    [
+     1990,
+     51
+    ],
+    [
+     1995,
+     88
+    ],
+    [
+     2000,
+     164
+    ],
+    [
+     2005,
+     428
+    ],
+    [
+     2010,
+     713
+    ],
+    [
+     2015,
+     795
+    ],
+    [
+     2020,
+     1309
+    ],
+    [
+     2025,
+     290
+    ]
+   ]
+  },
+  "bellouin2020": {
+   "id": "W2987398437",
+   "y": 2019,
+   "c": 1175,
+   "r": 337,
+   "first": 2017,
+   "y10": 2020,
+   "y25": 2020,
+   "y50": 2020,
+   "y100": 2021,
+   "y500": 2023,
+   "peak": [
+    2025,
+    222
+   ],
+   "bins": [
+    [
+     2015,
+     6
+    ],
+    [
+     2020,
+     788
+    ],
+    [
+     2025,
+     376
+    ]
+   ]
+  },
+  "hasselmann1993": {
+   "id": "W1976319295",
+   "y": 1993,
+   "c": 348,
+   "r": 21,
+   "first": 1993,
+   "y10": 1995,
+   "y25": 1997,
+   "y50": 2000,
+   "y100": 2007,
+   "y500": null,
+   "peak": [
+    2022,
+    28
+   ],
+   "bins": [
+    [
+     1990,
+     3
+    ],
+    [
+     1995,
+     42
+    ],
+    [
+     2000,
+     39
+    ],
+    [
+     2005,
+     37
+    ],
+    [
+     2010,
+     63
+    ],
+    [
+     2015,
+     57
+    ],
+    [
+     2020,
+     87
+    ],
+    [
+     2025,
+     20
+    ]
+   ],
+   "ec": 61,
+   "e": [
+    [
+     1999,
+     514,
+     "Simon F. B. Tett",
+     "Causes of twentieth-century temperature change near the Ea",
+     "Nature"
+    ],
+    [
+     1999,
+     465,
+     "N. Palmer",
+     "A Nonlinear Dynamical Perspective on Climate Prediction",
+     "Journal of Climate"
+    ],
+    [
+     2001,
+     424,
+     "Tim P. Barnett",
+     "Detection of Anthropogenic Climate Change in the World's O",
+     "Science"
+    ],
+    [
+     1996,
+     371,
+     "Gabriele Clarissa Hege",
+     "Detecting Greenhouse-Gas-Induced Climate Change with an Op",
+     "Journal of Climate"
+    ],
+    [
+     1997,
+     325,
+     "Gabriele Clarissa Hege",
+     "Multi-fingerprint detection and attribution analysis of gr",
+     "Climate Dynamics"
+    ],
+    [
+     1998,
+     311,
+     "Axel Timmermann",
+     "Northern Hemispheric Interdecadal Variability: A Coupled A",
+     "Journal of Climate"
+    ],
+    [
+     2001,
+     283,
+     "John F. B. Mitchell",
+     "Detection of climate change and attribution of causes",
+     "Biblioteca Digital da "
+    ],
+    [
+     1999,
+     235,
+     "Tapio Schneider",
+     "A Conceptual Framework for Predictability Studies",
+     "Journal of Climate"
+    ]
+   ]
+  },
+  "maddenramanathan1980": {
+   "id": "W2151161113",
+   "y": 1980,
+   "c": 136,
+   "r": 16,
+   "first": 1980,
+   "y10": 1981,
+   "y25": 1984,
+   "y50": 1987,
+   "y100": 2016,
+   "y500": null,
+   "peak": [
+    1981,
+    12
+   ],
+   "bins": [
+    [
+     1980,
+     32
+    ],
+    [
+     1985,
+     26
+    ],
+    [
+     1990,
+     13
+    ],
+    [
+     1995,
+     10
+    ],
+    [
+     2000,
+     4
+    ],
+    [
+     2005,
+     6
+    ],
+    [
+     2010,
+     6
+    ],
+    [
+     2015,
+     11
+    ],
+    [
+     2020,
+     19
+    ],
+    [
+     2025,
+     8
+    ]
+   ]
+  },
+  "santer1996": {
+   "id": "W2780306668",
+   "y": 1996,
+   "c": 448,
+   "r": 49,
+   "first": 1995,
+   "y10": 1996,
+   "y25": 1997,
+   "y50": 1998,
+   "y100": 1999,
+   "y500": null,
+   "peak": [
+    1998,
+    38
+   ],
+   "bins": [
+    [
+     1995,
+     110
+    ],
+    [
+     2000,
+     103
+    ],
+    [
+     2005,
+     49
+    ],
+    [
+     2010,
+     47
+    ],
+    [
+     2015,
+     59
+    ],
+    [
+     2020,
+     56
+    ],
+    [
+     2025,
+     24
+    ]
+   ],
+   "ec": 212,
+   "e": [
+    [
+     1999,
+     4691,
+     "David R. Legates",
+     "Evaluating the use of _goodness_of_fit_ Measures in hydrol",
+     "Water Resources Resear"
+    ],
+    [
+     2002,
+     3106,
+     "Myles R. Allen",
+     "Constraints on future changes in climate and the hydrologi",
+     "Nature"
+    ],
+    [
+     2000,
+     2139,
+     "Thomas J. Crowley",
+     "Causes of Climate Change Over the Past 1000 Years",
+     "Science"
+    ],
+    [
+     1997,
+     1840,
+     "Yoram J. Kaufman",
+     "Operational remote sensing of tropospheric aerosol over la",
+     "Journal of Geophysical"
+    ],
+    [
+     2004,
+     1694,
+     "Maxwell Boykoff",
+     "Balance as bias: global warming and the US prestige press",
+     "Global Environmental C"
+    ],
+    [
+     1998,
+     1689,
+     "Stewart Grant",
+     "Shallow population histories in deep evolutionary lineages",
+     "Journal of Heredity"
+    ],
+    [
+     2001,
+     752,
+     "David I. Stern",
+     "Is There an Environmental Kuznets Curve for Sulfur?",
+     "Journal of Environment"
+    ],
+    [
+     2004,
+     735,
+     "Thomas R. Knutson",
+     "Impact of CO2-Induced Warming on Simulated Hurricane Inten",
+     "Journal of Climate"
+    ]
+   ]
+  },
+  "hansen1981": {
+   "id": "W1995986570",
+   "y": 1981,
+   "c": 1091,
+   "r": 53,
+   "first": 1900,
+   "y10": 1982,
+   "y25": 1982,
+   "y50": 1983,
+   "y100": 1984,
+   "y500": 2006,
+   "peak": [
+    2023,
+    64
+   ],
+   "bins": [
+    [
+     1900,
+     1
+    ],
+    [
+     1980,
+     139
+    ],
+    [
+     1985,
+     139
+    ],
+    [
+     1990,
+     115
+    ],
+    [
+     1995,
+     55
+    ],
+    [
+     2000,
+     42
+    ],
+    [
+     2005,
+     38
+    ],
+    [
+     2010,
+     118
+    ],
+    [
+     2015,
+     172
+    ],
+    [
+     2020,
+     215
+    ],
+    [
+     2025,
+     54
+    ]
+   ],
+   "ec": 278,
+   "e": [
+    [
+     1984,
+     1151,
+     "James E. Hansen",
+     "Climate sensitivity: Analysis of feedback mechanisms",
+     "Geophysical monograph"
+    ],
+    [
+     1987,
+     1057,
+     "James E. Hansen",
+     "Global trends of measured surface air temperature",
+     "Journal of Geophysical"
+    ],
+    [
+     1988,
+     992,
+     "James E. Hansen",
+     "Global climate changes as forecast by Goddard Institute fo",
+     "Journal of Geophysical"
+    ],
+    [
+     1989,
+     696,
+     "John F. B. Mitchell",
+     "The _Greenhouse_ effect and climate change",
+     "Reviews of Geophysics"
+    ],
+    [
+     1985,
+     653,
+     "Samuel N. Goward",
+     "North American vegetation patterns observed with the NOAA-",
+     "Plant Ecology"
+    ],
+    [
+     1989,
+     604,
+     "Stephen H. Schneider",
+     "The Greenhouse Effect: Science and Policy",
+     "Science"
+    ],
+    [
+     1984,
+     561,
+     "Mark F. Meier",
+     "Contribution of Small Glaciers to Global Sea Level",
+     "Science"
+    ],
+    [
+     1986,
+     529,
+     "Philip Douglas Jones",
+     "Global temperature variations between 1861 and 1984",
+     "Nature"
+    ]
+   ]
+  },
+  "tett1999": {
+   "id": "W2136350156",
+   "y": 1999,
+   "c": 514,
+   "r": 30,
+   "first": 1999,
+   "y10": 2000,
+   "y25": 2000,
+   "y50": 2001,
+   "y100": 2002,
+   "y500": 2025,
+   "peak": [
+    2000,
+    41
+   ],
+   "bins": [
+    [
+     1995,
+     7
+    ],
+    [
+     2000,
+     189
+    ],
+    [
+     2005,
+     118
+    ],
+    [
+     2010,
+     61
+    ],
+    [
+     2015,
+     65
+    ],
+    [
+     2020,
+     59
+    ],
+    [
+     2025,
+     14
+    ]
+   ],
+   "ec": 288,
+   "e": [
+    [
+     2000,
+     2139,
+     "Thomas J. Crowley",
+     "Causes of Climate Change Over the Past 1000 Years",
+     "Science"
+    ],
+    [
+     2004,
+     1763,
+     "Peter A. Stott",
+     "Human contribution to the European heatwave of 2003",
+     "Nature"
+    ],
+    [
+     2007,
+     1051,
+     "Xuebin Zhang",
+     "Detection of human influence on twentieth-century precipit",
+     "Nature"
+    ],
+    [
+     2001,
+     871,
+     "Jeroen J. L. M. Cornel",
+     "Chiral Architectures from Macromolecular Building Blocks",
+     "Chemical Reviews"
+    ],
+    [
+     2001,
+     761,
+     "Reiter",
+     "Climate change and mosquito-borne disease.",
+     "Environmental Health P"
+    ],
+    [
+     2000,
+     681,
+     "Peter A. Stott",
+     "External Control of 20th Century Temperature by Natural an",
+     "Science"
+    ],
+    [
+     2000,
+     665,
+     "Myles R. Allen",
+     "Quantifying the uncertainty in forecasts of anthropogenic ",
+     "Nature"
+    ],
+    [
+     2007,
+     640,
+     "Gabriele Clarissa Hege",
+     "Understanding and Attributing Climate Change",
+     ""
+    ]
+   ]
+  },
+  "hegerl1996": {
+   "id": "W2150282727",
+   "y": 1996,
+   "c": 371,
+   "r": 32,
+   "first": 1996,
+   "y10": 1997,
+   "y25": 1998,
+   "y50": 1999,
+   "y100": 2004,
+   "y500": null,
+   "peak": [
+    2022,
+    25
+   ],
+   "bins": [
+    [
+     1995,
+     51
+    ],
+    [
+     2000,
+     50
+    ],
+    [
+     2005,
+     38
+    ],
+    [
+     2010,
+     64
+    ],
+    [
+     2015,
+     58
+    ],
+    [
+     2020,
+     87
+    ],
+    [
+     2025,
+     23
+    ]
+   ]
+  },
+  "lockwood2007": {
+   "id": "W2149404027",
+   "y": 2007,
+   "c": 201,
+   "r": 90,
+   "first": 2000,
+   "y10": 2008,
+   "y25": 2008,
+   "y50": 2009,
+   "y100": 2011,
+   "y500": null,
+   "peak": [
+    2011,
+    32
+   ],
+   "bins": [
+    [
+     2000,
+     1
+    ],
+    [
+     2005,
+     58
+    ],
+    [
+     2010,
+     89
+    ],
+    [
+     2015,
+     34
+    ],
+    [
+     2020,
+     17
+    ],
+    [
+     2025,
+     2
+    ]
+   ],
+   "ec": 154,
+   "e": [
+    [
+     2010,
+     1404,
+     "Lesley J. Gray",
+     "SOLAR INFLUENCES ON CLIMATE",
+     "Reviews of Geophysics"
+    ],
+    [
+     2009,
+     317,
+     "S. A. Isaksen",
+     "Atmospheric composition change: Climate_Chemistry interact",
+     "Atmospheric Environmen"
+    ],
+    [
+     2008,
+     219,
+     "Walter Dragoni",
+     "Climate change and groundwater: a short review",
+     "Geological Society Lon"
+    ],
+    [
+     2009,
+     209,
+     "Peter Kohler",
+     "What caused Earth's temperature variations during the last",
+     "Quaternary Science Rev"
+    ],
+    [
+     2009,
+     194,
+     "Ann-Marie Berggren",
+     "A 600_year annual 10Be record from the NGRIP ice core, Gre",
+     "Geophysical Research L"
+    ],
+    [
+     2012,
+     172,
+     "Lockwood",
+     "Solar Influence on Global and Regional Climates",
+     "Surveys in Geophysics"
+    ],
+    [
+     2009,
+     168,
+     "Lockwood",
+     "Solar change and climate: an update in the light of the cu",
+     "Proceedings of the Roy"
+    ],
+    [
+     2009,
+     161,
+     "Hans_Martin Fussel",
+     "An updated assessment of the risks from climate change bas",
+     "Climatic Change"
+    ]
+   ]
+  },
+  "stott2000": {
+   "id": "W1976150853",
+   "y": 2000,
+   "c": 681,
+   "r": 29,
+   "first": 1962,
+   "y10": 2001,
+   "y25": 2002,
+   "y50": 2002,
+   "y100": 2003,
+   "y500": 2013,
+   "peak": [
+    2005,
+    56
+   ],
+   "bins": [
+    [
+     1960,
+     1
+    ],
+    [
+     1995,
+     1
+    ],
+    [
+     2000,
+     165
+    ],
+    [
+     2005,
+     227
+    ],
+    [
+     2010,
+     131
+    ],
+    [
+     2015,
+     79
+    ],
+    [
+     2020,
+     63
+    ],
+    [
+     2025,
+     14
+    ]
+   ],
+   "ec": 359,
+   "e": [
+    [
+     2002,
+     3106,
+     "Myles R. Allen",
+     "Constraints on future changes in climate and the hydrologi",
+     "Nature"
+    ],
+    [
+     2003,
+     2594,
+     "Markku Kulmala",
+     "Formation and growth rates of ultrafine atmospheric partic",
+     "Journal of Aerosol Sci"
+    ],
+    [
+     2005,
+     2043,
+     "Taolei Sun",
+     "Bioinspired Surfaces with Special Wettability",
+     "Accounts of Chemical R"
+    ],
+    [
+     2004,
+     1763,
+     "Peter A. Stott",
+     "Human contribution to the European heatwave of 2003",
+     "Nature"
+    ],
+    [
+     2005,
+     1751,
+     "Maosheng Zhao",
+     "Improvements of the MODIS terrestrial gross and net primar",
+     "Remote Sensing of Envi"
+    ],
+    [
+     2005,
+     1700,
+     "Anders Moberg",
+     "Highly variable Northern Hemisphere temperatures reconstru",
+     "Nature"
+    ],
+    [
+     2005,
+     1260,
+     "Jeff R Knight",
+     "A signature of persistent natural thermohaline circulation",
+     "Geophysical Research L"
+    ],
+    [
+     2006,
+     1080,
+     "Kevin E. Trenberth",
+     "Atlantic hurricanes and natural variability in 2005",
+     "Geophysical Research L"
+    ]
+   ]
+  },
+  "spencerchristy1990": {
+   "id": "W2014174385",
+   "y": 1990,
+   "c": 310,
+   "r": 14,
+   "first": 1990,
+   "y10": 1990,
+   "y25": 1991,
+   "y50": 1993,
+   "y100": 1996,
+   "y500": null,
+   "peak": [
+    1995,
+    24
+   ],
+   "bins": [
+    [
+     1990,
+     65
+    ],
+    [
+     1995,
+     62
+    ],
+    [
+     2000,
+     54
+    ],
+    [
+     2005,
+     31
+    ],
+    [
+     2010,
+     36
+    ],
+    [
+     2015,
+     22
+    ],
+    [
+     2020,
+     38
+    ],
+    [
+     2025,
+     2
+    ]
+   ],
+   "ec": 117,
+   "e": [
+    [
+     1997,
+     1562,
+     "Emil Robert Kursinski",
+     "Observing Earth's atmosphere with radio occultation measur",
+     "Journal of Geophysical"
+    ],
+    [
+     1998,
+     546,
+     "John M. Wallace",
+     "On the structure and evolution of ENSO_related climate var",
+     "Journal of Geophysical"
+    ],
+    [
+     1994,
+     513,
+     "Christopher W. Brown",
+     "Coccolithophorid blooms in the global ocean",
+     "Journal of Geophysical"
+    ],
+    [
+     1993,
+     392,
+     "Douglas V. Hoyt",
+     "A discussion of plausible solar irradiance variations, 170",
+     "Journal of Geophysical"
+    ],
+    [
+     1994,
+     381,
+     "Pavel Groisman",
+     "Changes of Snow Cover, Temperature, and Radiative Heat Bal",
+     "Journal of Climate"
+    ],
+    [
+     1994,
+     377,
+     "Elena Yulaeva",
+     "The Signature of ENSO in Global Temperature and Precipitat",
+     "Journal of Climate"
+    ],
+    [
+     1995,
+     360,
+     "Cort J. Willmott",
+     "Climatologically aided interpolation (CAI) of terrestrial ",
+     "International Journal "
+    ],
+    [
+     1993,
+     336,
+     "Roy W. Spencer",
+     "Global Oceanic Precipitation from the MSU during 1979_91 a",
+     "Journal of Climate"
+    ]
+   ]
+  },
+  "fcl1991": {
+   "id": "W2024168869",
+   "y": 1991,
+   "c": 889,
+   "r": 15,
+   "first": 1991,
+   "y10": 1992,
+   "y25": 1993,
+   "y50": 1994,
+   "y100": 1996,
+   "y500": 2008,
+   "peak": [
+    2011,
+    42
+   ],
+   "bins": [
+    [
+     1990,
+     77
+    ],
+    [
+     1995,
+     141
+    ],
+    [
+     2000,
+     183
+    ],
+    [
+     2005,
+     142
+    ],
+    [
+     2010,
+     158
+    ],
+    [
+     2015,
+     84
+    ],
+    [
+     2020,
+     89
+    ],
+    [
+     2025,
+     14
+    ]
+   ]
+  },
+  "mearswentz2005": {
+   "id": "W2171612194",
+   "y": 2005,
+   "c": 195,
+   "r": 27,
+   "first": 2005,
+   "y10": 2006,
+   "y25": 2006,
+   "y50": 2007,
+   "y100": 2009,
+   "y500": null,
+   "peak": [
+    2008,
+    27
+   ],
+   "bins": [
+    [
+     2005,
+     100
+    ],
+    [
+     2010,
+     54
+    ],
+    [
+     2015,
+     19
+    ],
+    [
+     2020,
+     21
+    ],
+    [
+     2025,
+     1
+    ]
+   ],
+   "ec": 141,
+   "e": [
+    [
+     2008,
+     3327,
+     "Qiang Fu",
+     "IPCC--Intergovernmental Panel on Climate Change",
+     "Choice Reviews Online"
+    ],
+    [
+     2007,
+     2014,
+     "Kevin E. Trenberth",
+     "Observations: Surface and Atmospheric Climate Change",
+     "elib (German Aerospace"
+    ],
+    [
+     2007,
+     987,
+     "Frank J. Wentz",
+     "How Much More Rain Will Global Warming Bring?",
+     "Science"
+    ],
+    [
+     2007,
+     640,
+     "Gabriele Clarissa Hege",
+     "Understanding and Attributing Climate Change",
+     ""
+    ],
+    [
+     2013,
+     631,
+     "Jun Yang",
+     "The role of satellite remote sensing in climate change stu",
+     "Nature Climate Change"
+    ],
+    [
+     2013,
+     517,
+     "Rainer Hollmann",
+     "The ESA Climate Change Initiative: Satellite Data Records ",
+     "Bulletin of the Americ"
+    ],
+    [
+     2007,
+     512,
+     "Noah S. Diffenbaugh",
+     "Heat stress intensification in the Mediterranean climate c",
+     "Geophysical Research L"
+    ],
+    [
+     2006,
+     478,
+     "Lonnie G. Thompson",
+     "Abrupt tropical climate change: Past and present",
+     "Proceedings of the Nat"
+    ]
+   ]
+  },
+  "svensmark1997": {
+   "id": "W2118275350",
+   "y": 1997,
+   "c": 1115,
+   "r": 45,
+   "first": 1997,
+   "y10": 1998,
+   "y25": 1998,
+   "y50": 1999,
+   "y100": 2000,
+   "y500": 2008,
+   "peak": [
+    2004,
+    62
+   ],
+   "bins": [
+    [
+     1995,
+     66
+    ],
+    [
+     2000,
+     253
+    ],
+    [
+     2005,
+     248
+    ],
+    [
+     2010,
+     225
+    ],
+    [
+     2015,
+     172
+    ],
+    [
+     2020,
+     132
+    ],
+    [
+     2025,
+     19
+    ]
+   ],
+   "ec": 370,
+   "e": [
+    [
+     1999,
+     1543,
+     "John P. Burrows",
+     "The Global Ozone Monitoring Experiment (GOME): Mission Con",
+     "Journal of the Atmosph"
+    ],
+    [
+     2002,
+     1423,
+     "Joanna D. Haigh",
+     "Radiative forcing of climate change",
+     "Weather"
+    ],
+    [
+     1999,
+     673,
+     "Jozef Masarik",
+     "Simulation of particle fluxes and cosmogenic nuclide produ",
+     "Journal of Geophysical"
+    ],
+    [
+     2002,
+     593,
+     "S. Carslaw",
+     "Cosmic Rays, Clouds, and Climate",
+     "Science"
+    ],
+    [
+     1999,
+     554,
+     "Lockwood",
+     "A doubling of the Sun's coronal magnetic field during the ",
+     "Nature"
+    ],
+    [
+     2000,
+     525,
+     "Edouard Bard",
+     "Solar irradiance during the last 1200 years based on cosmo",
+     "Tellus B"
+    ],
+    [
+     2002,
+     433,
+     "Simon F. B. Tett",
+     "Estimation of natural and anthropogenic contributions to t",
+     "Journal of Geophysical"
+    ],
+    [
+     2000,
+     427,
+     "Nigel D. Marsh",
+     "Low Cloud Properties Influenced by Cosmic Rays",
+     "Physical Review Letter"
+    ]
+   ]
+  },
+  "karl2015": {
+   "id": "W2134634125",
+   "y": 2015,
+   "c": 653,
+   "r": 42,
+   "first": 2014,
+   "y10": 2015,
+   "y25": 2015,
+   "y50": 2016,
+   "y100": 2016,
+   "y500": 2021,
+   "peak": [
+    2017,
+    118
+   ],
+   "bins": [
+    [
+     2010,
+     1
+    ],
+    [
+     2015,
+     428
+    ],
+    [
+     2020,
+     197
+    ],
+    [
+     2025,
+     27
+    ]
+   ],
+   "ec": 598,
+   "e": [
+    [
+     2020,
+     32527,
+     "Hans Hersbach",
+     "The ERA5 global reanalysis",
+     "Quarterly Journal of t"
+    ],
+    [
+     2017,
+     3357,
+     "Boyin Huang",
+     "Extended Reconstructed Sea Surface Temperature, Version 5 ",
+     "Journal of Climate"
+    ],
+    [
+     2015,
+     1337,
+     "Catherine M. O_Reilly",
+     "Rapid and highly variable warming of lake surface waters a",
+     "Geophysical Research L"
+    ],
+    [
+     2019,
+     1014,
+     "Nathan Lenssen",
+     "Improvements in the GISTEMP Uncertainty Model",
+     "Journal of Geophysical"
+    ],
+    [
+     2020,
+     1008,
+     "Colin Peter Morice",
+     "An Updated Assessment of Near_Surface Temperature Change F",
+     "Journal of Geophysical"
+    ],
+    [
+     2019,
+     1005,
+     "Roland Seferian",
+     "Evaluation of CNRM Earth System Model, CNRM_ESM2_1: Role o",
+     "Journal of Advances in"
+    ],
+    [
+     2017,
+     926,
+     "Lijing Cheng",
+     "Improved estimates of ocean heat content from 1960 to 2015",
+     "Science Advances"
+    ],
+    [
+     2015,
+     912,
+     "Martha Weaver Buckley",
+     "Observations, inferences, and mechanisms of the Atlantic M",
+     "Reviews of Geophysics"
+    ]
+   ]
+  },
+  "kosakaxie2013": {
+   "id": "W1970327765",
+   "y": 2013,
+   "c": 1740,
+   "r": 35,
+   "first": 2013,
+   "y10": 2013,
+   "y25": 2014,
+   "y50": 2014,
+   "y100": 2014,
+   "y500": 2017,
+   "peak": [
+    2018,
+    205
+   ],
+   "bins": [
+    [
+     2010,
+     147
+    ],
+    [
+     2015,
+     832
+    ],
+    [
+     2020,
+     625
+    ],
+    [
+     2025,
+     123
+    ]
+   ],
+   "ec": 1279,
+   "e": [
+    [
+     2020,
+     3348,
+     "Gokhan Danabasoglu",
+     "The Community Earth System Model Version 2 (CESM2)",
+     "Journal of Advances in"
+    ],
+    [
+     2014,
+     2622,
+     "Jennifer E. Kay",
+     "The Community Earth System Model (CESM) Large Ensemble Pro",
+     "Bulletin of the Americ"
+    ],
+    [
+     2019,
+     2167,
+     "Shilong L. Piao",
+     "Plant phenology and global climate change: Current progres",
+     "Global Change Biology"
+    ],
+    [
+     2020,
+     1829,
+     "Olivier Boucher",
+     "Presentation and Evaluation of the IPSL_CM6A_LR Climate Mo",
+     "Journal of Advances in"
+    ],
+    [
+     2014,
+     1387,
+     "Matthew H. England",
+     "Recent intensification of wind-driven circulation in the P",
+     "Nature Climate Change"
+    ],
+    [
+     2016,
+     928,
+     "Zhanqing Li",
+     "Aerosol and monsoon climate interactions over Asia",
+     "Reviews of Geophysics"
+    ],
+    [
+     2015,
+     925,
+     "Wenju Cai",
+     "ENSO and greenhouse warming",
+     "Nature Climate Change"
+    ],
+    [
+     2019,
+     855,
+     "Wenju Cai",
+     "Pantropical climate interactions",
+     "Science"
+    ]
+   ]
+  },
+  "medhaug2017": {
+   "id": "W2610782730",
+   "y": 2017,
+   "c": 472,
+   "r": 231,
+   "first": 2016,
+   "y10": 2017,
+   "y25": 2017,
+   "y50": 2018,
+   "y100": 2019,
+   "y500": null,
+   "peak": [
+    2021,
+    69
+   ],
+   "bins": [
+    [
+     2015,
+     145
+    ],
+    [
+     2020,
+     275
+    ],
+    [
+     2025,
+     50
+    ]
+   ]
+  },
+  "cowtanway2014": {
+   "id": "W2124901782",
+   "y": 2013,
+   "c": 690,
+   "r": 33,
+   "first": 2013,
+   "y10": 2014,
+   "y25": 2014,
+   "y50": 2015,
+   "y100": 2015,
+   "y500": 2022,
+   "peak": [
+    2021,
+    89
+   ],
+   "bins": [
+    [
+     2010,
+     34
+    ],
+    [
+     2015,
+     297
+    ],
+    [
+     2020,
+     320
+    ],
+    [
+     2025,
+     38
+    ]
+   ]
+  },
+  "levitus2000": {
+   "id": "W2066678696",
+   "y": 2000,
+   "c": 1495,
+   "r": 26,
+   "first": 2000,
+   "y10": 2000,
+   "y25": 2001,
+   "y50": 2001,
+   "y100": 2002,
+   "y500": 2007,
+   "peak": [
+    2008,
+    109
+   ],
+   "bins": [
+    [
+     2000,
+     246
+    ],
+    [
+     2005,
+     478
+    ],
+    [
+     2010,
+     400
+    ],
+    [
+     2015,
+     195
+    ],
+    [
+     2020,
+     139
+    ],
+    [
+     2025,
+     33
+    ]
+   ]
+  },
+  "hays1976": {
+   "id": "W2022545034",
+   "y": 1976,
+   "c": 3789,
+   "r": 61,
+   "first": 1967,
+   "y10": 1977,
+   "y25": 1977,
+   "y50": 1978,
+   "y100": 1979,
+   "y500": 1986,
+   "peak": [
+    2021,
+    190
+   ],
+   "bins": [
+    [
+     1965,
+     1
+    ],
+    [
+     1970,
+     1
+    ],
+    [
+     1975,
+     111
+    ],
+    [
+     1980,
+     296
+    ],
+    [
+     1985,
+     248
+    ],
+    [
+     1990,
+     319
+    ],
+    [
+     1995,
+     257
+    ],
+    [
+     2000,
+     300
+    ],
+    [
+     2005,
+     431
+    ],
+    [
+     2010,
+     474
+    ],
+    [
+     2015,
+     565
+    ],
+    [
+     2020,
+     624
+    ],
+    [
+     2025,
+     161
+    ]
+   ],
+   "ec": 407,
+   "e": [
+    [
+     1978,
+     1442,
+     "Andre Berger",
+     "Long-Term Variations of Caloric Insolation Resulting from ",
+     "Quaternary Research"
+    ],
+    [
+     1978,
+     1102,
+     "John Mercer",
+     "West Antarctic ice sheet and CO2 greenhouse effect: a thre",
+     "Nature"
+    ],
+    [
+     1980,
+     1093,
+     "John Z Imbrie",
+     "Modeling the Climatic Response to Orbital Variations",
+     "Science"
+    ],
+    [
+     1981,
+     937,
+     "John E. Kutzbach",
+     "Monsoon Climate of the Early Holocene: Climate Experiment ",
+     "Science"
+    ],
+    [
+     1982,
+     834,
+     "Roberto Benzi",
+     "Stochastic resonance in climatic change",
+     "Tellus"
+    ],
+    [
+     1982,
+     817,
+     "Roberto Benzi",
+     "Stochastic resonance in climatic change",
+     "Tellus A Dynamic Meteo"
+    ],
+    [
+     1983,
+     675,
+     "Martine Rossignol_Stri",
+     "African monsoons, an immediate climate response to orbital",
+     "Nature"
+    ],
+    [
+     1982,
+     630,
+     "Dansgaard",
+     "A New Greenland Deep Ice Core",
+     "Science"
+    ]
+   ]
+  },
+  "hansen2005eei": {
+   "id": "W2103651007",
+   "y": 2005,
+   "c": 926,
+   "r": 33,
+   "first": 1923,
+   "y10": 2005,
+   "y25": 2006,
+   "y50": 2006,
+   "y100": 2007,
+   "y500": 2014,
+   "peak": [
+    2007,
+    65
+   ],
+   "bins": [
+    [
+     1920,
+     1
+    ],
+    [
+     2000,
+     2
+    ],
+    [
+     2005,
+     243
+    ],
+    [
+     2010,
+     274
+    ],
+    [
+     2015,
+     189
+    ],
+    [
+     2020,
+     179
+    ],
+    [
+     2025,
+     39
+    ]
+   ]
+  },
+  "parker2004": {
+   "id": "W1990007554",
+   "y": 2004,
+   "c": 155,
+   "r": 12,
+   "first": 2005,
+   "y10": 2006,
+   "y25": 2007,
+   "y50": 2009,
+   "y100": 2013,
+   "y500": null,
+   "peak": [
+    2007,
+    17
+   ],
+   "bins": [
+    [
+     2005,
+     54
+    ],
+    [
+     2010,
+     58
+    ],
+    [
+     2015,
+     25
+    ],
+    [
+     2020,
+     14
+    ],
+    [
+     2025,
+     3
+    ]
+   ]
+  },
+  "mm2005": {
+   "id": "W2059738590",
+   "y": 2005,
+   "c": 179,
+   "r": 14,
+   "first": 2005,
+   "y10": 2005,
+   "y25": 2006,
+   "y50": 2007,
+   "y100": 2009,
+   "y500": null,
+   "peak": [
+    2007,
+    44
+   ],
+   "bins": [
+    [
+     2005,
+     103
+    ],
+    [
+     2010,
+     50
+    ],
+    [
+     2015,
+     14
+    ],
+    [
+     2020,
+     10
+    ],
+    [
+     2025,
+     2
+    ]
+   ]
+  },
+  "mbh1999": {
+   "id": "W2131532072",
+   "y": 1999,
+   "c": 1883,
+   "r": 17,
+   "first": 1970,
+   "y10": 1999,
+   "y25": 2000,
+   "y50": 2000,
+   "y100": 2001,
+   "y500": 2005,
+   "peak": [
+    2005,
+    130
+   ],
+   "bins": [
+    [
+     1970,
+     1
+    ],
+    [
+     1995,
+     12
+    ],
+    [
+     2000,
+     386
+    ],
+    [
+     2005,
+     536
+    ],
+    [
+     2010,
+     393
+    ],
+    [
+     2015,
+     263
+    ],
+    [
+     2020,
+     251
+    ],
+    [
+     2025,
+     39
+    ]
+   ],
+   "ec": 766,
+   "e": [
+    [
+     2005,
+     2829,
+     "Gerhard Krinner",
+     "A dynamic global vegetation model for studies of the coupl",
+     "Global Biogeochemical "
+    ],
+    [
+     2000,
+     2139,
+     "Thomas J. Crowley",
+     "Causes of Climate Change Over the Past 1000 Years",
+     "Science"
+    ],
+    [
+     2006,
+     2128,
+     "N. Goswami",
+     "Increasing Trend of Extreme Rain Events Over India in a Wa",
+     "Science"
+    ],
+    [
+     2000,
+     2119,
+     "Lesley Hughes",
+     "Biological consequences of global warming: is the signal a",
+     "Trends in Ecology & Ev"
+    ],
+    [
+     2003,
+     1983,
+     "James Wilson Hurrell",
+     "An overview of the North Atlantic Oscillation",
+     "Geophysical monograph"
+    ],
+    [
+     2004,
+     1896,
+     "Jurg Luterbacher",
+     "European Seasonal and Annual Temperature Variability, Tren",
+     "Science"
+    ],
+    [
+     2005,
+     1700,
+     "Anders Moberg",
+     "Highly variable Northern Hemisphere temperatures reconstru",
+     "Nature"
+    ],
+    [
+     1999,
+     1529,
+     "Philip Douglas Jones",
+     "Surface air temperature and its changes over the past 150 ",
+     "Reviews of Geophysics"
+    ]
+   ]
+  },
+  "mbh1998": {
+   "id": "W1660201747",
+   "y": 1998,
+   "c": 2016,
+   "r": 55,
+   "first": 1947,
+   "y10": 1998,
+   "y25": 1999,
+   "y50": 1999,
+   "y100": 2000,
+   "y500": 2004,
+   "peak": [
+    2007,
+    119
+   ],
+   "bins": [
+    [
+     1945,
+     1
+    ],
+    [
+     1995,
+     82
+    ],
+    [
+     2000,
+     418
+    ],
+    [
+     2005,
+     485
+    ],
+    [
+     2010,
+     380
+    ],
+    [
+     2015,
+     342
+    ],
+    [
+     2020,
+     266
+    ],
+    [
+     2025,
+     41
+    ]
+   ],
+   "ec": 699,
+   "e": [
+    [
+     2006,
+     2274,
+     "Julio A. Camargo",
+     "Ecological and toxicological effects of inorganic nitrogen",
+     "Environment Internatio"
+    ],
+    [
+     2006,
+     2146,
+     "James E. Hansen",
+     "Global temperature change",
+     "Proceedings of the Nat"
+    ],
+    [
+     2000,
+     2139,
+     "Thomas J. Crowley",
+     "Causes of Climate Change Over the Past 1000 Years",
+     "Science"
+    ],
+    [
+     2002,
+     1995,
+     "Robert S. Steneck",
+     "Kelp forest ecosystems: biodiversity, stability, resilienc",
+     "Environmental Conserva"
+    ],
+    [
+     2004,
+     1896,
+     "Jurg Luterbacher",
+     "European Seasonal and Annual Temperature Variability, Tren",
+     "Science"
+    ],
+    [
+     1999,
+     1883,
+     "MICHAEL E. MANN",
+     "Northern hemisphere temperatures during the past millenniu",
+     "Geophysical Research L"
+    ],
+    [
+     2005,
+     1700,
+     "Anders Moberg",
+     "Highly variable Northern Hemisphere temperatures reconstru",
+     "Nature"
+    ],
+    [
+     2001,
+     1575,
+     "Liming Zhou",
+     "Variations in northern vegetation activity inferred from s",
+     "Journal of Geophysical"
+    ]
+   ]
+  },
+  "lorius1990": {
+   "id": "W2003034503",
+   "y": 1990,
+   "c": 378,
+   "r": 64,
+   "first": 1990,
+   "y10": 1991,
+   "y25": 1992,
+   "y50": 1993,
+   "y100": 1995,
+   "y500": null,
+   "peak": [
+    1992,
+    28
+   ],
+   "bins": [
+    [
+     1990,
+     87
+    ],
+    [
+     1995,
+     56
+    ],
+    [
+     2000,
+     54
+    ],
+    [
+     2005,
+     65
+    ],
+    [
+     2010,
+     44
+    ],
+    [
+     2015,
+     27
+    ],
+    [
+     2020,
+     40
+    ],
+    [
+     2025,
+     5
+    ]
+   ]
+  },
+  "tierney2020": {
+   "id": "W2996825230",
+   "y": 2020,
+   "c": 538,
+   "r": 82,
+   "first": 2020,
+   "y10": 2020,
+   "y25": 2021,
+   "y50": 2021,
+   "y100": 2021,
+   "y500": 2026,
+   "peak": [
+    2023,
+    121
+   ],
+   "bins": [
+    [
+     2020,
+     410
+    ],
+    [
+     2025,
+     127
+    ]
+   ],
+   "ec": 537,
+   "e": [
+    [
+     2020,
+     1338,
+     "Steven C. Sherwood",
+     "An Assessment of Earth's Climate Sensitivity Using Multipl",
+     "Reviews of Geophysics"
+    ],
+    [
+     2020,
+     684,
+     "Jessica E. Tierney",
+     "Past climates inform our future",
+     "Science"
+    ],
+    [
+     2023,
+     606,
+     "Intergovernmental Pane",
+     "Changing State of the Climate System",
+     "Cambridge University P"
+    ],
+    [
+     2021,
+     556,
+     "Matthew Osman",
+     "Globally resolved surface temperatures since the Last Glac",
+     "Nature"
+    ],
+    [
+     2021,
+     434,
+     "James William Buchanan",
+     "Atmospheric CO 2 over the Past 66 Million Years from Marin",
+     "Annual Review of Earth"
+    ],
+    [
+     2023,
+     342,
+     "James E. Hansen",
+     "Global warming in the pipeline",
+     "Oxford Open Climate Ch"
+    ],
+    [
+     2021,
+     341,
+     "Masa Kageyama",
+     "The PMIP4 Last Glacial Maximum experiments: preliminary re",
+     "Climate of the past"
+    ],
+    [
+     2023,
+     323,
+     "Intergovernmental Pane",
+     "Framing, Context, and Methods",
+     "Cambridge University P"
+    ]
+   ]
+  },
+  "shakun2012": {
+   "id": "W2156208893",
+   "y": 2012,
+   "c": 1544,
+   "r": 61,
+   "first": 1983,
+   "y10": 2012,
+   "y25": 2012,
+   "y50": 2013,
+   "y100": 2013,
+   "y500": 2018,
+   "peak": [
+    2021,
+    161
+   ],
+   "bins": [
+    [
+     1980,
+     1
+    ],
+    [
+     1995,
+     1
+    ],
+    [
+     2010,
+     209
+    ],
+    [
+     2015,
+     481
+    ],
+    [
+     2020,
+     695
+    ],
+    [
+     2025,
+     158
+    ]
+   ],
+   "ec": 819,
+   "e": [
+    [
+     2015,
+     3431,
+     "Simon L. Lewis",
+     "Defining the Anthropocene",
+     "Nature"
+    ],
+    [
+     2014,
+     1093,
+     "Claes Goran Granqvist",
+     "Electrochromics for smart windows: Oxide-based thin films ",
+     "Thin Solid Films"
+    ],
+    [
+     2015,
+     990,
+     "Fahu Chen",
+     "East Asian summer monsoon precipitation variability since ",
+     "Scientific Reports"
+    ],
+    [
+     2017,
+     947,
+     "Wenjun Zhang",
+     "Progress and Perspective of Electrocatalytic CO 2 Reductio",
+     "Advanced Science"
+    ],
+    [
+     2016,
+     857,
+     "Rachel Spratt",
+     "A Late Pleistocene sea level stack",
+     "Climate of the past"
+    ],
+    [
+     2016,
+     667,
+     "Peter U. Clark",
+     "Consequences of twenty-first-century policy for multi-mill",
+     "Nature Climate Change"
+    ],
+    [
+     2013,
+     643,
+     "Zhengyu Liu",
+     "Chinese cave records and the East Asia Summer Monsoon",
+     "Quaternary Science Rev"
+    ],
+    [
+     2013,
+     641,
+     "Noah S. Diffenbaugh",
+     "Changes in Ecologically Critical Terrestrial Climate Condi",
+     "Science"
+    ]
+   ]
+  },
+  "neukom2019": {
+   "id": "W2963970932",
+   "y": 2019,
+   "c": 522,
+   "r": 81,
+   "first": 2019,
+   "y10": 2020,
+   "y25": 2020,
+   "y50": 2020,
+   "y100": 2021,
+   "y500": 2026,
+   "peak": [
+    2022,
+    108
+   ],
+   "bins": [
+    [
+     2015,
+     9
+    ],
+    [
+     2020,
+     421
+    ],
+    [
+     2025,
+     91
+    ]
+   ],
+   "ec": 521,
+   "e": [
+    [
+     2021,
+     708,
+     "Carl Folke",
+     "Our future in the Anthropocene biosphere",
+     "AMBIO"
+    ],
+    [
+     2023,
+     606,
+     "Intergovernmental Pane",
+     "Changing State of the Climate System",
+     "Cambridge University P"
+    ],
+    [
+     2022,
+     512,
+     "James P. M. Syvitski",
+     "Earth_s sediment cycle during the Anthropocene",
+     "Nature Reviews Earth &"
+    ],
+    [
+     2020,
+     455,
+     "Darrell S. Kaufman",
+     "Holocene global mean surface temperature, a multi-method r",
+     "Scientific Data"
+    ],
+    [
+     2021,
+     332,
+     "Dagomar Degroot",
+     "Towards a rigorous understanding of societal responses to ",
+     "Nature"
+    ],
+    [
+     2023,
+     323,
+     "Intergovernmental Pane",
+     "Framing, Context, and Methods",
+     "Cambridge University P"
+    ],
+    [
+     2020,
+     311,
+     "James P. M. Syvitski",
+     "Extraordinary human energy consumption and resultant geolo",
+     "Communications Earth &"
+    ],
+    [
+     2022,
+     242,
+     "Savin S. Chand",
+     "Declining tropical cyclone frequency under global warming",
+     "Nature Climate Change"
+    ]
+   ]
+  },
+  "palaeosens2012": {
+   "id": "W2126933442",
+   "y": 2012,
+   "c": 386,
+   "r": 91,
+   "first": 2012,
+   "y10": 2013,
+   "y25": 2013,
+   "y50": 2014,
+   "y100": 2016,
+   "y500": null,
+   "peak": [
+    2022,
+    58
+   ],
+   "bins": [
+    [
+     2010,
+     60
+    ],
+    [
+     2015,
+     143
+    ],
+    [
+     2020,
+     167
+    ],
+    [
+     2025,
+     16
+    ]
+   ],
+   "ec": 233,
+   "e": [
+    [
+     2020,
+     1338,
+     "Steven C. Sherwood",
+     "An Assessment of Earth's Climate Sensitivity Using Multipl",
+     "Reviews of Geophysics"
+    ],
+    [
+     2017,
+     895,
+     "Gavin L. Foster",
+     "Future climate forcing potentially without precedent in th",
+     "Nature Communications"
+    ],
+    [
+     2020,
+     863,
+     "Gerald A. Meehl",
+     "Context for interpreting equilibrium climate sensitivity a",
+     "Science Advances"
+    ],
+    [
+     2013,
+     696,
+     "James Hansen",
+     "Climate sensitivity, sea level and atmospheric carbon diox",
+     "Philosophical Transact"
+    ],
+    [
+     2013,
+     683,
+     "James E. Hansen",
+     "Assessing _Dangerous Climate Change_: Required Reduction o",
+     "PLoS ONE"
+    ],
+    [
+     2013,
+     641,
+     "Noah S. Diffenbaugh",
+     "Changes in Ecologically Critical Terrestrial Climate Condi",
+     "Science"
+    ],
+    [
+     2017,
+     610,
+     "Charlotte L. O_Brien",
+     "Cretaceous sea-surface temperature evolution: Constraints ",
+     "Earth-Science Reviews"
+    ],
+    [
+     2016,
+     603,
+     "James E. Hansen",
+     "Ice melt, sea level rise and superstorms: evidence from pa",
+     "Atmospheric chemistry "
+    ]
+   ]
+  },
+  "matthews2009": {
+   "id": "W2007351213",
+   "y": 2009,
+   "c": 1220,
+   "r": 21,
+   "first": 2008,
+   "y10": 2010,
+   "y25": 2010,
+   "y50": 2011,
+   "y100": 2012,
+   "y500": 2019,
+   "peak": [
+    2021,
+    121
+   ],
+   "bins": [
+    [
+     2005,
+     8
+    ],
+    [
+     2010,
+     192
+    ],
+    [
+     2015,
+     333
+    ],
+    [
+     2020,
+     537
+    ],
+    [
+     2025,
+     147
+    ]
+   ],
+   "ec": 388,
+   "e": [
+    [
+     2011,
+     3813,
+     "Malte Alexander Meinsh",
+     "The RCP greenhouse gas concentrations and their extensions",
+     "Climatic Change"
+    ],
+    [
+     2015,
+     1817,
+     "Christophe McGlade",
+     "The geographical distribution of fossil fuels unused when ",
+     "Nature"
+    ],
+    [
+     2009,
+     1746,
+     "Myles R. Allen",
+     "Warming caused by cumulative carbon emissions towards the ",
+     "Nature"
+    ],
+    [
+     2011,
+     952,
+     "Vivek K. Arora",
+     "Carbon emission limits required to satisfy future represen",
+     "Geophysical Research L"
+    ],
+    [
+     2015,
+     897,
+     "Joeri Rogelj",
+     "Energy system transformations for limiting end-of-century ",
+     "Nature Climate Change"
+    ],
+    [
+     2013,
+     830,
+     "Richard Heede",
+     "Tracing anthropogenic carbon dioxide and methane emissions",
+     "Climatic Change"
+    ],
+    [
+     2014,
+     791,
+     "Pierre Friedlingstein",
+     "Persistent growth of CO2 emissions and implications for re",
+     "Nature Geoscience"
+    ],
+    [
+     2016,
+     773,
+     "Sonia Isabelle Senevir",
+     "Allowable CO2 emissions based on regional and impact-relat",
+     "Nature"
+    ]
+   ]
+  },
+  "hansen1985": {
+   "id": "W1965435246",
+   "y": 1985,
+   "c": 303,
+   "r": 11,
+   "first": 1985,
+   "y10": 1987,
+   "y25": 1990,
+   "y50": 1993,
+   "y100": 2006,
+   "y500": null,
+   "peak": [
+    2011,
+    19
+   ],
+   "bins": [
+    [
+     1985,
+     24
+    ],
+    [
+     1990,
+     32
+    ],
+    [
+     1995,
+     13
+    ],
+    [
+     2000,
+     24
+    ],
+    [
+     2005,
+     49
+    ],
+    [
+     2010,
+     60
+    ],
+    [
+     2015,
+     58
+    ],
+    [
+     2020,
+     36
+    ],
+    [
+     2025,
+     7
+    ]
+   ]
+  },
+  "stouffer1989": {
+   "id": "W1974758328",
+   "y": 1989,
+   "c": 321,
+   "r": 20,
+   "first": 1990,
+   "y10": 1990,
+   "y25": 1991,
+   "y50": 1992,
+   "y100": 1994,
+   "y500": null,
+   "peak": [
+    1991,
+    31
+   ],
+   "bins": [
+    [
+     1990,
+     111
+    ],
+    [
+     1995,
+     66
+    ],
+    [
+     2000,
+     34
+    ],
+    [
+     2005,
+     14
+    ],
+    [
+     2010,
+     17
+    ],
+    [
+     2015,
+     25
+    ],
+    [
+     2020,
+     32
+    ],
+    [
+     2025,
+     22
+    ]
+   ],
+   "ec": 162,
+   "e": [
+    [
+     1991,
+     1543,
+     "William D. Nordhaus",
+     "To Slow or Not to Slow: The Economics of The Greenhouse Ef",
+     "The Economic Journal"
+    ],
+    [
+     1995,
+     509,
+     "Syukuro Manabe",
+     "Simulation of abrupt climate change induced by freshwater ",
+     "Nature"
+    ],
+    [
+     1993,
+     496,
+     "Syukuro Manabe",
+     "Century-scale effects of increased atmospheric C02 on the ",
+     "Nature"
+    ],
+    [
+     1992,
+     424,
+     "Stanley S. Jacobs",
+     "Melting of ice shelves and the mass balance of Antarctica",
+     "Journal of Glaciology"
+    ],
+    [
+     1992,
+     405,
+     "Ulrich Cubasch",
+     "Time-dependent greenhouse warming computations with a coup",
+     "Climate Dynamics"
+    ],
+    [
+     1997,
+     379,
+     "J. Cavalieri",
+     "Observed Hemispheric Asymmetry in Global Sea Ice Changes",
+     "Science"
+    ],
+    [
+     1997,
+     368,
+     "Syukuro Manabe",
+     "Coupled ocean_atmosphere model response to freshwater inpu",
+     "Paleoceanography"
+    ],
+    [
+     1990,
+     367,
+     "Alayne Street_Perrott",
+     "Abrupt climate fluctuations in the tropics: the influence ",
+     "Nature"
+    ]
+   ]
+  },
+  "allen2009": {
+   "id": "W1985148570",
+   "y": 2009,
+   "c": 1746,
+   "r": 36,
+   "first": 2007,
+   "y10": 2009,
+   "y25": 2009,
+   "y50": 2010,
+   "y100": 2011,
+   "y500": 2015,
+   "peak": [
+    2021,
+    143
+   ],
+   "bins": [
+    [
+     2005,
+     29
+    ],
+    [
+     2010,
+     460
+    ],
+    [
+     2015,
+     499
+    ],
+    [
+     2020,
+     592
+    ],
+    [
+     2025,
+     162
+    ]
+   ],
+   "ec": 798,
+   "e": [
+    [
+     2011,
+     3813,
+     "Malte Alexander Meinsh",
+     "The RCP greenhouse gas concentrations and their extensions",
+     "Climatic Change"
+    ],
+    [
+     2009,
+     2828,
+     "Malte Alexander Meinsh",
+     "Greenhouse-gas emission targets for limiting global warmin",
+     "Nature"
+    ],
+    [
+     2010,
+     2673,
+     "Dominic Woolf",
+     "Sustainable biochar to mitigate global climate change",
+     "Nature Communications"
+    ],
+    [
+     2012,
+     2487,
+     "Sonia Isabelle Senevir",
+     "Changes in Climate Extremes and their Impacts on the Natur",
+     "Cambridge University P"
+    ],
+    [
+     2011,
+     2420,
+     "Will Steffen",
+     "The Anthropocene: conceptual and historical perspectives",
+     "Philosophical Transact"
+    ],
+    [
+     2015,
+     1817,
+     "Christophe McGlade",
+     "The geographical distribution of fossil fuels unused when ",
+     "Nature"
+    ],
+    [
+     2009,
+     1220,
+     "Damon Matthews",
+     "The proportionality of global warming to cumulative carbon",
+     "Nature"
+    ],
+    [
+     2014,
+     1142,
+     "Sabine Fuss",
+     "Betting on negative emissions",
+     "Nature Climate Change"
+    ]
+   ]
+  },
+  "armour2013": {
+   "id": "W2137567014",
+   "y": 2012,
+   "c": 416,
+   "r": 57,
+   "first": 2013,
+   "y10": 2013,
+   "y25": 2014,
+   "y50": 2015,
+   "y100": 2017,
+   "y500": null,
+   "peak": [
+    2022,
+    54
+   ],
+   "bins": [
+    [
+     2010,
+     33
+    ],
+    [
+     2015,
+     157
+    ],
+    [
+     2020,
+     188
+    ],
+    [
+     2025,
+     38
+    ]
+   ],
+   "ec": 228,
+   "e": [
+    [
+     2020,
+     1879,
+     "Mark D. Zelinka",
+     "Causes of Higher Climate Sensitivity in CMIP6 Models",
+     "Geophysical Research L"
+    ],
+    [
+     2020,
+     1338,
+     "Steven C. Sherwood",
+     "An Assessment of Earth's Climate Sensitivity Using Multipl",
+     "Reviews of Geophysics"
+    ],
+    [
+     2019,
+     909,
+     "Jean_Christophe Golaz",
+     "The DOE E3SM Coupled Model Version 1: Overview and Evaluat",
+     "Journal of Advances in"
+    ],
+    [
+     2020,
+     863,
+     "Gerald A. Meehl",
+     "Context for interpreting equilibrium climate sensitivity a",
+     "Science Advances"
+    ],
+    [
+     2014,
+     788,
+     "Gavin A. Schmidt",
+     "Configuration and assessment of the GISS ModelE2 contribut",
+     "Journal of Advances in"
+    ],
+    [
+     2016,
+     610,
+     "Kyle C. Armour",
+     "Southern Ocean warming delayed by circumpolar upwelling an",
+     "Nature Geoscience"
+    ],
+    [
+     2018,
+     572,
+     "Hugues Goosse",
+     "Quantifying climate feedbacks in polar regions",
+     "Nature Communications"
+    ],
+    [
+     2017,
+     472,
+     "Iselin Medhaug",
+     "Reconciling controversies about the _global warming hiatus",
+     "Nature"
+    ]
+   ]
+  },
+  "solomon2009": {
+   "id": "W2166941621",
+   "y": 2009,
+   "c": 3268,
+   "r": 55,
+   "first": 2008,
+   "y10": 2009,
+   "y25": 2009,
+   "y50": 2009,
+   "y100": 2010,
+   "y500": 2012,
+   "peak": [
+    2023,
+    254
+   ],
+   "bins": [
+    [
+     2005,
+     75
+    ],
+    [
+     2010,
+     802
+    ],
+    [
+     2015,
+     875
+    ],
+    [
+     2020,
+     1180
+    ],
+    [
+     2025,
+     332
+    ]
+   ],
+   "ec": 1376,
+   "e": [
+    [
+     2010,
+     3523,
+     "Shilong L. Piao",
+     "The impacts of climate change on water resources and agric",
+     "Nature"
+    ],
+    [
+     2017,
+     2927,
+     "Rupert Seidl",
+     "Forest disturbances under climate change",
+     "Nature Climate Change"
+    ],
+    [
+     2010,
+     2673,
+     "Dominic Woolf",
+     "Sustainable biochar to mitigate global climate change",
+     "Nature Communications"
+    ],
+    [
+     2011,
+     2018,
+     "Terence P. Dawson",
+     "Beyond Predictions: Biodiversity Conservation in a Changin",
+     "Science"
+    ],
+    [
+     2009,
+     1746,
+     "Myles R. Allen",
+     "Warming caused by cumulative carbon emissions towards the ",
+     "Nature"
+    ],
+    [
+     2015,
+     1532,
+     "Francois Perreault",
+     "Environmental applications of graphene-based nanomaterials",
+     "Chemical Society Revie"
+    ],
+    [
+     2010,
+     1402,
+     "Steven J. Davis",
+     "Future CO 2 Emissions and Climate Change from Existing Ene",
+     "Science"
+    ],
+    [
+     2009,
+     1309,
+     "Reto Knutti",
+     "Challenges in Combining Projections from Multiple Climate ",
+     "Journal of Climate"
+    ]
+   ]
+  },
+  "macdougall2020": {
+   "id": "W3004697769",
+   "y": 2020,
+   "c": 249,
+   "r": 115,
+   "first": 2020,
+   "y10": 2020,
+   "y25": 2021,
+   "y50": 2021,
+   "y100": 2022,
+   "y500": null,
+   "peak": [
+    2022,
+    50
+   ],
+   "bins": [
+    [
+     2020,
+     187
+    ],
+    [
+     2025,
+     59
+    ]
+   ],
+   "ec": 246,
+   "e": [
+    [
+     2021,
+     971,
+     "Samuel Fankhauser",
+     "The meaning of net zero and how to get it right",
+     "Nature Climate Change"
+    ],
+    [
+     2022,
+     544,
+     "Damon Matthews",
+     "Current global efforts are insufficient to limit warming t",
+     "Science"
+    ],
+    [
+     2023,
+     524,
+     "Matthew W. Jones",
+     "National contributions to climate change due to historical",
+     "Scientific Data"
+    ],
+    [
+     2023,
+     326,
+     "United Nations Environ",
+     "Emissions Gap Report 2023: Broken Record _ Temperatures hi",
+     "United Nations Environ"
+    ],
+    [
+     2023,
+     323,
+     "Intergovernmental Pane",
+     "Framing, Context, and Methods",
+     "Cambridge University P"
+    ],
+    [
+     2021,
+     263,
+     "Keywan Riahi",
+     "Cost and attainability of meeting stringent climate target",
+     "Nature Climate Change"
+    ],
+    [
+     2023,
+     245,
+     "Robin Lamboll",
+     "Assessing the size and uncertainty of remaining carbon bud",
+     "Nature Climate Change"
+    ],
+    [
+     2022,
+     221,
+     "Myles R. Allen",
+     "Net Zero: Science, Origins, and Implications",
+     "Annual Review of Envir"
+    ]
+   ]
+  },
+  "matthewscaldeira2008": {
+   "id": "W1965632437",
+   "y": 2008,
+   "c": 609,
+   "r": 17,
+   "first": 2008,
+   "y10": 2008,
+   "y25": 2009,
+   "y50": 2009,
+   "y100": 2011,
+   "y500": 2023,
+   "peak": [
+    2021,
+    74
+   ],
+   "bins": [
+    [
+     2005,
+     51
+    ],
+    [
+     2010,
+     141
+    ],
+    [
+     2015,
+     134
+    ],
+    [
+     2020,
+     234
+    ],
+    [
+     2025,
+     49
+    ]
+   ],
+   "ec": 244,
+   "e": [
+    [
+     2016,
+     3474,
+     "Joeri Rogelj",
+     "Paris Agreement climate proposals need a boost to keep war",
+     "Nature"
+    ],
+    [
+     2009,
+     3268,
+     "Susan Solomon",
+     "Irreversible climate change due to carbon dioxide emission",
+     "Proceedings of the Nat"
+    ],
+    [
+     2010,
+     2673,
+     "Dominic Woolf",
+     "Sustainable biochar to mitigate global climate change",
+     "Nature Communications"
+    ],
+    [
+     2016,
+     2187,
+     "Robert M. DeConto",
+     "Contribution of Antarctica to past and future sea-level ri",
+     "Nature"
+    ],
+    [
+     2009,
+     1746,
+     "Myles R. Allen",
+     "Warming caused by cumulative carbon emissions towards the ",
+     "Nature"
+    ],
+    [
+     2010,
+     1402,
+     "Steven J. Davis",
+     "Future CO 2 Emissions and Climate Change from Existing Ene",
+     "Science"
+    ],
+    [
+     2009,
+     1220,
+     "Damon Matthews",
+     "The proportionality of global warming to cumulative carbon",
+     "Nature"
+    ],
+    [
+     2008,
+     971,
+     "James Hansen",
+     "Target Atmospheric CO: Where Should Humanity Aim?",
+     "The Open Atmospheric S"
+    ]
+   ]
+  },
+  "andrews2015": {
+   "id": "W2168699591",
+   "y": 2014,
+   "c": 392,
+   "r": 41,
+   "first": 2015,
+   "y10": 2015,
+   "y25": 2016,
+   "y50": 2017,
+   "y100": 2018,
+   "y500": null,
+   "peak": [
+    2022,
+    56
+   ],
+   "bins": [
+    [
+     2015,
+     133
+    ],
+    [
+     2020,
+     225
+    ],
+    [
+     2025,
+     34
+    ]
+   ],
+   "ec": 269,
+   "e": [
+    [
+     2020,
+     1879,
+     "Mark D. Zelinka",
+     "Causes of Higher Climate Sensitivity in CMIP6 Models",
+     "Geophysical Research L"
+    ],
+    [
+     2020,
+     1829,
+     "Olivier Boucher",
+     "Presentation and Evaluation of the IPSL_CM6A_LR Climate Mo",
+     "Journal of Advances in"
+    ],
+    [
+     2020,
+     1338,
+     "Steven C. Sherwood",
+     "An Assessment of Earth's Climate Sensitivity Using Multipl",
+     "Reviews of Geophysics"
+    ],
+    [
+     2019,
+     909,
+     "Jean_Christophe Golaz",
+     "The DOE E3SM Coupled Model Version 1: Overview and Evaluat",
+     "Journal of Advances in"
+    ],
+    [
+     2020,
+     863,
+     "Gerald A. Meehl",
+     "Context for interpreting equilibrium climate sensitivity a",
+     "Science Advances"
+    ],
+    [
+     2018,
+     572,
+     "Hugues Goosse",
+     "Quantifying climate feedbacks in polar regions",
+     "Nature Communications"
+    ],
+    [
+     2017,
+     457,
+     "Paulo Ceppi",
+     "Cloud feedback mechanisms and their representation in glob",
+     "Wiley Interdisciplinar"
+    ],
+    [
+     2017,
+     364,
+     "Reto Knutti",
+     "Beyond equilibrium climate sensitivity",
+     "Nature Geoscience"
+    ]
+   ]
+  },
+  "gregoryandrews2016": {
+   "id": "W2337399347",
+   "y": 2016,
+   "c": 206,
+   "r": 60,
+   "first": 2016,
+   "y10": 2016,
+   "y25": 2017,
+   "y50": 2018,
+   "y100": 2021,
+   "y500": null,
+   "peak": [
+    2018,
+    28
+   ],
+   "bins": [
+    [
+     2015,
+     74
+    ],
+    [
+     2020,
+     104
+    ],
+    [
+     2025,
+     27
+    ]
+   ],
+   "ec": 178,
+   "e": [
+    [
+     2020,
+     1338,
+     "Steven C. Sherwood",
+     "An Assessment of Earth's Climate Sensitivity Using Multipl",
+     "Reviews of Geophysics"
+    ],
+    [
+     2020,
+     863,
+     "Gerald A. Meehl",
+     "Context for interpreting equilibrium climate sensitivity a",
+     "Science Advances"
+    ],
+    [
+     2016,
+     612,
+     "Dirk Notz",
+     "Observed Arctic sea-ice loss directly follows anthropogeni",
+     "Science"
+    ],
+    [
+     2017,
+     457,
+     "Paulo Ceppi",
+     "Cloud feedback mechanisms and their representation in glob",
+     "Wiley Interdisciplinar"
+    ],
+    [
+     2018,
+     441,
+     "Peter M. Cox",
+     "Emergent constraint on equilibrium climate sensitivity fro",
+     "Nature"
+    ],
+    [
+     2020,
+     392,
+     "Karina von Schuckmann",
+     "Heat stored in the Earth system: where does the energy go?",
+     "Earth system science d"
+    ],
+    [
+     2017,
+     364,
+     "Reto Knutti",
+     "Beyond equilibrium climate sensitivity",
+     "Nature Geoscience"
+    ],
+    [
+     2016,
+     334,
+     "Chen Zhou",
+     "Impact of decadal cloud variations on the Earth_s energy b",
+     "Nature Geoscience"
+    ]
+   ]
+  },
+  "alleningram2002": {
+   "id": "W1972946703",
+   "y": 2002,
+   "c": 3106,
+   "r": 97,
+   "first": 1970,
+   "y10": 2003,
+   "y25": 2004,
+   "y50": 2004,
+   "y100": 2005,
+   "y500": 2011,
+   "peak": [
+    2021,
+    227
+   ],
+   "bins": [
+    [
+     1970,
+     1
+    ],
+    [
+     1980,
+     1
+    ],
+    [
+     1990,
+     2
+    ],
+    [
+     1995,
+     1
+    ],
+    [
+     2000,
+     49
+    ],
+    [
+     2005,
+     292
+    ],
+    [
+     2010,
+     607
+    ],
+    [
+     2015,
+     830
+    ],
+    [
+     2020,
+     1012
+    ],
+    [
+     2025,
+     306
+    ]
+   ],
+   "ec": 433,
+   "e": [
+    [
+     2006,
+     5142,
+     "Isaac M. Held",
+     "Robust Responses of the Hydrological Cycle to Global Warmi",
+     "Journal of Climate"
+    ],
+    [
+     2010,
+     3899,
+     "Kevin E. Trenberth",
+     "Changes in precipitation with climate change",
+     "Climate Research"
+    ],
+    [
+     2009,
+     3268,
+     "Susan Solomon",
+     "Irreversible climate change due to carbon dioxide emission",
+     "Proceedings of the Nat"
+    ],
+    [
+     2005,
+     2796,
+     "Ulrike Lohmann",
+     "Global indirect aerosol effects: a review",
+     "Atmospheric chemistry "
+    ],
+    [
+     2005,
+     2435,
+     "Thomas G. Huntington",
+     "Evidence for intensification of the global water cycle: Re",
+     "Journal of Hydrology"
+    ],
+    [
+     2005,
+     2354,
+     "Paul C. D. Milly",
+     "Global pattern of trends in streamflow and water availabil",
+     "Nature"
+    ],
+    [
+     2007,
+     2243,
+     "Hayley Jane Fowler",
+     "Linking climate change modelling to impacts studies: recen",
+     "International Journal "
+    ],
+    [
+     2006,
+     2128,
+     "N. Goswami",
+     "Increasing Trend of Extreme Rain Events Over India in a Wa",
+     "Science"
+    ]
+   ]
+  },
+  "heldsoden2006": {
+   "id": "W2122511023",
+   "y": 2006,
+   "c": 5142,
+   "r": 24,
+   "first": 1973,
+   "y10": 2006,
+   "y25": 2007,
+   "y50": 2007,
+   "y100": 2008,
+   "y500": 2011,
+   "peak": [
+    2024,
+    409
+   ],
+   "bins": [
+    [
+     1970,
+     1
+    ],
+    [
+     1980,
+     1
+    ],
+    [
+     1990,
+     1
+    ],
+    [
+     1995,
+     3
+    ],
+    [
+     2000,
+     1
+    ],
+    [
+     2005,
+     244
+    ],
+    [
+     2010,
+     991
+    ],
+    [
+     2015,
+     1395
+    ],
+    [
+     2020,
+     1938
+    ],
+    [
+     2025,
+     556
+    ]
+   ],
+   "ec": 1234,
+   "e": [
+    [
+     2008,
+     4648,
+     "Paul C. D. Milly",
+     "Stationarity Is Dead: Whither Water Management?",
+     "Science"
+    ],
+    [
+     2010,
+     3899,
+     "Kevin E. Trenberth",
+     "Changes in precipitation with climate change",
+     "Climate Research"
+    ],
+    [
+     2011,
+     3730,
+     "Gilbert P. Compo",
+     "The Twentieth Century Reanalysis Project",
+     "Quarterly Journal of t"
+    ],
+    [
+     2009,
+     3268,
+     "Susan Solomon",
+     "Irreversible climate change due to carbon dioxide emission",
+     "Proceedings of the Nat"
+    ],
+    [
+     2010,
+     3246,
+     "Thomas R. Knutson",
+     "Tropical cyclones and climate change",
+     "Nature Geoscience"
+    ],
+    [
+     2012,
+     2487,
+     "Sonia Isabelle Senevir",
+     "Changes in Climate Extremes and their Impacts on the Natur",
+     "Cambridge University P"
+    ],
+    [
+     2006,
+     2146,
+     "James E. Hansen",
+     "Global temperature change",
+     "Proceedings of the Nat"
+    ],
+    [
+     2007,
+     2107,
+     "Richard Seager",
+     "Model Projections of an Imminent Transition to a More Arid",
+     "Science"
+    ]
+   ]
+  },
+  "knutson2010": {
+   "id": "W2167905626",
+   "y": 2010,
+   "c": 3246,
+   "r": 123,
+   "first": 1977,
+   "y10": 2010,
+   "y25": 2010,
+   "y50": 2011,
+   "y100": 2011,
+   "y500": 2013,
+   "peak": [
+    2021,
+    283
+   ],
+   "bins": [
+    [
+     1975,
+     1
+    ],
+    [
+     1990,
+     1
+    ],
+    [
+     1995,
+     2
+    ],
+    [
+     2000,
+     3
+    ],
+    [
+     2005,
+     2
+    ],
+    [
+     2010,
+     716
+    ],
+    [
+     2015,
+     1134
+    ],
+    [
+     2020,
+     1108
+    ],
+    [
+     2025,
+     271
+    ]
+   ]
+  },
+  "stommel1961": {
+   "id": "W2322298591",
+   "y": 1961,
+   "c": 34,
+   "r": 0,
+   "first": 2004,
+   "y10": 2021,
+   "y25": 2024,
+   "y50": null,
+   "y100": null,
+   "y500": null,
+   "peak": [
+    2024,
+    9
+   ],
+   "bins": [
+    [
+     2000,
+     1
+    ],
+    [
+     2005,
+     1
+    ],
+    [
+     2010,
+     1
+    ],
+    [
+     2015,
+     1
+    ],
+    [
+     2020,
+     23
+    ],
+    [
+     2025,
+     6
+    ]
+   ],
+   "ec": 0,
+   "e": [],
+   "alt": [
+    {
+     "id": "W2024330627",
+     "total": 1328,
+     "first": 1968,
+     "bins": [
+      [
+       1965,
+       1
+      ],
+      [
+       1970,
+       1
+      ],
+      [
+       1975,
+       1
+      ],
+      [
+       1980,
+       3
+      ],
+      [
+       1985,
+       13
+      ],
+      [
+       1990,
+       53
+      ],
+      [
+       1995,
+       116
+      ],
+      [
+       2000,
+       205
+      ],
+      [
+       2005,
+       213
+      ],
+      [
+       2010,
+       229
+      ],
+      [
+       2015,
+       209
+      ],
+      [
+       2020,
+       218
+      ],
+      [
+       2025,
+       66
+      ]
+     ],
+     "ec": 1,
+     "e": [
+      [
+       1968,
+       23,
+       "Henry Stommel",
+       "On the interaction of gravitational and dynamic forcing in",
+       "Deep Sea Research and "
+      ]
+     ]
+    },
+    {
+     "id": "W4255338144",
+     "total": 760,
+     "first": 1982,
+     "bins": [
+      [
+       1980,
+       2
+      ],
+      [
+       1985,
+       6
+      ],
+      [
+       1990,
+       33
+      ],
+      [
+       1995,
+       55
+      ],
+      [
+       2000,
+       102
+      ],
+      [
+       2005,
+       66
+      ],
+      [
+       2010,
+       139
+      ],
+      [
+       2015,
+       108
+      ],
+      [
+       2020,
+       192
+      ],
+      [
+       2025,
+       57
+      ]
+     ],
+     "ec": 0,
+     "e": []
+    }
+   ],
+   "bins_all_records": [
+    [
+     1965,
+     1
+    ],
+    [
+     1970,
+     1
+    ],
+    [
+     1975,
+     1
+    ],
+    [
+     1980,
+     5
+    ],
+    [
+     1985,
+     19
+    ],
+    [
+     1990,
+     86
+    ],
+    [
+     1995,
+     171
+    ],
+    [
+     2000,
+     308
+    ],
+    [
+     2005,
+     280
+    ],
+    [
+     2010,
+     369
+    ],
+    [
+     2015,
+     318
+    ],
+    [
+     2020,
+     433
+    ],
+    [
+     2025,
+     129
+    ]
+   ],
+   "c_all_records": 2122
+  },
+  "stott2004": {
+   "id": "W2044387082",
+   "y": 2004,
+   "c": 1763,
+   "r": 27,
+   "first": 1980,
+   "y10": 2005,
+   "y25": 2005,
+   "y50": 2006,
+   "y100": 2006,
+   "y500": 2013,
+   "peak": [
+    2020,
+    130
+   ],
+   "bins": [
+    [
+     1980,
+     1
+    ],
+    [
+     1995,
+     2
+    ],
+    [
+     2000,
+     5
+    ],
+    [
+     2005,
+     271
+    ],
+    [
+     2010,
+     344
+    ],
+    [
+     2015,
+     416
+    ],
+    [
+     2020,
+     569
+    ],
+    [
+     2025,
+     151
+    ]
+   ],
+   "ec": 488,
+   "e": [
+    [
+     2006,
+     5373,
+     "William Neil Adger",
+     "Vulnerability",
+     "Global Environmental C"
+    ],
+    [
+     2012,
+     3765,
+     "Daron Acemoglu",
+     "The environment and directed technical change",
+     "Zurich Open Repository"
+    ],
+    [
+     2005,
+     3125,
+     "Jonathan Alan Patz",
+     "Impact of regional climate change on human health",
+     "Nature"
+    ],
+    [
+     2010,
+     3083,
+     "Diana E. Bowler",
+     "Urban greening to cool towns and cities: A systematic revi",
+     "Landscape and Urban Pl"
+    ],
+    [
+     2006,
+     2615,
+     "Anthony John McMichael",
+     "Climate change and human health: present and future risks",
+     "The Lancet"
+    ],
+    [
+     2012,
+     2487,
+     "Sonia Isabelle Senevir",
+     "Changes in Climate Extremes and their Impacts on the Natur",
+     "Cambridge University P"
+    ],
+    [
+     2012,
+     2348,
+     "Dim Coumou",
+     "A decade of weather extremes",
+     "Nature Climate Change"
+    ],
+    [
+     2007,
+     1924,
+     "Sari R. Kovats",
+     "Heat Stress and Public Health: A Critical Review",
+     "Annual Review of Publi"
+    ]
+   ]
+  },
+  "francisvavrus2012": {
+   "id": "W2170174991",
+   "y": 2012,
+   "c": 1872,
+   "r": 31,
+   "first": 1995,
+   "y10": 2012,
+   "y25": 2013,
+   "y50": 2013,
+   "y100": 2014,
+   "y500": 2017,
+   "peak": [
+    2021,
+    188
+   ],
+   "bins": [
+    [
+     1995,
+     1
+    ],
+    [
+     2000,
+     1
+    ],
+    [
+     2010,
+     214
+    ],
+    [
+     2015,
+     658
+    ],
+    [
+     2020,
+     781
+    ],
+    [
+     2025,
+     214
+    ]
+   ],
+   "ec": 1011,
+   "e": [
+    [
+     2014,
+     2624,
+     "Judah L. Cohen",
+     "Recent Arctic amplification and extreme mid-latitude weath",
+     "Nature Geoscience"
+    ],
+    [
+     2014,
+     1314,
+     "Fritjof Capra",
+     "The Systems View of Life",
+     "Cambridge University P"
+    ],
+    [
+     2018,
+     1199,
+     "Julienne Christine Str",
+     "Changing state of Arctic sea ice across all seasons",
+     "Environmental Research"
+    ],
+    [
+     2012,
+     1139,
+     "Julienne Christine Str",
+     "Trends in Arctic sea ice extent from CMIP5, CMIP3 and obse",
+     "Geophysical Research L"
+    ],
+    [
+     2020,
+     1103,
+     "Amir AghaKouchak",
+     "Climate Extremes and Compound Hazards in a Warming World",
+     "Annual Review of Earth"
+    ],
+    [
+     2017,
+     951,
+     "Jakob Zscheischler",
+     "Dependence of drivers affects risks associated with compou",
+     "Science Advances"
+    ],
+    [
+     2014,
+     854,
+     "Baek_Min Kim",
+     "Weakening of the stratospheric polar vortex by Arctic sea-",
+     "Nature Communications"
+    ],
+    [
+     2019,
+     831,
+     "Judah L. Cohen",
+     "Divergent consensuses on Arctic amplification influence on",
+     "Nature Climate Change"
+    ]
+   ]
+  },
+  "stockerschmittner1997": {
+   "id": "W1671353246",
+   "y": 1997,
+   "c": 574,
+   "r": 33,
+   "first": 1996,
+   "y10": 1998,
+   "y25": 1999,
+   "y50": 1999,
+   "y100": 2001,
+   "y500": 2021,
+   "peak": [
+    2005,
+    58
+   ],
+   "bins": [
+    [
+     1995,
+     52
+    ],
+    [
+     2000,
+     151
+    ],
+    [
+     2005,
+     174
+    ],
+    [
+     2010,
+     61
+    ],
+    [
+     2015,
+     46
+    ],
+    [
+     2020,
+     74
+    ],
+    [
+     2025,
+     16
+    ]
+   ],
+   "ec": 260,
+   "e": [
+    [
+     2000,
+     2220,
+     "Paul G. Falkowski",
+     "The Global Carbon Cycle: A Test of Our Knowledge of Earth ",
+     "Science"
+    ],
+    [
+     2003,
+     1353,
+     "Richard B. Alley",
+     "Abrupt Climate Change",
+     "Science"
+    ],
+    [
+     2000,
+     1001,
+     "Richard B. Alley",
+     "The Younger Dryas cold interval as viewed from central Gre",
+     "Quaternary Science Rev"
+    ],
+    [
+     2005,
+     936,
+     "Richard B. Alley",
+     "The 8k event: cause and consequences of a major Holocene a",
+     "Quaternary Science Rev"
+    ],
+    [
+     2002,
+     926,
+     "Michael Vellinga",
+     "Global Climatic Impacts of a Collapse of the Atlantic Ther",
+     "Climatic Change"
+    ],
+    [
+     2002,
+     902,
+     "Peter U. Clark",
+     "The role of the thermohaline circulation in abrupt climate",
+     "Nature"
+    ],
+    [
+     2001,
+     819,
+     "Andrew J. Weaver",
+     "The UVic earth system climate model: Model description, cl",
+     "ATMOSPHERE-OCEAN"
+    ],
+    [
+     2001,
+     723,
+     "Heinz Wanner",
+     "North Atlantic Oscillation _ Concepts And Studies",
+     "Surveys in Geophysics"
+    ]
+   ]
+  },
+  "lenton2008": {
+   "id": "W2073141004",
+   "y": 2008,
+   "c": 4094,
+   "r": 115,
+   "first": 1996,
+   "y10": 2008,
+   "y25": 2008,
+   "y50": 2008,
+   "y100": 2009,
+   "y500": 2011,
+   "peak": [
+    2023,
+    396
+   ],
+   "bins": [
+    [
+     1995,
+     1
+    ],
+    [
+     2000,
+     4
+    ],
+    [
+     2005,
+     180
+    ],
+    [
+     2010,
+     901
+    ],
+    [
+     2015,
+     925
+    ],
+    [
+     2020,
+     1582
+    ],
+    [
+     2025,
+     501
+    ]
+   ],
+   "ec": 1452,
+   "e": [
+    [
+     2009,
+     13354,
+     "Johan Rockstrom",
+     "A safe operating space for humanity",
+     "Nature"
+    ],
+    [
+     2015,
+     12621,
+     "Will Steffen",
+     "Planetary boundaries: Guiding human development on a chang",
+     "Science"
+    ],
+    [
+     2009,
+     7902,
+     "Craig D. Allen",
+     "A global overview of drought and heat-induced tree mortali",
+     "Forest Ecology and Man"
+    ],
+    [
+     2009,
+     7194,
+     "Johan Rockstrom",
+     "Planetary Boundaries: Exploring the Safe Operating Space f",
+     "Ecology and Society"
+    ],
+    [
+     2009,
+     4950,
+     "Marten Scheffer",
+     "Early-warning signals for critical transitions",
+     "Nature"
+    ],
+    [
+     2009,
+     3044,
+     "Anthony M de L Costell",
+     "Managing the health effects of climate change",
+     "The Lancet"
+    ],
+    [
+     2015,
+     2711,
+     "Craig D. Allen",
+     "On underestimation of global vulnerability to tree mortali",
+     "Ecosphere"
+    ],
+    [
+     2009,
+     2565,
+     "Mike Hulme",
+     "Why We Disagree about Climate Change",
+     "Cambridge University P"
+    ]
+   ]
+  },
+  "broecker1987": {
+   "id": "W2037699191",
+   "y": 1987,
+   "c": 298,
+   "r": 0,
+   "first": 1962,
+   "y10": 1988,
+   "y25": 1989,
+   "y50": 1990,
+   "y100": 1994,
+   "y500": null,
+   "peak": [
+    1989,
+    26
+   ],
+   "bins": [
+    [
+     1960,
+     1
+    ],
+    [
+     1985,
+     38
+    ],
+    [
+     1990,
+     65
+    ],
+    [
+     1995,
+     35
+    ],
+    [
+     2000,
+     29
+    ],
+    [
+     2005,
+     36
+    ],
+    [
+     2010,
+     30
+    ],
+    [
+     2015,
+     18
+    ],
+    [
+     2020,
+     34
+    ],
+    [
+     2025,
+     10
+    ]
+   ]
+  },
+  "rahmstorf1995": {
+   "id": "W1972964746",
+   "y": 1995,
+   "c": 861,
+   "r": 36,
+   "first": 1962,
+   "y10": 1996,
+   "y25": 1997,
+   "y50": 1998,
+   "y100": 1999,
+   "y500": 2008,
+   "peak": [
+    2001,
+    100
+   ],
+   "bins": [
+    [
+     1960,
+     1
+    ],
+    [
+     1995,
+     115
+    ],
+    [
+     2000,
+     260
+    ],
+    [
+     2005,
+     169
+    ],
+    [
+     2010,
+     107
+    ],
+    [
+     2015,
+     68
+    ],
+    [
+     2020,
+     113
+    ],
+    [
+     2025,
+     27
+    ]
+   ],
+   "ec": 332,
+   "e": [
+    [
+     2001,
+     7544,
+     "Marten Scheffer",
+     "Catastrophic shifts in ecosystems",
+     "Nature"
+    ],
+    [
+     1997,
+     3426,
+     "Gerard C. Bond",
+     "A Pervasive Millennial-Scale Cycle in North Atlantic Holoc",
+     "Science"
+    ],
+    [
+     2002,
+     3106,
+     "Myles R. Allen",
+     "Constraints on future changes in climate and the hydrologi",
+     "Nature"
+    ],
+    [
+     2002,
+     2263,
+     "Michael Ghil",
+     "ADVANCED SPECTRAL METHODS FOR CLIMATIC TIME SERIES",
+     "Reviews of Geophysics"
+    ],
+    [
+     1997,
+     1921,
+     "Richard B. Alley",
+     "Holocene climatic instability: A prominent, widespread eve",
+     "Geology"
+    ],
+    [
+     2000,
+     1747,
+     "Peter B deMenocal",
+     "Abrupt onset and termination of the African Humid Period:",
+     "Quaternary Science Rev"
+    ],
+    [
+     2002,
+     1561,
+     "Bruce J. Peterson",
+     "Increasing River Discharge to the Arctic Ocean",
+     "Science"
+    ],
+    [
+     2002,
+     1321,
+     "Stefan Rahmstorf",
+     "Ocean circulation and climate during the past 120,000 year",
+     "Nature"
+    ]
+   ]
+  },
+  "decontopollard2016": {
+   "id": "W2320249130",
+   "y": 2016,
+   "c": 2187,
+   "r": 80,
+   "first": 1998,
+   "y10": 2016,
+   "y25": 2016,
+   "y50": 2016,
+   "y100": 2017,
+   "y500": 2018,
+   "peak": [
+    2021,
+    280
+   ],
+   "bins": [
+    [
+     1995,
+     1
+    ],
+    [
+     2000,
+     1
+    ],
+    [
+     2010,
+     2
+    ],
+    [
+     2015,
+     802
+    ],
+    [
+     2020,
+     1189
+    ],
+    [
+     2025,
+     191
+    ]
+   ],
+   "ec": 1989,
+   "e": [
+    [
+     2018,
+     3177,
+     "Will Steffen",
+     "Trajectories of the Earth System in the Anthropocene",
+     "Proceedings of the Nat"
+    ],
+    [
+     2022,
+     1943,
+     "David I. Armstrong McK",
+     "Exceeding 1.5_C global warming could trigger multiple clim",
+     "Science"
+    ],
+    [
+     2018,
+     1566,
+     "Wolfgang Cramer",
+     "Climate change and interconnected risks to sustainable dev",
+     "Nature Climate Change"
+    ],
+    [
+     2019,
+     1300,
+     "Scott Kulp",
+     "New elevation data triple estimates of global vulnerabilit",
+     "Nature Communications"
+    ],
+    [
+     2017,
+     966,
+     "Sean Vitousek",
+     "Doubling of coastal flooding frequency within decades due ",
+     "Scientific Reports"
+    ],
+    [
+     2022,
+     887,
+     "Intergovernmental Pane",
+     "Sea Level Rise and Implications for Low-Lying Islands, Coa",
+     "Cambridge University P"
+    ],
+    [
+     2018,
+     785,
+     "Theodore G. Shepherd",
+     "Storylines: an alternative approach to representing uncert",
+     "Climatic Change"
+    ],
+    [
+     2019,
+     720,
+     "Jonathan Louis Bamber",
+     "Ice sheet contributions to future sea-level rise from stru",
+     "Proceedings of the Nat"
+    ]
+   ]
+  },
+  "edwards2019": {
+   "id": "W2911750130",
+   "y": 2019,
+   "c": 372,
+   "r": 50,
+   "first": 2018,
+   "y10": 2019,
+   "y25": 2019,
+   "y50": 2020,
+   "y100": 2020,
+   "y500": null,
+   "peak": [
+    2021,
+    84
+   ],
+   "bins": [
+    [
+     2015,
+     46
+    ],
+    [
+     2020,
+     290
+    ],
+    [
+     2025,
+     36
+    ]
+   ]
+  },
+  "ditlevsen2023": {
+   "id": "W4385259015",
+   "y": 2023,
+   "c": 432,
+   "r": 43,
+   "first": 2023,
+   "y10": 2023,
+   "y25": 2023,
+   "y50": 2024,
+   "y100": 2024,
+   "y500": null,
+   "peak": [
+    2025,
+    165
+   ],
+   "bins": [
+    [
+     2020,
+     182
+    ],
+    [
+     2025,
+     245
+    ]
+   ],
+   "ec": 427,
+   "e": [
+    [
+     2023,
+     342,
+     "James E. Hansen",
+     "Global warming in the pipeline",
+     "Oxford Open Climate Ch"
+    ],
+    [
+     2024,
+     297,
+     "Rene M. van Westen",
+     "Physics-based early warning signal shows that AMOC is on t",
+     "Science Advances"
+    ],
+    [
+     2023,
+     247,
+     "William J. Ripple",
+     "The 2023 state of the climate report: Entering uncharted t",
+     "BioScience"
+    ],
+    [
+     2023,
+     133,
+     "Euan G. Nisbet",
+     "Atmospheric Methane: Comparison Between Methane's Record i",
+     "Global Biogeochemical "
+    ],
+    [
+     2024,
+     99,
+     "Vasilis Dakos",
+     "Tipping point detection and early warnings in climate, eco",
+     "Earth System Dynamics"
+    ],
+    [
+     2024,
+     78,
+     "Marten Scheffer",
+     "A Dynamical Systems View of Psychiatric Disorders_Practica",
+     "JAMA Psychiatry"
+    ],
+    [
+     2024,
+     76,
+     "Tessa Moller",
+     "Achieving net zero greenhouse gas emissions critical to li",
+     "Nature Communications"
+    ],
+    [
+     2024,
+     73,
+     "Chad A. Greene",
+     "Ubiquitous acceleration in Greenland Ice Sheet calving fro",
+     "Nature"
+    ]
+   ]
+  },
+  "vanwesten2024": {
+   "id": "W4391677593",
+   "y": 2024,
+   "c": 297,
+   "r": 61,
+   "first": 2023,
+   "y10": 2024,
+   "y25": 2024,
+   "y50": 2024,
+   "y100": 2025,
+   "y500": null,
+   "peak": [
+    2025,
+    141
+   ],
+   "bins": [
+    [
+     2020,
+     80
+    ],
+    [
+     2025,
+     211
+    ]
+   ],
+   "ec": 290,
+   "e": [
+    [
+     2025,
+     69,
+     "Roberto Schaeffer",
+     "Ten new insights in climate science 2024",
+     "One Earth"
+    ],
+    [
+     2025,
+     65,
+     "Jonathan Andrew Baker",
+     "Continued Atlantic overturning circulation even under clim",
+     "Nature"
+    ],
+    [
+     2024,
+     43,
+     "Maya Ben_Yami",
+     "Uncertainties too large to predict tipping times of major ",
+     "Science Advances"
+    ],
+    [
+     2025,
+     41,
+     "Maarten A. Hajer",
+     "Captured Futures",
+     ""
+    ],
+    [
+     2024,
+     26,
+     "Shirin Panahi",
+     "Machine learning prediction of tipping in complex dynamica",
+     "Physical Review Resear"
+    ],
+    [
+     2025,
+     25,
+     "Lijing Cheng",
+     "Ocean stratification in a warming climate",
+     "Nature Reviews Earth &"
+    ],
+    [
+     2025,
+     25,
+     "Max Rietkerk",
+     "Ambiguity of early warning signals for climate tipping poi",
+     "Nature Climate Change"
+    ],
+    [
+     2025,
+     24,
+     "Rene M. van Westen",
+     "Collapse of the Atlantic Meridional Overturning Circulatio",
+     "Geophysical Research L"
+    ]
+   ]
+  },
+  "rahmstorf2007": {
+   "id": "W2050338614",
+   "y": 2006,
+   "c": 1671,
+   "r": 11,
+   "first": 2000,
+   "y10": 2007,
+   "y25": 2007,
+   "y50": 2008,
+   "y100": 2008,
+   "y500": 2011,
+   "peak": [
+    2011,
+    164
+   ],
+   "bins": [
+    [
+     2000,
+     2
+    ],
+    [
+     2005,
+     226
+    ],
+    [
+     2010,
+     725
+    ],
+    [
+     2015,
+     428
+    ],
+    [
+     2020,
+     247
+    ],
+    [
+     2025,
+     44
+    ]
+   ]
+  },
+  "pfeffer2008": {
+   "id": "W2023464499",
+   "y": 2008,
+   "c": 900,
+   "r": 21,
+   "first": 2000,
+   "y10": 2009,
+   "y25": 2009,
+   "y50": 2009,
+   "y100": 2010,
+   "y500": 2014,
+   "peak": [
+    2013,
+    113
+   ],
+   "bins": [
+    [
+     2000,
+     2
+    ],
+    [
+     2005,
+     63
+    ],
+    [
+     2010,
+     476
+    ],
+    [
+     2015,
+     231
+    ],
+    [
+     2020,
+     118
+    ],
+    [
+     2025,
+     9
+    ]
+   ]
+  },
+  "lorenz1963": {
+   "id": "W2141394518",
+   "y": 1963,
+   "c": 19613,
+   "r": 9,
+   "first": 1963,
+   "y10": 1969,
+   "y25": 1975,
+   "y50": 1977,
+   "y100": 1978,
+   "y500": 1983,
+   "peak": [
+    2021,
+    1082
+   ],
+   "bins": [
+    [
+     1960,
+     2
+    ],
+    [
+     1965,
+     10
+    ],
+    [
+     1970,
+     11
+    ],
+    [
+     1975,
+     162
+    ],
+    [
+     1980,
+     497
+    ],
+    [
+     1985,
+     639
+    ],
+    [
+     1990,
+     849
+    ],
+    [
+     1995,
+     958
+    ],
+    [
+     2000,
+     1344
+    ],
+    [
+     2005,
+     2056
+    ],
+    [
+     2010,
+     3145
+    ],
+    [
+     2015,
+     3986
+    ],
+    [
+     2020,
+     4516
+    ],
+    [
+     2025,
+     1428
+    ]
+   ],
+   "ec": 16,
+   "e": [
+    [
+     1969,
+     1005,
+     "Edward N. Lorenz",
+     "The predictability of a flow which possesses many scales o",
+     "Tellus"
+    ],
+    [
+     1969,
+     769,
+     "Edward N. Lorenz",
+     "The predictability of a flow which possesses many scales o",
+     "Tellus A Dynamic Meteo"
+    ],
+    [
+     1969,
+     404,
+     "Edward S. Epstein",
+     "Stochastic dynamic prediction1",
+     "Tellus A Dynamic Meteo"
+    ],
+    [
+     1965,
+     356,
+     "Douglas K. Lilly",
+     "ON THE COMPUTATIONAL STABILITY OF NUMERICAL SOLUTIONS OF T",
+     "Monthly Weather Review"
+    ],
+    [
+     1969,
+     332,
+     "Edward S. Epstein",
+     "Stochastic dynamic prediction",
+     "Tellus"
+    ],
+    [
+     1963,
+     210,
+     "Edward N. Lorenz",
+     "SECTION OF PLANETARY SCIENCES: THE PREDICTABILITY OF HYDRO",
+     "Transactions of the Ne"
+    ],
+    [
+     1970,
+     145,
+     "Andy Cook",
+     "The Rikitake two-disc dynamo system",
+     "Mathematical Proceedin"
+    ],
+    [
+     1965,
+     26,
+     "Lee A. Segel",
+     "The structure of non-linear cellular solutions to the Bous",
+     "Journal of Fluid Mecha"
+    ]
+   ]
+  },
+  "hasselmann1976": {
+   "id": "W2050094722",
+   "y": 1976,
+   "c": 1424,
+   "r": 14,
+   "first": 1976,
+   "y10": 1978,
+   "y25": 1979,
+   "y50": 1982,
+   "y100": 1987,
+   "y500": 2006,
+   "peak": [
+    2022,
+    71
+   ],
+   "bins": [
+    [
+     1975,
+     30
+    ],
+    [
+     1980,
+     49
+    ],
+    [
+     1985,
+     47
+    ],
+    [
+     1990,
+     61
+    ],
+    [
+     1995,
+     80
+    ],
+    [
+     2000,
+     166
+    ],
+    [
+     2005,
+     177
+    ],
+    [
+     2010,
+     236
+    ],
+    [
+     2015,
+     292
+    ],
+    [
+     2020,
+     246
+    ],
+    [
+     2025,
+     42
+    ]
+   ],
+   "ec": 79,
+   "e": [
+    [
+     1976,
+     3789,
+     "James D Hays",
+     "Variations in the Earth's Orbit: Pacemaker of the Ice Ages",
+     "Science"
+    ],
+    [
+     1980,
+     1093,
+     "John Z Imbrie",
+     "Modeling the Climatic Response to Orbital Variations",
+     "Science"
+    ],
+    [
+     1982,
+     834,
+     "Roberto Benzi",
+     "Stochastic resonance in climatic change",
+     "Tellus"
+    ],
+    [
+     1977,
+     786,
+     "Claude Frankignoul",
+     "Stochastic climate models, Part II Application to sea-surf",
+     "Tellus A Dynamic Meteo"
+    ],
+    [
+     1981,
+     520,
+     "Nicklas G. Pisias",
+     "The evolution of Pleistocene climate: A time series approa",
+     "Earth and Planetary Sc"
+    ],
+    [
+     1977,
+     369,
+     "Claude Frankignoul",
+     "Stochastic climate models, Part II Application to sea-surf",
+     "Tellus"
+    ],
+    [
+     1981,
+     280,
+     "Catherine Nicolis",
+     "Stochastic aspects of climatic transitions-Additive fluctu",
+     "Tellus"
+    ],
+    [
+     1977,
+     225,
+     "L. Evans",
+     "Variations in the Earth's Orbit: Pacemaker of the Ice Ages",
+     "Science"
+    ]
+   ],
+   "alt": [
+    {
+     "id": "W4239456296",
+     "total": 979,
+     "first": 1977,
+     "bins": [
+      [
+       1975,
+       12
+      ],
+      [
+       1980,
+       27
+      ],
+      [
+       1985,
+       24
+      ],
+      [
+       1990,
+       26
+      ],
+      [
+       1995,
+       50
+      ],
+      [
+       2000,
+       132
+      ],
+      [
+       2005,
+       66
+      ],
+      [
+       2010,
+       163
+      ],
+      [
+       2015,
+       172
+      ],
+      [
+       2020,
+       255
+      ],
+      [
+       2025,
+       51
+      ]
+     ],
+     "ec": 39,
+     "e": [
+      [
+       1981,
+       593,
+       "Gerald R. North",
+       "Energy balance climate models",
+       "Reviews of Geophysics"
+      ],
+      [
+       1981,
+       520,
+       "Nicklas G. Pisias",
+       "The evolution of Pleistocene climate: A time series approa",
+       "Earth and Planetary Sc"
+      ],
+      [
+       1983,
+       331,
+       "Roberto Benzi",
+       "A Theory of Stochastic Resonance in Climatic Change",
+       "SIAM Journal on Applie"
+      ],
+      [
+       1983,
+       223,
+       "Herve Le Treut",
+       "Orbital forcing, climatic interactions, and glaciation cyc",
+       "Journal of Geophysical"
+      ],
+      [
+       1983,
+       156,
+       "Thomas J. Crowley",
+       "The geologic record of climatic change",
+       "Reviews of Geophysics"
+      ],
+      [
+       1978,
+       131,
+       "Barry Saltzman",
+       "A Survey of Statistical-Dynamical Models of the Terrestria",
+       "Advances in geophysics"
+      ],
+      [
+       1980,
+       124,
+       "Andre Berger",
+       "The Milankovitch astronomical theory of paleoclimates: A m",
+       "Vistas in Astronomy"
+      ],
+      [
+       1979,
+       117,
+       "Michelle A. Kominz",
+       "Brunhes time scales and the interpretation of climatic cha",
+       "Earth and Planetary Sc"
+      ]
+     ]
+    }
+   ],
+   "bins_all_records": [
+    [
+     1975,
+     42
+    ],
+    [
+     1980,
+     76
+    ],
+    [
+     1985,
+     71
+    ],
+    [
+     1990,
+     87
+    ],
+    [
+     1995,
+     130
+    ],
+    [
+     2000,
+     298
+    ],
+    [
+     2005,
+     243
+    ],
+    [
+     2010,
+     399
+    ],
+    [
+     2015,
+     464
+    ],
+    [
+     2020,
+     501
+    ],
+    [
+     2025,
+     93
+    ]
+   ],
+   "c_all_records": 2403
+  },
+  "deser2012": {
+   "id": "W1971250671",
+   "y": 2012,
+   "c": 927,
+   "r": 23,
+   "first": 1995,
+   "y10": 2013,
+   "y25": 2013,
+   "y50": 2014,
+   "y100": 2014,
+   "y500": 2020,
+   "peak": [
+    2018,
+    87
+   ],
+   "bins": [
+    [
+     1995,
+     1
+    ],
+    [
+     2010,
+     108
+    ],
+    [
+     2015,
+     367
+    ],
+    [
+     2020,
+     373
+    ],
+    [
+     2025,
+     79
+    ]
+   ],
+   "ec": 549,
+   "e": [
+    [
+     2016,
+     12480,
+     "Veronika Eyring",
+     "Overview of the Coupled Model Intercomparison Project Phas",
+     "Geoscientific model de"
+    ],
+    [
+     2016,
+     3142,
+     "John T. Abatzoglou",
+     "Impact of anthropogenic climate change on wildfire across ",
+     "Proceedings of the Nat"
+    ],
+    [
+     2014,
+     2622,
+     "Jennifer E. Kay",
+     "The Community Earth System Model (CESM) Large Ensemble Pro",
+     "Bulletin of the Americ"
+    ],
+    [
+     2013,
+     1740,
+     "Yu Kosaka",
+     "Recent global-warming hiatus tied to equatorial Pacific su",
+     "Nature"
+    ],
+    [
+     2013,
+     1114,
+     "Sally N. Aitken",
+     "Assisted Gene Flow to Facilitate Local Adaptation to Clima",
+     "Annual Review of Ecolo"
+    ],
+    [
+     2013,
+     1065,
+     "Song Feng",
+     "Expansion of global drylands under a warming climate",
+     "Atmospheric chemistry "
+    ],
+    [
+     2020,
+     955,
+     "Clara Deser",
+     "Insights from Earth system model initial-condition large e",
+     "Nature Climate Change"
+    ],
+    [
+     2019,
+     939,
+     "Noah S. Diffenbaugh",
+     "Global warming has increased global economic inequality",
+     "Proceedings of the Nat"
+    ]
+   ]
+  },
+  "laepplehuybers2014": {
+   "id": "W2050680642",
+   "y": 2014,
+   "c": 192,
+   "r": 50,
+   "first": 1995,
+   "y10": 2016,
+   "y25": 2016,
+   "y50": 2018,
+   "y100": 2021,
+   "y500": null,
+   "peak": [
+    2022,
+    29
+   ],
+   "bins": [
+    [
+     1995,
+     1
+    ],
+    [
+     2015,
+     65
+    ],
+    [
+     2020,
+     109
+    ],
+    [
+     2025,
+     18
+    ]
+   ],
+   "ec": 133,
+   "e": [
+    [
+     2018,
+     1127,
+     "Levke Caesar",
+     "Observed fingerprint of a weakening Atlantic Ocean overtur",
+     "Nature"
+    ],
+    [
+     2017,
+     1045,
+     "Eva Sinha",
+     "Eutrophication will increase during the 21st century as a ",
+     "Science"
+    ],
+    [
+     2019,
+     456,
+     "Raphael Neukom",
+     "Consistent multidecadal variability in global temperature ",
+     "Nature Geoscience"
+    ],
+    [
+     2019,
+     368,
+     "Baylor Fox_Kemper",
+     "Challenges and Prospects in Ocean Circulation Models",
+     "Frontiers in Marine Sc"
+    ],
+    [
+     2022,
+     315,
+     "Robert C. J. Wills",
+     "Systematic Climate Model Biases in the Large_Scale Pattern",
+     "Geophysical Research L"
+    ],
+    [
+     2016,
+     237,
+     "Philip W. Boyd",
+     "Biological responses to environmental heterogeneity under ",
+     "Global Change Biology"
+    ],
+    [
+     2015,
+     219,
+     "David W. J. Thompson",
+     "Quantifying the Role of Internal Climate Variability in Fu",
+     "Journal of Climate"
+    ],
+    [
+     2016,
+     186,
+     "Darrell S. Kaufman",
+     "Holocene climate changes in eastern Beringia (NW North Ame",
+     "Quaternary Science Rev"
+    ]
+   ]
+  },
+  "cohnlins2005": {
+   "id": "W2006602575",
+   "y": 2005,
+   "c": 374,
+   "r": 29,
+   "first": 2005,
+   "y10": 2007,
+   "y25": 2008,
+   "y50": 2009,
+   "y100": 2011,
+   "y500": null,
+   "peak": [
+    2011,
+    32
+   ],
+   "bins": [
+    [
+     2005,
+     50
+    ],
+    [
+     2010,
+     130
+    ],
+    [
+     2015,
+     102
+    ],
+    [
+     2020,
+     74
+    ],
+    [
+     2025,
+     16
+    ]
+   ],
+   "ec": 159,
+   "e": [
+    [
+     2007,
+     1457,
+     "Khaled H. Hamed",
+     "Trend detection in hydrologic data: The Mann_Kendall trend",
+     "Journal of Hydrology"
+    ],
+    [
+     2010,
+     701,
+     "Vijay Kumar",
+     "Analysis of long-term rainfall trends in India",
+     "Hydrological Sciences "
+    ],
+    [
+     2013,
+     566,
+     "Jose D. Salas",
+     "Revisiting the Concepts of Return Period and Risk for Nons",
+     "Journal of Hydrologic "
+    ],
+    [
+     2009,
+     515,
+     "Gabriele Villarini",
+     "On the stationarity of annual flood peaks in the continent",
+     "Water Resources Resear"
+    ],
+    [
+     2010,
+     495,
+     "Kerstin Stahl",
+     "Streamflow trends in Europe: evidence from a dataset of ne",
+     "Hydrology and earth sy"
+    ],
+    [
+     2013,
+     473,
+     "Thomas C. Peterson",
+     "Monitoring and Understanding Changes in Heat Waves, Cold W",
+     "Bulletin of the Americ"
+    ],
+    [
+     2010,
+     460,
+     "Giuliano Di Baldassarr",
+     "Flood fatalities in Africa: From diagnosis to mitigation",
+     "Geophysical Research L"
+    ],
+    [
+     2012,
+     456,
+     "Sharad K. Jain",
+     "Analysis of rainfall and temperature trends in northeast I",
+     "International Journal "
+    ]
+   ]
+  },
+  "charney1979": {
+   "id": "W4240998096",
+   "y": 1979,
+   "c": 102,
+   "r": 0,
+   "first": 1900,
+   "y10": 1998,
+   "y25": 2017,
+   "y50": 2021,
+   "y100": 2025,
+   "y500": null,
+   "peak": [
+    2022,
+    20
+   ],
+   "bins": [
+    [
+     1900,
+     1
+    ],
+    [
+     1980,
+     3
+    ],
+    [
+     1985,
+     4
+    ],
+    [
+     1995,
+     2
+    ],
+    [
+     2000,
+     2
+    ],
+    [
+     2005,
+     2
+    ],
+    [
+     2010,
+     8
+    ],
+    [
+     2015,
+     11
+    ],
+    [
+     2020,
+     66
+    ],
+    [
+     2025,
+     3
+    ]
+   ]
+  },
+  "schlesingermitchell1987": {
+   "id": "W2112262492",
+   "y": 1987,
+   "c": 484,
+   "r": 71,
+   "first": 1988,
+   "y10": 1988,
+   "y25": 1989,
+   "y50": 1989,
+   "y100": 1990,
+   "y500": null,
+   "peak": [
+    1991,
+    49
+   ],
+   "bins": [
+    [
+     1985,
+     59
+    ],
+    [
+     1990,
+     199
+    ],
+    [
+     1995,
+     118
+    ],
+    [
+     2000,
+     40
+    ],
+    [
+     2005,
+     23
+    ],
+    [
+     2010,
+     14
+    ],
+    [
+     2015,
+     13
+    ],
+    [
+     2020,
+     10
+    ],
+    [
+     2025,
+     7
+    ]
+   ]
+  },
+  "callendar1938": {
+   "id": "W2006447055",
+   "y": 1938,
+   "c": 889,
+   "r": 1,
+   "first": 1941,
+   "y10": 1956,
+   "y25": 1964,
+   "y50": 1978,
+   "y100": 1989,
+   "y500": 2019,
+   "peak": [
+    2021,
+    91
+   ],
+   "bins": [
+    [
+     1940,
+     3
+    ],
+    [
+     1950,
+     1
+    ],
+    [
+     1955,
+     13
+    ],
+    [
+     1960,
+     8
+    ],
+    [
+     1965,
+     4
+    ],
+    [
+     1970,
+     11
+    ],
+    [
+     1975,
+     20
+    ],
+    [
+     1980,
+     16
+    ],
+    [
+     1985,
+     26
+    ],
+    [
+     1990,
+     30
+    ],
+    [
+     1995,
+     22
+    ],
+    [
+     2000,
+     25
+    ],
+    [
+     2005,
+     50
+    ],
+    [
+     2010,
+     107
+    ],
+    [
+     2015,
+     177
+    ],
+    [
+     2020,
+     302
+    ],
+    [
+     2025,
+     73
+    ]
+   ],
+   "ec": 3,
+   "e": [
+    [
+     1941,
+     27,
+     "S. Callendar",
+     "Infra_red absorption by carbon dioxide, with special refer",
+     "Quarterly Journal of t"
+    ],
+    [
+     1941,
+     3,
+     "Glasspoole",
+     "Variations in annual, seasonal and monthly rainfall over t",
+     "Quarterly Journal of t"
+    ],
+    [
+     1941,
+     1,
+     "Joseph O. Patterson",
+     "A new electrical weight barograph",
+     "Quarterly Journal of t"
+    ]
+   ]
+  },
+  "soden2002": {
+   "id": "W2154336748",
+   "y": 2002,
+   "c": 567,
+   "r": 37,
+   "first": 2002,
+   "y10": 2003,
+   "y25": 2004,
+   "y50": 2005,
+   "y100": 2007,
+   "y500": 2024,
+   "peak": [
+    2024,
+    52
+   ],
+   "bins": [
+    [
+     2000,
+     31
+    ],
+    [
+     2005,
+     115
+    ],
+    [
+     2010,
+     121
+    ],
+    [
+     2015,
+     107
+    ],
+    [
+     2020,
+     171
+    ],
+    [
+     2025,
+     21
+    ]
+   ]
+  },
+  "manabestouffer1988": {
+   "id": "W2083356111",
+   "y": 1988,
+   "c": 901,
+   "r": 16,
+   "first": 1989,
+   "y10": 1990,
+   "y25": 1990,
+   "y50": 1991,
+   "y100": 1992,
+   "y500": 2004,
+   "peak": [
+    2003,
+    47
+   ],
+   "bins": [
+    [
+     1985,
+     9
+    ],
+    [
+     1990,
+     162
+    ],
+    [
+     1995,
+     168
+    ],
+    [
+     2000,
+     163
+    ],
+    [
+     2005,
+     129
+    ],
+    [
+     2010,
+     106
+    ],
+    [
+     2015,
+     78
+    ],
+    [
+     2020,
+     72
+    ],
+    [
+     2025,
+     14
+    ]
+   ]
+  },
+  "heldsoden2000": {
+   "id": "W2165026909",
+   "y": 2000,
+   "c": 1332,
+   "r": 91,
+   "first": 2000,
+   "y10": 2002,
+   "y25": 2003,
+   "y50": 2005,
+   "y100": 2006,
+   "y500": 2015,
+   "peak": [
+    2021,
+    106
+   ],
+   "bins": [
+    [
+     2000,
+     46
+    ],
+    [
+     2005,
+     196
+    ],
+    [
+     2010,
+     234
+    ],
+    [
+     2015,
+     288
+    ],
+    [
+     2020,
+     468
+    ],
+    [
+     2025,
+     96
+    ]
+   ]
+  },
+  "jones1986": {
+   "id": "W1969578622",
+   "y": 1986,
+   "c": 529,
+   "r": 20,
+   "first": 1985,
+   "y10": 1987,
+   "y25": 1988,
+   "y50": 1988,
+   "y100": 1990,
+   "y500": 2022,
+   "peak": [
+    1992,
+    49
+   ],
+   "bins": [
+    [
+     1985,
+     99
+    ],
+    [
+     1990,
+     186
+    ],
+    [
+     1995,
+     82
+    ],
+    [
+     2000,
+     48
+    ],
+    [
+     2005,
+     23
+    ],
+    [
+     2010,
+     22
+    ],
+    [
+     2015,
+     24
+    ],
+    [
+     2020,
+     38
+    ],
+    [
+     2025,
+     6
+    ]
+   ]
+  },
+  "hansen1988": {
+   "id": "W2084939434",
+   "y": 1988,
+   "c": 992,
+   "r": 58,
+   "first": 1988,
+   "y10": 1989,
+   "y25": 1989,
+   "y50": 1990,
+   "y100": 1991,
+   "y500": 1997,
+   "peak": [
+    1991,
+    82
+   ],
+   "bins": [
+    [
+     1985,
+     32
+    ],
+    [
+     1990,
+     322
+    ],
+    [
+     1995,
+     216
+    ],
+    [
+     2000,
+     101
+    ],
+    [
+     2005,
+     75
+    ],
+    [
+     2010,
+     77
+    ],
+    [
+     2015,
+     69
+    ],
+    [
+     2020,
+     75
+    ],
+    [
+     2025,
+     25
+    ]
+   ]
+  },
+  "gregory2004": {
+   "id": "W1973233492",
+   "y": 2004,
+   "c": 1178,
+   "r": 8,
+   "first": 2005,
+   "y10": 2006,
+   "y25": 2007,
+   "y50": 2009,
+   "y100": 2011,
+   "y500": 2019,
+   "peak": [
+    2020,
+    141
+   ],
+   "bins": [
+    [
+     2005,
+     54
+    ],
+    [
+     2010,
+     183
+    ],
+    [
+     2015,
+     272
+    ],
+    [
+     2020,
+     577
+    ],
+    [
+     2025,
+     90
+    ]
+   ]
+  },
+  "hawkinssutton2009": {
+   "id": "W1996653992",
+   "y": 2009,
+   "c": 2849,
+   "r": 25,
+   "first": 1995,
+   "y10": 2010,
+   "y25": 2010,
+   "y50": 2011,
+   "y100": 2011,
+   "y500": 2015,
+   "peak": [
+    2021,
+    277
+   ],
+   "bins": [
+    [
+     1995,
+     2
+    ],
+    [
+     2005,
+     6
+    ],
+    [
+     2010,
+     485
+    ],
+    [
+     2015,
+     801
+    ],
+    [
+     2020,
+     1198
+    ],
+    [
+     2025,
+     354
+    ]
+   ]
+  },
+  "dansgaard1993": {
+   "id": "W2008875043",
+   "y": 1993,
+   "c": 4901,
+   "r": 25,
+   "first": 1962,
+   "y10": 1993,
+   "y25": 1994,
+   "y50": 1994,
+   "y100": 1995,
+   "y500": 1999,
+   "peak": [
+    2013,
+    201
+   ],
+   "bins": [
+    [
+     1960,
+     1
+    ],
+    [
+     1990,
+     75
+    ],
+    [
+     1995,
+     574
+    ],
+    [
+     2000,
+     814
+    ],
+    [
+     2005,
+     836
+    ],
+    [
+     2010,
+     811
+    ],
+    [
+     2015,
+     723
+    ],
+    [
+     2020,
+     851
+    ],
+    [
+     2025,
+     213
+    ]
+   ]
+  },
+  "broecker1997": {
+   "id": "W2091348587",
+   "y": 1997,
+   "c": 892,
+   "r": 71,
+   "first": 1996,
+   "y10": 1998,
+   "y25": 1999,
+   "y50": 1999,
+   "y100": 2000,
+   "y500": 2008,
+   "peak": [
+    2003,
+    68
+   ],
+   "bins": [
+    [
+     1995,
+     66
+    ],
+    [
+     2000,
+     268
+    ],
+    [
+     2005,
+     236
+    ],
+    [
+     2010,
+     164
+    ],
+    [
+     2015,
+     86
+    ],
+    [
+     2020,
+     54
+    ],
+    [
+     2025,
+     18
+    ]
+   ]
+  },
+  "woodwell1978": {
+   "id": "W2025836562",
+   "y": 1978,
+   "c": 622,
+   "r": 30,
+   "first": 1978,
+   "y10": 1978,
+   "y25": 1979,
+   "y50": 1980,
+   "y100": 1981,
+   "y500": 2016,
+   "peak": [
+    1980,
+    43
+   ],
+   "bins": [
+    [
+     1975,
+     49
+    ],
+    [
+     1980,
+     162
+    ],
+    [
+     1985,
+     66
+    ],
+    [
+     1990,
+     74
+    ],
+    [
+     1995,
+     51
+    ],
+    [
+     2000,
+     21
+    ],
+    [
+     2005,
+     22
+    ],
+    [
+     2010,
+     45
+    ],
+    [
+     2015,
+     39
+    ],
+    [
+     2020,
+     67
+    ],
+    [
+     2025,
+     26
+    ]
+   ]
+  },
+  "rasoolschneider1971": {
+   "id": "W2048147675",
+   "y": 1971,
+   "c": 323,
+   "r": 21,
+   "first": 1970,
+   "y10": 1972,
+   "y25": 1973,
+   "y50": 1975,
+   "y100": 1978,
+   "y500": null,
+   "peak": [
+    1975,
+    23
+   ],
+   "bins": [
+    [
+     1970,
+     48
+    ],
+    [
+     1975,
+     74
+    ],
+    [
+     1980,
+     45
+    ],
+    [
+     1985,
+     16
+    ],
+    [
+     1990,
+     12
+    ],
+    [
+     1995,
+     12
+    ],
+    [
+     2000,
+     11
+    ],
+    [
+     2005,
+     11
+    ],
+    [
+     2010,
+     21
+    ],
+    [
+     2015,
+     34
+    ],
+    [
+     2020,
+     35
+    ],
+    [
+     2025,
+     4
+    ]
+   ]
+  },
+  "peterson2008": {
+   "id": "W2097413307",
+   "y": 2008,
+   "c": 133,
+   "r": 107,
+   "first": 2008,
+   "y10": 2010,
+   "y25": 2012,
+   "y50": 2016,
+   "y100": 2022,
+   "y500": null,
+   "peak": [
+    2022,
+    19
+   ],
+   "bins": [
+    [
+     2005,
+     8
+    ],
+    [
+     2010,
+     32
+    ],
+    [
+     2015,
+     30
+    ],
+    [
+     2020,
+     57
+    ],
+    [
+     2025,
+     5
+    ]
+   ]
+  },
+  "oreskes2004": {
+   "id": "W1899062379",
+   "y": 2004,
+   "c": 1807,
+   "r": 3,
+   "first": 2005,
+   "y10": 2005,
+   "y25": 2006,
+   "y50": 2007,
+   "y100": 2008,
+   "y500": 2013,
+   "peak": [
+    2014,
+    133
+   ],
+   "bins": [
+    [
+     2005,
+     186
+    ],
+    [
+     2010,
+     462
+    ],
+    [
+     2015,
+     562
+    ],
+    [
+     2020,
+     479
+    ],
+    [
+     2025,
+     117
+    ]
+   ]
+  },
+  "broecker1979": {
+   "id": "W2095051466",
+   "y": 1979,
+   "c": 546,
+   "r": 38,
+   "first": 1979,
+   "y10": 1980,
+   "y25": 1981,
+   "y50": 1981,
+   "y100": 1983,
+   "y500": 2024,
+   "peak": [
+    1981,
+    31
+   ],
+   "bins": [
+    [
+     1975,
+     2
+    ],
+    [
+     1980,
+     120
+    ],
+    [
+     1985,
+     55
+    ],
+    [
+     1990,
+     51
+    ],
+    [
+     1995,
+     24
+    ],
+    [
+     2000,
+     27
+    ],
+    [
+     2005,
+     37
+    ],
+    [
+     2010,
+     56
+    ],
+    [
+     2015,
+     49
+    ],
+    [
+     2020,
+     103
+    ],
+    [
+     2025,
+     22
+    ]
+   ]
+  },
+  "fyfe2013": {
+   "id": "W2148996355",
+   "y": 2013,
+   "c": 303,
+   "r": 14,
+   "first": 2013,
+   "y10": 2014,
+   "y25": 2014,
+   "y50": 2015,
+   "y100": 2016,
+   "y500": null,
+   "peak": [
+    2015,
+    52
+   ],
+   "bins": [
+    [
+     2010,
+     46
+    ],
+    [
+     2015,
+     164
+    ],
+    [
+     2020,
+     84
+    ],
+    [
+     2025,
+     10
+    ]
+   ]
+  },
+  "mckitrickchristy2018": {
+   "id": "W2867382497",
+   "y": 2018,
+   "c": 26,
+   "r": 15,
+   "first": 2020,
+   "y10": 2022,
+   "y25": 2025,
+   "y50": null,
+   "y100": null,
+   "y500": null,
+   "peak": [
+    2023,
+    5
+   ],
+   "bins": [
+    [
+     2020,
+     22
+    ],
+    [
+     2025,
+     4
+    ]
+   ]
+  },
+  "santer2017": {
+   "id": "W2625872224",
+   "y": 2017,
+   "c": 52,
+   "r": 67,
+   "first": 2017,
+   "y10": 2018,
+   "y25": 2021,
+   "y50": 2026,
+   "y100": null,
+   "y500": null,
+   "peak": [
+    2023,
+    11
+   ],
+   "bins": [
+    [
+     2015,
+     16
+    ],
+    [
+     2020,
+     30
+    ],
+    [
+     2025,
+     6
+    ]
+   ]
+  },
+  "cook2013": {
+   "id": "W2196672866",
+   "y": 2013,
+   "c": 1365,
+   "r": 22,
+   "first": 2008,
+   "y10": 2013,
+   "y25": 2013,
+   "y50": 2014,
+   "y100": 2014,
+   "y500": 2018,
+   "peak": [
+    2019,
+    126
+   ],
+   "bins": [
+    [
+     2005,
+     1
+    ],
+    [
+     2010,
+     120
+    ],
+    [
+     2015,
+     585
+    ],
+    [
+     2020,
+     545
+    ],
+    [
+     2025,
+     112
+    ]
+   ]
+  },
+  "goessling2024": {
+   "id": "W4405056749",
+   "y": 2024,
+   "c": 154,
+   "r": 53,
+   "first": 2024,
+   "y10": 2025,
+   "y25": 2025,
+   "y50": 2025,
+   "y100": 2026,
+   "y500": null,
+   "peak": [
+    2025,
+    89
+   ],
+   "bins": [
+    [
+     2020,
+     1
+    ],
+    [
+     2025,
+     152
+    ]
+   ]
+  },
+  "fosterrahmstorf2026": {
+   "id": "W7134164349",
+   "y": 2026,
+   "c": 33,
+   "r": 14,
+   "first": 2026,
+   "y10": 2026,
+   "y25": 2026,
+   "y50": null,
+   "y100": null,
+   "y500": null,
+   "peak": [
+    2026,
+    33
+   ],
+   "bins": [
+    [
+     2025,
+     33
+    ]
+   ]
+  },
+  "hansen2023": {
+   "id": "W4388468385",
+   "y": 2023,
+   "c": 342,
+   "r": 186,
+   "first": 2021,
+   "y10": 2023,
+   "y25": 2024,
+   "y50": 2024,
+   "y100": 2024,
+   "y500": null,
+   "peak": [
+    2024,
+    138
+   ],
+   "bins": [
+    [
+     2020,
+     157
+    ],
+    [
+     2025,
+     184
+    ]
+   ],
+   "ec": 340,
+   "e": [
+    [
+     2024,
+     522,
+     "Michael F. Lawrence",
+     "Global polycrisis: the causal mechanisms of crisis entangl",
+     "Global Sustainability"
+    ],
+    [
+     2024,
+     315,
+     "Piers M. de F. Forster",
+     "Indicators of Global Climate Change 2023: annual update of",
+     "Earth system science d"
+    ],
+    [
+     2024,
+     242,
+     "Emily J. Judd",
+     "A 485-million-year history of Earth_s surface temperature",
+     "Science"
+    ],
+    [
+     2025,
+     175,
+     "Piers M. de F. Forster",
+     "Indicators of Global Climate Change 2024: annual update of",
+     "Earth system science d"
+    ],
+    [
+     2024,
+     160,
+     "Charles Henry Fletcher",
+     "Earth at risk: An urgent call to end the age of destructio",
+     "PNAS Nexus"
+    ],
+    [
+     2024,
+     154,
+     "Helge Goessling",
+     "Recent global temperature surge intensified by record-low ",
+     "Science"
+    ],
+    [
+     2024,
+     94,
+     "Ajoke Williams",
+     "Biosensors for Public Health and Environmental Monitoring:",
+     "ACS Sustainable Chemis"
+    ],
+    [
+     2024,
+     85,
+     "Patricio Gonzalez_Piza",
+     "European Society of Anaesthesiology and Intensive Care con",
+     "European Journal of An"
+    ]
+   ]
+  },
+  "loeb2021": {
+   "id": "W3170951620",
+   "y": 2021,
+   "c": 336,
+   "r": 28,
+   "first": 1988,
+   "y10": 2021,
+   "y25": 2022,
+   "y50": 2022,
+   "y100": 2023,
+   "y500": null,
+   "peak": [
+    2023,
+    91
+   ],
+   "bins": [
+    [
+     1985,
+     1
+    ],
+    [
+     2020,
+     247
+    ],
+    [
+     2025,
+     88
+    ]
+   ]
+  },
+  "baker2025": {
+   "id": "W4407956810",
+   "y": 2025,
+   "c": 65,
+   "r": 58,
+   "first": 2025,
+   "y10": 2025,
+   "y25": 2025,
+   "y50": 2026,
+   "y100": null,
+   "y500": null,
+   "peak": [
+    2026,
+    34
+   ],
+   "bins": [
+    [
+     2025,
+     65
+    ]
+   ]
+  },
+  "armstrongmckay2022": {
+   "id": "W4295088938",
+   "y": 2022,
+   "c": 1943,
+   "r": 278,
+   "first": 2022,
+   "y10": 2022,
+   "y25": 2022,
+   "y50": 2023,
+   "y100": 2023,
+   "y500": 2023,
+   "peak": [
+    2023,
+    602
+   ],
+   "bins": [
+    [
+     2020,
+     1151
+    ],
+    [
+     2025,
+     781
+    ]
+   ]
+  },
+  "vanwesten2026": {
+   "id": "W7128622899",
+   "y": 2026,
+   "c": 1,
+   "r": 0,
+   "first": 2026,
+   "y10": null,
+   "y25": null,
+   "y50": null,
+   "y100": null,
+   "y500": null,
+   "peak": [
+    2026,
+    1
+   ],
+   "bins": [
+    [
+     2025,
+     1
+    ]
+   ]
+  },
+  "lewis2023": {
+   "id": "W4296295778",
+   "y": 2022,
+   "c": 32,
+   "r": 63,
+   "first": 2022,
+   "y10": 2023,
+   "y25": 2025,
+   "y50": null,
+   "y100": null,
+   "y500": null,
+   "peak": [
+    2023,
+    13
+   ],
+   "bins": [
+    [
+     2020,
+     24
+    ],
+    [
+     2025,
+     8
+    ]
+   ],
+   "ec": 32,
+   "e": [
+    [
+     2023,
+     143,
+     "Nicola Scafetta",
+     "Impacts and risks of _realistic_ global warming projection",
+     "Geoscience Frontiers"
+    ],
+    [
+     2024,
+     91,
+     "Myles R. Allen",
+     "Geological Net Zero and the need for disaggregated account",
+     "Nature"
+    ],
+    [
+     2022,
+     70,
+     "Nicola Scafetta",
+     "Advanced Testing of Low, Medium, and High ECS CMIP6 GCM Si",
+     "Geophysical Research L"
+    ],
+    [
+     2023,
+     49,
+     "Abdullah Alodah",
+     "Towards Sustainable Water Resources Management Considering",
+     "Sustainability"
+    ],
+    [
+     2023,
+     35,
+     "Nicola Scafetta",
+     "Empirical assessment of the role of the Sun in climate cha",
+     "Geoscience Frontiers"
+    ],
+    [
+     2023,
+     33,
+     "Nicola Scafetta",
+     "CMIP6 GCM Validation Based on ECS and TCR Ranking for 21st",
+     "Atmosphere"
+    ],
+    [
+     2024,
+     16,
+     "Young Hoon Song",
+     "Global Future Climate Signal by Latitudes Using CMIP6 GCMs",
+     "Earth s Future"
+    ],
+    [
+     2024,
+     9,
+     "Hammadi Achour",
+     "Selection of Global Climate Models (GCMs) for Climate Chan",
+     "Journal of Geovisualiz"
+    ]
+   ]
+  },
+  "sherwood2014": {
+   "id": "W1995483742",
+   "y": 2013,
+   "c": 821,
+   "r": 34,
+   "first": 2013,
+   "y10": 2014,
+   "y25": 2014,
+   "y50": 2015,
+   "y100": 2015,
+   "y500": 2021,
+   "peak": [
+    2017,
+    86
+   ],
+   "bins": [
+    [
+     2010,
+     47
+    ],
+    [
+     2015,
+     358
+    ],
+    [
+     2020,
+     338
+    ],
+    [
+     2025,
+     76
+    ]
+   ]
+  },
+  "myers2021": {
+   "id": "W3163640786",
+   "y": 2021,
+   "c": 264,
+   "r": 67,
+   "first": 2021,
+   "y10": 2021,
+   "y25": 2022,
+   "y50": 2022,
+   "y100": 2023,
+   "y500": null,
+   "peak": [
+    2023,
+    63
+   ],
+   "bins": [
+    [
+     2020,
+     192
+    ],
+    [
+     2025,
+     72
+    ]
+   ],
+   "ec": 264,
+   "e": [
+    [
+     2024,
+     252,
+     "Rachid Lahlali",
+     "Effects of climate change on plant pathogens and host-path",
+     "Crop and Environment"
+    ],
+    [
+     2021,
+     201,
+     "Paulo Ceppi",
+     "Observational evidence that cloud feedback amplifies globa",
+     "Proceedings of the Nat"
+    ],
+    [
+     2021,
+     165,
+     "Johannes Mulmenstadt",
+     "An underestimated negative cloud feedback from cloud lifet",
+     "Nature Climate Change"
+    ],
+    [
+     2022,
+     113,
+     "Mark D. Zelinka",
+     "Evaluating Climate Models_ Cloud Feedbacks Against Expert ",
+     "Journal of Geophysical"
+    ],
+    [
+     2022,
+     106,
+     "Casey James Wall",
+     "Assessing effective radiative forcing from aerosol_cloud i",
+     "Proceedings of the Nat"
+    ],
+    [
+     2022,
+     105,
+     "Jiang Zhu",
+     "LGM Paleoclimate Constraints Inform Cloud Parameterization",
+     "Journal of Advances in"
+    ],
+    [
+     2023,
+     104,
+     "Sarah M. Kang",
+     "Global impacts of recent Southern Ocean cooling",
+     "Proceedings of the Nat"
+    ],
+    [
+     2022,
+     102,
+     "Hanjun Kim",
+     "Subtropical clouds key to Southern Ocean teleconnections t",
+     "Proceedings of the Nat"
+    ]
+   ]
+  },
+  "caldwell2018": {
+   "id": "W2793705078",
+   "y": 2018,
+   "c": 142,
+   "r": 70,
+   "first": 2018,
+   "y10": 2019,
+   "y25": 2020,
+   "y50": 2021,
+   "y100": 2023,
+   "y500": null,
+   "peak": [
+    2021,
+    26
+   ],
+   "bins": [
+    [
+     2015,
+     24
+    ],
+    [
+     2020,
+     104
+    ],
+    [
+     2025,
+     14
+    ]
+   ]
+  },
+  "tan2016": {
+   "id": "W2319504665",
+   "y": 2016,
+   "c": 595,
+   "r": 37,
+   "first": 2016,
+   "y10": 2016,
+   "y25": 2017,
+   "y50": 2017,
+   "y100": 2018,
+   "y500": 2024,
+   "peak": [
+    2021,
+    91
+   ],
+   "bins": [
+    [
+     2015,
+     181
+    ],
+    [
+     2020,
+     349
+    ],
+    [
+     2025,
+     65
+    ]
+   ],
+   "ec": 530,
+   "e": [
+    [
+     2019,
+     2192,
+     "Timothy M. Lenton",
+     "Climate tipping points _ too risky to bet against",
+     "Nature"
+    ],
+    [
+     2020,
+     1879,
+     "Mark D. Zelinka",
+     "Causes of Higher Climate Sensitivity in CMIP6 Models",
+     "Geophysical Research L"
+    ],
+    [
+     2020,
+     1338,
+     "Steven C. Sherwood",
+     "An Assessment of Earth's Climate Sensitivity Using Multipl",
+     "Reviews of Geophysics"
+    ],
+    [
+     2017,
+     1294,
+     "Zamin Abdulali Kanji",
+     "Overview of Ice Nucleating Particles",
+     "Meteorological Monogra"
+    ],
+    [
+     2020,
+     729,
+     "Maxwell Kelley",
+     "GISS_E2.1: Configurations and Climatology",
+     "Journal of Advances in"
+    ],
+    [
+     2017,
+     588,
+     "Jasper F. Kok",
+     "Smaller desert dust cooling effect estimated from analysis",
+     "Nature Geoscience"
+    ],
+    [
+     2018,
+     572,
+     "Hugues Goosse",
+     "Quantifying climate feedbacks in polar regions",
+     "Nature Communications"
+    ],
+    [
+     2017,
+     507,
+     "Alexei V. Korolev",
+     "Mixed-Phase Clouds: Progress and Challenges",
+     "Meteorological Monogra"
+    ]
+   ]
+  },
+  "annanhargreaves2011": {
+   "id": "W2169757755",
+   "y": 2009,
+   "c": 70,
+   "r": 54,
+   "first": 2009,
+   "y10": 2011,
+   "y25": 2012,
+   "y50": 2015,
+   "y100": null,
+   "y500": null,
+   "peak": [
+    2011,
+    11
+   ],
+   "bins": [
+    [
+     2005,
+     1
+    ],
+    [
+     2010,
+     45
+    ],
+    [
+     2015,
+     17
+    ],
+    [
+     2020,
+     6
+    ],
+    [
+     2025,
+     1
+    ]
+   ]
+  }
+ }
+}

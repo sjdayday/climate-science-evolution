@@ -51,7 +51,7 @@ With the airborne fraction known, the budget had to close: emissions = atmospher
 
 ## Inheritance
 
-- *From:* P01 (Plass's radiative result made measuring CO₂ worthwhile); radiocarbon geochemistry (Libby, Suess).
+- *From:* P01 in the background only — Keeling (1960) cites Revelle & Suess 1957, Callendar 1958, Bray 1959, Slocum 1955 and Fonselius et al. 1956, i.e. the measurement literature, not Plass 1956 (checked against the printed reference list, `04-acceptance-checks.md`); radiocarbon geochemistry (Libby, Suess).
 - *To:* P06 (concentration pathways determine forcing); P10 (the near-proportionality of warming to cumulative emissions depends on the ocean carbon and heat sinks having similar timescales — Matthews et al. 2009 — and the zero-emissions commitment depends on the long tail); P12 (permafrost and methane as tipping elements).
 
 ## What remains open
