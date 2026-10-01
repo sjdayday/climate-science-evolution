@@ -217,7 +217,7 @@ Every paper, report and book cited in `01-periods.md`, `02-problems/` and `03-op
 - Halpern, J. B., et al. (2010). Comment on "Falsification of the atmospheric CO₂ greenhouse effects within the frame of physics." *International Journal of Modern Physics B*, 24(10), 1309–1332. doi:10.1142/s021797921005555x
 - Hannart, A., Dufresne, J.-L., & Naveau, P. (2009). Why climate sensitivity may not be so unpredictable. *Geophys. Res. Lett.*, 36, L16707. doi:10.1029/2009GL039640 *(entry corrected 2026-09-30: the earlier listing conflated this paper with Hannart, Ghil, Dufresne & Naveau (2013), Disconcerting learning on climate sensitivity and the uncertain future of uncertainty, Climatic Change 119, 585–601, doi:10.1007/s10584-013-0770-z)*
 - Hansen, J., & Lebedeff, S. (1987). Global trends of measured surface air temperature. *J. Geophys. Res.*, 92(D11), 13345–13372. doi:10.1029/jd092id11p13345
-- Hansen, J., et al. (1981). Climate impact of increasing atmospheric carbon dioxide. *Science*, 213(4511), 957–966. doi:10.1126/science.213.4511.957
+- Hansen, J., et al. (1981). Climate impact of increasing atmospheric carbon dioxide. *Science*, 213(4511), 957–966. doi:10.1126/science.213.4511.957 (read 2026-10-01 from the NASA GISS copy, giss.nasa.gov/pubs/docs/1981/1981_Hansen_ha04600x.pdf)
 - Hansen, J., et al. (1983). Efficient three-dimensional global models for climate studies: Models I and II. *Monthly Weather Review*, 111(4), 609–662. doi:10.1175/1520-0493(1983)111<0609:etdgmf>2.0.co;2
 - Hansen, J., et al. (1984). Climate sensitivity: Analysis of feedback mechanisms. In *Climate Processes and Climate Sensitivity* (AGU Geophysical Monograph 29), 130–163. doi:10.1029/gm029p0130
 - Hansen, J., et al. (1985). Climate response times: Dependence on climate sensitivity and ocean mixing. *Science*, 229(4716), 857–859. doi:10.1126/science.229.4716.857
@@ -375,7 +375,7 @@ Every paper, report and book cited in `01-periods.md`, `02-problems/` and `03-op
 - Manabe, S., & Stouffer, R. J. (1995). Simulation of abrupt climate change induced by freshwater input to the North Atlantic Ocean. *Nature*, 378(6553), 165–167. doi:10.1038/378165a0
 - Manabe, S., & Strickler, R. F. (1964). Thermal equilibrium of the atmosphere with a convective adjustment. *J. Atmos. Sci.*, 21(4), 361–385. doi:10.1175/1520-0469(1964)021<0361:teotaw>2.0.co;2
 - Manabe, S., & Wetherald, R. T. (1967). Thermal equilibrium of the atmosphere with a given distribution of relative humidity. *J. Atmos. Sci.*, 24(3), 241–259. doi:10.1175/1520-0469(1967)024<0241:teotaw>2.0.co;2
-- Manabe, S., & Wetherald, R. T. (1975). The effects of doubling the CO₂ concentration on the climate of a general circulation model. *J. Atmos. Sci.*, 32(1), 3–15. doi:10.1175/1520-0469(1975)032<0003:teodtc>2.0.co;2
+- Manabe, S., & Wetherald, R. T. (1975). The effects of doubling the CO₂ concentration on the climate of a general circulation model. *J. Atmos. Sci.*, 32(1), 3–15. doi:10.1175/1520-0469(1975)032<0003:teodtc>2.0.co;2 (read 2026-10-01 from GFDL's scanned copy, gfdl.noaa.gov/bibliography/related_files/sm7503.pdf, OCR'd)
 - Manabe, S., & Wetherald, R. T. (1987). Large-scale changes of soil wetness induced by an increase in atmospheric carbon dioxide. *J. Atmos. Sci.*, 44(8), 1211–1236. doi:10.1175/1520-0469(1987)044<1211:lscosw>2.0.co;2
 - Manabe, S., Smagorinsky, J., & Strickler, R. F. (1965). Simulated climatology of a general circulation model with a hydrologic cycle. *Monthly Weather Review*, 93(12), 769–798. doi:10.1175/1520-0493(1965)093<0769:scoagc>2.3.co;2
 - Mann, M. E., Bradley, R. S., & Hughes, M. K. (1998). Global-scale temperature patterns and climate forcing over the past six centuries. *Nature*, 392(6678), 779–787. doi:10.1038/33859
@@ -512,7 +512,7 @@ Every paper, report and book cited in `01-periods.md`, `02-problems/` and `03-op
 - Rugenstein, M., et al. (2020). Equilibrium climate sensitivity estimated by equilibrating climate models. *Geophys. Res. Lett.*, 47(4). doi:10.1029/2019gl083898
 - Ruppel, C. D., & Kessler, J. D. (2017). The interaction of climate change and methane hydrates. *Reviews of Geophysics*, 55(1), 126–168. doi:10.1002/2016rg000534
 - Rybski, D., et al. (2006). Long-term persistence in climate and the detection problem. *Geophys. Res. Lett.*, 33(6). doi:10.1029/2005gl025591
-- Sabine, C. L., et al. (2004). The oceanic sink for anthropogenic CO₂. *Science*, 305(5682), 367–371. doi:10.1126/science.1097403
+- Sabine, C. L., et al. (2004). The oceanic sink for anthropogenic CO₂. *Science*, 305(5682), 367–371. doi:10.1126/science.1097403 (full text read 2026-10-01 from pmel.noaa.gov/pubs/outstand/sabi2683/sabi2683.shtml)
 - Samset, B. H., et al. (2018). Climate impacts from a removal of anthropogenic aerosol emissions. *Geophys. Res. Lett.*, 45(2), 1020–1029. doi:10.1002/2017gl076079
 - Samset, B. H., et al. (2024). 2023 temperatures reflect steady global warming and internal sea surface temperature variability. *Communications Earth & Environment*, 5(1). doi:10.1038/s43247-024-01637-8
 - Santer, B. D., et al. (1996). A search for human influences on the thermal structure of the atmosphere. *Nature*, 382(6586), 39–46. doi:10.1038/382039a0
@@ -547,7 +547,7 @@ Every paper, report and book cited in `01-periods.md`, `02-problems/` and `03-op
 - Screen, J. A., & Simmonds, I. (2013). Exploring links between Arctic amplification and mid-latitude weather. *Geophys. Res. Lett.*, 40(5), 959–964. doi:10.1002/grl.50174
 - Seager, R., et al. (2019). Strengthening tropical Pacific zonal sea surface temperature gradient consistent with rising greenhouse gases. *Nature Climate Change*, 9(7), 517–522. doi:10.1038/s41558-019-0505-x
 - Seidel, D. J., et al. (2008). Widening of the tropical belt in a changing climate. *Nature Geoscience*, 1(1), 21–24. doi:10.1038/ngeo.2007.38
-- Sellers, W. D. (1969). A global climatic model based on the energy balance of the Earth–atmosphere system. *J. Applied Meteorology*, 8(3), 392–400. doi:10.1175/1520-0450(1969)008<0392:agcmbo>2.0.co;2
+- Sellers, W. D. (1969). A global climatic model based on the energy balance of the Earth–atmosphere system. *J. Applied Meteorology*, 8(3), 392–400. doi:10.1175/1520-0450(1969)008<0392:agcmbo>2.0.co;2 (read 2026-10-01 from an Internet Archive copy of the AMS PDF, OCR'd)
 - Shackleton, N. J. (1967). Oxygen isotope analyses and Pleistocene temperatures re-assessed. *Nature*, 215(5096), 15–17. doi:10.1038/215015a0
 - Shakhova, N., et al. (2010). Extensive methane venting to the atmosphere from sediments of the East Siberian Arctic Shelf. *Science*, 327(5970), 1246–1250. doi:10.1126/science.1182221
 - Shakun, J. D., et al. (2012). Global warming preceded by increasing carbon dioxide concentrations during the last deglaciation. *Nature*, 484(7392), 49–54. doi:10.1038/nature10915
@@ -579,7 +579,7 @@ Every paper, report and book cited in `01-periods.md`, `02-problems/` and `03-op
 - Smith, D. M., et al. (2020). North Atlantic climate far more predictable than models imply. *Nature*, 583(7818), 796–800. doi:10.1038/s41586-020-2525-0
 - Smith, J. B., Schneider, S. H., Oppenheimer, M., Yohe, G. W., Hare, W., Mastrandrea, M. D., Patwardhan, A., Burton, I., Corfee-Morlot, J., Magadza, C. H. D., Füssel, H.-M., Pittock, A. B., Rahman, A., Suarez, A., & van Ypersele, J.-P. (2009). Assessing dangerous climate change through an update of the Intergovernmental Panel on Climate Change (IPCC) "reasons for concern". *PNAS*, 106(11), 4133–4137. doi:10.1073/pnas.0812355106
 - Snyder, C. W. (2016). Evolution of global temperature over the past two million years. *Nature*, 538(7624), 226–228. doi:10.1038/nature19798
-- Soden, B. J., & Held, I. M. (2006). An assessment of climate feedbacks in coupled ocean–atmosphere models. *J. Climate*, 19(14), 3354–3360. doi:10.1175/jcli3799.1
+- Soden, B. J., & Held, I. M. (2006). An assessment of climate feedbacks in coupled ocean–atmosphere models. *J. Climate*, 19(14), 3354–3360. doi:10.1175/jcli3799.1 (read 2026-10-01 from an Internet Archive copy of the AMS PDF)
 - Soden, B. J., et al. (2002). Global cooling after the eruption of Mount Pinatubo: A test of climate feedback by water vapor. *Science*, 296(5568), 727–730. doi:10.1126/science.296.5568.727
 - Soden, B. J., et al. (2005). The radiative signature of upper tropospheric moistening. *Science*, 310(5749), 841–844. doi:10.1126/science.1115602
 - Soden, B. J., et al. (2008). Quantifying climate feedbacks using radiative kernels. *J. Climate*, 21(14), 3504–3520. doi:10.1175/2007jcli2110.1

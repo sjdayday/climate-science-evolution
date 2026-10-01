@@ -41,8 +41,8 @@
    "B": "mw1975",
    "openalex": "NOT-IN-REFS",
    "B_refs_indexed": 0,
-   "check": "UNVERIFIABLE",
-   "note": "OpenAlex has no reference list for MW75 (0 indexed); AMS full text not reachable from this session. MW75 is known to build on the 1967 radiative–convective scheme."
+   "check": "VERIFIED-CITES",
+   "note": "Read 2026-10-01 from GFDL's scanned author copy (bibliography/related_files/sm7503.pdf), OCR'd: the introduction states MW67's result ('the doubling of CO2 in the air increases the equilibrium temperature of the earth's surface by about 2.3°C provided that no change in cloudiness takes place') and the reference list has Manabe & Wetherald 1967, J. Atmos. Sci. 24, 241-259. 33 references."
   },
   {
    "A": "mw1967",
@@ -805,8 +805,8 @@
    "B": "sellers1969",
    "openalex": "NOT-IN-REFS",
    "B_refs_indexed": 0,
-   "check": "UNVERIFIABLE",
-   "note": "Sellers 1969 has no indexed reference list; the two papers were essentially simultaneous (Sellers received Aug 1968)."
+   "check": "VERIFIED-NO",
+   "note": "Read 2026-10-01 from an Internet Archive copy of the AMS PDF, OCR'd (23 references): Sellers cites Budyko 1966 ('Polar ice and climate', RAND symposium) and Budyko, Drosdov & Yudin 1966, not Budyko 1969 Tellus (the two papers were simultaneous; Sellers received Aug 1968). Sellers also cites Manabe & Wetherald 1967."
   },
   {
    "A": "sellers1969",
