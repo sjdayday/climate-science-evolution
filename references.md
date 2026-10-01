@@ -1,6 +1,6 @@
 # References
 
-Every paper, report and book cited in `01-periods.md`, `02-problems/` and `03-open-problems.md`, listed as author(s), year, title, venue. Volume, issue, pages and DOIs were added on 2026-09-30 by resolving each journal entry against OpenAlex (title search within ±1 year, scored on title similarity and first-author surname; `data/references-resolved.csv` has the match scores; `scripts/resolve_dois.py` reproduces the step). 665 entries resolved with a confident match (641 by title search, 24 by DOI lookup on 2026-09-30 after an initial from-memory assignment), plus four entries added on 2026-10-01 for `08` §6 with volume, pages and DOI taken from OpenAlex records (Laepple et al. 2023; Olonscheck et al. 2020; Parsons et al. 2020; Sippel et al. 2021); the entries listed at the end could not be resolved (book chapters, reports, or not found). Entries in brackets are descriptive where the exact title is uncertain. Assessments and books are listed after the journal literature.
+Every paper, report and book cited in `01-periods.md`, `02-problems/` and `03-open-problems.md`, listed as author(s), year, title, venue. Volume, issue, pages and DOIs were added on 2026-09-30 by resolving each journal entry against OpenAlex (title search within ±1 year, scored on title similarity and first-author surname; `data/references-resolved.csv` has the match scores; `scripts/resolve_dois.py` reproduces the step). 665 entries resolved with a confident match (641 by title search, 24 by DOI lookup on 2026-09-30 after an initial from-memory assignment), plus five entries added on 2026-10-01 for `08` §6 and `07` §4.2 with volume, pages and DOI taken from the OpenAlex or publisher records (Laepple et al. 2023; Olonscheck et al. 2020; Parsons et al. 2020; Sippel et al. 2021; Smith et al. 2009); the entries listed at the end could not be resolved (book chapters, reports, or not found). Entries in brackets are descriptive where the exact title is uncertain. Assessments and books are listed after the journal literature.
 
 ## Journal literature
 
@@ -577,6 +577,7 @@ Every paper, report and book cited in `01-periods.md`, `02-problems/` and `03-op
 - Smith, C. J., et al. (2018). FAIR v1.3: a simple emissions-based impulse response and carbon cycle model. *Geoscientific Model Development*, 11(6), 2273–2297. doi:10.5194/gmd-11-2273-2018
 - Smith, D. M., et al. (2007). Improved surface temperature prediction for the coming decade from a global climate model. *Science*, 317(5839), 796–799. doi:10.1126/science.1139540
 - Smith, D. M., et al. (2020). North Atlantic climate far more predictable than models imply. *Nature*, 583(7818), 796–800. doi:10.1038/s41586-020-2525-0
+- Smith, J. B., Schneider, S. H., Oppenheimer, M., Yohe, G. W., Hare, W., Mastrandrea, M. D., Patwardhan, A., Burton, I., Corfee-Morlot, J., Magadza, C. H. D., Füssel, H.-M., Pittock, A. B., Rahman, A., Suarez, A., & van Ypersele, J.-P. (2009). Assessing dangerous climate change through an update of the Intergovernmental Panel on Climate Change (IPCC) "reasons for concern". *PNAS*, 106(11), 4133–4137. doi:10.1073/pnas.0812355106
 - Snyder, C. W. (2016). Evolution of global temperature over the past two million years. *Nature*, 538(7624), 226–228. doi:10.1038/nature19798
 - Soden, B. J., & Held, I. M. (2006). An assessment of climate feedbacks in coupled ocean–atmosphere models. *J. Climate*, 19(14), 3354–3360. doi:10.1175/jcli3799.1
 - Soden, B. J., et al. (2002). Global cooling after the eruption of Mount Pinatubo: A test of climate feedback by water vapor. *Science*, 296(5568), 727–730. doi:10.1126/science.296.5568.727
@@ -736,6 +737,7 @@ Every paper, report and book cited in `01-periods.md`, `02-problems/` and `03-op
 - Manabe, S., & Broccoli, A. J. (2020). *Beyond Global Warming: How Numerical Models Revealed the Secrets of Climate Change*. Princeton University Press.
 - Peixoto, J. P., & Oort, A. H. (1992). *Physics of Climate*. American Institute of Physics.
 - Pierrehumbert, R. T. (2010). *Principles of Planetary Climate*. Cambridge University Press.
+- Schneider, S. H. (2009). *Science as a Contact Sport: Inside the Battle to Save Earth's Climate*. National Geographic. (Quoted at second hand in `07` §4.2 for the account of the AR4 embers figure.)
 - Washington, W. M., & Parkinson, C. L. (1986). *An Introduction to Three-Dimensional Climate Modeling*. University Science Books.
 - Weart, S. R. (2008). *The Discovery of Global Warming* (revised ed.). Harvard University Press; with the expanded online version at history.aip.org/climate.
 
