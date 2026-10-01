@@ -1,0 +1,645 @@
+{
+ "generated": "from data/openalex-traces.json by scripts/problem_cycle.py",
+ "cutoff": {
+  "FAR": 1989,
+  "SAR": 1995,
+  "TAR": 2000,
+  "AR4": 2006,
+  "AR5": 2013,
+  "AR6": 2020
+ },
+ "legend": {
+  "[25 by Y]": "year the paper's cumulative OpenAlex citations reached 25",
+  "formalized (+n)": "every anchoring paper had reached 25 citations n or more years before the cutoff",
+  "level": "at least one anchoring paper reached 25 citations only after the cutoff year"
+ },
+ "cells": {
+  "P01 radiative basis | FAR": {
+   "cutoff": 1989,
+   "relation": "formalized (+16)",
+   "origin": [
+    "Plass 1956 [25 by 1961]",
+    "Möller 1963 [25 by 1973]",
+    "Manabe & Wetherald 1967 [25 by 1970]"
+   ],
+   "gaps": [
+    28,
+    16,
+    19
+   ],
+   "contest": [],
+   "after": [],
+   "note": "settled since the 1960s–70s; not re-assessed later"
+  },
+  "P02 carbon accumulation | FAR": {
+   "cutoff": 1989,
+   "relation": "formalized (+8)",
+   "origin": [
+    "Revelle & Suess 1957 [25 by 1960]",
+    "Keeling 1960 [25 by 1970]",
+    "Broecker et al. 1979 [25 by 1981]"
+   ],
+   "gaps": [
+    29,
+    19,
+    8
+   ],
+   "contest": [],
+   "after": [],
+   "note": ""
+  },
+  "P02 carbon accumulation | SAR": {
+   "cutoff": 1995,
+   "relation": "formalized (+4)",
+   "origin": [
+    "Tans et al. 1990 [25 by 1991]"
+   ],
+   "gaps": [
+    4
+   ],
+   "contest": [],
+   "after": [],
+   "note": "the 'missing sink'"
+  },
+  "P02 carbon accumulation | AR4": {
+   "cutoff": 2006,
+   "relation": "level",
+   "origin": [
+    "Sabine et al. 2004 [25 by 2005]",
+    "Friedlingstein et al. 2006 [25 by 2007]"
+   ],
+   "gaps": [
+    1,
+    -1
+   ],
+   "contest": [],
+   "after": [],
+   "note": "ocean sink; carbon–climate feedback"
+  },
+  "P03 model hierarchy | FAR": {
+   "cutoff": 1989,
+   "relation": "level",
+   "origin": [
+    "Manabe & Bryan 1969 [25 by 1979]",
+    "Manabe & Wetherald 1975 [25 by 1977]",
+    "Hansen et al. 1981 [25 by 1982]",
+    "Schlesinger & Mitchell 1987 [25 by 1989]",
+    "Manabe & Stouffer 1988 [25 by 1990]"
+   ],
+   "gaps": [
+    10,
+    12,
+    7,
+    0,
+    -1
+   ],
+   "contest": [],
+   "after": [],
+   "note": ""
+  },
+  "P03 model hierarchy | AR6": {
+   "cutoff": 2020,
+   "relation": "formalized (+0)",
+   "origin": [
+    "Zelinka et al. 2020 [25 by 2020]"
+   ],
+   "gaps": [
+    0
+   ],
+   "contest": [],
+   "after": [
+    "Hausfather et al. 2022"
+   ],
+   "note": "constrained projections rather than the raw ensemble; the 'hot model' name came after"
+  },
+  "P04 sensitivity | FAR": {
+   "cutoff": 1989,
+   "relation": "formalized (report)",
+   "origin": [
+    "Charney et al. 1979 [25 by 2017]",
+    "Hansen et al. 1984 [25 by 1986]"
+   ],
+   "gaps": [
+    -28,
+    3
+   ],
+   "contest": [],
+   "after": [],
+   "note": "the 1.5–4.5 °C range was carried by the NAS report, which OpenAlex under-indexes (102 citations); Hansen 1984 anchors the feedback analysis"
+  },
+  "P04 sensitivity | AR4": {
+   "cutoff": 2006,
+   "relation": "level",
+   "origin": [
+    "Roe & Baker 2007 [25 by 2008]"
+   ],
+   "gaps": [
+    -2
+   ],
+   "contest": [],
+   "after": [
+    "Knutti & Hegerl 2008"
+   ],
+   "note": "the 3 °C best estimate synthesized the 2002–06 probabilistic estimates (not in the traced set); Knutti & Hegerl 2008 restated it after AR4"
+  },
+  "P04 sensitivity | AR5": {
+   "cutoff": 2013,
+   "relation": "level",
+   "origin": [
+    "Otto et al. 2013 [25 by 2014]"
+   ],
+   "gaps": [
+    -1
+   ],
+   "contest": [],
+   "after": [],
+   "note": "best estimate withdrawn in deference to the energy-budget estimates"
+  },
+  "P04 sensitivity | AR6": {
+   "cutoff": 2020,
+   "relation": "formalized (+0)",
+   "origin": [
+    "Sherwood et al. 2020 [25 by 2020]",
+    "Zelinka et al. 2020 [25 by 2020]"
+   ],
+   "gaps": [
+    0,
+    0
+   ],
+   "contest": [
+    "Lewis & Curry 2018 [25 by 2020]"
+   ],
+   "after": [],
+   "note": ""
+  },
+  "P05 feedbacks | AR4": {
+   "cutoff": 2006,
+   "relation": "level",
+   "origin": [
+    "Soden et al. 2005 [25 by 2007]",
+    "Bony & Dufresne 2005 [25 by 2007]",
+    "Soden & Held 2006 [25 by 2007]"
+   ],
+   "gaps": [
+    -1,
+    -1,
+    -1
+   ],
+   "contest": [],
+   "after": [],
+   "note": "water vapour/lapse rate robust; low clouds the largest spread"
+  },
+  "P05 feedbacks | AR6": {
+   "cutoff": 2020,
+   "relation": "formalized (+0)",
+   "origin": [
+    "Sherwood et al. 2014 [25 by 2014]",
+    "Zelinka et al. 2020 [25 by 2020]"
+   ],
+   "gaps": [
+    6,
+    0
+   ],
+   "contest": [],
+   "after": [],
+   "note": "emergent constraints; CMIP6 cloud feedback"
+  },
+  "P06 aerosol forcing | SAR": {
+   "cutoff": 1995,
+   "relation": "formalized (+3)",
+   "origin": [
+    "Twomey 1977 [25 by 1984]",
+    "Charlson et al. 1992 [25 by 1992]"
+   ],
+   "gaps": [
+    11,
+    3
+   ],
+   "contest": [],
+   "after": [],
+   "note": ""
+  },
+  "P06 aerosol forcing | AR6": {
+   "cutoff": 2020,
+   "relation": "formalized (+0)",
+   "origin": [
+    "Bellouin et al. 2020 [25 by 2020]"
+   ],
+   "gaps": [
+    0
+   ],
+   "contest": [
+    "Stevens 2015 [25 by 2016]"
+   ],
+   "after": [],
+   "note": "Stevens 2015 is a lower-bound argument from within the field, taken up by Bellouin 2020"
+  },
+  "P07 attribution | FAR": {
+   "cutoff": 1989,
+   "relation": "declined (lagged)",
+   "origin": [
+    "Hansen et al. 1988 [25 by 1989]"
+   ],
+   "gaps": [
+    0
+   ],
+   "contest": [],
+   "after": [],
+   "note": "the FAR declined the detection Hansen 1988 claimed; by the citation record the paper was already a reference"
+  },
+  "P07 attribution | SAR": {
+   "cutoff": 1995,
+   "relation": "level",
+   "origin": [
+    "Mitchell et al. 1995 [25 by 1996]",
+    "Hegerl et al. 1996 [25 by 1998]",
+    "Santer et al. 1996 [25 by 1997]"
+   ],
+   "gaps": [
+    -1,
+    -3,
+    -2
+   ],
+   "contest": [],
+   "after": [],
+   "note": "'discernible human influence' preceded the 25-citation mark of all three fingerprint papers"
+  },
+  "P07 attribution | TAR": {
+   "cutoff": 2000,
+   "relation": "level",
+   "origin": [
+    "Tett et al. 1999 [25 by 2000]",
+    "Stott et al. 2000 [25 by 2002]"
+   ],
+   "gaps": [
+    0,
+    -2
+   ],
+   "contest": [],
+   "after": [],
+   "note": ""
+  },
+  "P07 attribution | AR4": {
+   "cutoff": 2006,
+   "relation": "formalized (+1)",
+   "origin": [
+    "Stott et al. 2004 [25 by 2005]"
+   ],
+   "gaps": [
+    1
+   ],
+   "contest": [
+    "Lindzen et al. 2001 [25 by 2002]"
+   ],
+   "after": [],
+   "note": "Stott 2004: event attribution; Lindzen 2001 answered in ch. 8"
+  },
+  "P08 observational record | FAR": {
+   "cutoff": 1989,
+   "relation": "formalized (+1)",
+   "origin": [
+    "Jones et al. 1986 [25 by 1988]"
+   ],
+   "gaps": [
+    1
+   ],
+   "contest": [],
+   "after": [],
+   "note": ""
+  },
+  "P08 observational record | SAR": {
+   "cutoff": 1995,
+   "relation": "engaged",
+   "origin": [],
+   "gaps": [],
+   "contest": [
+    "Spencer & Christy 1990 [25 by 1991]"
+   ],
+   "after": [],
+   "note": "the satellite discrepancy, discussed in the SAR and closed by 2005"
+  },
+  "P08 observational record | AR4": {
+   "cutoff": 2006,
+   "relation": "formalized (+0)",
+   "origin": [
+    "Mears & Wentz 2005 [25 by 2006]"
+   ],
+   "gaps": [
+    0
+   ],
+   "contest": [],
+   "after": [],
+   "note": ""
+  },
+  "P08 observational record | AR5": {
+   "cutoff": 2013,
+   "relation": "level",
+   "origin": [
+    "Kosaka & Xie 2013 [25 by 2014]",
+    "Fyfe et al. 2013 [25 by 2014]",
+    "Cowtan & Way 2014 [25 by 2014]"
+   ],
+   "gaps": [
+    -1,
+    -1,
+    -1
+   ],
+   "contest": [],
+   "after": [],
+   "note": "the 'hiatus' box"
+  },
+  "P08 observational record | AR6": {
+   "cutoff": 2020,
+   "relation": "formalized (+3)",
+   "origin": [
+    "Karl et al. 2015 [25 by 2015]",
+    "Medhaug et al. 2017 [25 by 2017]"
+   ],
+   "gaps": [
+    5,
+    3
+   ],
+   "contest": [],
+   "after": [],
+   "note": ""
+  },
+  "P09 paleoclimate | SAR": {
+   "cutoff": 1995,
+   "relation": "formalized (+1)",
+   "origin": [
+    "Lorius et al. 1990 [25 by 1992]",
+    "Dansgaard et al. 1993 [25 by 1994]"
+   ],
+   "gaps": [
+    3,
+    1
+   ],
+   "contest": [],
+   "after": [],
+   "note": "ice-core CO₂–temperature coupling; abrupt change"
+  },
+  "P09 paleoclimate | TAR": {
+   "cutoff": 2000,
+   "relation": "formalized (+0); premature on the decade/year claim",
+   "origin": [
+    "Mann, Bradley & Hughes 1998 [25 by 1999]",
+    "Mann, Bradley & Hughes 1999 [25 by 2000]"
+   ],
+   "gaps": [
+    1,
+    0
+   ],
+   "contest": [],
+   "after": [],
+   "note": "the century claim had been adopted; the decade/year claim is the chapter's over-reach (§4) and is invisible to a citation measure"
+  },
+  "P09 paleoclimate | AR4": {
+   "cutoff": 2006,
+   "relation": "engaged",
+   "origin": [],
+   "gaps": [],
+   "contest": [
+    "McIntyre & McKitrick 2005 [25 by 2006]"
+   ],
+   "after": [],
+   "note": "answered in ch. 6 (Wahl & Ammann, Huybers, von Storch & Zorita); NRC 2006"
+  },
+  "P09 paleoclimate | AR6": {
+   "cutoff": 2020,
+   "relation": "formalized (+0)",
+   "origin": [
+    "Neukom et al. 2019 [25 by 2020]"
+   ],
+   "gaps": [
+    0
+   ],
+   "contest": [],
+   "after": [],
+   "note": ""
+  },
+  "P10 TCRE / ZEC | AR5": {
+   "cutoff": 2013,
+   "relation": "formalized (+3)",
+   "origin": [
+    "Matthews & Caldeira 2008 [25 by 2009]",
+    "Allen et al. 2009 [25 by 2009]",
+    "Matthews et al. 2009 [25 by 2010]",
+    "Solomon et al. 2009 [25 by 2009]"
+   ],
+   "gaps": [
+    4,
+    4,
+    3,
+    4
+   ],
+   "contest": [],
+   "after": [],
+   "note": ""
+  },
+  "P10 TCRE / ZEC | AR6": {
+   "cutoff": 2020,
+   "relation": "level",
+   "origin": [
+    "MacDougall et al. 2020 [25 by 2021]"
+   ],
+   "gaps": [
+    -1
+   ],
+   "contest": [],
+   "after": [],
+   "note": "ZEC intercomparison"
+  },
+  "P11 hydrological cycle | AR4": {
+   "cutoff": 2006,
+   "relation": "level",
+   "origin": [
+    "Allen & Ingram 2002 [25 by 2004]",
+    "Soden & Held 2006 [25 by 2007]"
+   ],
+   "gaps": [
+    2,
+    -1
+   ],
+   "contest": [],
+   "after": [],
+   "note": "thermodynamic scaling; wet-get-wetter"
+  },
+  "P12 AMOC | TAR": {
+   "cutoff": 2000,
+   "relation": "formalized (+1)",
+   "origin": [
+    "Rahmstorf 1995 [25 by 1997]",
+    "Stocker & Schmittner 1997 [25 by 1999]"
+   ],
+   "gaps": [
+    3,
+    1
+   ],
+   "contest": [],
+   "after": [],
+   "note": ""
+  },
+  "P12 AMOC | AR6": {
+   "cutoff": 2020,
+   "relation": "—",
+   "origin": [],
+   "gaps": [],
+   "contest": [],
+   "after": [
+    "Armstrong McKay et al. 2022",
+    "Ditlevsen & Ditlevsen 2023",
+    "van Westen et al. 2024"
+   ],
+   "note": "the next cycle's test case"
+  },
+  "P12 ice sheets / sea level | AR4": {
+   "cutoff": 2006,
+   "relation": "excluded (lagged)",
+   "origin": [
+    "Rahmstorf 2007 [25 by 2007]"
+   ],
+   "gaps": [
+    -1
+   ],
+   "contest": [],
+   "after": [
+    "Pfeffer et al. 2008"
+   ],
+   "note": "AR4 excluded ice dynamics 'because a basis in published literature is lacking'; Rahmstorf 2007 was in print (Science, December 2006) but not yet adopted"
+  },
+  "P12 ice sheets / sea level | AR5": {
+   "cutoff": 2013,
+   "relation": "formalized (+4)",
+   "origin": [
+    "Rahmstorf 2007 [25 by 2007]",
+    "Pfeffer et al. 2008 [25 by 2009]",
+    "Lenton et al. 2008 [25 by 2008]"
+   ],
+   "gaps": [
+    6,
+    4,
+    5
+   ],
+   "contest": [],
+   "after": [],
+   "note": ""
+  },
+  "P12 ice sheets / sea level | AR6": {
+   "cutoff": 2020,
+   "relation": "formalized (+4)",
+   "origin": [
+    "DeConto & Pollard 2016 [25 by 2016]"
+   ],
+   "gaps": [
+    4
+   ],
+   "contest": [],
+   "after": [],
+   "note": "the low-likelihood, high-impact storyline"
+  },
+  "P13 internal variability | FAR": {
+   "cutoff": 1989,
+   "relation": "formalized (+10)",
+   "origin": [
+    "Lorenz 1963 [25 by 1975]",
+    "Hasselmann 1976 [25 by 1979]"
+   ],
+   "gaps": [
+    14,
+    10
+   ],
+   "contest": [],
+   "after": [],
+   "note": ""
+  },
+  "P13 internal variability | AR4": {
+   "cutoff": 2006,
+   "relation": "engaged",
+   "origin": [],
+   "gaps": [],
+   "contest": [
+    "Cohn & Lins 2005 [25 by 2008]"
+   ],
+   "after": [],
+   "note": "long-memory argument; AR4 ch. 9 relies on the residual-consistency test"
+  },
+  "P13 internal variability | AR5": {
+   "cutoff": 2013,
+   "relation": "level",
+   "origin": [
+    "Hawkins & Sutton 2009 [25 by 2010]",
+    "Deser et al. 2012 [25 by 2013]",
+    "Kosaka & Xie 2013 [25 by 2014]"
+   ],
+   "gaps": [
+    3,
+    0,
+    -1
+   ],
+   "contest": [],
+   "after": [],
+   "note": ""
+  },
+  "P13 internal variability | AR6": {
+   "cutoff": 2020,
+   "relation": "formalized (+4)",
+   "origin": [
+    "Laepple & Huybers 2014 [25 by 2016]"
+   ],
+   "gaps": [
+    4
+   ],
+   "contest": [],
+   "after": [],
+   "note": "cited in AR6 ch. 3's attribution assessment (`08` §6)"
+  },
+  "Contested papers (engagement cycle) | SAR": {
+   "cutoff": 1995,
+   "relation": "engaged",
+   "origin": [],
+   "gaps": [],
+   "contest": [
+    "Lindzen 1990 [25 by 1991]"
+   ],
+   "after": [],
+   "note": ""
+  },
+  "Contested papers (engagement cycle) | TAR": {
+   "cutoff": 2000,
+   "relation": "engaged",
+   "origin": [],
+   "gaps": [],
+   "contest": [
+    "Svensmark & Friis-Christensen 1997 [25 by 1998]"
+   ],
+   "after": [],
+   "note": ""
+  },
+  "Contested papers (engagement cycle) | AR5": {
+   "cutoff": 2013,
+   "relation": "engaged",
+   "origin": [],
+   "gaps": [],
+   "contest": [
+    "Lindzen & Choi 2009 [25 by 2011]"
+   ],
+   "after": [],
+   "note": "cited in AR5 ch. 10 §10.8.2 as 'based on problematic assumptions'"
+  },
+  "Contested papers (engagement cycle) | AR6": {
+   "cutoff": 2020,
+   "relation": "level",
+   "origin": [
+    "Santer et al. 2017 [25 by 2021]"
+   ],
+   "gaps": [
+    -1
+   ],
+   "contest": [
+    "McKitrick & Christy 2018 [25 by 2025]"
+   ],
+   "after": [],
+   "note": "the one exchange in which the two sides do not cite each other (`04` §5e)"
+  }
+ }
+}
