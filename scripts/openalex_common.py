@@ -16,7 +16,16 @@ BASE = "https://api.openalex.org/"
 
 
 def _key():
+    """API key from the environment, else from a repo-root .env (OPENALEX_API_KEY=...), else keyless."""
     k = os.environ.get("OPENALEX_API_KEY", "").strip()
+    if not k:
+        env_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".env")
+        if os.path.exists(env_path):
+            for line in open(env_path, encoding="utf-8"):
+                line = line.strip()
+                if line.startswith("OPENALEX_API_KEY="):
+                    k = line.split("=", 1)[1].strip().strip('"').strip("'")
+                    break
     if not k:
         sys.stderr.write("warning: OPENALEX_API_KEY not set; running keyless (small daily budget)\n")
     return k

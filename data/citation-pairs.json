@@ -1,6 +1,6 @@
 {
- "generated": "2026-09-30",
- "method": "OpenAlex works/<B>?select=referenced_works, membership test of A's OpenAlex id; manual checks of publisher reference lists where noted",
+ "generated": "2026-09-30; eight P13 pairs added 2026-10-01",
+ "method": "OpenAlex works/<B>?select=referenced_works, membership test of A's OpenAlex id; manual checks of publisher reference lists where noted Where OpenAlex had no reference list, the publisher's reference deposit at Crossref (api.crossref.org, read from the browser on 2026-10-01) was used; DOI-only entries were resolved to titles.",
  "codes": {
   "CITES": "A in B's OpenAlex referenced_works",
   "NOT-IN-REFS": "A not in B's OpenAlex referenced_works",
@@ -61,8 +61,8 @@
    "B": "hansen1981",
    "openalex": "NOT-IN-REFS",
    "B_refs_indexed": 53,
-   "check": "UNVERIFIABLE",
-   "note": "Hansen 1981 has 53 of its references indexed (MW67, Manabe & Stouffer 1980, Hoffert 1980, Schneider & Thompson 1981 present); Science full text not reachable."
+   "check": "VERIFIED-NO",
+   "note": "Not among the 69 Crossref-deposited references of Hansen et al. 1981 (read 2026-10-01): the Manabe papers cited are MW64, MW67, Manabe & Stouffer 1979 (Nature) and Manabe & Stouffer 1980 (JGR)."
   },
   {
    "A": "woodwell1978",
@@ -667,8 +667,8 @@
    "B": "vanwesten2026",
    "openalex": "NOT-IN-REFS",
    "B_refs_indexed": 0,
-   "check": "UNVERIFIABLE",
-   "note": "No reference list indexed yet for the 2026 paper."
+   "check": "VERIFIED-CITES",
+   "note": "Crossref holds the 2026 paper's 84 references (read 2026-10-01): Stocker & Schmittner 1997 and Schmittner & Stocker 1999 are both cited."
   },
   {
    "A": "stockerschmittner1997",
@@ -751,16 +751,16 @@
    "B": "vanwesten2026",
    "openalex": "NOT-IN-REFS",
    "B_refs_indexed": 0,
-   "check": "UNVERIFIABLE",
-   "note": "No reference list indexed yet for the 2026 paper."
+   "check": "VERIFIED-CITES",
+   "note": "Among the 84 Crossref-deposited references of the 2026 paper (read 2026-10-01)."
   },
   {
    "A": "baker2025",
    "B": "vanwesten2026",
    "openalex": "NOT-IN-REFS",
    "B_refs_indexed": 0,
-   "check": "UNVERIFIABLE",
-   "note": "No reference list indexed yet for the 2026 paper."
+   "check": "VERIFIED-NO",
+   "note": "Not among the 84 Crossref-deposited references of the 2026 paper (read 2026-10-01); neither is Ditlevsen & Ditlevsen 2023."
   },
   {
    "A": "lorenz1963",
@@ -833,8 +833,8 @@
    "B": "hansen1981",
    "openalex": "NOT-IN-REFS",
    "B_refs_indexed": 53,
-   "check": "UNVERIFIABLE",
-   "note": "Not among the 53 indexed references of Hansen 1981; Science full text not reachable. (Hansen et al. 1988 does cite Charney 1979.)"
+   "check": "VERIFIED-CITES",
+   "note": "Crossref's deposited reference list for Hansen et al. 1981 (69 entries, read 2026-10-01) opens with 'Carbon Dioxide and Climate' (NAS 1979), i.e. the Charney report, as ref. 1; OpenAlex indexed 53 of the 69 and missed it."
   },
   {
    "A": "hansen1981",
@@ -843,6 +843,62 @@
    "B_refs_indexed": 16,
    "check": "VERIFIED-NO",
    "note": "Pair entered backwards (B predates A); ignore."
+  },
+  {
+   "A": "kravtsov2018",
+   "B": "mann2020",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 93,
+   "check": "VERIFIED-NO",
+   "note": "Mann, Steinman & Miller 2020 Nat. Commun. (W2998299648) reference list read on nature.com 2026-10-01: cites Kravtsov & Callicutt 2017 and Cheung et al. 2017, not Kravtsov, Grimm & Gu 2018 (W2891119208). Non-citation runs from the mainstream side."
+  },
+  {
+   "A": "cheung2017",
+   "B": "mann2020",
+   "openalex": "CITES",
+   "B_refs_indexed": 93,
+   "check": "VERIFIED-CITES",
+   "note": "Printed list on nature.com contains Cheung et al. 2017 J. Climate."
+  },
+  {
+   "A": "kravtsov2018",
+   "B": "laepple2023",
+   "openalex": "NOT-IN-REFS",
+   "B_refs_indexed": 105,
+   "check": "VERIFIED-NO",
+   "note": "Laepple et al. 2023 Nat. Geosci. (W4388410041) reference list read on nature.com 2026-10-01: no Kravtsov."
+  },
+  {
+   "A": "laepplehuybers2014",
+   "B": "laepple2023",
+   "openalex": "CITES",
+   "B_refs_indexed": 105
+  },
+  {
+   "A": "cheung2017",
+   "B": "laepple2023",
+   "openalex": "CITES",
+   "B_refs_indexed": 105
+  },
+  {
+   "A": "kravtsov2018",
+   "B": "sippel2021",
+   "openalex": "CITES",
+   "B_refs_indexed": null,
+   "note": "Sippel et al. 2021 Sci. Adv. (W3206092433) found via cites:W2891119208; the direct answer to the variability objection."
+  },
+  {
+   "A": "kravtsov2018",
+   "B": "olonscheck2020",
+   "openalex": "CITES",
+   "B_refs_indexed": null,
+   "note": "Olonscheck, Rugenstein & Marotzke 2020 GRL (W3012085099) found via cites:W2891119208."
+  },
+  {
+   "A": "laepplehuybers2014",
+   "B": "parsons2020",
+   "openalex": "CITES",
+   "B_refs_indexed": 50
   }
  ]
 }

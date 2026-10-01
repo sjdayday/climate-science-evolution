@@ -1,0 +1,2698 @@
+{
+ "generated": "2026-09-30",
+ "source": "OpenAlex works?filter=cites:<id>&group_by=primary_topic.field.id | primary_topic.domain.id | primary_location.source.id (top groups only)",
+ "note": "OpenAlex assigns each work one primary topic (field, domain); 'Environmental Science' includes most climate-science journals, 'Earth and Planetary Sciences' the geoscience ones, so the physical/social split is best read from the domain row.",
+ "papers": {
+  "oreskes2004": {
+   "id": "W1899062379",
+   "cls": "consensus",
+   "y": 2004,
+   "c": 1807,
+   "total": 1806,
+   "fields": [
+    [
+     "Social Sciences",
+     775
+    ],
+    [
+     "Environmental Science",
+     418
+    ],
+    [
+     "Engineering",
+     105
+    ],
+    [
+     "Agricultural and Biological Sciences",
+     68
+    ],
+    [
+     "Economics, Econometrics and Finance",
+     60
+    ],
+    [
+     "Arts and Humanities",
+     56
+    ],
+    [
+     "Energy",
+     55
+    ],
+    [
+     "Earth and Planetary Sciences",
+     53
+    ],
+    [
+     "Business, Management and Accounting",
+     44
+    ],
+    [
+     "Materials Science",
+     28
+    ]
+   ],
+   "domains": [
+    [
+     "Social Sciences",
+     965
+    ],
+    [
+     "Physical Sciences",
+     702
+    ],
+    [
+     "Life Sciences",
+     96
+    ],
+    [
+     "Health Sciences",
+     36
+    ]
+   ],
+   "sources": [
+    [
+     "SSRN Electronic Journal",
+     38
+    ],
+    [
+     "Cambridge University Press eBooks",
+     27
+    ],
+    [
+     "Climatic Change",
+     22
+    ],
+    [
+     "PLoS ONE",
+     17
+    ],
+    [
+     "Sustainability",
+     16
+    ],
+    [
+     "Oxford University Press eBooks",
+     16
+    ],
+    [
+     "Environmental Communication",
+     15
+    ],
+    [
+     "Global Environmental Change",
+     14
+    ]
+   ]
+  },
+  "cook2013": {
+   "id": "W2196672866",
+   "cls": "consensus",
+   "y": 2013,
+   "c": 1365,
+   "total": 1363,
+   "fields": [
+    [
+     "Social Sciences",
+     613
+    ],
+    [
+     "Environmental Science",
+     319
+    ],
+    [
+     "Engineering",
+     92
+    ],
+    [
+     "Economics, Econometrics and Finance",
+     56
+    ],
+    [
+     "Arts and Humanities",
+     52
+    ],
+    [
+     "Agricultural and Biological Sciences",
+     39
+    ],
+    [
+     "Energy",
+     31
+    ],
+    [
+     "Business, Management and Accounting",
+     26
+    ],
+    [
+     "Earth and Planetary Sciences",
+     20
+    ],
+    [
+     "Psychology",
+     20
+    ]
+   ],
+   "domains": [
+    [
+     "Social Sciences",
+     779
+    ],
+    [
+     "Physical Sciences",
+     491
+    ],
+    [
+     "Life Sciences",
+     52
+    ],
+    [
+     "Health Sciences",
+     25
+    ]
+   ],
+   "sources": [
+    [
+     "Soziologie der Nachhaltigkeit",
+     51
+    ],
+    [
+     "SSRN Electronic Journal",
+     23
+    ],
+    [
+     "Sustainability",
+     22
+    ],
+    [
+     "Cambridge University Press eBooks",
+     16
+    ],
+    [
+     "Elsevier eBooks",
+     16
+    ],
+    [
+     "Environmental Research Letters",
+     15
+    ],
+    [
+     "Climatic Change",
+     14
+    ],
+    [
+     "Environmental Communication",
+     14
+    ]
+   ]
+  },
+  "doran2009": {
+   "id": "W1966156330",
+   "cls": "consensus",
+   "y": 2009,
+   "c": 532,
+   "total": 532,
+   "fields": [
+    [
+     "Social Sciences",
+     296
+    ],
+    [
+     "Environmental Science",
+     121
+    ],
+    [
+     "Economics, Econometrics and Finance",
+     19
+    ],
+    [
+     "Earth and Planetary Sciences",
+     14
+    ],
+    [
+     "Agricultural and Biological Sciences",
+     13
+    ],
+    [
+     "Engineering",
+     11
+    ],
+    [
+     "Psychology",
+     11
+    ],
+    [
+     "Energy",
+     10
+    ],
+    [
+     "Business, Management and Accounting",
+     9
+    ],
+    [
+     "Physics and Astronomy",
+     7
+    ]
+   ],
+   "domains": [
+    [
+     "Social Sciences",
+     341
+    ],
+    [
+     "Physical Sciences",
+     166
+    ],
+    [
+     "Life Sciences",
+     15
+    ],
+    [
+     "Health Sciences",
+     10
+    ]
+   ],
+   "sources": [
+    [
+     "SSRN Electronic Journal",
+     14
+    ],
+    [
+     "Global Environmental Change",
+     12
+    ],
+    [
+     "Environmental Research Letters",
+     10
+    ],
+    [
+     "Climatic Change",
+     10
+    ],
+    [
+     "Sustainability",
+     8
+    ],
+    [
+     "PLoS ONE",
+     8
+    ],
+    [
+     "Environmental Communication",
+     7
+    ],
+    [
+     "Journal of Environmental Psychology",
+     6
+    ]
+   ]
+  },
+  "anderegg2010": {
+   "id": "W2013974666",
+   "cls": "consensus",
+   "y": 2010,
+   "c": 823,
+   "total": 821,
+   "fields": [
+    [
+     "Social Sciences",
+     434
+    ],
+    [
+     "Environmental Science",
+     165
+    ],
+    [
+     "Engineering",
+     42
+    ],
+    [
+     "Economics, Econometrics and Finance",
+     29
+    ],
+    [
+     "Agricultural and Biological Sciences",
+     27
+    ],
+    [
+     "Earth and Planetary Sciences",
+     19
+    ],
+    [
+     "Business, Management and Accounting",
+     16
+    ],
+    [
+     "Psychology",
+     14
+    ],
+    [
+     "Arts and Humanities",
+     13
+    ],
+    [
+     "Energy",
+     10
+    ]
+   ],
+   "domains": [
+    [
+     "Social Sciences",
+     510
+    ],
+    [
+     "Physical Sciences",
+     254
+    ],
+    [
+     "Life Sciences",
+     33
+    ],
+    [
+     "Health Sciences",
+     18
+    ]
+   ],
+   "sources": [
+    [
+     "SSRN Electronic Journal",
+     18
+    ],
+    [
+     "Climatic Change",
+     13
+    ],
+    [
+     "Cambridge University Press eBooks",
+     13
+    ],
+    [
+     "Environmental Communication",
+     13
+    ],
+    [
+     "Environmental Research Letters",
+     12
+    ],
+    [
+     "PLoS ONE",
+     12
+    ],
+    [
+     "Global Environmental Change",
+     11
+    ],
+    [
+     "Elsevier eBooks",
+     11
+    ]
+   ]
+  },
+  "verheggen2014": {
+   "id": "W2003959844",
+   "cls": "consensus",
+   "y": 2014,
+   "c": 91,
+   "total": 91,
+   "fields": [
+    [
+     "Social Sciences",
+     39
+    ],
+    [
+     "Environmental Science",
+     17
+    ],
+    [
+     "Engineering",
+     8
+    ],
+    [
+     "Arts and Humanities",
+     7
+    ],
+    [
+     "Earth and Planetary Sciences",
+     5
+    ],
+    [
+     "Chemistry",
+     4
+    ],
+    [
+     "Economics, Econometrics and Finance",
+     4
+    ],
+    [
+     "Psychology",
+     3
+    ],
+    [
+     "Decision Sciences",
+     2
+    ],
+    [
+     "Agricultural and Biological Sciences",
+     1
+    ]
+   ],
+   "domains": [
+    [
+     "Social Sciences",
+     55
+    ],
+    [
+     "Physical Sciences",
+     35
+    ],
+    [
+     "Life Sciences",
+     1
+    ]
+   ],
+   "sources": [
+    [
+     "Cambridge University Press eBooks",
+     14
+    ],
+    [
+     "Environmental Research Letters",
+     4
+    ],
+    [
+     "Environmental Science & Technology",
+     3
+    ],
+    [
+     "Episteme",
+     2
+    ],
+    [
+     "Global Environmental Change",
+     2
+    ],
+    [
+     "F1000Research",
+     2
+    ],
+    [
+     "Herald of the Russian Academy of Science",
+     1
+    ],
+    [
+     "BioScience",
+     1
+    ]
+   ]
+  },
+  "tol2014": {
+   "id": "W2150814060",
+   "cls": "consensus",
+   "y": 2014,
+   "c": 39,
+   "total": 39,
+   "fields": [
+    [
+     "Social Sciences",
+     18
+    ],
+    [
+     "Economics, Econometrics and Finance",
+     8
+    ],
+    [
+     "Environmental Science",
+     6
+    ],
+    [
+     "Decision Sciences",
+     2
+    ],
+    [
+     "Energy",
+     2
+    ],
+    [
+     "Engineering",
+     2
+    ],
+    [
+     "Arts and Humanities",
+     1
+    ]
+   ],
+   "domains": [
+    [
+     "Social Sciences",
+     29
+    ],
+    [
+     "Physical Sciences",
+     10
+    ]
+   ],
+   "sources": [
+    [
+     "SSRN Electronic Journal",
+     3
+    ],
+    [
+     "Environmental Research Letters",
+     2
+    ],
+    [
+     "Energy Policy",
+     2
+    ],
+    [
+     "Elsevier eBooks",
+     2
+    ],
+    [
+     "Energy Economics",
+     2
+    ],
+    [
+     "International Journal of Environmental R",
+     1
+    ],
+    [
+     "Applied Energy",
+     1
+    ],
+    [
+     "Environment Development and Sustainabili",
+     1
+    ]
+   ]
+  },
+  "cook2016": {
+   "id": "W2310489833",
+   "cls": "consensus",
+   "y": 2016,
+   "c": 1470,
+   "total": 1471,
+   "fields": [
+    [
+     "Social Sciences",
+     607
+    ],
+    [
+     "Environmental Science",
+     325
+    ],
+    [
+     "Engineering",
+     89
+    ],
+    [
+     "Arts and Humanities",
+     65
+    ],
+    [
+     "Agricultural and Biological Sciences",
+     57
+    ],
+    [
+     "Economics, Econometrics and Finance",
+     54
+    ],
+    [
+     "Psychology",
+     38
+    ],
+    [
+     "Energy",
+     36
+    ],
+    [
+     "Business, Management and Accounting",
+     34
+    ],
+    [
+     "Earth and Planetary Sciences",
+     26
+    ]
+   ],
+   "domains": [
+    [
+     "Social Sciences",
+     811
+    ],
+    [
+     "Physical Sciences",
+     534
+    ],
+    [
+     "Life Sciences",
+     86
+    ],
+    [
+     "Health Sciences",
+     35
+    ]
+   ],
+   "sources": [
+    [
+     "Sustainability",
+     34
+    ],
+    [
+     "Cambridge University Press eBooks",
+     19
+    ],
+    [
+     "Climatic Change",
+     18
+    ],
+    [
+     "SSRN Electronic Journal",
+     18
+    ],
+    [
+     "Elsevier eBooks",
+     17
+    ],
+    [
+     "Environmental Communication",
+     17
+    ],
+    [
+     "Oxford University Press eBooks",
+     16
+    ],
+    [
+     "Research Square",
+     16
+    ]
+   ]
+  },
+  "lynas2021": {
+   "id": "W3205944958",
+   "cls": "consensus",
+   "y": 2021,
+   "c": 421,
+   "total": 419,
+   "fields": [
+    [
+     "Social Sciences",
+     153
+    ],
+    [
+     "Environmental Science",
+     113
+    ],
+    [
+     "Engineering",
+     29
+    ],
+    [
+     "Economics, Econometrics and Finance",
+     25
+    ],
+    [
+     "Business, Management and Accounting",
+     17
+    ],
+    [
+     "Energy",
+     14
+    ],
+    [
+     "Agricultural and Biological Sciences",
+     12
+    ],
+    [
+     "Arts and Humanities",
+     10
+    ],
+    [
+     "Earth and Planetary Sciences",
+     7
+    ],
+    [
+     "Materials Science",
+     6
+    ]
+   ],
+   "domains": [
+    [
+     "Social Sciences",
+     213
+    ],
+    [
+     "Physical Sciences",
+     181
+    ],
+    [
+     "Life Sciences",
+     16
+    ],
+    [
+     "Health Sciences",
+     4
+    ]
+   ],
+   "sources": [
+    [
+     "SSRN Electronic Journal",
+     12
+    ],
+    [
+     "Sustainability",
+     8
+    ],
+    [
+     "Elsevier eBooks",
+     6
+    ],
+    [
+     "Climatic Change",
+     5
+    ],
+    [
+     "Journal of Environmental Psychology",
+     4
+    ],
+    [
+     "Research Square",
+     4
+    ],
+    [
+     "Frontiers in Psychology",
+     4
+    ],
+    [
+     "Scientific Reports",
+     3
+    ]
+   ]
+  },
+  "myers2021consensus": {
+   "id": "W4302378059",
+   "cls": "consensus",
+   "y": 2021,
+   "c": 121,
+   "total": 120,
+   "fields": [
+    [
+     "Social Sciences",
+     49
+    ],
+    [
+     "Environmental Science",
+     31
+    ],
+    [
+     "Agricultural and Biological Sciences",
+     5
+    ],
+    [
+     "Economics, Econometrics and Finance",
+     5
+    ],
+    [
+     "Engineering",
+     5
+    ],
+    [
+     "Arts and Humanities",
+     4
+    ],
+    [
+     "Computer Science",
+     4
+    ],
+    [
+     "Business, Management and Accounting",
+     3
+    ],
+    [
+     "Physics and Astronomy",
+     3
+    ],
+    [
+     "Psychology",
+     3
+    ]
+   ],
+   "domains": [
+    [
+     "Social Sciences",
+     65
+    ],
+    [
+     "Physical Sciences",
+     46
+    ],
+    [
+     "Life Sciences",
+     6
+    ],
+    [
+     "Health Sciences",
+     2
+    ]
+   ],
+   "sources": [
+    [
+     "Humanities and Social Sciences Communica",
+     4
+    ],
+    [
+     "Sustainability",
+     3
+    ],
+    [
+     "Physical review. D/Physical review. D.",
+     3
+    ],
+    [
+     "PLoS ONE",
+     2
+    ],
+    [
+     "Climatic Change",
+     2
+    ],
+    [
+     "PLOS Climate",
+     2
+    ],
+    [
+     "IntechOpen eBooks",
+     2
+    ],
+    [
+     "Verlag Barbara Budrich eBooks",
+     2
+    ]
+   ]
+  },
+  "santer1996": {
+   "id": "W2780306668",
+   "cls": "physical",
+   "y": 1996,
+   "c": 448,
+   "total": 448,
+   "fields": [
+    [
+     "Environmental Science",
+     255
+    ],
+    [
+     "Earth and Planetary Sciences",
+     88
+    ],
+    [
+     "Chemical Engineering",
+     19
+    ],
+    [
+     "Economics, Econometrics and Finance",
+     16
+    ],
+    [
+     "Engineering",
+     16
+    ],
+    [
+     "Agricultural and Biological Sciences",
+     13
+    ],
+    [
+     "Social Sciences",
+     13
+    ],
+    [
+     "Physics and Astronomy",
+     5
+    ],
+    [
+     "Materials Science",
+     4
+    ],
+    [
+     "Medicine",
+     4
+    ]
+   ],
+   "domains": [
+    [
+     "Physical Sciences",
+     391
+    ],
+    [
+     "Social Sciences",
+     34
+    ],
+    [
+     "Life Sciences",
+     17
+    ],
+    [
+     "Health Sciences",
+     4
+    ]
+   ],
+   "sources": [
+    [
+     "Journal of Geophysical Research Atmosphe",
+     33
+    ],
+    [
+     "Journal of Climate",
+     33
+    ],
+    [
+     "Geophysical Research Letters",
+     21
+    ],
+    [
+     "Climate Dynamics",
+     16
+    ],
+    [
+     "Nature",
+     14
+    ],
+    [
+     "Science",
+     13
+    ],
+    [
+     "Proceedings of the National Academy of S",
+     11
+    ],
+    [
+     "International Journal of Climatology",
+     10
+    ]
+   ]
+  },
+  "sherwood2020": {
+   "id": "W3044698812",
+   "cls": "physical",
+   "y": 2020,
+   "c": 1338,
+   "total": 1334,
+   "fields": [
+    [
+     "Environmental Science",
+     818
+    ],
+    [
+     "Earth and Planetary Sciences",
+     283
+    ],
+    [
+     "Economics, Econometrics and Finance",
+     92
+    ],
+    [
+     "Social Sciences",
+     37
+    ],
+    [
+     "Agricultural and Biological Sciences",
+     17
+    ],
+    [
+     "Engineering",
+     15
+    ],
+    [
+     "Physics and Astronomy",
+     13
+    ],
+    [
+     "Energy",
+     11
+    ],
+    [
+     "Computer Science",
+     8
+    ],
+    [
+     "Nursing",
+     7
+    ]
+   ],
+   "domains": [
+    [
+     "Physical Sciences",
+     1153
+    ],
+    [
+     "Social Sciences",
+     144
+    ],
+    [
+     "Life Sciences",
+     21
+    ],
+    [
+     "Health Sciences",
+     8
+    ]
+   ],
+   "sources": [
+    [
+     "Geophysical Research Letters",
+     110
+    ],
+    [
+     "Journal of Geophysical Research Atmosphe",
+     52
+    ],
+    [
+     "Journal of Climate",
+     49
+    ],
+    [
+     "Journal of Advances in Modeling Earth Sy",
+     47
+    ],
+    [
+     "Atmospheric chemistry and physics",
+     45
+    ],
+    [
+     "Research Square",
+     30
+    ],
+    [
+     "Environmental Research Letters",
+     25
+    ],
+    [
+     "SSRN Electronic Journal",
+     24
+    ]
+   ]
+  },
+  "matthews2009": {
+   "id": "W2007351213",
+   "cls": "physical",
+   "y": 2009,
+   "c": 1220,
+   "total": 1217,
+   "fields": [
+    [
+     "Environmental Science",
+     460
+    ],
+    [
+     "Economics, Econometrics and Finance",
+     402
+    ],
+    [
+     "Engineering",
+     96
+    ],
+    [
+     "Earth and Planetary Sciences",
+     74
+    ],
+    [
+     "Energy",
+     63
+    ],
+    [
+     "Agricultural and Biological Sciences",
+     20
+    ],
+    [
+     "Social Sciences",
+     19
+    ],
+    [
+     "Chemical Engineering",
+     18
+    ],
+    [
+     "Materials Science",
+     14
+    ],
+    [
+     "Chemistry",
+     9
+    ]
+   ],
+   "domains": [
+    [
+     "Physical Sciences",
+     742
+    ],
+    [
+     "Social Sciences",
+     439
+    ],
+    [
+     "Life Sciences",
+     21
+    ],
+    [
+     "Health Sciences",
+     9
+    ]
+   ],
+   "sources": [
+    [
+     "SSRN Electronic Journal",
+     99
+    ],
+    [
+     "Environmental Research Letters",
+     66
+    ],
+    [
+     "Cambridge University Press eBooks",
+     41
+    ],
+    [
+     "Nature Climate Change",
+     33
+    ],
+    [
+     "Climatic Change",
+     23
+    ],
+    [
+     "Geophysical Research Letters",
+     18
+    ],
+    [
+     "Geoscientific model development",
+     18
+    ],
+    [
+     "Earth System Dynamics",
+     17
+    ]
+   ]
+  },
+  "hansen1988": {
+   "id": "W2084939434",
+   "cls": "physical",
+   "y": 1988,
+   "c": 992,
+   "total": 993,
+   "fields": [
+    [
+     "Environmental Science",
+     499
+    ],
+    [
+     "Earth and Planetary Sciences",
+     268
+    ],
+    [
+     "Agricultural and Biological Sciences",
+     98
+    ],
+    [
+     "Economics, Econometrics and Finance",
+     33
+    ],
+    [
+     "Social Sciences",
+     26
+    ],
+    [
+     "Engineering",
+     20
+    ],
+    [
+     "Energy",
+     16
+    ],
+    [
+     "Physics and Astronomy",
+     14
+    ],
+    [
+     "Decision Sciences",
+     5
+    ],
+    [
+     "Business, Management and Accounting",
+     3
+    ]
+   ],
+   "domains": [
+    [
+     "Physical Sciences",
+     818
+    ],
+    [
+     "Life Sciences",
+     100
+    ],
+    [
+     "Social Sciences",
+     69
+    ],
+    [
+     "Health Sciences",
+     4
+    ]
+   ],
+   "sources": [
+    [
+     "Journal of Geophysical Research Atmosphe",
+     63
+    ],
+    [
+     "Climatic Change",
+     54
+    ],
+    [
+     "Nature",
+     22
+    ],
+    [
+     "Journal of Climate",
+     22
+    ],
+    [
+     "Geophysical Research Letters",
+     20
+    ],
+    [
+     "International Journal of Climatology",
+     17
+    ],
+    [
+     "Climate Dynamics",
+     14
+    ],
+    [
+     "Science",
+     12
+    ]
+   ]
+  },
+  "mbh1998": {
+   "id": "W1660201747",
+   "cls": "physical",
+   "y": 1998,
+   "c": 2016,
+   "total": 2016,
+   "fields": [
+    [
+     "Earth and Planetary Sciences",
+     1111
+    ],
+    [
+     "Environmental Science",
+     462
+    ],
+    [
+     "Social Sciences",
+     92
+    ],
+    [
+     "Arts and Humanities",
+     50
+    ],
+    [
+     "Engineering",
+     49
+    ],
+    [
+     "Economics, Econometrics and Finance",
+     46
+    ],
+    [
+     "Agricultural and Biological Sciences",
+     44
+    ],
+    [
+     "Psychology",
+     42
+    ],
+    [
+     "Physics and Astronomy",
+     24
+    ],
+    [
+     "Materials Science",
+     18
+    ]
+   ],
+   "domains": [
+    [
+     "Physical Sciences",
+     1702
+    ],
+    [
+     "Social Sciences",
+     239
+    ],
+    [
+     "Life Sciences",
+     58
+    ],
+    [
+     "Health Sciences",
+     9
+    ]
+   ],
+   "sources": [
+    [
+     "Journal of Climate",
+     74
+    ],
+    [
+     "Journal of Geophysical Research Atmosphe",
+     53
+    ],
+    [
+     "Cambridge University Press eBooks",
+     53
+    ],
+    [
+     "Geophysical Research Letters",
+     51
+    ],
+    [
+     "Elsevier eBooks",
+     48
+    ],
+    [
+     "Oxford University Press eBooks",
+     46
+    ],
+    [
+     "Climatic Change",
+     41
+    ],
+    [
+     "Climate Dynamics",
+     40
+    ]
+   ]
+  },
+  "charlson1992": {
+   "id": "W1981719480",
+   "cls": "physical",
+   "y": 1992,
+   "c": 3861,
+   "total": 3863,
+   "fields": [
+    [
+     "Earth and Planetary Sciences",
+     1874
+    ],
+    [
+     "Environmental Science",
+     1793
+    ],
+    [
+     "Physics and Astronomy",
+     47
+    ],
+    [
+     "Engineering",
+     40
+    ],
+    [
+     "Chemistry",
+     15
+    ],
+    [
+     "Chemical Engineering",
+     14
+    ],
+    [
+     "Computer Science",
+     13
+    ],
+    [
+     "Economics, Econometrics and Finance",
+     12
+    ],
+    [
+     "Social Sciences",
+     8
+    ],
+    [
+     "Agricultural and Biological Sciences",
+     7
+    ]
+   ],
+   "domains": [
+    [
+     "Physical Sciences",
+     3809
+    ],
+    [
+     "Social Sciences",
+     28
+    ],
+    [
+     "Health Sciences",
+     12
+    ],
+    [
+     "Life Sciences",
+     11
+    ]
+   ],
+   "sources": [
+    [
+     "Journal of Geophysical Research Atmosphe",
+     538
+    ],
+    [
+     "Atmospheric Environment",
+     292
+    ],
+    [
+     "Atmospheric chemistry and physics",
+     227
+    ],
+    [
+     "Atmospheric Research",
+     98
+    ],
+    [
+     "Geophysical Research Letters",
+     90
+    ],
+    [
+     "The Science of The Total Environment",
+     66
+    ],
+    [
+     "Remote Sensing",
+     51
+    ],
+    [
+     "Tellus B",
+     48
+    ]
+   ]
+  },
+  "lenton2008": {
+   "id": "W2073141004",
+   "cls": "physical",
+   "y": 2008,
+   "c": 4094,
+   "total": 4096,
+   "fields": [
+    [
+     "Environmental Science",
+     2188
+    ],
+    [
+     "Earth and Planetary Sciences",
+     544
+    ],
+    [
+     "Economics, Econometrics and Finance",
+     386
+    ],
+    [
+     "Social Sciences",
+     330
+    ],
+    [
+     "Agricultural and Biological Sciences",
+     101
+    ],
+    [
+     "Energy",
+     98
+    ],
+    [
+     "Physics and Astronomy",
+     82
+    ],
+    [
+     "Engineering",
+     72
+    ],
+    [
+     "Decision Sciences",
+     66
+    ],
+    [
+     "Biochemistry, Genetics and Molecular Bio",
+     34
+    ]
+   ],
+   "domains": [
+    [
+     "Physical Sciences",
+     3023
+    ],
+    [
+     "Social Sciences",
+     838
+    ],
+    [
+     "Life Sciences",
+     156
+    ],
+    [
+     "Health Sciences",
+     60
+    ]
+   ],
+   "sources": [
+    [
+     "Cambridge University Press eBooks",
+     154
+    ],
+    [
+     "SSRN Electronic Journal",
+     97
+    ],
+    [
+     "Proceedings of the National Academy of S",
+     71
+    ],
+    [
+     "Environmental Research Letters",
+     66
+    ],
+    [
+     "Earth System Dynamics",
+     53
+    ],
+    [
+     "Chaos An Interdisciplinary Journal of No",
+     52
+    ],
+    [
+     "Climatic Change",
+     47
+    ],
+    [
+     "Elsevier eBooks",
+     47
+    ]
+   ]
+  },
+  "roebaker2007": {
+   "id": "W2133631519",
+   "cls": "physical",
+   "y": 2007,
+   "c": 628,
+   "total": 628,
+   "fields": [
+    [
+     "Environmental Science",
+     268
+    ],
+    [
+     "Economics, Econometrics and Finance",
+     240
+    ],
+    [
+     "Earth and Planetary Sciences",
+     61
+    ],
+    [
+     "Social Sciences",
+     17
+    ],
+    [
+     "Energy",
+     12
+    ],
+    [
+     "Engineering",
+     11
+    ],
+    [
+     "Agricultural and Biological Sciences",
+     6
+    ],
+    [
+     "Physics and Astronomy",
+     6
+    ],
+    [
+     "Decision Sciences",
+     2
+    ],
+    [
+     "Biochemistry, Genetics and Molecular Bio",
+     1
+    ]
+   ],
+   "domains": [
+    [
+     "Physical Sciences",
+     359
+    ],
+    [
+     "Social Sciences",
+     259
+    ],
+    [
+     "Life Sciences",
+     7
+    ]
+   ],
+   "sources": [
+    [
+     "SSRN Electronic Journal",
+     50
+    ],
+    [
+     "Climatic Change",
+     29
+    ],
+    [
+     "Journal of Climate",
+     19
+    ],
+    [
+     "Proceedings of the National Academy of S",
+     14
+    ],
+    [
+     "Geophysical Research Letters",
+     13
+    ],
+    [
+     "RePEc: Research Papers in Economics",
+     13
+    ],
+    [
+     "Environmental and Resource Economics",
+     10
+    ],
+    [
+     "Environmental Research Letters",
+     9
+    ]
+   ]
+  },
+  "hasselmann1976": {
+   "id": "W2050094722",
+   "cls": "physical",
+   "y": 1976,
+   "c": 1424,
+   "total": 1427,
+   "fields": [
+    [
+     "Environmental Science",
+     801
+    ],
+    [
+     "Earth and Planetary Sciences",
+     388
+    ],
+    [
+     "Physics and Astronomy",
+     83
+    ],
+    [
+     "Economics, Econometrics and Finance",
+     60
+    ],
+    [
+     "Computer Science",
+     27
+    ],
+    [
+     "Engineering",
+     23
+    ],
+    [
+     "Mathematics",
+     13
+    ],
+    [
+     "Biochemistry, Genetics and Molecular Bio",
+     8
+    ],
+    [
+     "Decision Sciences",
+     7
+    ],
+    [
+     "Agricultural and Biological Sciences",
+     4
+    ]
+   ],
+   "domains": [
+    [
+     "Physical Sciences",
+     1339
+    ],
+    [
+     "Social Sciences",
+     69
+    ],
+    [
+     "Life Sciences",
+     15
+    ],
+    [
+     "Health Sciences",
+     4
+    ]
+   ],
+   "sources": [
+    [
+     "Journal of Climate",
+     185
+    ],
+    [
+     "Climate Dynamics",
+     97
+    ],
+    [
+     "Geophysical Research Letters",
+     59
+    ],
+    [
+     "Journal of Geophysical Research Atmosphe",
+     56
+    ],
+    [
+     "Tellus A Dynamic Meteorology and Oceanog",
+     47
+    ],
+    [
+     "Journal of Physical Oceanography",
+     31
+    ],
+    [
+     "Journal of the Atmospheric Sciences",
+     28
+    ],
+    [
+     "Nature",
+     19
+    ]
+   ]
+  },
+  "kiehl2007": {
+   "id": "W2049451608",
+   "cls": "physical",
+   "y": 2007,
+   "c": 329,
+   "total": 328,
+   "fields": [
+    [
+     "Environmental Science",
+     236
+    ],
+    [
+     "Earth and Planetary Sciences",
+     70
+    ],
+    [
+     "Economics, Econometrics and Finance",
+     9
+    ],
+    [
+     "Agricultural and Biological Sciences",
+     2
+    ],
+    [
+     "Arts and Humanities",
+     2
+    ],
+    [
+     "Nursing",
+     2
+    ],
+    [
+     "Physics and Astronomy",
+     2
+    ],
+    [
+     "Social Sciences",
+     2
+    ],
+    [
+     "Energy",
+     1
+    ]
+   ],
+   "domains": [
+    [
+     "Physical Sciences",
+     309
+    ],
+    [
+     "Social Sciences",
+     13
+    ],
+    [
+     "Life Sciences",
+     2
+    ],
+    [
+     "Health Sciences",
+     2
+    ]
+   ],
+   "sources": [
+    [
+     "Atmospheric chemistry and physics",
+     22
+    ],
+    [
+     "Geophysical Research Letters",
+     19
+    ],
+    [
+     "Journal of Climate",
+     17
+    ],
+    [
+     "Journal of Geophysical Research Atmosphe",
+     14
+    ],
+    [
+     "Climate Dynamics",
+     11
+    ],
+    [
+     "Journal of Advances in Modeling Earth Sy",
+     9
+    ],
+    [
+     "Climatic Change",
+     6
+    ],
+    [
+     "Geoscientific model development",
+     6
+    ]
+   ]
+  },
+  "zelinka2020": {
+   "id": "W2998500935",
+   "cls": "physical",
+   "y": 2020,
+   "c": 1879,
+   "total": 1879,
+   "fields": [
+    [
+     "Environmental Science",
+     1313
+    ],
+    [
+     "Earth and Planetary Sciences",
+     378
+    ],
+    [
+     "Economics, Econometrics and Finance",
+     34
+    ],
+    [
+     "Agricultural and Biological Sciences",
+     30
+    ],
+    [
+     "Engineering",
+     25
+    ],
+    [
+     "Computer Science",
+     20
+    ],
+    [
+     "Social Sciences",
+     12
+    ],
+    [
+     "Medicine",
+     10
+    ],
+    [
+     "Physics and Astronomy",
+     9
+    ],
+    [
+     "Nursing",
+     8
+    ]
+   ],
+   "domains": [
+    [
+     "Physical Sciences",
+     1751
+    ],
+    [
+     "Social Sciences",
+     56
+    ],
+    [
+     "Life Sciences",
+     36
+    ],
+    [
+     "Health Sciences",
+     18
+    ]
+   ],
+   "sources": [
+    [
+     "Geophysical Research Letters",
+     157
+    ],
+    [
+     "Journal of Geophysical Research Atmosphe",
+     113
+    ],
+    [
+     "Journal of Climate",
+     93
+    ],
+    [
+     "Atmospheric chemistry and physics",
+     78
+    ],
+    [
+     "Journal of Advances in Modeling Earth Sy",
+     62
+    ],
+    [
+     "Research Square",
+     46
+    ],
+    [
+     "Geoscientific model development",
+     38
+    ],
+    [
+     "Climate Dynamics",
+     38
+    ]
+   ]
+  },
+  "mw1967": {
+   "id": "W2174335611",
+   "cls": "physical",
+   "y": 1967,
+   "c": 1763,
+   "total": 1761,
+   "fields": [
+    [
+     "Environmental Science",
+     857
+    ],
+    [
+     "Earth and Planetary Sciences",
+     476
+    ],
+    [
+     "Physics and Astronomy",
+     173
+    ],
+    [
+     "Engineering",
+     52
+    ],
+    [
+     "Social Sciences",
+     39
+    ],
+    [
+     "Energy",
+     35
+    ],
+    [
+     "Economics, Econometrics and Finance",
+     29
+    ],
+    [
+     "Agricultural and Biological Sciences",
+     16
+    ],
+    [
+     "Computer Science",
+     16
+    ],
+    [
+     "Arts and Humanities",
+     9
+    ]
+   ],
+   "domains": [
+    [
+     "Physical Sciences",
+     1629
+    ],
+    [
+     "Social Sciences",
+     87
+    ],
+    [
+     "Life Sciences",
+     21
+    ],
+    [
+     "Health Sciences",
+     10
+    ]
+   ],
+   "sources": [
+    [
+     "Journal of Geophysical Research Atmosphe",
+     145
+    ],
+    [
+     "Journal of Climate",
+     65
+    ],
+    [
+     "Geophysical Research Letters",
+     44
+    ],
+    [
+     "Nature",
+     36
+    ],
+    [
+     "Science",
+     33
+    ],
+    [
+     "Cambridge University Press eBooks",
+     32
+    ],
+    [
+     "Elsevier eBooks",
+     29
+    ],
+    [
+     "Climate Dynamics",
+     29
+    ]
+   ]
+  },
+  "lindzen2001": {
+   "id": "W2052768090",
+   "cls": "physical",
+   "y": 2001,
+   "c": 406,
+   "total": 404,
+   "fields": [
+    [
+     "Environmental Science",
+     281
+    ],
+    [
+     "Earth and Planetary Sciences",
+     83
+    ],
+    [
+     "Physics and Astronomy",
+     13
+    ],
+    [
+     "Economics, Econometrics and Finance",
+     7
+    ],
+    [
+     "Social Sciences",
+     4
+    ],
+    [
+     "Engineering",
+     3
+    ],
+    [
+     "Medicine",
+     3
+    ],
+    [
+     "Energy",
+     2
+    ],
+    [
+     "Agricultural and Biological Sciences",
+     1
+    ],
+    [
+     "Arts and Humanities",
+     1
+    ]
+   ],
+   "domains": [
+    [
+     "Physical Sciences",
+     384
+    ],
+    [
+     "Social Sciences",
+     12
+    ],
+    [
+     "Health Sciences",
+     4
+    ],
+    [
+     "Life Sciences",
+     1
+    ]
+   ],
+   "sources": [
+    [
+     "Journal of Climate",
+     56
+    ],
+    [
+     "Journal of Geophysical Research Atmosphe",
+     34
+    ],
+    [
+     "Geophysical Research Letters",
+     30
+    ],
+    [
+     "Cambridge University Press eBooks",
+     21
+    ],
+    [
+     "Bulletin of the American Meteorological ",
+     10
+    ],
+    [
+     "Energy & Environment",
+     9
+    ],
+    [
+     "Atmospheric chemistry and physics",
+     8
+    ],
+    [
+     "Journal of Advances in Modeling Earth Sy",
+     8
+    ]
+   ]
+  },
+  "mm2005": {
+   "id": "W2059738590",
+   "cls": "physical",
+   "y": 2005,
+   "c": 179,
+   "total": 179,
+   "fields": [
+    [
+     "Earth and Planetary Sciences",
+     83
+    ],
+    [
+     "Environmental Science",
+     38
+    ],
+    [
+     "Social Sciences",
+     16
+    ],
+    [
+     "Agricultural and Biological Sciences",
+     11
+    ],
+    [
+     "Economics, Econometrics and Finance",
+     7
+    ],
+    [
+     "Physics and Astronomy",
+     5
+    ],
+    [
+     "Arts and Humanities",
+     3
+    ],
+    [
+     "Biochemistry, Genetics and Molecular Bio",
+     2
+    ],
+    [
+     "Chemistry",
+     2
+    ],
+    [
+     "Computer Science",
+     2
+    ]
+   ],
+   "domains": [
+    [
+     "Physical Sciences",
+     135
+    ],
+    [
+     "Social Sciences",
+     28
+    ],
+    [
+     "Life Sciences",
+     13
+    ],
+    [
+     "Health Sciences",
+     1
+    ]
+   ],
+   "sources": [
+    [
+     "Geophysical Research Letters",
+     14
+    ],
+    [
+     "Climate of the past",
+     5
+    ],
+    [
+     "The Annals of Applied Statistics",
+     4
+    ],
+    [
+     "Energy & Environment",
+     4
+    ],
+    [
+     "Wiley Interdisciplinary Reviews Climate ",
+     4
+    ],
+    [
+     "Journal of Climate",
+     4
+    ],
+    [
+     "Climatic Change",
+     3
+    ],
+    [
+     "Journal of Geophysical Research Atmosphe",
+     3
+    ]
+   ]
+  },
+  "svensmark1997": {
+   "id": "W2118275350",
+   "cls": "physical",
+   "y": 1997,
+   "c": 1115,
+   "total": 1115,
+   "fields": [
+    [
+     "Physics and Astronomy",
+     387
+    ],
+    [
+     "Earth and Planetary Sciences",
+     343
+    ],
+    [
+     "Environmental Science",
+     253
+    ],
+    [
+     "Biochemistry, Genetics and Molecular Bio",
+     44
+    ],
+    [
+     "Computer Science",
+     16
+    ],
+    [
+     "Engineering",
+     14
+    ],
+    [
+     "Energy",
+     12
+    ],
+    [
+     "Agricultural and Biological Sciences",
+     11
+    ],
+    [
+     "Economics, Econometrics and Finance",
+     10
+    ],
+    [
+     "Medicine",
+     10
+    ]
+   ],
+   "domains": [
+    [
+     "Physical Sciences",
+     1028
+    ],
+    [
+     "Life Sciences",
+     55
+    ],
+    [
+     "Social Sciences",
+     19
+    ],
+    [
+     "Health Sciences",
+     11
+    ]
+   ],
+   "sources": [
+    [
+     "Journal of Atmospheric and Solar-Terrest",
+     93
+    ],
+    [
+     "Advances in Space Research",
+     45
+    ],
+    [
+     "Journal of Geophysical Research Atmosphe",
+     44
+    ],
+    [
+     "Geophysical Research Letters",
+     39
+    ],
+    [
+     "Cambridge University Press eBooks",
+     35
+    ],
+    [
+     "Geomagnetism and Aeronomy",
+     26
+    ],
+    [
+     "Space Science Reviews",
+     21
+    ],
+    [
+     "arXiv (Cornell University)",
+     19
+    ]
+   ]
+  },
+  "allen2009": {
+   "id": "W1985148570",
+   "cls": "physical",
+   "y": 2009,
+   "c": 1746,
+   "total": 1742,
+   "fields": [
+    [
+     "Environmental Science",
+     597
+    ],
+    [
+     "Economics, Econometrics and Finance",
+     523
+    ],
+    [
+     "Engineering",
+     180
+    ],
+    [
+     "Energy",
+     139
+    ],
+    [
+     "Earth and Planetary Sciences",
+     65
+    ],
+    [
+     "Social Sciences",
+     43
+    ],
+    [
+     "Chemical Engineering",
+     42
+    ],
+    [
+     "Agricultural and Biological Sciences",
+     40
+    ],
+    [
+     "Chemistry",
+     32
+    ],
+    [
+     "Materials Science",
+     23
+    ]
+   ],
+   "domains": [
+    [
+     "Physical Sciences",
+     1089
+    ],
+    [
+     "Social Sciences",
+     595
+    ],
+    [
+     "Life Sciences",
+     45
+    ],
+    [
+     "Health Sciences",
+     6
+    ]
+   ],
+   "sources": [
+    [
+     "SSRN Electronic Journal",
+     103
+    ],
+    [
+     "Environmental Research Letters",
+     72
+    ],
+    [
+     "Cambridge University Press eBooks",
+     67
+    ],
+    [
+     "Nature Climate Change",
+     52
+    ],
+    [
+     "Climatic Change",
+     34
+    ],
+    [
+     "Elsevier eBooks",
+     21
+    ],
+    [
+     "Research Square",
+     21
+    ],
+    [
+     "Journal of Climate",
+     19
+    ]
+   ]
+  },
+  "stott2000": {
+   "id": "W1976150853",
+   "cls": "physical",
+   "y": 2000,
+   "c": 681,
+   "total": 681,
+   "fields": [
+    [
+     "Environmental Science",
+     397
+    ],
+    [
+     "Earth and Planetary Sciences",
+     162
+    ],
+    [
+     "Agricultural and Biological Sciences",
+     27
+    ],
+    [
+     "Engineering",
+     17
+    ],
+    [
+     "Physics and Astronomy",
+     16
+    ],
+    [
+     "Economics, Econometrics and Finance",
+     13
+    ],
+    [
+     "Materials Science",
+     12
+    ],
+    [
+     "Energy",
+     11
+    ],
+    [
+     "Social Sciences",
+     10
+    ],
+    [
+     "Arts and Humanities",
+     7
+    ]
+   ],
+   "domains": [
+    [
+     "Physical Sciences",
+     617
+    ],
+    [
+     "Social Sciences",
+     32
+    ],
+    [
+     "Life Sciences",
+     31
+    ]
+   ],
+   "sources": [
+    [
+     "Journal of Climate",
+     63
+    ],
+    [
+     "Geophysical Research Letters",
+     43
+    ],
+    [
+     "Journal of Geophysical Research Atmosphe",
+     30
+    ],
+    [
+     "Climate Dynamics",
+     29
+    ],
+    [
+     "Cambridge University Press eBooks",
+     18
+    ],
+    [
+     "Nature",
+     13
+    ],
+    [
+     "Tellus A Dynamic Meteorology and Oceanog",
+     13
+    ],
+    [
+     "Environmental Research Letters",
+     10
+    ]
+   ]
+  },
+  "hausfather2020": {
+   "id": "W2992043579",
+   "cls": "physical",
+   "y": 2019,
+   "c": 244,
+   "total": 243,
+   "fields": [
+    [
+     "Environmental Science",
+     127
+    ],
+    [
+     "Earth and Planetary Sciences",
+     39
+    ],
+    [
+     "Social Sciences",
+     18
+    ],
+    [
+     "Economics, Econometrics and Finance",
+     15
+    ],
+    [
+     "Agricultural and Biological Sciences",
+     12
+    ],
+    [
+     "Engineering",
+     7
+    ],
+    [
+     "Decision Sciences",
+     4
+    ],
+    [
+     "Energy",
+     4
+    ],
+    [
+     "Mathematics",
+     4
+    ],
+    [
+     "Medicine",
+     4
+    ]
+   ],
+   "domains": [
+    [
+     "Physical Sciences",
+     184
+    ],
+    [
+     "Social Sciences",
+     41
+    ],
+    [
+     "Life Sciences",
+     12
+    ],
+    [
+     "Health Sciences",
+     4
+    ]
+   ],
+   "sources": [
+    [
+     "Elsevier eBooks",
+     9
+    ],
+    [
+     "OECD eBooks",
+     8
+    ],
+    [
+     "Geophysical Research Letters",
+     6
+    ],
+    [
+     "International Journal of Climatology",
+     5
+    ],
+    [
+     "Research Square",
+     5
+    ],
+    [
+     "Theoretical and Applied Climatology",
+     4
+    ],
+    [
+     "Journal of Geophysical Research Atmosphe",
+     4
+    ],
+    [
+     "Nature Communications",
+     4
+    ]
+   ]
+  }
+ }
+}
