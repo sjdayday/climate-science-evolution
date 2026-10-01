@@ -113,6 +113,9 @@ Every paper, report and book cited in `01-periods.md`, `02-problems/` and `03-op
 - Collins, M., et al. (2010). The impact of global warming on the tropical Pacific Ocean and El Niño. *Nature Geoscience*, 3(6), 391–397. doi:10.1038/ngeo868
 - Colman, R. (2003). A comparison of climate feedbacks in general circulation models. *Climate Dynamics*, 20(7-8), 865–873. doi:10.1007/s00382-003-0310-z
 - Connolly, R., et al. (2021). How much has the Sun influenced Northern Hemisphere temperature trends? An ongoing debate. *Research in Astronomy and Astrophysics*, 21(6), 131. doi:10.1088/1674-4527/21/6/131
+- Bray, D., & von Storch, H. (2007). *The perspectives of climate scientists on global climate change*. GKSS-Forschungszentrum Geesthacht, Report 2007/11, 132 pp. (the 1996 and 2003 surveys; Figure 30 read 2026-10-01 from the GERICS copy).
+- Bray, D., & von Storch, H. (2010). *A survey of the perspectives of climate scientists concerning climate science and climate change*. GKSS Report 2010/9 (the 2008 survey, CliSci2008; questions 20–21 read 2026-10-01 from the NCSE copy).
+- Bray, D., & von Storch, H. (2016). *The Bray and von Storch 5th International Survey of Climate Scientists 2015/2016*. HZG Report 2016-2 (cited via the June 2016 summary at ourchangingclimate.wordpress.com; not read in the original).
 - Cook, J., et al. (2013). Quantifying the consensus on anthropogenic global warming in the scientific literature. *Environmental Research Letters*, 8(2), 024024. doi:10.1088/1748-9326/8/2/024024
 - Cook, J., et al. (2016). Consensus on consensus: a synthesis of consensus estimates on human-caused global warming. *Environmental Research Letters*, 11(4), 048002. doi:10.1088/1748-9326/11/4/048002
 - Cowtan, K., & Way, R. G. (2014). Coverage bias in the HadCRUT4 temperature series and its impact on recent temperature trends. *Quarterly Journal of the Royal Meteorological Society*, 140(683), 1935–1944. doi:10.1002/qj.2297
@@ -593,6 +596,7 @@ Every paper, report and book cited in `01-periods.md`, `02-problems/` and `03-op
 - Stevens, B., & Feingold, G. (2009). Untangling aerosol effects on clouds and precipitation in a buffered system. *Nature*, 461(7264), 607–613. doi:10.1038/nature08281
 - Stevens, B., et al. (2019). DYAMOND: the DYnamics of the Atmospheric general circulation Modeled On Non-hydrostatic Domains. *Progress in Earth and Planetary Science*, 6(1). doi:10.1186/s40645-019-0304-z
 - Stocker, T. F., & Schmittner, A. (1997). Influence of CO₂ emission rates on the stability of the thermohaline circulation. *Nature*, 388(6645), 862–865. doi:10.1038/42224
+- Stenhouse, N., et al. (2014). Meteorologists' views about global warming: a survey of American Meteorological Society professional members. *Bulletin of the American Meteorological Society*, 95(7), 1029–1040. doi:10.1175/bams-d-13-00091.1 (cited from memory in `09`; not read this pass).
 - Stommel, H. (1961). Thermohaline convection with two stable regimes of flow. *Tellus*, 13(2), 224–230. doi:10.3402/tellusa.v13i2.9491
 - Stott, P. A., Stone, D. A., & Allen, M. R. (2004). Human contribution to the European heatwave of 2003. *Nature*, 432(7017), 610–614. doi:10.1038/nature03089
 - Stott, P. A., et al. (2000). External control of 20th century temperature by natural and anthropogenic forcings. *Science*, 290(5499), 2133–2137. doi:10.1126/science.290.5499.2133
