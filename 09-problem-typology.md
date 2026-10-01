@@ -1,6 +1,6 @@
 # A typology of the problems, and the shape of the majority's shift
 
-**Status:** v0.1, 2026-10-01. Answers two questions put on 2026-10-01: whether the thirteen problems sort into kinds of dispute that explain the types and persistence of the challenges to the science; and whether, for each problem's competing hypotheses, there is a point at which the great majority of the field accepts one while a minority continues or returns — and whether that shift can be put in numbers. Sources are the P-files (`02-problems/`), the citation traces (`05`, `data/openalex-traces.json`), the assessment language (`06`), the inquiry and claim files (`07`, `08`), and, for the surveys of the field, the original reports where they could be read this pass. Tags **[P]/[S]/[M]** as in `06`: read from the primary document this pass, from a named secondary source, from memory and not re-verified.
+**Status:** v0.2, 2026-10-01 (v0.1 the same day; §4.4a added). Answers two questions put on 2026-10-01: whether the thirteen problems sort into kinds of dispute that explain the types and persistence of the challenges to the science; and whether, for each problem's competing hypotheses, there is a point at which the great majority of the field accepts one while a minority continues or returns — and whether that shift can be put in numbers. Sources are the P-files (`02-problems/`), the citation traces (`05`, `data/openalex-traces.json`), the assessment language (`06`), the inquiry and claim files (`07`, `08`), and, for the surveys of the field, the original reports where they could be read this pass. Tags **[P]/[S]/[M]** as in `06`: read from the primary document this pass, from a named secondary source, from memory and not re-verified.
 
 ## 1. The categories, and why these
 
@@ -113,6 +113,33 @@ Counted in papers rather than people, the minority is an order of magnitude smal
 
 4. *The solar and cosmic-ray minority is the exception to the decay rule.* Svensmark 1997 and Friis-Christensen & Lassen 1991 are still cited 20–35 times a year each, more than Lockwood & Fröhlich 2007, the paper the assessments cite for the solar forcing's smallness. Part of that is the solar-physics literature citing them as history, part is a continuing minority programme (Scafetta, Soon, Connolly and co-authors; P06 flashpoint). The traces cannot separate the two, which is the limit of this method (§5).
 
+### 4.4a The stance of the recent citers
+
+The ratios above count citations, not positions. To see who is doing the citing, the works citing each of the ten contested papers in 2020–2026 were pulled (581 entries, 459 distinct works after removing EGU discussion comments and duplicate titles) and each was read by title, venue and abstract and sorted into four classes: **S** — advances or builds on the contested claim (the minority programme's own papers included); **R** — tests the claim and reports against it, or cites it as the position argued against; **H** — neutral: background, a mechanism taken up without the claim, methodological or historical mention; **X** — off-topic or not an article (citation noise, which is considerable: medicinal-plant and football papers cite McIntyre & McKitrick and Lindzen). The assignments are in `data/citer-stances.json` by OpenAlex id [P: read 2026-10-01; the two solar papers' S, H and X counts are estimates from titles]. The classification is of the citing paper's own stance, not of the sentence in which it cites, which could not be read at this scale.
+
+| Contested paper | Citers 2020–26 | S | R | H | X | S share of substantive citers | R share |
+|---|---|---|---|---|---|---|---|
+| McIntyre & McKitrick 2005 | 12 | 3 | 0 | 7 | 2 | 30 % | 0 % |
+| Lindzen 1990 (water vapour) | 33 | 1 | 2 | 18 | 12 | 5 % | 10 % |
+| Lindzen et al. 2001 (iris) | 60 | 6 | 7 | 45 | 2 | 10 % | 12 % |
+| Lindzen & Choi 2009 | 14 | 6 | 0 | 6 | 2 | 50 % | 0 % |
+| Spencer & Christy 1990 | 31 | 4 | 3 | 18 | 6 | 16 % | 12 % |
+| McKitrick & Christy 2018 | 25 | 13 | 4 | 7 | 1 | 54 % | 17 % |
+| Lewis & Curry 2018 | 70 | 20 | 7 | 31 | 12 | 34 % | 12 % |
+| Lewis 2023 | 29 | 11 | 2 | 10 | 6 | 48 % | 9 % |
+| Svensmark & Friis-Christensen 1997 | 149 | ~45 | 2 | ~56 | ~46 | ~44 % | 2 % |
+| Friis-Christensen & Lassen 1991 | 97 | ~25 | 3 | ~54 | ~15 | ~30 % | 4 % |
+
+Three results, which sharpen §4.4.
+
+1. *The "returns" are neutral, not dissenting.* Lindzen et al. 2001's revival is 45 of 60 citers in the H class — anvil-cloud process studies, convection-permitting simulations and the anvil-feedback constraints of 2023–24 that cite the 1991 paper as the origin of a question they answer the other way — with 7 R and 6 S. The mechanism was taken up; the claim was not. Lindzen 1990 is the same at the extreme (1 S, 2 R, 18 H), and Spencer & Christy 1990's citers are satellite-dataset and reanalysis papers citing it as the first MSU record, not the troposphere dispute. For the three closed disputes, then, the small residual citation stream is almost entirely the field's own, and the dissent ratio is under one in ten.
+
+2. *The live disputes are cited mainly by the minority itself.* For McKitrick & Christy 2018, Lewis & Curry 2018 and Lewis 2023 the S class is a third to a half of substantive citers, and it is a small group: one author (N. Scafetta) is first author of 18 of the three papers' 124 citing entries, and the four most frequent first authors (Scafetta, A. Greiner, R. Pindyck, K. Dayaratna) of 41 — a third. The R class is a different, equally small group (Sherwood and Forest; Po-Chedley; Armour; Benestad), and the H class is where the mainstream uses Lewis & Curry as one energy-budget estimate among several (the pattern-effect papers; Pindyck's economics). So the "five to ten per cent of the anchor" measured in §4.4 is, on inspection, about half a self-citing cluster and half the mainstream's engagement with it — the former is the persistence, the latter the test.
+
+3. *The solar programme persists in a different community.* Svensmark 1997's 149 recent citers are dominated by space physics, geomagnetism and regional correlation studies (Forbush-decrease catalogues, Saudi rainfall and visibility series, Dnieper water quality, Chinese disaster chronicles): the S class is large (~45) but it is largely regional sunspot-correlation work in regional journals, the R class is two papers, and mainstream climate journals appear only as reviews ("Solar Activity, Weather, and Climate: The Elusive Connection", *BAMS* 2023). Friis-Christensen & Lassen 1991 is the same with a solar-physics methodological core. This is the persistence pattern of a hypothesis that has left the climate literature and lives on in an adjacent one — different from the low-sensitivity programme, which still publishes in and is answered by climate journals.
+
+Across the ten papers, 45 of the 459 distinct citing works cite two or more of them; nearly all of those are the minority programme's own (Scafetta's GCM-validation series, Connolly and Soon's solar papers, the Dayaratna–McKitrick–Michaels cost-of-carbon exchange, two German popular books) and a handful are the mainstream reviews that answer them (Colman and Soden's *Reviews of Modern Physics* feedback review; Sherwood et al. 2020; Po-Chedley et al. 2021). That is what a persistent published minority looks like in citation data: a few dozen authors, cross-citing, answered by a few dozen others, inside a literature that otherwise cites the contested papers as history or not at all.
+
 ### 4.5 The assessments' own numbers
 
 The IPCC's calibrated language is the field's formal statement of its own majority, and for attribution it is a monotone series: "discernible" (1995) → *likely*, > 66 per cent (2001) → *very likely*, > 90 per cent (2007) → *extremely likely*, > 95 per cent (2013) → "unequivocal" (2021) (`06` §attribution table [P]). These are stated probabilities of the proposition, not shares of the field; but the one place both are measured — 2001–2008 — they move together: the assessment's step from likely to very likely sits inside the surveyed field's step from a 53 per cent to an 84 per cent majority. The one calibrated statement that went the other way, AR5's withdrawal of a sensitivity best estimate "because of a lack of agreement on values across assessed lines of evidence" (`06` cross-cutting 4 [P]), is the formal record of a Q-type dispute reopening — and `08` §2.3 traces how the low estimates that caused it were taken up and then explained.
@@ -125,7 +152,7 @@ The returns deserve their own list, because they are what distinguish the M-type
 
 ## 5. Limits, and what would sharpen the numbers
 
-- The citation ratios count citations, not stances. A classifier reading each citing paper's treatment of the cited work (endorsing, rebutting, historical) would turn the persistence ratio into a dissent ratio; OpenAlex returns the citing works and their abstracts, so this is feasible for the sixteen papers in §4.4 and is the natural next pass.
+- The stance classification in §4.4a reads each citing paper's own position from its title, venue and abstract, not the sentence in which the citation occurs; a paper can cite a contested result in passing while arguing something else. The two solar papers' counts are estimates from titles. Reading the citing sentences (full text) for the ~120 S-class works would be the next refinement.
 - The Bray and von Storch 2008, 2013 and 2015/16 distributions are reported here from a secondary comparison; the reports' own figures should be read, and the raw data (released with the reports) would allow the "disagree" share to be tracked on a constant scale.
 - Stenhouse et al. 2014, Doran & Zimmerman 2009 and Anderegg et al. 2010 are cited from memory; their pages were not reachable this pass (publisher and PMC bot-walls).
 - There are no survey numbers before 1996 and no citation-stance numbers before OpenAlex's coverage thins (the 1960s–70s shifts of P01–P03 rest on markers B and C alone).
@@ -133,7 +160,7 @@ The returns deserve their own list, because they are what distinguish the M-type
 
 ## 6. Work to do
 
-1. Stance-classify the citing works of the sixteen contested papers in §4.4 (OpenAlex abstracts) and replace persistence ratios with dissent ratios.
+1. ~~Stance-classify the citing works of the contested papers~~ — done for the ten dissenting papers, 2020–2026 (§4.4a; `data/citer-stances.json`). Remaining: the citing sentences themselves; the pre-2020 citers, which would date when each dispute's citation stream turned from R to H.
 2. Read the Bray and von Storch 2008, 2013 and 2015/16 reports in the original and tabulate the attribution question on one scale across all five surveys.
 3. Verify Stenhouse 2014, Doran & Zimmerman 2009 and Anderegg 2010 from the papers.
 4. Extend the typology table's "shift" column with the `05` citation-timing data (years to 25 and 100 citations) so that pre-1990 shifts carry at least the premise-adoption numbers.

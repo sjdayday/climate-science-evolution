@@ -1,0 +1,286 @@
+{
+ "generated": "2026-10-01",
+ "source": "OpenAlex works citing each contested paper, publication_year 2020-2026, pulled 2026-10-01 in the browser (no key stored here); EGU discussion comments/replies and duplicate titles removed; stance assigned by reading title, venue and abstract (not the citing context).",
+ "classes": {
+  "S": "advances or builds on the contested claim (includes the minority programme's own papers)",
+  "R": "tests the claim and reports against it, or cites it as the position argued against",
+  "H": "neutral: background, mechanism taken up without the claim, methodological or historical mention",
+  "X": "off-topic or non-article (citation noise)"
+ },
+ "papers": {
+  "mm2005": {
+   "n": 12,
+   "S": [
+    "W4409647667",
+    "W7203902725",
+    "W3010957448"
+   ],
+   "R": [],
+   "X": [
+    "W4377823298",
+    "W3208914105"
+   ],
+   "H": 7
+  },
+  "lindzen1990": {
+   "n": 33,
+   "S": [
+    "W3150965480"
+   ],
+   "R": [
+    "W3215632601",
+    "W4280615705"
+   ],
+   "X": [
+    "W3203502101",
+    "W4388544339",
+    "W4395672968",
+    "W4313460563",
+    "W4386285865",
+    "W3047607628",
+    "W3205953142",
+    "W4225489889",
+    "W4390475089",
+    "W4318197067",
+    "W4388612768",
+    "W4283804104"
+   ],
+   "H": 18
+  },
+  "lindzenchoi2009": {
+   "n": 14,
+   "S": [
+    "W3150965480",
+    "W3014725631",
+    "W3122498388",
+    "W4285118871",
+    "W4285303851",
+    "W4226460768"
+   ],
+   "R": [],
+   "X": [
+    "W3153132868",
+    "W4384929676"
+   ],
+   "H": 6
+  },
+  "lindzen2001": {
+   "n": 60,
+   "S": [
+    "W3150965480",
+    "W4410314676",
+    "W3014725631",
+    "W4285118871",
+    "W3033567486",
+    "W4393317709"
+   ],
+   "R": [
+    "W3044698812",
+    "W4226125313",
+    "W4393380475",
+    "W4394890837",
+    "W4322754548",
+    "W3041399816",
+    "W3201970717"
+   ],
+   "X": [
+    "W2981841422",
+    "W4386073036"
+   ],
+   "H": 45
+  },
+  "svensmark1997": {
+   "n": 149,
+   "S_count_estimated": 45,
+   "R": [
+    "W4393351883",
+    "W4387668343"
+   ],
+   "X_count_estimated": 46,
+   "H_count_estimated": 56,
+   "S_examples": [
+    "W3165499591",
+    "W4380853689",
+    "W3209023207",
+    "W4410314676",
+    "W3118788384",
+    "W4285118871",
+    "W4285157040",
+    "W3046071463",
+    "W3009115137",
+    "W3029244184",
+    "W4384825944",
+    "W4323313899",
+    "W4214838638",
+    "W4387464460",
+    "W4385817961",
+    "W7136733044"
+   ],
+   "note": "counts for S, H and X estimated from titles and venues; the S class here includes regional sunspot/cosmic-ray correlation studies as well as the minority programme"
+  },
+  "fcl1991": {
+   "n": 97,
+   "S_count_estimated": 25,
+   "R": [],
+   "R_titles": [
+    "Erroneous use of Statistics behind Claims of a Major Solar Role in Recent Warming (RAA 2022)",
+    "A Discussion of Implausible Total Solar-Irradiance Variations Since 1700 (Solar Physics 2024)",
+    "Is there a link between the length of the solar cycle and Earth's temperature? (Rendiconti Lincei 2022)"
+   ],
+   "X_count_estimated": 15,
+   "H_count_estimated": 54,
+   "note": "counts estimated from titles and venues",
+   "R_count": 3
+  },
+  "spencerchristy1990": {
+   "n": 31,
+   "S": [
+    "W4248376655",
+    "W4281489977",
+    "W4315645665",
+    "W4400070318"
+   ],
+   "R": [
+    "W3136197758",
+    "W4311474670",
+    "W3035512096"
+   ],
+   "X": [
+    "W4225390951",
+    "W7128458829",
+    "W4220688300",
+    "W3205806214",
+    "W4402163627",
+    "W3094204188"
+   ],
+   "H": 18
+  },
+  "mckitrickchristy2018": {
+   "n": 25,
+   "S": [
+    "W4220880070",
+    "W4296239055",
+    "W3208194576",
+    "W3010957448",
+    "W4319985718",
+    "W3000660161",
+    "W4386250464",
+    "W4391850268",
+    "W4399160936",
+    "W4403184306",
+    "W4410314676",
+    "W4395670546",
+    "W7165534468"
+   ],
+   "R": [
+    "W3136197758",
+    "W3115837093",
+    "W4414111597",
+    "W3215632601"
+   ],
+   "X": [
+    "W7151434237"
+   ],
+   "H": 7
+  },
+  "lewiscurry2018": {
+   "n": 70,
+   "S": [
+    "W4220880070",
+    "W4296239055",
+    "W3208194576",
+    "W4380853689",
+    "W3010957448",
+    "W4319985718",
+    "W3000660161",
+    "W4322766911",
+    "W4386250464",
+    "W4385429326",
+    "W3209023207",
+    "W3118788384",
+    "W3125283940",
+    "W3122498388",
+    "W4391850268",
+    "W4396499727",
+    "W3164721042",
+    "W3080670364",
+    "W4403184306",
+    "W4414922569"
+   ],
+   "R": [
+    "W3044698812",
+    "W3048099458",
+    "W4292327149",
+    "W4392638587",
+    "W4200356881",
+    "W3198362315",
+    "W4220724812"
+   ],
+   "X": [
+    "W4385201836",
+    "W3005211877",
+    "W4282940825",
+    "W3180801935",
+    "W4312942360",
+    "W4312922043",
+    "W4312284809",
+    "W4400092778",
+    "W4388544441",
+    "W4388750139",
+    "W3155415642",
+    "W7116889235"
+   ],
+   "H": 31
+  },
+  "lewis2023": {
+   "n": 29,
+   "S": [
+    "W4390078520",
+    "W4220880070",
+    "W4380853689",
+    "W4319985718",
+    "W4403184306",
+    "W4410314676",
+    "W4386917715",
+    "W4322766911",
+    "W4413178199",
+    "W4408800790",
+    "W4392862244"
+   ],
+   "R": [
+    "W4392286486",
+    "W4414111597"
+   ],
+   "X": [
+    "W4387496984",
+    "W4390421328",
+    "W4366579959",
+    "W4385702927",
+    "W4388544441",
+    "W4388750139"
+   ],
+   "H": 10
+  }
+ },
+ "cross_citation": {
+  "unique_citing_works": 459,
+  "works_citing_two_or_more_of_the_ten": 45,
+  "first_author_counts_top": {
+   "Scafetta N": 22,
+   "Maghrabi A": 10,
+   "Greiner A": 10,
+   "Pindyck R": 9,
+   "Kleber A": 6,
+   "Okike O": 6,
+   "Komitov B": 6,
+   "Connolly R": 5,
+   "Stefani F": 5,
+   "Lindzen R": 4,
+   "Benestad R": 4,
+   "Sherwood S": 4,
+   "Koutsoyiannis D": 4,
+   "Dayaratna K": 4
+  },
+  "note": "first-author counts over the 581 citing entries (a work citing k contested papers counts k times)"
+ }
+}
