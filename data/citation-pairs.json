@@ -320,7 +320,7 @@
    "openalex": "NOT-IN-REFS",
    "B_refs_indexed": 60,
    "check": "VARIANT",
-   "note": "Charlson et al. 1992 (60 refs, all resolved) cites Twomey 1984 Tellus and Twomey 1991 for the cloud-albedo effect, plus Charlson 1987/1991, Coakley 1987, Radke 1989; Twomey 1977 J. Atmos. Sci. not cited."
+   "note": "Charlson et al. 1992 (60 refs, all resolved) cites Twomey 1984 Tellus and Twomey 1991 for the cloud-albedo effect, plus Charlson 1987/1991, Coakley 1987, Radke 1989; Twomey 1977 J. Atmos. Sci. not cited. Confirmed from the BNL author copy 2026-10-02: in-text citations for the cloud-albedo effect are (9, 13) and (9, 13-15); ref 9 = Twomey 1977 book, ref 13 = Twomey, Piepgrass & Wolfe 1984 Tellus."
   },
   {
    "A": "charlson1992",
@@ -444,7 +444,7 @@
    "openalex": "NOT-IN-REFS",
    "B_refs_indexed": 27,
    "check": "VARIANT",
-   "note": "Mears & Wentz 2005 (27 refs, all resolved) cites Christy et al. 2000, 2003 and Spencer & Christy 1992; the 1990 Science paper is not cited."
+   "note": "Mears & Wentz 2005 (27 refs, all resolved) cites Christy et al. 2000, 2003 and Spencer & Christy 1992; the 1990 Science paper is not cited. Confirmed from the RSS author copy 2026-10-02: refs 5, 14, 15 = Christy et al. 2003, Spencer & Christy 1992 J. Clim., Christy et al. 2000."
   },
   {
    "A": "kosakaxie2013",
@@ -714,7 +714,7 @@
    "openalex": "NOT-IN-REFS",
    "B_refs_indexed": 21,
    "check": "VERIFIED-NO",
-   "note": "Pfeffer et al. 2008 (21 refs) cites Hansen 2007 'Scientific reticence' and 'Climate change and trace gases' and IPCC AR4; Rahmstorf 2007 not cited."
+   "note": "Pfeffer et al. 2008 (21 refs) cites Hansen 2007 'Scientific reticence' and 'Climate change and trace gases' and IPCC AR4; Rahmstorf 2007 not cited. Confirmed from the Wayback copy of the Hawaii course-folder PDF 2026-10-02: 23 refs and notes; refs 8-12 = IPCC AR4, Otto-Bliesner 2006, Overpeck 2006, Hansen 2007 ERL, Hansen et al. 2007 Phil Trans."
   },
   {
    "A": "dansgaard1993",

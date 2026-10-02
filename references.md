@@ -94,7 +94,7 @@ Every paper, report and book cited in `01-periods.md`, `02-problems/` and `03-op
 - Chalk, T. B., et al. (2017). Causes of ice age intensification across the Mid-Pleistocene Transition. *PNAS*, 114(50), 13114–13119. doi:10.1073/pnas.1702143114
 - Chamberlin, T. C. (1899). An attempt to frame a working hypothesis of the cause of glacial periods on an atmospheric basis. *Journal of Geology*, 7(6), 545–584. doi:10.1086/608449
 - Chan, D., et al. (2019). Correcting datasets leads to more homogeneous early-twentieth-century sea surface warming. *Nature*, 571(7765), 393–397. doi:10.1038/s41586-019-1349-2
-- Charlson, R. J., et al. (1992). Climate forcing by anthropogenic aerosols. *Science*, 255(5043), 423–430. doi:10.1126/science.255.5043.423
+- Charlson, R. J., et al. (1992). Climate forcing by anthropogenic aerosols. *Science*, 255(5043), 423–430. doi:10.1126/science.255.5043.423 (read 2026-10-02 from the author copy at `wpw.bnl.gov/schwartz/wp-content/uploads/sites/11/2022/04/climateforcingaerosols1992.pdf`).
 - Cheng, L., et al. (2017). Improved estimates of ocean heat content from 1960 to 2015. *Science Advances*, 3(3), e1601545. doi:10.1126/sciadv.1601545
 - Cheung, A. H., et al. (2017). Comparison of low-frequency internal climate variability in CMIP5 models and observations. *J. Climate*, 30(12), 4763–4776. doi:10.1175/jcli-d-16-0712.1
 - Christiansen, B., & Ljungqvist, F. C. (2012). The extra-tropical Northern Hemisphere temperature in the last two millennia: reconstructions of low-frequency variability. *Climate of the Past*, 8(2), 765–786. doi:10.5194/cp-8-765-2012
@@ -409,7 +409,7 @@ Every paper, report and book cited in `01-periods.md`, `02-problems/` and `03-op
 - McKitrick, R., & Christy, J. (2020). Pervasive warming bias in CMIP6 tropospheric layers. *Earth and Space Science*, 7(9). doi:10.1029/2020ea001281
 - McKitrick, R. R., & Michaels, P. J. (2004). A test of corrections for extraneous signals in gridded surface temperature data. *Climate Research*, 26, 159–173. doi:10.3354/cr026159
 - McKitrick, R. R., & Michaels, P. J. (2007). Quantifying the influence of anthropogenic surface processes and inhomogeneities on gridded global climate data. *J. Geophys. Res.*, 112(D24). doi:10.1029/2007jd008465
-- Mears, C. A., & Wentz, F. J. (2005). The effect of diurnal correction on satellite-derived lower tropospheric temperature. *Science*, 309(5740), 1548–1551. doi:10.1126/science.1114772
+- Mears, C. A., & Wentz, F. J. (2005). The effect of diurnal correction on satellite-derived lower tropospheric temperature. *Science*, 309(5740), 1548–1551. doi:10.1126/science.1114772 (read 2026-10-02 from the author copy at `images.remss.com/papers/rsspubs/Mears_Science_2005_Diurnal.pdf`).
 - Mears, C. A., & Wentz, F. J. (2017). A satellite-derived lower-tropospheric atmospheric temperature dataset using an optimized adjustment for diurnal effects. *J. Climate*, 30(19), 7695–7718. doi:10.1175/jcli-d-16-0768.1
 - Medhaug, I., Stolpe, M. B., Fischer, E. M., & Knutti, R. (2017). Reconciling controversies about the "global warming hiatus." *Nature*, 545(7652), 41–47. doi:10.1038/nature22315
 - Meehl, G. A., et al. (2000). The Coupled Model Intercomparison Project (CMIP). *Bull. Amer. Meteor. Soc.*, 81(2), 313–318. doi:10.1175/1520-0477(2000)081<0313:tcmipc>2.3.co;2
@@ -467,7 +467,7 @@ Every paper, report and book cited in `01-periods.md`, `02-problems/` and `03-op
 - Peterson, T. C. (2003). Assessment of urban versus rural in situ surface temperatures in the contiguous United States: No difference found. *J. Climate*, 16(18), 2941–2959. doi:10.1175/1520-0442(2003)016<2941:aouvri>2.0.co;2
 - Peterson, T. C., Connolley, W. M., & Fleck, J. (2008). The myth of the 1970s global cooling scientific consensus. *Bull. Amer. Meteor. Soc.*, 89(9), 1325–1338. doi:10.1175/2008bams2370.1
 - Petit, J. R., et al. (1999). Climate and atmospheric history of the past 420,000 years from the Vostok ice core, Antarctica. *Nature*, 399(6735), 429–436. doi:10.1038/20859
-- Pfeffer, W. T., Harper, J. T., & O'Neel, S. (2008). Kinematic constraints on glacier contributions to 21st-century sea-level rise. *Science*, 321(5894), 1340–1343. doi:10.1126/science.1159099
+- Pfeffer, W. T., Harper, J. T., & O'Neel, S. (2008). Kinematic constraints on glacier contributions to 21st-century sea-level rise. *Science*, 321(5894), 1340–1343. doi:10.1126/science.1159099 (read 2026-10-02 from the Wayback Machine's copy, snapshot 20260614231629, of `ftp.soest.hawaii.edu/coastal/Climate Articles/Pfeffer sea level calving 2008.pdf`).
 - Philip, S., et al. (2020). A protocol for probabilistic extreme event attribution analyses. *Advances in Statistical Climatology, Meteorology and Oceanography*, 6(2), 177–203. doi:10.5194/ascmo-6-177-2020
 - Philip, S. Y., et al. (2022). Rapid attribution analysis of the extraordinary heat wave on the Pacific coast of the US and Canada in June 2021. *Earth System Dynamics*, 13(4), 1689–1713. doi:10.5194/esd-13-1689-2022
 - Phillips, N. A. (1956). The general circulation of the atmosphere: a numerical experiment. *Quarterly Journal of the Royal Meteorological Society*, 82(352), 123–164. doi:10.1002/qj.49708235202
