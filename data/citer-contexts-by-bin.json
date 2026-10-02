@@ -1,0 +1,2342 @@
+{
+ "generated": "2026-10-02",
+ "source": "Semantic Scholar Graph API, /paper/DOI:…/citations?fields=contexts,intents,isInfluential,citingPaper.title,citingPaper.year,citingPaper.venue, pulled 2026-10-02 in the browser; every citation record that carries at least one citing sentence was read (the longest sentence, and the second where present); records without a sentence are not classified. Semantic Scholar's sentence extraction covers open-access full texts, so the 1990s subscription-journal citers are under-represented. Lindzen et al. 2001 was not done: its index record is split between the paper and the Hartmann & Michelsen 2002 comment and holds few sentences before 2010.",
+ "classes": {
+  "S": "adopts the claim as support or as a live estimate (the authors' own group and their replies included)",
+  "O": "treats the question as open: 'debate', 'controversy', 'uncertain', 'has been suggested', the claim used as one scenario or perspective",
+  "R": "argues or tests against the claim, or sets it aside ('speculations… but most studies today favor'); a known direct test of the record is R even where the citing sentence is a method citation",
+  "H": "narrates the dispute as history: 'once suggested', 'the debate initiated by', 'at the time', 'early work showed'",
+  "M": "cites the paper for something other than the claim: a mechanism, a radiative fact, a method, a dataset",
+  "X": "noise: off-topic use, index error (the sentence cites a different paper), non-article"
+ },
+ "method": "Class by the citing sentence first; where the sentence is a bare method or data citation but the citing paper is a known direct test of the claim (Wentz & Schabel 1998; Mears et al. 2002, 2003; Fu et al. 2004; Fu & Johanson 2004) or by the contested paper's own authors, the paper's stance is used and the note says so. Duplicate index records (preprint + journal, two versions of one chapter) are kept as separate rows because they are separate records in the index; they are few and marked. 'id' is the first eight characters of the Semantic Scholar paperId.",
+ "papers": {
+  "lindzen1990": {
+   "paper": "Lindzen 1990, 'Some coolness concerning global warming', BAMS 71:288",
+   "claim": "a negative upper-tropospheric water-vapour feedback (convective drying) and a sensitivity near 0.5 °C",
+   "s2_citations_indexed": 420,
+   "n_with_sentence": 157,
+   "by_bin": {
+    "1990–1994": {
+     "n": 9,
+     "S": 1,
+     "O": 6,
+     "R": 0,
+     "H": 0,
+     "M": 2,
+     "X": 0,
+     "engaged_SOR": 7,
+     "engaged_share_pct": 78,
+     "open_share_pct": 67
+    },
+    "1995–1999": {
+     "n": 26,
+     "S": 3,
+     "O": 12,
+     "R": 4,
+     "H": 0,
+     "M": 6,
+     "X": 1,
+     "engaged_SOR": 19,
+     "engaged_share_pct": 73,
+     "open_share_pct": 46
+    },
+    "2000–2004": {
+     "n": 38,
+     "S": 0,
+     "O": 18,
+     "R": 4,
+     "H": 0,
+     "M": 14,
+     "X": 2,
+     "engaged_SOR": 22,
+     "engaged_share_pct": 58,
+     "open_share_pct": 47
+    },
+    "2005–2009": {
+     "n": 38,
+     "S": 3,
+     "O": 14,
+     "R": 5,
+     "H": 6,
+     "M": 7,
+     "X": 3,
+     "engaged_SOR": 22,
+     "engaged_share_pct": 58,
+     "open_share_pct": 37
+    },
+    "2010–2014": {
+     "n": 15,
+     "S": 2,
+     "O": 1,
+     "R": 0,
+     "H": 3,
+     "M": 6,
+     "X": 3,
+     "engaged_SOR": 3,
+     "engaged_share_pct": 20,
+     "open_share_pct": 7
+    },
+    "2015–2019": {
+     "n": 21,
+     "S": 1,
+     "O": 1,
+     "R": 0,
+     "H": 4,
+     "M": 12,
+     "X": 3,
+     "engaged_SOR": 2,
+     "engaged_share_pct": 10,
+     "open_share_pct": 5
+    },
+    "2020–2024": {
+     "n": 8,
+     "S": 0,
+     "O": 1,
+     "R": 0,
+     "H": 1,
+     "M": 3,
+     "X": 3,
+     "engaged_SOR": 1,
+     "engaged_share_pct": 12,
+     "open_share_pct": 12
+    },
+    "2025–2029": {
+     "n": 2,
+     "S": 0,
+     "O": 0,
+     "R": 0,
+     "H": 1,
+     "M": 1,
+     "X": 0,
+     "engaged_SOR": 0,
+     "engaged_share_pct": 0,
+     "open_share_pct": 0
+    }
+   },
+   "records": [
+    {
+     "id": "c56e1dcd",
+     "year": 1991,
+     "class": "M",
+     "title": "Clouds, the earth's radiation budget, and the hydrologic cycle"
+    },
+    {
+     "id": "c2f67ee9",
+     "year": 1991,
+     "class": "O",
+     "title": "Sustainability of the Great Plains in an Uncertain Climate",
+     "sentence_or_note": "invoking a lively debate in the news media and scientific literature"
+    },
+    {
+     "id": "e3462409",
+     "year": 1991,
+     "class": "O",
+     "title": "Can we manage resources for climate change",
+     "sentence_or_note": "models… flawed… projections… unreliable and probably wrong (as stated by Lindzen, Elsaesser, Reifsnyder)"
+    },
+    {
+     "id": "8d16b49e",
+     "year": 1992,
+     "class": "S",
+     "title": "Estimation of GCM Temperature Trends for Different Emission scenarios",
+     "sentence_or_note": "0.5 °C, as suggested recently by Lindzen (1990) and Schlesinger (1991)"
+    },
+    {
+     "id": "303d76d9",
+     "year": 1994,
+     "class": "O",
+     "title": "Climatic implications of the seasonal variation of upper tropospheric water vapor",
+     "sentence_or_note": "Considerable attention in this debate has been focused on the low latitude Hadley cell"
+    },
+    {
+     "id": "7ee60c3d",
+     "year": 1994,
+     "class": "O",
+     "title": "Variability of global upper-tropospheric water vapor derived from…",
+     "sentence_or_note": "considerable controversy over whether changes in upper tropospheric water vapor will be a positive or negative feedback"
+    },
+    {
+     "id": "ddb20503",
+     "year": 1994,
+     "class": "M",
+     "title": "A comparison of SSM/I and TOVS column water vapor data"
+    },
+    {
+     "id": "f629a178",
+     "year": 1994,
+     "class": "O",
+     "title": "The effectiveness of measures to reduce the man-made greenhouse effect",
+     "sentence_or_note": "Lindzen (1990) surmized that the value of ΔT2x could be as low as 0.5 °C… it is difficult to estimate"
+    },
+    {
+     "id": "9eb23973",
+     "year": 1994,
+     "class": "O",
+     "title": "Influence of spatial sampling and interpolation on estimates of air temperature change",
+     "sentence_or_note": "there still is important scientific debate regarding the magnitude and extent of changes"
+    },
+    {
+     "id": "80a9372e",
+     "year": 1995,
+     "class": "O",
+     "title": "Observed dependence of the water vapor and clear-sky greenhouse effect on SST",
+     "sentence_or_note": "large uncertainties remain about the water vapor feedback (e.g., Lindzen 1990)"
+    },
+    {
+     "id": "7be4a81b",
+     "year": 1996,
+     "class": "O",
+     "title": "Development of a risk-hedging CO2-emission policy, part I",
+     "sentence_or_note": "Among the minority of critics sceptical… Lindzen (1990) has published the only potentially serious"
+    },
+    {
+     "id": "abd67c40",
+     "year": 1996,
+     "class": "R",
+     "title": "Global comprehensive models in politics and policymaking",
+     "sentence_or_note": "For opponents of immediate action, uncertainties… provide a time-worn rationale"
+    },
+    {
+     "id": "11140acb",
+     "year": 1996,
+     "class": "S",
+     "title": "Global warming and the hydrologic cycle",
+     "sentence_or_note": "the tools for climate prediction are too simplistic to put much confidence in numerical GCM results"
+    },
+    {
+     "id": "64ec2720",
+     "year": 1997,
+     "class": "O",
+     "title": "When we don't know the costs or the benefits: Adaptive strategies",
+     "sentence_or_note": "the value 0.5°C is one of the lowest found in the literature and is due to Lindzen (1990)"
+    },
+    {
+     "id": "1202a94e",
+     "year": 1997,
+     "class": "M",
+     "title": "Model-Simulated Northern Winter Cyclone and Anticyclone Activity"
+    },
+    {
+     "id": "f3a675f9",
+     "year": 1997,
+     "class": "M",
+     "title": "Analysis and Modeling of the Natural Variability of Climate"
+    },
+    {
+     "id": "330b0066",
+     "year": 1997,
+     "class": "M",
+     "title": "How dry is the tropical free troposphere?"
+    },
+    {
+     "id": "37521749",
+     "year": 1997,
+     "class": "O",
+     "title": "Variations in the tropical greenhouse effect during El Niño",
+     "sentence_or_note": "Lindzen (1990) has suggested that increased convection in a warmer climate would actually dry the upper troposphere"
+    },
+    {
+     "id": "7261ff85",
+     "year": 1998,
+     "class": "O",
+     "title": "Science and nonscience concerning human-caused climate warming",
+     "sentence_or_note": "Lindzen hypothesized that this water vapor feedback effect could actually be negative"
+    },
+    {
+     "id": "c650dfde",
+     "year": 1998,
+     "class": "R",
+     "title": "Water Vapor, Surface Temperature, and the Greenhouse Effect",
+     "sentence_or_note": "A contrarian view (Lindzen 1990) holds that the increased convection… should act instead to dry the upper troposphere"
+    },
+    {
+     "id": "ab3ffb3a",
+     "year": 1998,
+     "class": "O",
+     "title": "Quantification of dust-forced heating of the lower troposphere (Nature)",
+     "sentence_or_note": "a central point in the debate on the ability of GCMs to predict"
+    },
+    {
+     "id": "bdefa5b8",
+     "year": 1998,
+     "class": "O",
+     "title": "The IPCC future projections: are they plausible?",
+     "sentence_or_note": "Although the 'feedback' is usually considered to be positive, Lindzen (1990) argues that it is negative"
+    },
+    {
+     "id": "c62dccd8",
+     "year": 1998,
+     "class": "O",
+     "title": "The battle of perspectives: a multi-agent model",
+     "sentence_or_note": "climate sensitivity 0.5 assigned to the 'individualist' world view"
+    },
+    {
+     "id": "727bfdb6",
+     "year": 1999,
+     "class": "M",
+     "title": "Climate and the Tropical Oceans"
+    },
+    {
+     "id": "82400aa0",
+     "year": 1999,
+     "class": "R",
+     "title": "Long-Term Global Warming Scenarios Computed with an Efficient coupled model",
+     "sentence_or_note": "Some critics (e.g., Lindzen, 1990, 1993) have questioned greenhouse simulations"
+    },
+    {
+     "id": "982cbd09",
+     "year": 1999,
+     "class": "O",
+     "title": "A distribution law for relative humidity in the upper troposphere",
+     "sentence_or_note": "This might reduce or even reverse the water vapour feedback. On the other hand, Rind et al. (1991)…"
+    },
+    {
+     "id": "854bd98a",
+     "year": 1999,
+     "class": "X",
+     "title": "Feedbacks in a Simple Prognostic Tropical Climate Model",
+     "sentence_or_note": "index error: the sentence cites Lindzen & Nigam 1987"
+    },
+    {
+     "id": "f5b43ea0",
+     "year": 1999,
+     "class": "O",
+     "title": "Observations of downwelling infrared spectral radiance at Manus",
+     "sentence_or_note": "the consensus is that the upper troposphere will become more humid… this view has been challenged [Lindzen, 1990]"
+    },
+    {
+     "id": "a5a35cf0",
+     "year": 1999,
+     "class": "S",
+     "title": "Tropospheric Water Vapor and Climate Sensitivity",
+     "sentence_or_note": "own group (Schneider, Kirtman & Lindzen)"
+    },
+    {
+     "id": "30c0e9b6",
+     "year": 1999,
+     "class": "M",
+     "title": "Development and Evaluation of a Convection Scheme"
+    },
+    {
+     "id": "898bb7c6",
+     "year": 1999,
+     "class": "M",
+     "title": "A Hough spectral model for three-dimensional studies"
+    },
+    {
+     "id": "14269283",
+     "year": 1999,
+     "class": "O",
+     "title": "Analysis of Upper-Tropospheric Water Vapor Brightness Temperatures",
+     "sentence_or_note": "Recent interest was sparked by Lindzen (1990), who challenged the notion that UTWV would provide a strong positive feedback"
+    },
+    {
+     "id": "36dec6bb",
+     "year": 1999,
+     "class": "S",
+     "title": "Human contribution to climate change remains questionable"
+    },
+    {
+     "id": "ac962950",
+     "year": 1999,
+     "class": "O",
+     "title": "Water vapour in the tropical upper troposphere and lower stratosphere",
+     "sentence_or_note": "There has been suggestion by Lindzen (1990a) that increased warming… will lead to… a drying of the upper troposphere"
+    },
+    {
+     "id": "b18e3b13",
+     "year": 1999,
+     "class": "R",
+     "title": "Global climate science, uncertainty and politics",
+     "sentence_or_note": "For opponents of immediate precautionary action, uncertainties… a time-worn rationale"
+    },
+    {
+     "id": "3fb4760e",
+     "year": 2000,
+     "class": "M",
+     "title": "Thermodynamic and Radiative Impact of the Correction of Sounding Humidity Bias"
+    },
+    {
+     "id": "cdbc957c",
+     "year": 2000,
+     "class": "M",
+     "title": "Water Vapor Feedbacks in the ECMWF Reanalyses and Hadley Centre Climate Model"
+    },
+    {
+     "id": "c61bdd1c",
+     "year": 2000,
+     "class": "O",
+     "title": "An assessment of the potential impact of a downward shift of tropospheric water vapor",
+     "sentence_or_note": "where Lindzen's (1990) hypothetical cumulus drying effect might be dominant"
+    },
+    {
+     "id": "cadf6d39",
+     "year": 2000,
+     "class": "M",
+     "title": "Glacial cooling in the Tropics"
+    },
+    {
+     "id": "a98d9dc3",
+     "year": 2000,
+     "class": "M",
+     "title": "Spatial distributions of upper tropospheric water vapor"
+    },
+    {
+     "id": "ef61e337",
+     "year": 2000,
+     "class": "X",
+     "title": "COSMIC System Description"
+    },
+    {
+     "id": "26222eed",
+     "year": 2000,
+     "class": "O",
+     "title": "Applications of COSMIC to Meteorology and Climate",
+     "sentence_or_note": "Lindzen (1990) argues that… stronger tropical convection will result in… a decrease of tropical/subtropical tropospheric moisture above 6 km"
+    },
+    {
+     "id": "3bc853c7",
+     "year": 2000,
+     "class": "O",
+     "title": "Factors Controlling Upper-Troposphere Water Vapor",
+     "sentence_or_note": "has received wide interest, since the hypothesis of a possible negative response was proposed by Lindzen (1990)"
+    },
+    {
+     "id": "34cab81d",
+     "year": 2000,
+     "class": "M",
+     "title": "Influences of ENSO SST Anomalies and Winter Storm Tracks"
+    },
+    {
+     "id": "8fa21cbe",
+     "year": 2000,
+     "class": "O",
+     "title": "Uncertainties in greenhouse gas induced climate change",
+     "sentence_or_note": "cited with Michaels & Stooksbury 1992 for uncertainty (sentence fragment)"
+    },
+    {
+     "id": "2a8cb41b",
+     "year": 2000,
+     "class": "R",
+     "title": "Relating Paleoclimate Data and Past Temperature Gradients",
+     "sentence_or_note": "No evidence exists in the model for a strong negative water vapor response in the upper troposphere"
+    },
+    {
+     "id": "23800323",
+     "year": 2001,
+     "class": "O",
+     "title": "A Two-Box Model of a Zonal Atmospheric Circulation in the Tropics",
+     "sentence_or_note": "This experiment hearkens back to the feedback mechanism proposed by Lindzen (1990)"
+    },
+    {
+     "id": "efeb1404",
+     "year": 2001,
+     "class": "M",
+     "title": "Radiative Sensitivity to Water Vapor under All-Sky Conditions"
+    },
+    {
+     "id": "30c567f3",
+     "year": 2001,
+     "class": "M",
+     "title": "Physical Basis for the Temperature-Based Melt-Index Method"
+    },
+    {
+     "id": "dda432cb",
+     "year": 2001,
+     "class": "X",
+     "title": "Earth System Modeling—An Integrated Assessment Tool"
+    },
+    {
+     "id": "48df90be",
+     "year": 2002,
+     "class": "M",
+     "title": "Analysis of moisture variability in the ECMWF reanalyses"
+    },
+    {
+     "id": "e2580b50",
+     "year": 2002,
+     "class": "O",
+     "title": "POAM III measurements of water vapor",
+     "sentence_or_note": "it has been suggested [Lindzen, 1990] that increasing surface temperatures will result in more vigorous convection that could… dry the upper troposphere"
+    },
+    {
+     "id": "85dc3686",
+     "year": 2002,
+     "class": "M",
+     "title": "Observed and Simulated Temperature-Humidity Relationships"
+    },
+    {
+     "id": "328259fa",
+     "year": 2002,
+     "class": "M",
+     "title": "Correlations Between SSM/I Column Vapor and MSU Tropospheric Temperature"
+    },
+    {
+     "id": "8c75b839",
+     "year": 2002,
+     "class": "R",
+     "title": "Water Vapor: Distribution and Trends",
+     "sentence_or_note": "Mechanisms have been proposed… negative feedbacks (Lindzen, 1990), but overall water vapor changes are thought…"
+    },
+    {
+     "id": "e3fecfa7",
+     "year": 2003,
+     "class": "M",
+     "title": "Explaining Sources of Discrepancy in SSM/I Water Vapor Algorithms"
+    },
+    {
+     "id": "4e6e8ba6",
+     "year": 2003,
+     "class": "O",
+     "title": "Wasserdampfmessungen in der Tropopausenregion",
+     "sentence_or_note": "Lindzen (1990) hat einen negativen Rückkopplungsmechanismus vorgeschlagen"
+    },
+    {
+     "id": "a352958e",
+     "year": 2003,
+     "class": "O",
+     "title": "The Far-Infrared Spectroscopy of the Troposphere (FIRST) project",
+     "sentence_or_note": "the subject of long-standing debate"
+    },
+    {
+     "id": "87ef3d90",
+     "year": 2003,
+     "class": "O",
+     "title": "Interactions among Cloud, Water Vapor, Radiation, and Large-Scale Circulation",
+     "sentence_or_note": "strong feedbacks might be associated with such changes (Lindzen 1990a; Lindzen et al. 2001, but see also…)"
+    },
+    {
+     "id": "fd9e9bdf",
+     "year": 2003,
+     "class": "O",
+     "title": "Conservation of Moisture in a Hybrid Kuo-Type Cumulus Parameterization",
+     "sentence_or_note": "questions regarding the parameterization of convection and its impact on the upper-tropospheric water vapor still remain"
+    },
+    {
+     "id": "dc22be5b",
+     "year": 2003,
+     "class": "M",
+     "title": "Climate Change and Ground Water"
+    },
+    {
+     "id": "6046ffa8",
+     "year": 2003,
+     "class": "R",
+     "title": "Cumulus Ensemble Model. Part II",
+     "sentence_or_note": "Our results on the sense of the water vapor feedback do not support hypothesis that upper tropospheric drying may accompany enhanced convection"
+    },
+    {
+     "id": "db22ea63",
+     "year": 2004,
+     "class": "O",
+     "title": "Can we believe predictions of climate change?",
+     "sentence_or_note": "some, of whom Richard Lindzen has been the most eloquent, have questioned the reliability of current climate models"
+    },
+    {
+     "id": "5616444c",
+     "year": 2004,
+     "class": "M",
+     "title": "Observed Interannual Variability of Tropical Troposphere Relative Humidity"
+    },
+    {
+     "id": "7419a7d4",
+     "year": 2004,
+     "class": "O",
+     "title": "ENVISAT Validation Campaign at IMAA-CNR",
+     "sentence_or_note": "the sign of the feedback… is not well defined"
+    },
+    {
+     "id": "73b77725",
+     "year": 2004,
+     "class": "M",
+     "title": "Validation of MIPAS water vapor products"
+    },
+    {
+     "id": "3926fbf4",
+     "year": 2004,
+     "class": "O",
+     "title": "Quantifying the water vapour feedback associated with post-Pinatubo cooling",
+     "sentence_or_note": "considerable discussion about where water vapour changes have their largest impact… mechanisms… still debated"
+    },
+    {
+     "id": "835ecded",
+     "year": 2004,
+     "class": "O",
+     "title": "A new perspective of the physical processes associated with the water vapor greenhouse effect",
+     "sentence_or_note": "The effect of water-vapor feedback on greenhouse warming is, however, still under debate"
+    },
+    {
+     "id": "e8f3600b",
+     "year": 2004,
+     "class": "O",
+     "title": "Satellite observations of the water vapor greenhouse effect",
+     "sentence_or_note": "The published studies… have been quite conflicting"
+    },
+    {
+     "id": "eb5f3e05",
+     "year": 2004,
+     "class": "O",
+     "title": "Water Vapor Feedback in the Tropical Upper Troposphere: Model results and observations",
+     "sentence_or_note": "aspects of the drying mechanisms outlined by Lindzen (1990) are operating in the UT of our model (feedback found positive)"
+    },
+    {
+     "id": "64c037f9",
+     "year": 2004,
+     "class": "O",
+     "title": "Coupling of latent heat flux and the greenhouse effect",
+     "sentence_or_note": "substantial debate has taken place about the functioning of this feedback in the past decade… still poorly understood"
+    },
+    {
+     "id": "45aac5b3",
+     "year": 2004,
+     "class": "R",
+     "title": "Moistening Processes in the Upper Troposphere (Notes and Correspondence)",
+     "sentence_or_note": "In contrast some other studies (e.g., Lindzen 1990) have argued that enhanced deep convection would result in an overall drier upper troposphere"
+    },
+    {
+     "id": "2661671b",
+     "year": 2004,
+     "class": "O",
+     "title": "Natürliche und anthropogene Antriebe des Klimasystems",
+     "sentence_or_note": "Die einzigen von der positiven Rückkopplung… abweichenden Studien stellt Lindzen (1990, 1994) vor"
+    },
+    {
+     "id": "9ec86bb1",
+     "year": 2005,
+     "class": "O",
+     "title": "Relationships between radiosonde and RUC-2 meteorological conditions",
+     "sentence_or_note": "discussed possible mechanisms that lead to a decrease of UTH in response to global warming"
+    },
+    {
+     "id": "eb3734ba",
+     "year": 2005,
+     "class": "O",
+     "title": "Anthropogenic greenhouse forcing and strong water vapor feedback increase temperature in Europe",
+     "sentence_or_note": "Its existence and size however, have been contentiously argued for several years"
+    },
+    {
+     "id": "751e1c6d",
+     "year": 2005,
+     "class": "O",
+     "title": "The Geostationary Earth Radiation Budget project",
+     "sentence_or_note": "some authors, for example, Lindzen (1990), have argued… that the WVF can… act in a negative sense"
+    },
+    {
+     "id": "02c68794",
+     "year": 2005,
+     "class": "M",
+     "title": "Lightning and climate: A review"
+    },
+    {
+     "id": "b3e3cc23",
+     "year": 2005,
+     "class": "M",
+     "title": "Seasonal cycles and variability of atmospheric constituents"
+    },
+    {
+     "id": "9307e3e1",
+     "year": 2005,
+     "class": "O",
+     "title": "A new instrument, GERB, is now operating on Meteosat",
+     "sentence_or_note": "same sentence as the GERB project paper"
+    },
+    {
+     "id": "1f06a873",
+     "year": 2006,
+     "class": "O",
+     "title": "Evidence for carbon dioxide and moisture interactions from the AIRS",
+     "sentence_or_note": "a central point in the debate on the ability of GCMs"
+    },
+    {
+     "id": "8533d247",
+     "year": 2006,
+     "class": "O",
+     "title": "Multimodel Analysis of the Water Vapor Feedback in the Tropics",
+     "sentence_or_note": "the magnitude of the water vapor feedback has been a matter of debate over the past 15 years"
+    },
+    {
+     "id": "9a3aa94a",
+     "year": 2006,
+     "class": "H",
+     "title": "Understanding the variability of clear-sky outgoing long-wave radiation",
+     "sentence_or_note": "the debate about the humidity feedback in the climate system that was started by Lindzen (1990)"
+    },
+    {
+     "id": "6c749d89",
+     "year": 2006,
+     "class": "R",
+     "title": "Frontiers of Climate Modeling: The radiative forcing due to clouds and water vapor",
+     "sentence_or_note": "qualitatively similar to that suggested by Lindzen (1990); but unlike Lindzen's mechanism, the drying effect is not sufficiently large"
+    },
+    {
+     "id": "1c5c034a",
+     "year": 2006,
+     "class": "O",
+     "title": "How Well Do We Understand and Evaluate Climate Change Feedback Processes?",
+     "sentence_or_note": "Lindzen (1990) argued that the mean detrainment altitude… might be higher and cooler in a warmer climate, leading to… a negative water vapor feedback"
+    },
+    {
+     "id": "8b2c3feb",
+     "year": 2006,
+     "class": "O",
+     "title": "Influences of Tropical Deep Convection on Upper Tropospheric Humidity",
+     "sentence_or_note": "Estimates of its strength vary widely, from zero feedback (Lindzen, 1990)…"
+    },
+    {
+     "id": "52fb1daa",
+     "year": 2006,
+     "class": "R",
+     "title": "Global trends (1996–2003) of total column precipitable water",
+     "sentence_or_note": "While there have been speculations that even a negative water vapor feedback might exist [Lindzen, 1990], most studies today favor a positive feedback"
+    },
+    {
+     "id": "8a658645",
+     "year": 2006,
+     "class": "O",
+     "title": "Frontiers of Climate Modeling: Cloud feedbacks",
+     "sentence_or_note": "Lindzen (1990) argued that if convection penetrates to higher levels in a warmer climate…"
+    },
+    {
+     "id": "82e89459",
+     "year": 2006,
+     "class": "R",
+     "title": "The radiative forcing due to clouds and water vapor",
+     "sentence_or_note": "duplicate of the Frontiers chapter"
+    },
+    {
+     "id": "9ee55b83",
+     "year": 2007,
+     "class": "M",
+     "title": "Measurement of the water vapour vertical profile and of the greenhouse effect"
+    },
+    {
+     "id": "7ab54eed",
+     "year": 2007,
+     "class": "S",
+     "title": "Taking Greenhouse Warming Seriously",
+     "sentence_or_note": "Lindzen's own paper"
+    },
+    {
+     "id": "32c2f83c",
+     "year": 2007,
+     "class": "M",
+     "title": "Tropical Mesoscale convective systems and associated energetics"
+    },
+    {
+     "id": "6cfd1194",
+     "year": 2007,
+     "class": "S",
+     "title": "Transport and climate change: a review",
+     "sentence_or_note": "predictions made with GCMs need to be viewed with caution (Lindzen, 1990)"
+    },
+    {
+     "id": "fee6deff",
+     "year": 2007,
+     "class": "H",
+     "title": "Right for the Right Reasons: A final rejoinder on the Stern Review",
+     "sentence_or_note": "earlier research, notably Lindzen (1990), which were important contributions to the science at the time"
+    },
+    {
+     "id": "22727169",
+     "year": 2007,
+     "class": "O",
+     "title": "Dynamics of the Shallow Meridional Circulation around Intertropical Convergence Zones",
+     "sentence_or_note": "a result reminiscent of the claim that deeper convection leads to upper-tropospheric drying rather than moistening"
+    },
+    {
+     "id": "5940fd2b",
+     "year": 2007,
+     "class": "R",
+     "title": "Global Warming and the Weakening of the Tropical Circulation",
+     "sentence_or_note": "Lindzen (1990) argued that tropical convection would increase in a warmer climate (the paper finds the circulation weakens)"
+    },
+    {
+     "id": "d39d7f13",
+     "year": 2007,
+     "class": "H",
+     "title": "Ten Years of Measurements of Tropical Upper-Tropospheric Water Vapor",
+     "sentence_or_note": "the debate initiated by Lindzen (1990)… in which he speculated a potential drying"
+    },
+    {
+     "id": "56beff17",
+     "year": 2007,
+     "class": "O",
+     "title": "How reliable are climate models?",
+     "sentence_or_note": "some authors have questioned the ability of models to simulate…"
+    },
+    {
+     "id": "6ce6c99a",
+     "year": 2007,
+     "class": "O",
+     "title": "Schumann Resonances in Lightning Research",
+     "sentence_or_note": "whether this impact is a positive, or a negative feedback is still uncertain"
+    },
+    {
+     "id": "599aa7de",
+     "year": 2007,
+     "class": "R",
+     "title": "Convective-radiative-mixing processes in the tropical ocean-atmosphere",
+     "sentence_or_note": "observational analyses and GCM simulations support a positive water vapor feedback on a global scale"
+    },
+    {
+     "id": "430887f8",
+     "year": 2008,
+     "class": "H",
+     "title": "On the Relative Humidity of the Atmosphere",
+     "sentence_or_note": "partly in response to some salutary, if ultimately easily dismissed, skepticism about global warming expressed in [Lindzen 1990]"
+    },
+    {
+     "id": "8a4a773f",
+     "year": 2008,
+     "class": "H",
+     "title": "Observed and Simulated Upper-Tropospheric Water Vapor Feedback",
+     "sentence_or_note": "In the last decade or so there has been some debate on the water vapor feedback, with some authors suggesting… may be negative"
+    },
+    {
+     "id": "c6672ded",
+     "year": 2008,
+     "class": "M",
+     "title": "Variations of tropical upper tropospheric clouds with sea surface temperature"
+    },
+    {
+     "id": "9931d407",
+     "year": 2008,
+     "class": "S",
+     "title": "Effects of radiative cooling on the tropical convective response to SST",
+     "sentence_or_note": "This is in line with the argument by Lindzen [1990] about a possible negative water vapor feedback"
+    },
+    {
+     "id": "fa5fb4c7",
+     "year": 2009,
+     "class": "O",
+     "title": "On the Confusion of Planck Feedback Parameters",
+     "sentence_or_note": "Lindzen proposed the possibility of negative water vapor feedback which diminishes climate sensitivity"
+    },
+    {
+     "id": "3402d6ff",
+     "year": 2009,
+     "class": "M",
+     "title": "Enteric fermentation and ruminant eructation",
+     "sentence_or_note": "cited for the 33 °C natural greenhouse effect"
+    },
+    {
+     "id": "c01a7a3c",
+     "year": 2009,
+     "class": "H",
+     "title": "Trends in middle- and upper-level tropospheric humidity from NCEP reanalysis",
+     "sentence_or_note": "There have been discussions in the past (e.g., Lindzen 1990…) about the theoretical possibility of a negative trend in upper-level humidity"
+    },
+    {
+     "id": "1db88dd9",
+     "year": 2009,
+     "class": "O",
+     "title": "On the Confusion of Planck Feedback Parameters (duplicate record)"
+    },
+    {
+     "id": "0e8f7e08",
+     "year": 2009,
+     "class": "X",
+     "title": "Discourses on Social Software",
+     "sentence_or_note": "In the US there are Fred Singer and Richard Lindzen"
+    },
+    {
+     "id": "c6199940",
+     "year": 2009,
+     "class": "X",
+     "title": "Climate Change in the Media and Public Perceptions of it"
+    },
+    {
+     "id": "bcf95c1a",
+     "year": 2009,
+     "class": "X",
+     "title": "On Collective Rational Action",
+     "sentence_or_note": "duplicate sentence"
+    },
+    {
+     "id": "8c437e0c",
+     "year": 2009,
+     "class": "M",
+     "title": "Retrieval Algorithms for Estimating the Vertical Profiles of water vapor"
+    },
+    {
+     "id": "5913efa1",
+     "year": 2010,
+     "class": "H",
+     "title": "Interannual variations of tropical upper tropospheric humidity",
+     "sentence_or_note": "has been a focus in climate research since the 1990s [Lindzen, 1990…]"
+    },
+    {
+     "id": "36420f76",
+     "year": 2010,
+     "class": "O",
+     "title": "Atmospheric moisture content associated with surface air temperature",
+     "sentence_or_note": "A theoretical study by Lindzen (1990) argued that more and deeper convection… might lead to net drying in certain regions"
+    },
+    {
+     "id": "d182e247",
+     "year": 2010,
+     "class": "M",
+     "title": "Relative air humidity and saturation deficit in Leba"
+    },
+    {
+     "id": "772f861e",
+     "year": 2011,
+     "class": "S",
+     "title": "Evaluation of GPS PWV anomaly during ENSO",
+     "sentence_or_note": "most existing climate models have considerable difficulty in predicting upper level water vapor [2]"
+    },
+    {
+     "id": "b0a6c737",
+     "year": 2011,
+     "class": "M",
+     "title": "Evaluation of radiative transfer models in atmospheric profiling"
+    },
+    {
+     "id": "662b4ebe",
+     "year": 2012,
+     "class": "H",
+     "title": "Dynamics and uncertainties of global warming patterns",
+     "sentence_or_note": "were once suggested to enhance tropical convection (Lindzen 1990) but not supported by simulations"
+    },
+    {
+     "id": "86ef19e3",
+     "year": 2012,
+     "class": "S",
+     "title": "Feedback effects of atmospheric CO2-induced warming",
+     "sentence_or_note": "This saturation effect limits the temperature increase due to the increase of CO2, as mentioned by other authors (Kiehl and Ramanathan, 1982; Ellsaesser, 1984, 1990; Lindzen, 1990)"
+    },
+    {
+     "id": "316642c6",
+     "year": 2012,
+     "class": "H",
+     "title": "Mechanisms for Tropical Tropospheric Circulation Change in Response to Global Warming",
+     "sentence_or_note": "once suggested… but not supported by simulations; LHSUSI* accelerates the Hadley cell, consistent with the theory of Lindzen (1990)"
+    },
+    {
+     "id": "51ee1bd0",
+     "year": 2012,
+     "class": "M",
+     "title": "The Global Character of the Flux of Downward Longwave Radiation"
+    },
+    {
+     "id": "6b3e1013",
+     "year": 2012,
+     "class": "M",
+     "title": "Influence of Sea Surface Temperature on Humidity and Temperature in the upper troposphere"
+    },
+    {
+     "id": "d122ec01",
+     "year": 2013,
+     "class": "X",
+     "title": "Upper tropospheric water vapour variability over tropical latitudes"
+    },
+    {
+     "id": "7d1ca98f",
+     "year": 2013,
+     "class": "M",
+     "title": "Laboratory studies of immersion and deposition mode ice nucleation"
+    },
+    {
+     "id": "49519f90",
+     "year": 2013,
+     "class": "X",
+     "title": "The Impact of Sea Ice Concentration Accuracies on Climate Model Simulations"
+    },
+    {
+     "id": "bbfc6432",
+     "year": 2014,
+     "class": "M",
+     "title": "Variation of upper tropospheric clouds and water vapour over the Indian Ocean"
+    },
+    {
+     "id": "f33a2317",
+     "year": 2014,
+     "class": "X",
+     "title": "Evaluation of global solar radiation using multiple weather models"
+    },
+    {
+     "id": "979ea9e4",
+     "year": 2015,
+     "class": "H",
+     "title": "Upper tropospheric humidity changes under constant relative humidity",
+     "sentence_or_note": "Lindzen (1990) criticised that the discussion of a potential climate warming due to CO2 enhancement was focussed solely on the radiative mode"
+    },
+    {
+     "id": "99fbba03",
+     "year": 2015,
+     "class": "H",
+     "title": "Interannual variability patterns of the world's total column water vapour",
+     "sentence_or_note": "In the last decade or so, there has been some debate on the magnitude of water vapor feedback"
+    },
+    {
+     "id": "4d982970",
+     "year": 2015,
+     "class": "M",
+     "title": "Tropical upper tropospheric humidity variations due to potential vorticity intrusions"
+    },
+    {
+     "id": "cf7f7c96",
+     "year": 2015,
+     "class": "M",
+     "title": "Quantifying the spatial and temporal response of UTH and OLR"
+    },
+    {
+     "id": "84c3fafa",
+     "year": 2015,
+     "class": "M",
+     "title": "Global warming and the weakening of the Asian summer monsoon"
+    },
+    {
+     "id": "d2ae9d8f",
+     "year": 2015,
+     "class": "X",
+     "title": "Spatio-temporal analysis of Greenhouse Gas data via clustering"
+    },
+    {
+     "id": "efc80884",
+     "year": 2016,
+     "class": "H",
+     "title": "Sustained Production of Multidecadal Climate Records: Lessons from the NOAA CDR program",
+     "sentence_or_note": "Lindzen (1990) wrote an article noting that the water vapor feedback greatly amplified anthropogenic warming in climate models and that observations… were sparse"
+    },
+    {
+     "id": "765e0527",
+     "year": 2016,
+     "class": "O",
+     "title": "ELF Electromagnetic Waves from Lightning: The Schumann Resonances",
+     "sentence_or_note": "whether this impact is a positive, or a negative feedback has been debated over the past decades"
+    },
+    {
+     "id": "a01c76f3",
+     "year": 2016,
+     "class": "M",
+     "title": "Parameterization of Microphysical Processes in Convective Clouds"
+    },
+    {
+     "id": "d914f0a2",
+     "year": 2016,
+     "class": "H",
+     "title": "Reply to reviewer No. 2 (duplicate sentence)"
+    },
+    {
+     "id": "56e1e8a8",
+     "year": 2016,
+     "class": "X",
+     "title": "Ten Arguments Against a Biologistic Slow-Down Philosophy"
+    },
+    {
+     "id": "a23bf71b",
+     "year": 2017,
+     "class": "M",
+     "title": "Overview of Ice Nucleating Particles"
+    },
+    {
+     "id": "102066da",
+     "year": 2017,
+     "class": "M",
+     "title": "Global warming and the weakening of the Asian summer monsoon (preprint duplicate)"
+    },
+    {
+     "id": "abd38fd4",
+     "year": 2017,
+     "class": "S",
+     "title": "Time lag between changes in global temperature and atmospheric CO2",
+     "sentence_or_note": "cited among hypotheses of natural causes of warming"
+    },
+    {
+     "id": "88c1ce31",
+     "year": 2018,
+     "class": "M",
+     "title": "Accurate Imputation for Relative Humidity over Pakistan"
+    },
+    {
+     "id": "1a650671",
+     "year": 2018,
+     "class": "X",
+     "title": "An innovative framework for supporting big atmospheric data"
+    },
+    {
+     "id": "b99af2f8",
+     "year": 2018,
+     "class": "M",
+     "title": "Simulations of Vertical Water Vapor Transport for TC Ingrid"
+    },
+    {
+     "id": "2437c009",
+     "year": 2018,
+     "class": "M",
+     "title": "The Control of Environmental Stratification on the Hurricane Maximum Potential Intensity"
+    },
+    {
+     "id": "5e3f52a8",
+     "year": 2018,
+     "class": "M",
+     "title": "Analysis of total column ozone, water vapour and aerosol optical thickness"
+    },
+    {
+     "id": "e4cb6c6e",
+     "year": 2018,
+     "class": "M",
+     "title": "The Role of Dissolved Organic Matter (DOM) in Biogeochemical cycles",
+     "sentence_or_note": "cited for the natural greenhouse effect"
+    },
+    {
+     "id": "0f3e8399",
+     "year": 2019,
+     "class": "M",
+     "title": "Seasonal Variations and Long-Term Trend of Dust Particle Number Concentration"
+    },
+    {
+     "id": "642c8b95",
+     "year": 2020,
+     "class": "M",
+     "title": "Impact of Mineral Dust on Summertime Precipitation"
+    },
+    {
+     "id": "6eee8a49",
+     "year": 2020,
+     "class": "O",
+     "title": "Trends in Upper-Tropospheric Humidity: Expansion of the Subtropical Dry Zones?",
+     "sentence_or_note": "debate persists on the relationship between deep convection and upper tropospheric moisture in a warmer climate"
+    },
+    {
+     "id": "5a07b30a",
+     "year": 2020,
+     "class": "X",
+     "title": "Changing scenario of medicinal plants diversity"
+    },
+    {
+     "id": "0c1d7bac",
+     "year": 2021,
+     "class": "M",
+     "title": "Supplementary material to 'Circum-Antarctic abundance and properties of ice-nucleating particles'"
+    },
+    {
+     "id": "e06b48f9",
+     "year": 2023,
+     "class": "M",
+     "title": "Revisiting the Link Between Thunderstorms and Upper Tropospheric Water Vapor"
+    },
+    {
+     "id": "5c3eb645",
+     "year": 2023,
+     "class": "H",
+     "title": "Conducting Space Physics Research: Wind the Frog, Work Hard…",
+     "sentence_or_note": "climate change denial has been an issue for decades (e.g., Lindzen, 1990; Singer, 1996)"
+    },
+    {
+     "id": "87914967",
+     "year": 2024,
+     "class": "X",
+     "title": "Potential impacts of climate change on the geographic distribution of…"
+    },
+    {
+     "id": "39e835ea",
+     "year": 2024,
+     "class": "X",
+     "title": "On magnitudes of rapid intensification and destruction of tropical cyclones"
+    },
+    {
+     "id": "0f591fcc",
+     "year": 2025,
+     "class": "H",
+     "title": "On the relative humidity of the atmosphere (2025 version)",
+     "sentence_or_note": "same sentence as the 2008 chapter"
+    },
+    {
+     "id": "b80d79ae",
+     "year": 2025,
+     "class": "M",
+     "title": "Modeling the Radiative Forcing and Atmospheric Temperature Profiles"
+    }
+   ]
+  },
+  "spencerchristy1990": {
+   "paper": "Spencer & Christy 1990, 'Precise monitoring of global temperature trends from satellites', Science 247:1558",
+   "claim": "the MSU record 1979–88 shows no warming of the lower troposphere",
+   "s2_citations_indexed": 293,
+   "n_with_sentence": 94,
+   "by_bin": {
+    "1990–1994": {
+     "n": 6,
+     "S": 4,
+     "O": 1,
+     "R": 0,
+     "H": 0,
+     "M": 1,
+     "X": 0,
+     "engaged_SOR": 5,
+     "engaged_share_pct": 83,
+     "open_share_pct": 17
+    },
+    "1995–1999": {
+     "n": 12,
+     "S": 0,
+     "O": 1,
+     "R": 2,
+     "H": 0,
+     "M": 9,
+     "X": 0,
+     "engaged_SOR": 3,
+     "engaged_share_pct": 25,
+     "open_share_pct": 8
+    },
+    "2000–2004": {
+     "n": 18,
+     "S": 4,
+     "O": 0,
+     "R": 4,
+     "H": 0,
+     "M": 10,
+     "X": 0,
+     "engaged_SOR": 8,
+     "engaged_share_pct": 44,
+     "open_share_pct": 0
+    },
+    "2005–2009": {
+     "n": 15,
+     "S": 0,
+     "O": 0,
+     "R": 0,
+     "H": 2,
+     "M": 12,
+     "X": 1,
+     "engaged_SOR": 0,
+     "engaged_share_pct": 0,
+     "open_share_pct": 0
+    },
+    "2010–2014": {
+     "n": 24,
+     "S": 2,
+     "O": 0,
+     "R": 0,
+     "H": 3,
+     "M": 14,
+     "X": 5,
+     "engaged_SOR": 2,
+     "engaged_share_pct": 8,
+     "open_share_pct": 0
+    },
+    "2015–2019": {
+     "n": 8,
+     "S": 3,
+     "O": 0,
+     "R": 0,
+     "H": 0,
+     "M": 4,
+     "X": 1,
+     "engaged_SOR": 3,
+     "engaged_share_pct": 38,
+     "open_share_pct": 0
+    },
+    "2020–2024": {
+     "n": 11,
+     "S": 0,
+     "O": 1,
+     "R": 0,
+     "H": 1,
+     "M": 9,
+     "X": 0,
+     "engaged_SOR": 1,
+     "engaged_share_pct": 9,
+     "open_share_pct": 9
+    }
+   },
+   "records": [
+    {
+     "id": "2f9f12e0",
+     "year": 1990,
+     "class": "S",
+     "title": "Using the Boundary Conditions of Sunspots as a Technique for…",
+     "sentence_or_note": "Southern Hemisphere surface temperatures are not reliably measured"
+    },
+    {
+     "id": "1ca591c5",
+     "year": 1990,
+     "class": "S",
+     "title": "Planetary Warming: Realities and Responses",
+     "sentence_or_note": "has shown no obvious planetary warming trend for the ten-year period between 1979 and 1988"
+    },
+    {
+     "id": "3fd87cc8",
+     "year": 1991,
+     "class": "S",
+     "title": "Emissions of greenhouse gases from the use of transportation fuels",
+     "sentence_or_note": "recent satellite data show no warming trend over the last 10 years"
+    },
+    {
+     "id": "673f53af",
+     "year": 1991,
+     "class": "O",
+     "title": "Formulating Greenhouse Policies in a Sea of Uncertainty",
+     "sentence_or_note": "no warming of the Earth's lower atmosphere since measurements began in 1979, despite surface measurements showing an increase"
+    },
+    {
+     "id": "11e21fd9",
+     "year": 1991,
+     "class": "S",
+     "title": "National Center for Geographic Information and Analysis report",
+     "sentence_or_note": "no obvious temperature trend has been noted for this 10-year period"
+    },
+    {
+     "id": "761379ba",
+     "year": 1994,
+     "class": "M",
+     "title": "El Niño, volcanism, and global climate"
+    },
+    {
+     "id": "98741b51",
+     "year": 1995,
+     "class": "M",
+     "title": "Some observations on climate variability as seen in daily temperatures"
+    },
+    {
+     "id": "cf88bffc",
+     "year": 1995,
+     "class": "R",
+     "title": "Examination of 'global atmospheric temperature monitoring with satellite microwave measurements'",
+     "sentence_or_note": "title: a published examination of the method (sentence fragment)"
+    },
+    {
+     "id": "1fa27875",
+     "year": 1995,
+     "class": "M",
+     "title": "TOPEX/Poseidon microwave radiometer (TMR). III"
+    },
+    {
+     "id": "c19e11ae",
+     "year": 1996,
+     "class": "M",
+     "title": "Office Note Series on Global Modeling and Data Assimilation"
+    },
+    {
+     "id": "9da3f9ff",
+     "year": 1997,
+     "class": "M",
+     "title": "The GPS Radio Occultation Concept"
+    },
+    {
+     "id": "d8aff64c",
+     "year": 1998,
+     "class": "O",
+     "title": "A determination of character and frequency changes in air masses",
+     "sentence_or_note": "Numerous other studies have produced mean temperature trends… with differing results"
+    },
+    {
+     "id": "f1e5c6fe",
+     "year": 1998,
+     "class": "R",
+     "title": "Effects of orbital decay on satellite-derived lower-tropospheric temperature trends (Nature)",
+     "sentence_or_note": "Wentz & Schabel 1998"
+    },
+    {
+     "id": "f131a984",
+     "year": 1998,
+     "class": "M",
+     "title": "Global warming deduced from MSU"
+    },
+    {
+     "id": "607a9d49",
+     "year": 1998,
+     "class": "M",
+     "title": "Analysis of winter and summer warming rates in gridded temperature time series"
+    },
+    {
+     "id": "bc4475fc",
+     "year": 1998,
+     "class": "M",
+     "title": "Global warming estimation from MSU",
+     "sentence_or_note": "the potential of passive microwave radiometers to monitor global temperature was first revealed by Spencer and Christy (1990)"
+    },
+    {
+     "id": "b766890e",
+     "year": 1999,
+     "class": "M",
+     "title": "Diagnosing the QBO's Influence on Circumpolar Vortex Variability"
+    },
+    {
+     "id": "d0fba165",
+     "year": 1999,
+     "class": "M",
+     "title": "Intersensor calibration of DMSP SSM/I's"
+    },
+    {
+     "id": "bc56a830",
+     "year": 2000,
+     "class": "S",
+     "title": "MSU Tropospheric Temperatures: Dataset Construction and Radiosonde Comparisons",
+     "sentence_or_note": "own group (Christy et al. 2000)"
+    },
+    {
+     "id": "0bed9d9f",
+     "year": 2000,
+     "class": "M",
+     "title": "Sensitivity of Tropospheric and Stratospheric Temperature Trends to radiosonde data quality"
+    },
+    {
+     "id": "4cfed3c5",
+     "year": 2000,
+     "class": "M",
+     "title": "A comparison of regional trends in 1979–1997 depth-averaged tropospheric temperatures"
+    },
+    {
+     "id": "215d3e22",
+     "year": 2000,
+     "class": "S",
+     "title": "The Geographer's Niche in the Greenhouse Millennium",
+     "sentence_or_note": "accurate to within a few hundredths of a degree"
+    },
+    {
+     "id": "38e8e64a",
+     "year": 2000,
+     "class": "M",
+     "title": "Precise climate monitoring using complementary satellite data sets (Nature)"
+    },
+    {
+     "id": "c114c2a9",
+     "year": 2000,
+     "class": "M",
+     "title": "Modeling plant-soil-atmosphere carbon dioxide exchange"
+    },
+    {
+     "id": "f27417b4",
+     "year": 2001,
+     "class": "S",
+     "title": "Global warming: A myth?",
+     "sentence_or_note": "title; the record cited as the launch of the series"
+    },
+    {
+     "id": "3488042c",
+     "year": 2001,
+     "class": "M",
+     "title": "Winter temperature covariances in the middle and the lower troposphere"
+    },
+    {
+     "id": "992083b2",
+     "year": 2002,
+     "class": "R",
+     "title": "Correcting the MSU middle tropospheric temperature for diurnal drifts",
+     "sentence_or_note": "has played a high-profile and controversial role in the debate over the presence and magnitude of anthropogenic warming signals"
+    },
+    {
+     "id": "328259fa",
+     "year": 2002,
+     "class": "M",
+     "title": "Correlations Between SSM/I Column Vapor and MSU Tropospheric Temperature"
+    },
+    {
+     "id": "c6412d78",
+     "year": 2003,
+     "class": "R",
+     "title": "A Reanalysis of the MSU Channel 2 Tropospheric Temperature Record",
+     "sentence_or_note": "Mears et al. 2003"
+    },
+    {
+     "id": "5264c99d",
+     "year": 2003,
+     "class": "M",
+     "title": "Surface emissivity and hydrometeors derived from microwave sounders"
+    },
+    {
+     "id": "7d984554",
+     "year": 2003,
+     "class": "S",
+     "title": "Error Estimates of Version 5.0 of MSU–AMSU Bulk Atmospheric Temperatures",
+     "sentence_or_note": "own group (Christy et al. 2003)"
+    },
+    {
+     "id": "1ef94d41",
+     "year": 2003,
+     "class": "M",
+     "title": "Behavior of tropopause height and atmospheric temperature in models, reanalyses and observations"
+    },
+    {
+     "id": "73794ac7",
+     "year": 2004,
+     "class": "R",
+     "title": "Stratospheric Influences on MSU-Derived Tropospheric Temperature Trends",
+     "sentence_or_note": "Fu & Johanson 2004 (the sentence is a method citation; the paper tests the record)"
+    },
+    {
+     "id": "6271d55a",
+     "year": 2004,
+     "class": "M",
+     "title": "Uncertainty in Signals of Large-Scale Climate Variations in Radiosonde and Satellite Datasets"
+    },
+    {
+     "id": "3bd22fd9",
+     "year": 2004,
+     "class": "R",
+     "title": "Contribution of stratospheric cooling to satellite-inferred tropospheric temperature trends (Nature)",
+     "sentence_or_note": "Fu et al. 2004: The inconsistency between the trends at the surface and in the troposphere, traceable to the pioneering work of…"
+    },
+    {
+     "id": "e1b85514",
+     "year": 2004,
+     "class": "M",
+     "title": "Çok Yıllık Sıcaklık Verilerinin Zamansal Dağılımının Modellenmesi"
+    },
+    {
+     "id": "48549ffe",
+     "year": 2005,
+     "class": "M",
+     "title": "Global warming and infectious disease"
+    },
+    {
+     "id": "720c2109",
+     "year": 2005,
+     "class": "M",
+     "title": "On Using Global Climate Model Simulations to Assess the Accuracy of MSU Retrieval Methods"
+    },
+    {
+     "id": "eb6a902c",
+     "year": 2005,
+     "class": "M",
+     "title": "Satellite on-board temperatures: Proxy measurements of Earth's climate changes?"
+    },
+    {
+     "id": "deaffcc2",
+     "year": 2005,
+     "class": "M",
+     "title": "Climate Change & Tropospheric Temperature Trends Part IIA"
+    },
+    {
+     "id": "4403da4b",
+     "year": 2005,
+     "class": "X",
+     "title": "Investigations into seasonal predictability of North Atlantic winter climate"
+    },
+    {
+     "id": "58ced8e5",
+     "year": 2006,
+     "class": "M",
+     "title": "Was the 2003 European summer heat wave unusual in a global context?"
+    },
+    {
+     "id": "ec4d62eb",
+     "year": 2008,
+     "class": "M",
+     "title": "Climate Signal Detection Times and Constraints on Climate Benchmark Accuracy Requirements"
+    },
+    {
+     "id": "942bd6fb",
+     "year": 2008,
+     "class": "M",
+     "title": "Upper-air Temperature Trends: Current Problems and Some Recent Results"
+    },
+    {
+     "id": "80571dcc",
+     "year": 2008,
+     "class": "M",
+     "title": "Annual and seasonal tropospheric temperature trend comparisons"
+    },
+    {
+     "id": "7d54c2a8",
+     "year": 2009,
+     "class": "M",
+     "title": "Spurious correlations between recent warming and indices of local economic activity"
+    },
+    {
+     "id": "5e5ac779",
+     "year": 2009,
+     "class": "H",
+     "title": "Technology rules! Can technology-oriented agreements help address climate change?",
+     "sentence_or_note": "When this was established beyond doubt, the argument shifted… based on satellite data… it was argued, there is no temperature…"
+    },
+    {
+     "id": "272dde60",
+     "year": 2009,
+     "class": "M",
+     "title": "The Consistency of Modeled and Observed Temperature Trends in the Tropical Troposphere (critique of S08)"
+    },
+    {
+     "id": "d74f54d1",
+     "year": 2009,
+     "class": "H",
+     "title": "Critically Reassessing Tropospheric Temperature Trends from Radiosondes",
+     "sentence_or_note": "There has been much debate surrounding tropical tropospheric temperatures since the first attempt to create a satellite-based climate dataset"
+    },
+    {
+     "id": "62fea473",
+     "year": 2009,
+     "class": "M",
+     "title": "Service-Oriented Atmospheric Radiances (SOAR)"
+    },
+    {
+     "id": "4bb1a6a1",
+     "year": 2009,
+     "class": "M",
+     "title": "Recent Stratospheric Temperature Observed from Satellite Measurements"
+    },
+    {
+     "id": "26de23bd",
+     "year": 2010,
+     "class": "M",
+     "title": "Panel and multivariate methods for tests of trend equivalence"
+    },
+    {
+     "id": "b146b3f1",
+     "year": 2010,
+     "class": "M",
+     "title": "Socioeconomic patterns in climate data"
+    },
+    {
+     "id": "cc3ba4a2",
+     "year": 2010,
+     "class": "M",
+     "title": "Atmospheric Circulations Do Not Explain the Temperature-Industrialization Correlation"
+    },
+    {
+     "id": "72e187fa",
+     "year": 2010,
+     "class": "M",
+     "title": "Spatial Autocorrelation and the Detection of Non-Climatic Signals"
+    },
+    {
+     "id": "0a276382",
+     "year": 2011,
+     "class": "X",
+     "title": "An extracting process of the retrieval coefficients for three microwave radiometers"
+    },
+    {
+     "id": "5b555f60",
+     "year": 2011,
+     "class": "S",
+     "title": "Lack of Consistency between Modeled and Observed Temperature Trends",
+     "sentence_or_note": "This matter has been a contested issue since 1990 when early satellite results first showed no significant warming trend in the troposphere… contrary to all expectations"
+    },
+    {
+     "id": "58c596a2",
+     "year": 2011,
+     "class": "M",
+     "title": "Evidence for Oceanic Control of Interannual Carbon Cycle Feedbacks"
+    },
+    {
+     "id": "013917e6",
+     "year": 2011,
+     "class": "S",
+     "title": "The role of remote sensing in monitoring global bulk tropospheric temperatures",
+     "sentence_or_note": "own group; This low confidence in traditional surface measurements led us to explore the bulk atmospheric temperature metric"
+    },
+    {
+     "id": "ecc6ff48",
+     "year": 2011,
+     "class": "M",
+     "title": "On the evaluation of temperature trends in the tropical troposphere"
+    },
+    {
+     "id": "ea65a808",
+     "year": 2011,
+     "class": "H",
+     "title": "Tropospheric temperature trends: history of an ongoing controversy",
+     "sentence_or_note": "the most recent versions of all datasets do not support the conclusion of a significant difference in trend between the surface and troposphere"
+    },
+    {
+     "id": "6742e772",
+     "year": 2012,
+     "class": "M",
+     "title": "An Assessment of the FY-3A Microwave Temperature Sounder"
+    },
+    {
+     "id": "73d9ba42",
+     "year": 2012,
+     "class": "M",
+     "title": "Evaluating explanatory models of the spatial pattern of surface climate trends"
+    },
+    {
+     "id": "35b7a871",
+     "year": 2012,
+     "class": "M",
+     "title": "A Bias in the Midtropospheric Channel Warm Target Factor"
+    },
+    {
+     "id": "23ecd3f0",
+     "year": 2013,
+     "class": "X",
+     "title": "Use of soft computing pattern recognition techniques to analyse tropical cyclones"
+    },
+    {
+     "id": "1eedcdb7",
+     "year": 2013,
+     "class": "M",
+     "title": "Encompassing tests of socioeconomic signals in surface climate data"
+    },
+    {
+     "id": "e2fc42da",
+     "year": 2013,
+     "class": "H",
+     "title": "Meteosat Derived Planetary Temperature Trend 1982–2006",
+     "sentence_or_note": "The early work at the University of Alabama showed a slight cooling of the troposphere"
+    },
+    {
+     "id": "d2ab5ffb",
+     "year": 2013,
+     "class": "M",
+     "title": "Expansion of the northern hemisphere subtropical high pressure belt"
+    },
+    {
+     "id": "11c57126",
+     "year": 2013,
+     "class": "M",
+     "title": "A new weighting function for estimating microwave sounding unit channel brightness temperature"
+    },
+    {
+     "id": "4bf40067",
+     "year": 2014,
+     "class": "X",
+     "title": "Latitudinal variation in thermal tolerance thresholds of early life stages of corals"
+    },
+    {
+     "id": "8b10b644",
+     "year": 2014,
+     "class": "M",
+     "title": "HAC-Robust Measurement of the Duration of a Trendless Subsample"
+    },
+    {
+     "id": "c82135a6",
+     "year": 2014,
+     "class": "H",
+     "title": "Postlaunch calibration and bias characterization of AMSU-A",
+     "sentence_or_note": "Pioneer investigations on climate change using MSU channel 2… showed a small warming trend in the middle troposphere"
+    },
+    {
+     "id": "0d07aa43",
+     "year": 2014,
+     "class": "X",
+     "title": "Review of the consensus and asymmetric quality of research on…",
+     "sentence_or_note": "index error: the sentence cites Spencer & Braswell 2008"
+    },
+    {
+     "id": "43ebb47b",
+     "year": 2014,
+     "class": "M",
+     "title": "The physics of the Earth's atmosphere II. Multimerization"
+    },
+    {
+     "id": "dbfbf87e",
+     "year": 2014,
+     "class": "X",
+     "title": "Coral larval ecology and biogeography in a warming ocean"
+    },
+    {
+     "id": "61bac055",
+     "year": 2015,
+     "class": "S",
+     "title": "Two rural temperature records in Somerset, UK",
+     "sentence_or_note": "It was Spencer and Christy (1990) who first showed that there had been little change in global temperatures for the decade spanning 1979–1989"
+    },
+    {
+     "id": "86ff59b5",
+     "year": 2015,
+     "class": "M",
+     "title": "Trends of MSU Brightness Temperature in the Middle Troposphere"
+    },
+    {
+     "id": "d0eef87c",
+     "year": 2015,
+     "class": "M",
+     "title": "Climatology of upper air temperature in the Eastern Mediterranean"
+    },
+    {
+     "id": "670ecdb2",
+     "year": 2016,
+     "class": "M",
+     "title": "On the structure of atmospheric warming in models and observations"
+    },
+    {
+     "id": "cc818037",
+     "year": 2017,
+     "class": "M",
+     "title": "Sustainable Infrastructure: Climate Changes and Carbon Dioxide"
+    },
+    {
+     "id": "01f881de",
+     "year": 2017,
+     "class": "S",
+     "title": "UAH Version 6 global satellite temperature products",
+     "sentence_or_note": "own group; first demonstrated by Spencer and Christy (1990), and verified by Mears et al. (2003)"
+    },
+    {
+     "id": "3a85b9d5",
+     "year": 2018,
+     "class": "S",
+     "title": "Examination of space-based bulk atmospheric temperatures used in climate research",
+     "sentence_or_note": "own group (Christy et al. 2018)"
+    },
+    {
+     "id": "91c753db",
+     "year": 2018,
+     "class": "X",
+     "title": "The analysis of climatic variability/weather trends"
+    },
+    {
+     "id": "271d8567",
+     "year": 2020,
+     "class": "M",
+     "title": "Atmospheric Temperature and CO2: Hen-Or-Egg Causality?"
+    },
+    {
+     "id": "38743a59",
+     "year": 2020,
+     "class": "M",
+     "title": "Revisiting the global hydrological cycle: is it intensifying?"
+    },
+    {
+     "id": "08c7b73c",
+     "year": 2020,
+     "class": "O",
+     "title": "Retrieving Decadal Climate Change from Satellite Radiance Observations",
+     "sentence_or_note": "Recent comparisons between the UAH… trend estimates… with estimates provided by RSS… discuss potential problems (the UAH–RSS difference, not the 1990 claim)"
+    },
+    {
+     "id": "6d0d43f9",
+     "year": 2021,
+     "class": "M",
+     "title": "Quantifying the Tropical Upper Tropospheric Warming Amplification"
+    },
+    {
+     "id": "9fabdc1c",
+     "year": 2022,
+     "class": "M",
+     "title": "Understanding Model-Observation Discrepancies in Satellite Retrievals of Atmospheric Temperature"
+    },
+    {
+     "id": "8380f02c",
+     "year": 2022,
+     "class": "H",
+     "title": "The main inherent uncertainty sources in trend estimation based on satellite remote sensing data",
+     "sentence_or_note": "the derived trends of tropospheric temperature were opposite (Spencer and Christy 1990; Mears and Wentz 2005)"
+    },
+    {
+     "id": "a9f7d6b4",
+     "year": 2022,
+     "class": "M",
+     "title": "Revisiting causality using stochastics: 2. Applications"
+    },
+    {
+     "id": "6d600fc2",
+     "year": 2023,
+     "class": "M",
+     "title": "Revisiting causality using stochastics on atmospheric temperature and CO2"
+    },
+    {
+     "id": "e1979259",
+     "year": 2023,
+     "class": "M",
+     "title": "Global evaluation of RTTOV coefficients for early satellites"
+    },
+    {
+     "id": "c9e1287b",
+     "year": 2023,
+     "class": "M",
+     "title": "A Modified Limb Correction Algorithm for the Microwave Temperature Sounder"
+    },
+    {
+     "id": "22182465",
+     "year": 2024,
+     "class": "M",
+     "title": "Sea surface temperature differences between in situ and GHRSST"
+    }
+   ]
+  },
+  "mm2005": {
+   "paper": "McIntyre & McKitrick 2005, 'Hockey sticks, principal components, and spurious significance', GRL 32:L03710",
+   "claim": "the MBH98 hockey stick is an artefact of decentred PCA and an understated RE benchmark",
+   "s2_citations_indexed": 183,
+   "n_with_sentence": 63,
+   "by_bin": {
+    "2005–2009": {
+     "n": 33,
+     "S": 14,
+     "O": 9,
+     "R": 5,
+     "H": 0,
+     "M": 4,
+     "X": 1,
+     "engaged_SOR": 28,
+     "engaged_share_pct": 85,
+     "open_share_pct": 27
+    },
+    "2010–2014": {
+     "n": 20,
+     "S": 11,
+     "O": 0,
+     "R": 0,
+     "H": 6,
+     "M": 3,
+     "X": 0,
+     "engaged_SOR": 11,
+     "engaged_share_pct": 55,
+     "open_share_pct": 0
+    },
+    "2015–2019": {
+     "n": 7,
+     "S": 0,
+     "O": 0,
+     "R": 0,
+     "H": 5,
+     "M": 1,
+     "X": 1,
+     "engaged_SOR": 0,
+     "engaged_share_pct": 0,
+     "open_share_pct": 0
+    },
+    "2020–2024": {
+     "n": 2,
+     "S": 1,
+     "O": 0,
+     "R": 0,
+     "H": 1,
+     "M": 0,
+     "X": 0,
+     "engaged_SOR": 1,
+     "engaged_share_pct": 50,
+     "open_share_pct": 0
+    },
+    "2025–2029": {
+     "n": 1,
+     "S": 1,
+     "O": 0,
+     "R": 0,
+     "H": 0,
+     "M": 0,
+     "X": 0,
+     "engaged_SOR": 1,
+     "engaged_share_pct": 100,
+     "open_share_pct": 0
+    }
+   },
+   "records": [
+    {
+     "id": "9459c658",
+     "year": 2005,
+     "class": "S",
+     "title": "Reply to comment by von Storch and Zorita on 'Hockey sticks, principal components, and spurious significance'",
+     "sentence_or_note": "own (McIntyre & McKitrick)"
+    },
+    {
+     "id": "da24edb3",
+     "year": 2005,
+     "class": "R",
+     "title": "Comment on 'Hockey sticks, principal components, and spurious significance' (Huybers)",
+     "sentence_or_note": "point out a bias… one tending to enhance (the comment then disputes the RE benchmark)"
+    },
+    {
+     "id": "3c9d4331",
+     "year": 2005,
+     "class": "R",
+     "title": "Comment on 'Hockey sticks…' (von Storch & Zorita)",
+     "sentence_or_note": "One of challenges was brought forward by McIntyre and McKitrick [2005]… who had noted that the original code contained an uncommon mathematical procedure"
+    },
+    {
+     "id": "79a97c71",
+     "year": 2005,
+     "class": "O",
+     "title": "Relative Performance of Self-Organizing Maps and Principal Component Analysis",
+     "sentence_or_note": "much discussion can arise from this subjectivity (cf. Mann et al., 1998 and McIntyre and McKitrick, 2005)"
+    },
+    {
+     "id": "c5ef14ac",
+     "year": 2005,
+     "class": "S",
+     "title": "The M&M Critique of the MBH98 Northern Hemisphere Climate Index",
+     "sentence_or_note": "own-side exposition"
+    },
+    {
+     "id": "e19f2326",
+     "year": 2005,
+     "class": "R",
+     "title": "Comment on 'Hockey sticks…' (duplicate record of Huybers)"
+    },
+    {
+     "id": "13f0b49d",
+     "year": 2005,
+     "class": "S",
+     "title": "The Role of Data and Program Code Archives in the Future of Economic Research",
+     "sentence_or_note": "have chronicled their difficulties in obtaining the data and program code"
+    },
+    {
+     "id": "9ff4c5ee",
+     "year": 2006,
+     "class": "O",
+     "title": "A matter of divergence: Tracking recent warming at hemispheric scales using tree ring data",
+     "sentence_or_note": "debates over methodological approaches"
+    },
+    {
+     "id": "32630db3",
+     "year": 2006,
+     "class": "O",
+     "title": "Millennial temperature reconstruction intercomparison and evaluation",
+     "sentence_or_note": "The first issue, which was raised by McIntyre and McKitrick (2005a), is discussed extensively by…"
+    },
+    {
+     "id": "68fd246f",
+     "year": 2006,
+     "class": "O",
+     "title": "Editorial: (Post-normal) statistical science",
+     "sentence_or_note": "he wrote that he and his co-author… have shown that the hockey stick diagram resulted from flawed analysis"
+    },
+    {
+     "id": "ea56087b",
+     "year": 2006,
+     "class": "R",
+     "title": "Managing biodiversity in the light of climate change",
+     "sentence_or_note": "so much airtime is given to the views of the small number of so-called contrarian 'scientists'"
+    },
+    {
+     "id": "f26b46dd",
+     "year": 2006,
+     "class": "S",
+     "title": "Presentation to the National Academy of Sciences Expert Panel",
+     "sentence_or_note": "own (McIntyre)"
+    },
+    {
+     "id": "ebb0d265",
+     "year": 2006,
+     "class": "O",
+     "title": "Modelling tree population dynamics at the alpine and boreal treeline",
+     "sentence_or_note": "this climate reconstruction has been challenged (e.g. McIntyre and McKitrick, 2005)"
+    },
+    {
+     "id": "f315a652",
+     "year": 2006,
+     "class": "S",
+     "title": "Variations of Galactic Cosmic Rays and the Earth's Climate",
+     "sentence_or_note": "when properly analysed, the data show larger long-term temperature variations"
+    },
+    {
+     "id": "12aea9f9",
+     "year": 2007,
+     "class": "S",
+     "title": "Phenomenological reconstructions of the solar signature in the NH surface temperature",
+     "sentence_or_note": "has been recently criticized by McIntyre and McKitrick [2005] (the criticism used to set MBH aside)"
+    },
+    {
+     "id": "646f4ffb",
+     "year": 2007,
+     "class": "R",
+     "title": "The importance of the geophysical context in statistical evaluations of climate reconstruction procedures",
+     "sentence_or_note": "Ammann & Wahl"
+    },
+    {
+     "id": "47ef1d46",
+     "year": 2007,
+     "class": "X",
+     "title": "Reducing Ventilation Energy Demand in Multifamily High Rise buildings"
+    },
+    {
+     "id": "d9d9eb6e",
+     "year": 2007,
+     "class": "S",
+     "title": "Climate Change Re-examined",
+     "sentence_or_note": "Such serious flaws were found in Mann's work that Mann was made to publish a correction in Nature in 2004"
+    },
+    {
+     "id": "097335f9",
+     "year": 2007,
+     "class": "S",
+     "title": "The Myth of Dangerous Human-Caused Climate Change",
+     "sentence_or_note": "the complete discrediting of the 'hockey stick' curve"
+    },
+    {
+     "id": "e208a951",
+     "year": 2007,
+     "class": "S",
+     "title": "IWMC World Conservation Trust review of climate change causation",
+     "sentence_or_note": "Statistical flaws in the work were confirmed by Stephen McIntyre… and Professor Ross McKitrick"
+    },
+    {
+     "id": "c4873bec",
+     "year": 2007,
+     "class": "S",
+     "title": "Climate Change Reexamined (duplicate)"
+    },
+    {
+     "id": "2dd74a23",
+     "year": 2007,
+     "class": "O",
+     "title": "Climate of the Past: Millennial temperature reconstruction intercomparison (journal version)"
+    },
+    {
+     "id": "ec9e5881",
+     "year": 2008,
+     "class": "S",
+     "title": "Knock, Knock: Where is the Evidence for Dangerous Human-Caused Climate Change?",
+     "sentence_or_note": "sentence off-topic; the paper's stance"
+    },
+    {
+     "id": "c171bc8d",
+     "year": 2008,
+     "class": "S",
+     "title": "The role of data/code archives in the future of economic research",
+     "sentence_or_note": "duplicate of the 2005 version"
+    },
+    {
+     "id": "d051998e",
+     "year": 2008,
+     "class": "O",
+     "title": "Borehole climatology: a discussion based on contributions from climate research",
+     "sentence_or_note": "in the last few years (e.g.… McIntyre and McKitrick, 2005;…)"
+    },
+    {
+     "id": "2e4bbd7b",
+     "year": 2008,
+     "class": "S",
+     "title": "How do we 'know' that 1998 was the warmest year of the millennium?",
+     "sentence_or_note": "own (McKitrick)"
+    },
+    {
+     "id": "8d421511",
+     "year": 2009,
+     "class": "O",
+     "title": "The Geoscience of Climate and Energy 1",
+     "sentence_or_note": "One of the scientific concerns that has been expressed (e.g. McIntyre and McKitrick 2003, 2005) (Wegman 2006), and the National Academy of Sciences followed up"
+    },
+    {
+     "id": "a5ac28be",
+     "year": 2009,
+     "class": "M",
+     "title": "A Surrogate Ensemble Study of Climate Reconstruction Methods"
+    },
+    {
+     "id": "15eecd0f",
+     "year": 2009,
+     "class": "M",
+     "title": "Winter precipitation trends for two selected European regions",
+     "sentence_or_note": "uncertainties may lead to an underestimation in the RE values"
+    },
+    {
+     "id": "21140aeb",
+     "year": 2009,
+     "class": "S",
+     "title": "A Renewed Call to Truth, Prudence, and Protection of the Poor",
+     "sentence_or_note": "work that has been found to be badly flawed by improper data handling, faulty statistical methodology"
+    },
+    {
+     "id": "5a29805e",
+     "year": 2009,
+     "class": "M",
+     "title": "On relationships between uncentred and column-centred principal component analysis"
+    },
+    {
+     "id": "5920c957",
+     "year": 2009,
+     "class": "M",
+     "title": "Reconstructed precipitation for southern Bakony Mountains",
+     "sentence_or_note": "R² exceeds the RE value settling any doubts about spurious significance"
+    },
+    {
+     "id": "562dcf69",
+     "year": 2009,
+     "class": "O",
+     "title": "Specification and Estimation of the Transfer Function in Paleoclimatology",
+     "sentence_or_note": "the controversy initiated by McIntyre and McKitrick (2005), who raise questions about the validity"
+    },
+    {
+     "id": "dea7db0b",
+     "year": 2010,
+     "class": "M",
+     "title": "A Pseudoproxy Evaluation of the CCA and RegEM Methods"
+    },
+    {
+     "id": "d787d5cd",
+     "year": 2010,
+     "class": "H",
+     "title": "The Value of Multiproxy Reconstruction of Past Climate",
+     "sentence_or_note": "Their analysis was criticized by a number of authors, but most sharply by McIntyre and McKitrick"
+    },
+    {
+     "id": "1e615c80",
+     "year": 2010,
+     "class": "S",
+     "title": "The Fallacies of Concurrent Climate Policy Efforts (AMBIO)",
+     "sentence_or_note": "The hockey stick analysis was beset with methodological errors as has been demonstrated by McIntyre and McKitrick"
+    },
+    {
+     "id": "6c86bbd7",
+     "year": 2010,
+     "class": "M",
+     "title": "Growing Season Temperatures in Europe and Climate Forcings Over the Past 1400 Years"
+    },
+    {
+     "id": "2dd264a6",
+     "year": 2010,
+     "class": "S",
+     "title": "Incorporating a research experience into an early undergraduate course",
+     "sentence_or_note": "Wegman's (2006) report found very similar results to McIntyre and McKitrick, however many people continue to defend the original"
+    },
+    {
+     "id": "d66dce02",
+     "year": 2010,
+     "class": "H",
+     "title": "Elementary Reconstruction of the Hockey Stick Curve: Discussion",
+     "sentence_or_note": "duplicate sentence"
+    },
+    {
+     "id": "4569ee64",
+     "year": 2010,
+     "class": "H",
+     "title": "Understanding Sensitivities in Paleoclimatic Reconstructions",
+     "sentence_or_note": "Their statistical methods were criticized by a number of authors, most notably McIntyre and McKitrick (2005) and Wegman"
+    },
+    {
+     "id": "b3c2b405",
+     "year": 2011,
+     "class": "S",
+     "title": "Is the recessional pattern of Himalayan glaciers suggestive of anthropogenic climate change?",
+     "sentence_or_note": "it has gradually been acknowledged that this curve has been deduced using poor mathematical and statistical calculations"
+    },
+    {
+     "id": "9b63d0d7",
+     "year": 2011,
+     "class": "M",
+     "title": "Web 2.0 collaborations address uncertainty in climate reconstructions",
+     "sentence_or_note": "The availability of computer code has also been criticized"
+    },
+    {
+     "id": "c9e2a8fb",
+     "year": 2011,
+     "class": "H",
+     "title": "Opening the 'Black Box' of Climate Change Science: Actor-Network Theory"
+    },
+    {
+     "id": "7eee9c16",
+     "year": 2011,
+     "class": "S",
+     "title": "A statistical analysis of multiple temperature proxies (McShane & Wyner)",
+     "sentence_or_note": "The first major controversy erupted when McIntyre and McKitrick (M&M) successfully replicated… This approach is similar to that of McIntyre and McKitrick"
+    },
+    {
+     "id": "8384d2bc",
+     "year": 2011,
+     "class": "S",
+     "title": "Eigen analysis of tree-ring records: part 2",
+     "sentence_or_note": "Some other shortcomings of the paleoclimatic applications of EOFs by the so-called hockey stick team"
+    },
+    {
+     "id": "27ed5f7b",
+     "year": 2011,
+     "class": "S",
+     "title": "Geologic Evidence of Recurring Climate Cycles and Their Implications",
+     "sentence_or_note": "concluded that the Mann curve was invalid 'due to collation errors, unjustifiable truncation…'"
+    },
+    {
+     "id": "92d9044e",
+     "year": 2012,
+     "class": "S",
+     "title": "Biases in the Australian High Quality Temperature Network",
+     "sentence_or_note": "Methodological biases [2] have been shown to be behind many adverse effects, such as… unprecedented warming [5]"
+    },
+    {
+     "id": "5bebeb03",
+     "year": 2013,
+     "class": "S",
+     "title": "Solar and Planetary Oscillation Control on Climate Change",
+     "sentence_or_note": "Mann's algorithm contained a mathematical error that nearly always produces hockey-stick shapes"
+    },
+    {
+     "id": "0233f973",
+     "year": 2013,
+     "class": "H",
+     "title": "Low-Frequency Weather and the Emergence of the Climate",
+     "sentence_or_note": "Later, an additional technical critique (McIntyre and McKitrick, 2005) underlined the sensitivity of the methodology to low frequency red noise"
+    },
+    {
+     "id": "92d209fc",
+     "year": 2013,
+     "class": "S",
+     "title": "Rejoinder: A statistical analysis of multiple temperature proxies (McShane & Wyner)"
+    },
+    {
+     "id": "7fe30628",
+     "year": 2014,
+     "class": "S",
+     "title": "Causes and Consequences of the Climate Science Boom",
+     "sentence_or_note": "For a full discussion, see McIntyre and McKitrick 2005 and Wegman"
+    },
+    {
+     "id": "4b2e0074",
+     "year": 2014,
+     "class": "S",
+     "title": "Drawbacks of Apriorism in Intergovernmental Climatology",
+     "sentence_or_note": "whereupon a spate of papers based on modeling as opposed to empirical evidence emerged, supporting Mann et al."
+    },
+    {
+     "id": "54b9ba98",
+     "year": 2014,
+     "class": "H",
+     "title": "Climate reconstruction and the making of authoritative science",
+     "sentence_or_note": "climate scientists Hans von Storch and Eduardo Zorita (2005) concluded that Mann's method alone would…"
+    },
+    {
+     "id": "e96aa473",
+     "year": 2015,
+     "class": "H",
+     "title": "Climate skepticism and the manufacture of doubt: can dissent in science be epistemically detrimental?",
+     "sentence_or_note": "McIntyre and McKitrick (2005) argued that the hockey stick pattern is an artifact of the choice of a convention for centering"
+    },
+    {
+     "id": "55e3e3c2",
+     "year": 2015,
+     "class": "H",
+     "title": "Why Are People Skeptical about Climate Change? Some Insights from Climate Change Communication",
+     "sentence_or_note": "the earliest issue on which skeptical bloggers achieved scientific publications"
+    },
+    {
+     "id": "69f0a370",
+     "year": 2015,
+     "class": "H",
+     "title": "Why are people sceptical about climate change? (duplicate)"
+    },
+    {
+     "id": "e52da0e1",
+     "year": 2016,
+     "class": "H",
+     "title": "Reconstructing Earth's surface temperature over the past 2000 years: the science behind the headlines",
+     "sentence_or_note": "This decision nevertheless has the potential to produce a leading PC that displays the hockey-stick shape… A second comment argued…"
+    },
+    {
+     "id": "143669f4",
+     "year": 2016,
+     "class": "X",
+     "title": "EPA's Response to the Petitions to Reconsider the Endangerment Finding",
+     "sentence_or_note": "the sentence concerns McLean et al. 2009"
+    },
+    {
+     "id": "c2535a2b",
+     "year": 2019,
+     "class": "H",
+     "title": "The physics of climate variability and climate change",
+     "sentence_or_note": "Later papers criticized in turn the statistical methods of McIntyre and McKitrick (2005) and confirm[ed]…"
+    },
+    {
+     "id": "38f405a4",
+     "year": 2019,
+     "class": "M",
+     "title": "The climate of the past millennium and online public engagement in a scientific debate"
+    },
+    {
+     "id": "bacbffb4",
+     "year": 2020,
+     "class": "S",
+     "title": "The Effects of Improper Standardization on Modeling Trends in…",
+     "sentence_or_note": "These findings highlight the effects of improperly standardizing data"
+    },
+    {
+     "id": "0c066470",
+     "year": 2024,
+     "class": "H",
+     "title": "Inductive risk and epistemically detrimental dissent in policy-relevant science"
+    },
+    {
+     "id": "72623b3e",
+     "year": 2026,
+     "class": "S",
+     "title": "Solar and Anthropogenic Climate Drivers: An Updated Regression",
+     "sentence_or_note": "the mathematical issue of 'short centering' behind the generation of hockey-stick-shaped curves was thoroughly discussed in [8]"
+    }
+   ]
+  }
+ }
+}
