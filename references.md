@@ -229,7 +229,8 @@ Every paper, report and book cited in `01-periods.md`, `02-problems/` and `03-op
 - Hansen, J., et al. (1983). Efficient three-dimensional global models for climate studies: Models I and II. *Monthly Weather Review*, 111(4), 609–662. doi:10.1175/1520-0493(1983)111<0609:etdgmf>2.0.co;2
 - Hansen, J., et al. (1984). Climate sensitivity: Analysis of feedback mechanisms. In *Climate Processes and Climate Sensitivity* (AGU Geophysical Monograph 29), 130–163. doi:10.1029/gm029p0130
 - Hansen, J., et al. (1985). Climate response times: Dependence on climate sensitivity and ocean mixing. *Science*, 229(4716), 857–859. doi:10.1126/science.229.4716.857
-- Hansen, J., et al. (1988). Global climate changes as forecast by Goddard Institute for Space Studies three-dimensional model. *J. Geophys. Res.*, 93(D8), 9341–9364. doi:10.1029/jd093id08p09341
+- Hansen, J., et al. (1988). Global climate changes as forecast by Goddard Institute for Space Studies three-dimensional model. *J. Geophys. Res.*, 93(D8), 9341–9364. doi:10.1029/jd093id08p09341 (abstract read 2026-10-02 by OCR of the GISS scan, `giss.nasa.gov/pubs/docs/1988/1988_Hansen_ha02700w.pdf`).
+- Hansen, J. (1988, 23 June). Statement to the Committee on Energy and Natural Resources, United States Senate, hearing "Greenhouse Effect and Global Climate Change". Read 2026-10-02 from the Pulitzer Center's transcribed excerpt (`pulitzercenter.org/sites/default/files/june_23_1988_senate_hearing_1.pdf`).
 - Hansen, J., Lacis, A., Ruedy, R., & Sato, M. (1992). Potential climate impact of Mount Pinatubo eruption. *Geophys. Res. Lett.*, 19(2), 215–218. doi:10.1029/91gl02788
 - Hansen, J., Sato, M., & Ruedy, R. (1997). Radiative forcing and climate response. *J. Geophys. Res.*, 102(D6), 6831–6864. doi:10.1029/96jd03436
 - Hansen, J., et al. (2005). Earth's energy imbalance: Confirmation and implications. *Science*, 308(5727), 1431–1435. doi:10.1126/science.1110252
@@ -705,7 +706,7 @@ Every paper, report and book cited in `01-periods.md`, `02-problems/` and `03-op
 - President's Science Advisory Committee (1965). *Restoring the Quality of Our Environment* (Appendix Y4, "Atmospheric carbon dioxide," by Revelle, Broecker, Craig, Keeling and Smagorinsky). The White House.
 - SMIC (1971). *Inadvertent Climate Modification: Report of the Study of Man's Impact on Climate*. MIT Press.
 - National Academy of Sciences (1975). *Understanding Climatic Change: A Program for Action*.
-- Charney, J. G., et al. (1979). *Carbon Dioxide and Climate: A Scientific Assessment*. National Academy of Sciences.
+- Charney, J. G., et al. (1979). *Carbon Dioxide and Climate: A Scientific Assessment*. National Academy of Sciences. (Summary and Conclusions, pp. 1–3, read 2026-10-02 by OCR of the National Academies Press page images, `nap.nationalacademies.org/books/12181/gif/1-3.gif`.)
 - National Academy of Sciences (1982). *Carbon Dioxide and Climate: A Second Assessment* (Smagorinsky panel).
 - National Academy of Sciences (1983). *Changing Climate* (Nierenberg committee).
 - WMO/UNEP/ICSU (1985). Villach conference statement on the assessment of the role of carbon dioxide and other greenhouse gases in climate variations.
