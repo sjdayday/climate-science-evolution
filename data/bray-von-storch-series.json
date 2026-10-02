@@ -1,0 +1,462 @@
+{
+ "generated": "2026-10-02",
+ "description": "The Bray and von Storch surveys of climate scientists, 1996-2015/16: the attribution and 'occurring now' questions and the model-process adequacy questions, read from the original reports on 2026-10-01/02. Counts for 2008 are reconstructed from the unlabelled histograms (bar heights measured in the rendered figure) and reproduce the reports' means and standard deviations exactly; 2013 and 2015/16 counts are from the figures' percentage labels (which are exact fractions of N).",
+ "sources": {
+  "1996_2003": "Bray & von Storch (2007) GKSS 2007/11, figures 1-6, 28, 30, 60 (hereon.de copy)",
+  "2008": "Bray & von Storch (2010) GKSS 2010/9 (CliSci2008), questions 10, 12a-f, 20-22 (hereon.de copy)",
+  "2013": "Bray & von Storch (2014) HZG Report 2014-4 (CliSci2013), questions 5-9, 26-28 (hereon.de copy)",
+  "2015_16": "Bray & von Storch (2016) HZG Report 2016-2, figures 1-21 (TIB edocs copy)"
+ },
+ "attribution": {
+  "1996": {
+   "question": "Climate change is mostly the result of anthropogenic causes (1 strongly agree - 7 strongly disagree)",
+   "N": 539,
+   "mean": 4.17,
+   "sd": null,
+   "percent_by_response_1_to_7": [
+    5,
+    18,
+    17,
+    14,
+    14,
+    20,
+    10
+   ],
+   "missing_percent": 1,
+   "accept": 40,
+   "middle": 14,
+   "reject": 44
+  },
+  "2003": {
+   "question": "same statement",
+   "N": 530,
+   "mean": 3.62,
+   "percent_by_response_1_to_7": [
+    9,
+    24,
+    20,
+    13,
+    8,
+    11,
+    10
+   ],
+   "missing_percent": 5,
+   "accept": 53,
+   "middle": 13,
+   "reject": 29
+  },
+  "2008": {
+   "question": "How convinced are you that most of recent or near future climate change is, or will be, a result of anthropogenic causes? (1 not at all - 7 very much)",
+   "N": 370,
+   "mean": 5.678378,
+   "sd": 1.433935,
+   "counts_1_to_7": [
+    5,
+    11,
+    25,
+    20,
+    63,
+    118,
+    128
+   ],
+   "accept": 83.5,
+   "middle": 5.4,
+   "reject": 11.1,
+   "note": "counts reconstructed from the histogram; reproduce mean and sd exactly"
+  },
+  "2013": {
+   "question": "same",
+   "N": 277,
+   "mean": 5.74,
+   "counts_1_to_7": [
+    7,
+    15,
+    9,
+    22,
+    26,
+    79,
+    119
+   ],
+   "accept": 80.9,
+   "middle": 7.9,
+   "reject": 11.2
+  },
+  "2015_16": {
+   "question": "same",
+   "N": 640,
+   "mean": 5.970313,
+   "counts_1_to_7": [
+    12,
+    13,
+    12,
+    44,
+    88,
+    166,
+    305
+   ],
+   "accept": 87.3,
+   "middle": 6.9,
+   "reject": 5.8
+  },
+  "2015_16_share": {
+   "question": "Since 1850 ... warmed by 0.5-0.7 C. Approximately what percent would you attribute to human causes? (1: 0%; 2: 1-25%; 3: 26-50%; 4: 51-75%; 5: 76-100%)",
+   "N": 587,
+   "mean": 4.265758,
+   "counts_1_to_5": [
+    4,
+    26,
+    63,
+    211,
+    283
+   ],
+   "above_half_percent": 84.2
+  },
+  "2013_confidence_in_AR4_attribution": {
+   "question": "Since the 2007 IPCC AR4 to now, do you feel more confident or less confident concerning the IPCC's attribution of warming to GHG? (1 much less - 4 no change - 7 much more)",
+   "N": 285,
+   "mean": 5.18,
+   "percent_1_to_7": [
+    3.509,
+    3.158,
+    4.211,
+    24.21,
+    17.54,
+    20.7,
+    26.67
+   ]
+  }
+ },
+ "occurring_now": {
+  "1996": {
+   "question": "We can say for certain that global warming is a process already underway (1 strongly agree - 7 strongly disagree)",
+   "N": 542,
+   "mean": 3.39,
+   "percent_1_to_7": [
+    10,
+    26,
+    26,
+    13,
+    8,
+    11,
+    5
+   ],
+   "agree": 62,
+   "middle": 13,
+   "disagree": 24
+  },
+  "2003": {
+   "N": 546,
+   "mean": 2.41,
+   "percent_1_to_7": [
+    31,
+    34,
+    16,
+    6,
+    4,
+    5,
+    3
+   ],
+   "missing_percent": 2,
+   "agree": 81,
+   "middle": 6,
+   "disagree": 12
+  },
+  "2008": {
+   "question": "How convinced are you that climate change, whether natural or anthropogenic, is occurring now? (1 not at all - 7 very much)",
+   "N": 371,
+   "mean": 6.444744,
+   "sd": 0.9776105,
+   "counts_1_to_7": [
+    0,
+    2,
+    7,
+    14,
+    27,
+    72,
+    249
+   ],
+   "convinced_5_to_7": 93.8,
+   "note": "counts reconstructed from the histogram; reproduce mean and sd exactly"
+  },
+  "2013": {
+   "N": 277,
+   "mean": 6.56,
+   "counts_1_to_7": [
+    2,
+    2,
+    2,
+    8,
+    12,
+    44,
+    207
+   ],
+   "convinced_5_to_7": 94.9
+  },
+  "2015_16": {
+   "N": 642,
+   "mean": 6.649533,
+   "counts_1_to_7": [
+    1,
+    1,
+    11,
+    8,
+    34,
+    78,
+    509
+   ],
+   "convinced_5_to_7": 96.7
+  }
+ },
+ "model_processes_mean_1_very_inadequate_7_very_adequate": {
+  "question": "How well do you think atmospheric (climate) models can deal with ...",
+  "hydrodynamics": {
+   "1996": [
+    4.6,
+    539
+   ],
+   "2003": [
+    4.45,
+    500
+   ],
+   "2008": [
+    4.3,
+    366
+   ],
+   "2013": [
+    4.94,
+    257
+   ],
+   "2015_16": [
+    4.79,
+    570
+   ]
+  },
+  "radiation": {
+   "1996": [
+    4.63,
+    539
+   ],
+   "2003": [
+    4.71,
+    525
+   ],
+   "2008": [
+    4.67,
+    364
+   ],
+   "2013": [
+    5.35,
+    271
+   ],
+   "2015_16": [
+    5.43,
+    589
+   ]
+  },
+  "water_vapour": {
+   "1996": [
+    3.62,
+    538
+   ],
+   "2003": [
+    3.85,
+    527
+   ],
+   "2008": [
+    3.84,
+    365
+   ],
+   "2013": [
+    4.44,
+    271
+   ]
+  },
+  "clouds": {
+   "1996": [
+    3.06,
+    538
+   ],
+   "2003": [
+    3.22,
+    532
+   ],
+   "2008": [
+    2.75,
+    364
+   ],
+   "2013": [
+    3.19,
+    277
+   ],
+   "2015_16": [
+    3.4,
+    602
+   ]
+  },
+  "precipitation": {
+   "1996": [
+    3.16,
+    538
+   ],
+   "2003": [
+    3.29,
+    532
+   ],
+   "2008": [
+    2.92,
+    366
+   ],
+   "2013": [
+    3.51,
+    277
+   ],
+   "2015_16": [
+    3.78,
+    602
+   ],
+   "note_2015_16": "the report's Figure 7 histogram repeats the clouds bars; only the mean is usable"
+  },
+  "convection": {
+   "1996": [
+    3.57,
+    536
+   ],
+   "2003": [
+    3.48,
+    511
+   ],
+   "2008": [
+    3.18,
+    366
+   ],
+   "2013": [
+    3.61,
+    274
+   ]
+  },
+  "greenhouse_gases_knowledge_2015_16": {
+   "question": "The current state of scientific knowledge is developed well enough to allow for a reasonable estimate of the effects of greenhouse gases from anthropogenic sources on climate (1 not at all - 7 very much)",
+   "mean": 5.53,
+   "N": 600,
+   "percent_1_to_7": [
+    1.5,
+    3.333,
+    4,
+    8.833,
+    19,
+    40.5,
+    22.83
+   ]
+  },
+  "turbulence_knowledge_2015_16": {
+   "mean": 3.73,
+   "N": 526,
+   "percent_1_to_7": [
+    5.703,
+    15.4,
+    22.43,
+    22.81,
+    24.9,
+    7.414,
+    1.331
+   ]
+  },
+  "gcm_50yr_global_mean_temperature_2015_16": {
+   "question": "ability of global climate models to simulate a global mean value for temperature for the next 50 years (1 very poor - 7 very good)",
+   "mean": 4.77,
+   "N": 600,
+   "percent_1_to_7": [
+    4.167,
+    4.833,
+    9.667,
+    16.83,
+    29.67,
+    25.83,
+    9
+   ]
+  },
+  "gcm_50yr_global_mean_precipitation_2015_16": {
+   "mean": 3.39,
+   "N": 598,
+   "percent_1_to_7": [
+    12.71,
+    14.72,
+    24.75,
+    24.25,
+    16.89,
+    5.853,
+    0.8361
+   ]
+  },
+  "attribution_of_extreme_events_2015_16": {
+   "question": "With how much certainty can we attribute recent extreme climate events to climate change (anthropogenic or otherwise)? (1 not at all - 7 very much)",
+   "mean": 4.25,
+   "N": 521,
+   "percent_1_to_7": [
+    3.839,
+    11.52,
+    15.55,
+    21.11,
+    27.45,
+    13.63,
+    6.91
+   ]
+  }
+ },
+ "value_neutral_mean_1_not_at_all_7_great_degree": {
+  "question": "To what degree do you think climate science has remained a value-neutral science?",
+  "1996": [
+   4.23,
+   539
+  ],
+  "2003": [
+   4.29,
+   508
+  ],
+  "2008": [
+   3.96,
+   371
+  ],
+  "2013": [
+   4.77,
+   269
+  ]
+ },
+ "post_normal_2015_16": {
+  "uncertainty_since_1996": {
+   "question": "Since 1996 the level of uncertainty in climate science has (1 dropped considerably - 4 remained the same - 7 increased considerably)",
+   "mean": 2.85,
+   "N": 535,
+   "percent_1_to_7": [
+    16.26,
+    31.59,
+    27.85,
+    10.65,
+    5.981,
+    3.738,
+    3.925
+   ]
+  },
+  "distortion_for_political_arguments": {
+   "question": "As the values of non-scientists are taken into account, how much have scientific ideas been distorted to service political arguments concerning climate change? (1 not at all - 7 very much)",
+   "mean": 5.28,
+   "N": 503,
+   "percent_1_to_7": [
+    1.988,
+    4.97,
+    5.765,
+    11.13,
+    26.44,
+    25.45,
+    24.25
+   ]
+  }
+ },
+ "samples": {
+  "1996": "500 hard copies in Germany, Denmark, Canada, USA (+ Italy, Taiwan); N about 540",
+  "2003": "on-line; N about 530",
+  "2008": "three lists (top-10 ISI climate journals' authors; Oreskes 2004 list; institute mailing lists); 18 % response; N 370-373",
+  "2013": "2008 list + ClimList + IPCC contributors; 4,491 valid addresses; 286 valid returns, 7 %",
+  "2015_16": "updated 2013 lists; 3,879 valid addresses; 651 returns, 17 %; mid-December 2015 to end of January 2016"
+ }
+}
