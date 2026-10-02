@@ -135,14 +135,10 @@
   "spencerchristy1990": {
    "n": 31,
    "S": [
-    "W4248376655",
-    "W4281489977",
-    "W4315645665",
     "W4400070318"
    ],
    "R": [
     "W3136197758",
-    "W4311474670",
     "W3035512096"
    ],
    "X": [
@@ -153,7 +149,7 @@
     "W4402163627",
     "W3094204188"
    ],
-   "H": 18
+   "H": 22
   },
   "mckitrickchristy2018": {
    "n": 25,
@@ -205,12 +201,12 @@
     "W3164721042",
     "W3080670364",
     "W4403184306",
-    "W4414922569"
+    "W4414922569",
+    "W4386805034"
    ],
    "R": [
     "W3044698812",
     "W3048099458",
-    "W4292327149",
     "W4392638587",
     "W4200356881",
     "W3198362315",
@@ -282,5 +278,11 @@
    "Dayaratna K": 4
   },
   "note": "first-author counts over the 581 citing entries (a work citing k contested papers counts k times)"
- }
+ },
+ "revisions": [
+  {
+   "date": "2026-10-02",
+   "note": "After reading the Semantic Scholar citation sentences: Spencer & Christy 1990 — W4248376655, W4281489977, W4315645665 (Koutsoyiannis et al.) moved S→H, the citation being to the UAH dataset's source paper, not to the 1990 trend claim; Lewis & Curry 2018 — W4386805034 (Spencer & Christy 2023, 1D-model effective sensitivity) moved H→S. Also moved R→H on the same reading: Lewis & Curry 2018 — W4292327149 (lists it among pattern-effect studies); Spencer & Christy 1990 — W4311474670 (cites it for the MSU record)."
+  }
+ ]
 }
