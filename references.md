@@ -452,7 +452,7 @@ Every paper, report and book cited in `01-periods.md`, `02-problems/` and `03-op
 - Oeschger, H., Siegenthaler, U., Schotterer, U., & Gugelmann, A. (1975). A box diffusion model to study the carbon dioxide exchange in nature. *Tellus*, 27(2), 168. doi:10.3402/tellusa.v27i2.9900
 - O'Gorman, P. A., & Schneider, T. (2009). The physical basis for increases in precipitation extremes in simulations of 21st-century climate change. *PNAS*, 106(35), 14773–14777. doi:10.1073/pnas.0907610106
 - Olonscheck, D., Rugenstein, M., & Marotzke, J. (2020). Broad consistency between observed and simulated trends in sea surface temperature patterns. *Geophys. Res. Lett.*, 47(10), e2019GL086773. doi:10.1029/2019gl086773
-- Oreskes, N. (2004). The scientific consensus on climate change. *Science*, 306(5702), 1686. doi:10.1126/science.1103618
+- Oreskes, N. (2004). The scientific consensus on climate change. *Science*, 306(5702), 1686. doi:10.1126/science.1103618 [Read in full, with the erratum of 21 January 2005 (keywords "global climate change"), from a copy supplied by Steve, 2026-10-03; `09` §4.3.]
 - Oreskes, N., Shrader-Frechette, K., & Belitz, K. (1994). Verification, validation, and confirmation of numerical models in the Earth sciences. *Science*, 263(5147), 641–646. doi:10.1126/science.263.5147.641
 - Osman, M. B., et al. (2021). Globally resolved surface temperatures since the Last Glacial Maximum. *Nature*, 599(7884), 239–244. doi:10.1038/s41586-021-03984-4
 - Otto, A., et al. (2013). Energy budget constraints on climate response. *Nature Geoscience*, 6(6), 415–416. doi:10.1038/ngeo1836
@@ -646,7 +646,7 @@ Every paper, report and book cited in `01-periods.md`, `02-problems/` and `03-op
 - Vecchi, G. A., et al. (2006). Weakening of tropical Pacific atmospheric circulation due to anthropogenic forcing. *Nature*, 441(7089), 73–76. doi:10.1038/nature04744
 - Velders, G. J. M., et al. (2007). The importance of the Montreal Protocol in protecting climate. *PNAS*, 104(12), 4814–4819. doi:10.1073/pnas.0610328104
 - Venema, V. K. C., et al. (2012). Benchmarking homogenization algorithms for monthly data. *Climate of the Past*, 8(1), 89–115. doi:10.5194/cp-8-89-2012
-- Verheggen, B., et al. (2014). Scientists' views about attribution of global warming. *Environmental Science & Technology*, 48(16), 8963–8971. doi:10.1021/es501998e
+- Verheggen, B., et al. (2014). Scientists' views about attribution of global warming. *Environmental Science & Technology*, 48(16), 8963–8971. doi:10.1021/es501998e [Read in full from a copy supplied by Steve, 2026-10-03; `09` §4.2, `08` §2.1.]
 - Vermeer, M., & Rahmstorf, S. (2009). Global sea level linked to global temperature. *PNAS*, 106(51), 21527–21532. doi:10.1073/pnas.0907765106
 - von Schuckmann, K., et al. (2020). Heat stored in the Earth system: where does the energy go? *Earth System Science Data*, 12(3), 2013–2041. doi:10.5194/essd-12-2013-2020
 - von Schuckmann, K., et al. (2023). Heat stored in the Earth system 1960–2020: where does the energy go? *Earth System Science Data*, 15(4), 1675–1709. doi:10.5194/essd-15-1675-2023
