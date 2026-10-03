@@ -1,0 +1,690 @@
+{
+ "built": "2026-10-03",
+ "source": "Bray, D., & von Storch, H. (2016). The Bray and von Storch 5th International Survey of Climate Scientists 2015/2016. HZG Report 2016-2 (hereon.de copy, hzg_report_2016_2.pdf), figures 1–9 and 21, pages 24–32 and 44 of the PDF.",
+ "subgroup_definitions": "The report's four box plots per question (p. 19): 'climate science' = respondents whose work is directly in the production of knowledge concerning climate change (atmospheric or oceanic modelling, measurement and observation, downscaling, physical processes, palaeoclimatology); 'affiliated science' = socio-economic or ecological impact assessment, adaptation, science-policy administration and other climate-related work; each split by whether the respondent claimed to have been affiliated with the IPCC. 'Other – non-climate related' (6 respondents) is omitted. The n for each subgroup is printed on the figure page and recorded here.",
+ "method": "The box plots carry no numbers. Each figure page was rendered from the PDF's vector content in a browser (pdf.js, scale 4 and 12) and the box plots read programmatically: the x axis was calibrated from the tick labels' positions (values 1–7, or 1–5 for figure 21), each subgroup's row located from its label, and the vertical lines (box edges and median), whisker caps and outlier dots located from the column-darkness profile of the row and mapped to the nearest half-unit. Because responses are integers, quartiles and medians are integers or half-integers and the mapping is exact. Checks: the whole-sample box plot of each figure agrees with the quartiles computed from the figure's printed histogram percentages (recorded as whole_sample_quartiles_from_histogram); the whiskers agree with the 1.5 × IQR rule given the box and the outliers. Limit: when a subgroup's median coincides with a box edge, the figure draws one line over another; where the overlap thickened the line (line-weight test at scale 12: 9 px against 6) the median is given as that edge, and where it did not the median is given as 'a or b'. Whisker values are None where the box is degenerate (all three quartiles equal).",
+ "figures": [
+  {
+   "figure": 1,
+   "page": 24,
+   "variable": "v006",
+   "question": "How convinced are you that climate change, whether natural or anthropogenic, is occurring now? (1 not at all – 7 very much)",
+   "N": 642,
+   "mean": 6.65,
+   "bars_pct": [
+    0.1558,
+    0.1558,
+    1.713,
+    1.246,
+    5.296,
+    12.15,
+    79.28
+   ],
+   "subgroups": {
+    "climate_science_ipcc": {
+     "n": 152,
+     "q1": 7,
+     "median": 7,
+     "q3": 7,
+     "whisker_low": null,
+     "whisker_high": null,
+     "outliers": [
+      3,
+      5,
+      6
+     ]
+    },
+    "climate_science_no_ipcc": {
+     "n": 312,
+     "q1": 7,
+     "median": 7,
+     "q3": 7,
+     "whisker_low": null,
+     "whisker_high": null,
+     "outliers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ]
+    },
+    "affiliated_ipcc": {
+     "n": 55,
+     "q1": 7,
+     "median": 7,
+     "q3": 7,
+     "whisker_low": null,
+     "whisker_high": null,
+     "outliers": [
+      3,
+      5,
+      6
+     ]
+    },
+    "affiliated_no_ipcc": {
+     "n": 113,
+     "q1": 6,
+     "median": 7,
+     "q3": 7,
+     "whisker_low": 5,
+     "whisker_high": 7,
+     "outliers": [
+      3,
+      4
+     ],
+     "median_note": "median at the box edge marked by a doubled line (line-weight test)"
+    }
+   },
+   "whole_sample_quartiles_from_histogram": {
+    "q1": 7,
+    "median": 7,
+    "q3": 7
+   }
+  },
+  {
+   "figure": 2,
+   "page": 25,
+   "variable": "v007",
+   "question": "How convinced are you that most of recent or near future climate change is, or will be, the result of anthropogenic causes? (1 not at all – 7 very much)",
+   "N": 640,
+   "mean": 5.97,
+   "bars_pct": [
+    1.875,
+    2.031,
+    1.875,
+    6.875,
+    13.75,
+    25.94,
+    47.66
+   ],
+   "subgroups": {
+    "climate_science_ipcc": {
+     "n": 152,
+     "q1": 5,
+     "median": 6.5,
+     "q3": 7,
+     "whisker_low": 2,
+     "whisker_high": 7,
+     "outliers": [
+      1
+     ]
+    },
+    "climate_science_no_ipcc": {
+     "n": 312,
+     "q1": 5,
+     "median": 6,
+     "q3": 7,
+     "whisker_low": 2,
+     "whisker_high": 7,
+     "outliers": [
+      1
+     ]
+    },
+    "affiliated_ipcc": {
+     "n": 54,
+     "q1": 6,
+     "median": 7,
+     "q3": 7,
+     "whisker_low": 5,
+     "whisker_high": 7,
+     "outliers": [
+      2,
+      3,
+      4
+     ],
+     "median_note": "median at the box edge marked by a doubled line (line-weight test)"
+    },
+    "affiliated_no_ipcc": {
+     "n": 112,
+     "q1": 5.5,
+     "median": 6,
+     "q3": 7,
+     "whisker_low": 4,
+     "whisker_high": 7,
+     "outliers": [
+      2,
+      3
+     ]
+    }
+   },
+   "whole_sample_quartiles_from_histogram": {
+    "q1": 5,
+    "median": 6,
+    "q3": 7
+   }
+  },
+  {
+   "figure": 3,
+   "page": 26,
+   "variable": "v008",
+   "question": "Climate models accurately simulate the climatic conditions for which they are calibrated. (1 strongly disagree – 7 strongly agree)",
+   "N": 626,
+   "mean": 4.696,
+   "bars_pct": [
+    2.875,
+    3.834,
+    7.827,
+    19.97,
+    41.53,
+    19.65,
+    4.313
+   ],
+   "subgroups": {
+    "climate_science_ipcc": {
+     "n": 147,
+     "q1": 4,
+     "median": 5,
+     "q3": 6,
+     "whisker_low": 1,
+     "whisker_high": 7,
+     "outliers": []
+    },
+    "climate_science_no_ipcc": {
+     "n": 306,
+     "q1": 4,
+     "median": 5,
+     "q3": 5,
+     "whisker_low": 3,
+     "whisker_high": 6,
+     "outliers": [
+      1,
+      2,
+      7
+     ],
+     "median_note": "median at the box edge marked by a doubled line (line-weight test)"
+    },
+    "affiliated_ipcc": {
+     "n": 51,
+     "q1": 4,
+     "median": 5,
+     "q3": 5,
+     "whisker_low": 3,
+     "whisker_high": 6,
+     "outliers": [
+      1,
+      2,
+      7
+     ],
+     "median_note": "median at the box edge marked by a doubled line (line-weight test)"
+    },
+    "affiliated_no_ipcc": {
+     "n": 112,
+     "q1": 4,
+     "median": 5,
+     "q3": 5,
+     "whisker_low": 3,
+     "whisker_high": 6,
+     "outliers": [
+      1,
+      2,
+      7
+     ],
+     "median_note": "median at the box edge marked by a doubled line (line-weight test)"
+    }
+   },
+   "whole_sample_quartiles_from_histogram": {
+    "q1": 4,
+    "median": 5,
+    "q3": 5
+   }
+  },
+  {
+   "figure": 4,
+   "page": 27,
+   "variable": "v009a",
+   "question": "How well do you think atmospheric models can deal with hydrodynamics? (1 very inadequate – 7 very adequate)",
+   "N": 570,
+   "mean": 4.789,
+   "bars_pct": [
+    1.93,
+    5.789,
+    8.421,
+    20.0,
+    30.88,
+    25.09,
+    7.895
+   ],
+   "subgroups": {
+    "climate_science_ipcc": {
+     "n": 139,
+     "q1": 4,
+     "median": 5,
+     "q3": 6,
+     "whisker_low": 1,
+     "whisker_high": 7,
+     "outliers": []
+    },
+    "climate_science_no_ipcc": {
+     "n": 281,
+     "q1": 4,
+     "median": 5,
+     "q3": 6,
+     "whisker_low": 1,
+     "whisker_high": 7,
+     "outliers": []
+    },
+    "affiliated_ipcc": {
+     "n": 47,
+     "q1": 4,
+     "median": 5,
+     "q3": 6,
+     "whisker_low": 2,
+     "whisker_high": 7,
+     "outliers": []
+    },
+    "affiliated_no_ipcc": {
+     "n": 94,
+     "q1": 4,
+     "median": 5,
+     "q3": 6,
+     "whisker_low": 1,
+     "whisker_high": 7,
+     "outliers": []
+    }
+   },
+   "whole_sample_quartiles_from_histogram": {
+    "q1": 4,
+    "median": 5,
+    "q3": 6
+   }
+  },
+  {
+   "figure": 5,
+   "page": 28,
+   "variable": "v009b",
+   "question": "How well do you think atmospheric models can deal with radiation? (1–7)",
+   "N": 589,
+   "mean": 5.426,
+   "bars_pct": [
+    0.3396,
+    2.716,
+    4.754,
+    11.88,
+    23.09,
+    40.92,
+    16.3
+   ],
+   "subgroups": {
+    "climate_science_ipcc": {
+     "n": 148,
+     "q1": 5,
+     "median": "5 or 6",
+     "q3": 6,
+     "whisker_low": 4,
+     "whisker_high": 7,
+     "outliers": [
+      1,
+      2,
+      3
+     ],
+     "median_note": "the median coincides with a box edge and the figure does not show which; the line-weight test (below) was negative"
+    },
+    "climate_science_no_ipcc": {
+     "n": 287,
+     "q1": 5,
+     "median": "5 or 6",
+     "q3": 6,
+     "whisker_low": 4,
+     "whisker_high": 7,
+     "outliers": [
+      1,
+      2,
+      3
+     ],
+     "median_note": "the median coincides with a box edge and the figure does not show which; the line-weight test (below) was negative"
+    },
+    "affiliated_ipcc": {
+     "n": 49,
+     "q1": 5,
+     "median": "5 or 6",
+     "q3": 6,
+     "whisker_low": 4,
+     "whisker_high": 7,
+     "outliers": [
+      2,
+      3
+     ],
+     "median_note": "the median coincides with a box edge and the figure does not show which; the line-weight test (below) was negative"
+    },
+    "affiliated_no_ipcc": {
+     "n": 95,
+     "q1": 5,
+     "median": "5 or 6",
+     "q3": 6,
+     "whisker_low": 4,
+     "whisker_high": 7,
+     "outliers": [
+      2,
+      3
+     ],
+     "median_note": "the median coincides with a box edge and the figure does not show which; the line-weight test (below) was negative"
+    }
+   },
+   "whole_sample_quartiles_from_histogram": {
+    "q1": 5,
+    "median": 6,
+    "q3": 6
+   }
+  },
+  {
+   "figure": 6,
+   "page": 29,
+   "variable": "v009c",
+   "question": "How well do you think atmospheric models can deal with the influence of clouds? (1–7)",
+   "N": 602,
+   "mean": 3.395,
+   "bars_pct": [
+    6.478,
+    17.77,
+    30.9,
+    25.25,
+    14.95,
+    3.488,
+    1.163
+   ],
+   "subgroups": {
+    "climate_science_ipcc": {
+     "n": 151,
+     "q1": 2,
+     "median": 3,
+     "q3": 4,
+     "whisker_low": 1,
+     "whisker_high": 7,
+     "outliers": []
+    },
+    "climate_science_no_ipcc": {
+     "n": 294,
+     "q1": 3,
+     "median": "3 or 4",
+     "q3": 4,
+     "whisker_low": 2,
+     "whisker_high": 5,
+     "outliers": [
+      1,
+      6,
+      7
+     ],
+     "median_note": "the median coincides with a box edge and the figure does not show which; the line-weight test (below) was negative"
+    },
+    "affiliated_ipcc": {
+     "n": 49,
+     "q1": 3,
+     "median": "3 or 4",
+     "q3": 4,
+     "whisker_low": 2,
+     "whisker_high": 5,
+     "outliers": [
+      1,
+      6
+     ],
+     "median_note": "the median coincides with a box edge and the figure does not show which; the line-weight test (below) was negative"
+    },
+    "affiliated_no_ipcc": {
+     "n": 98,
+     "q1": 3,
+     "median": "3 or 4",
+     "q3": 4,
+     "whisker_low": 2,
+     "whisker_high": 5,
+     "outliers": [
+      1,
+      6,
+      7
+     ],
+     "median_note": "the median coincides with a box edge and the figure does not show which; the line-weight test (below) was negative"
+    }
+   },
+   "whole_sample_quartiles_from_histogram": {
+    "q1": 3,
+    "median": 3,
+    "q3": 4
+   }
+  },
+  {
+   "figure": 7,
+   "page": 30,
+   "variable": "v009d",
+   "question": "How well do you think atmospheric models can deal with precipitation? (1–7)",
+   "N": 602,
+   "mean": 3.776,
+   "bars_pct": null,
+   "bars_note": "the printed histogram repeats Figure 6's bars (noted in 09 §4.1); the whole-sample box plot reads Q1 3, median 4, Q3 5",
+   "subgroups": {
+    "climate_science_ipcc": {
+     "n": 147,
+     "q1": 3,
+     "median": 4,
+     "q3": 5,
+     "whisker_low": 1,
+     "whisker_high": 7,
+     "outliers": []
+    },
+    "climate_science_no_ipcc": {
+     "n": 296,
+     "q1": 3,
+     "median": 4,
+     "q3": 5,
+     "whisker_low": 1,
+     "whisker_high": 7,
+     "outliers": []
+    },
+    "affiliated_ipcc": {
+     "n": 51,
+     "q1": 3,
+     "median": 4,
+     "q3": 5,
+     "whisker_low": 1,
+     "whisker_high": 7,
+     "outliers": []
+    },
+    "affiliated_no_ipcc": {
+     "n": 98,
+     "q1": 3,
+     "median": 4,
+     "q3": 5,
+     "whisker_low": 1,
+     "whisker_high": 7,
+     "outliers": []
+    }
+   }
+  },
+  {
+   "figure": 8,
+   "page": 31,
+   "variable": "v010a",
+   "question": "How well do you think ocean models can deal with hydrodynamics? (1–7)",
+   "N": 433,
+   "mean": 5.023,
+   "bars_pct": [
+    0.9238,
+    1.848,
+    9.931,
+    16.86,
+    31.87,
+    28.87,
+    9.7
+   ],
+   "subgroups": {
+    "climate_science_ipcc": {
+     "n": 113,
+     "q1": 4,
+     "median": 5,
+     "q3": 6,
+     "whisker_low": 1,
+     "whisker_high": 7,
+     "outliers": []
+    },
+    "climate_science_no_ipcc": {
+     "n": 208,
+     "q1": 4,
+     "median": 5,
+     "q3": 6,
+     "whisker_low": 1,
+     "whisker_high": 7,
+     "outliers": []
+    },
+    "affiliated_ipcc": {
+     "n": 40,
+     "q1": 4,
+     "median": 5,
+     "q3": 5,
+     "whisker_low": 3,
+     "whisker_high": 6,
+     "outliers": [
+      7
+     ],
+     "median_note": "median at the box edge marked by a doubled line (line-weight test)"
+    },
+    "affiliated_no_ipcc": {
+     "n": 66,
+     "q1": 4,
+     "median": 5,
+     "q3": 6,
+     "whisker_low": 2,
+     "whisker_high": 7,
+     "outliers": []
+    }
+   },
+   "whole_sample_quartiles_from_histogram": {
+    "q1": 4,
+    "median": 5,
+    "q3": 6
+   }
+  },
+  {
+   "figure": 9,
+   "page": 32,
+   "variable": "v010b",
+   "question": "How well do you think ocean models can deal with heat transport in the ocean? (1–7)",
+   "N": 445,
+   "mean": 4.789,
+   "bars_pct": [
+    0.8989,
+    3.371,
+    10.56,
+    20.0,
+    35.73,
+    25.17,
+    4.27
+   ],
+   "subgroups": {
+    "climate_science_ipcc": {
+     "n": 120,
+     "q1": 4,
+     "median": 5,
+     "q3": 6,
+     "whisker_low": 1,
+     "whisker_high": 7,
+     "outliers": []
+    },
+    "climate_science_no_ipcc": {
+     "n": 211,
+     "q1": 4,
+     "median": 5,
+     "q3": 6,
+     "whisker_low": 1,
+     "whisker_high": 7,
+     "outliers": []
+    },
+    "affiliated_ipcc": {
+     "n": 41,
+     "q1": 4,
+     "median": "4 or 5",
+     "q3": 5,
+     "whisker_low": 3,
+     "whisker_high": 6,
+     "outliers": [],
+     "median_note": "the median coincides with a box edge and the figure does not show which; the line-weight test (below) was negative"
+    },
+    "affiliated_no_ipcc": {
+     "n": 67,
+     "q1": 4,
+     "median": 5,
+     "q3": 6,
+     "whisker_low": 2,
+     "whisker_high": 7,
+     "outliers": []
+    }
+   },
+   "whole_sample_quartiles_from_histogram": {
+    "q1": 4,
+    "median": 5,
+    "q3": 6
+   }
+  },
+  {
+   "figure": 21,
+   "page": 44,
+   "variable": "v013",
+   "question": "Since 1850, it is estimated that the world has warmed by 0.5–0.7 degrees C. Approximately what percent would you attribute to human causes? (1 = 0 %, 2 = 1–25 %, 3 = 26–50 %, 4 = 51–75 %, 5 = 76–100 %)",
+   "N": 587,
+   "mean": 4.266,
+   "bars_pct": [
+    0.6814,
+    4.429,
+    10.73,
+    35.95,
+    48.21
+   ],
+   "subgroups": {
+    "climate_science_ipcc": {
+     "n": 143,
+     "q1": 4,
+     "median": 5,
+     "q3": 5,
+     "whisker_low": 3,
+     "whisker_high": 5,
+     "outliers": [
+      2
+     ],
+     "median_note": "median at the box edge marked by a doubled line (line-weight test)"
+    },
+    "climate_science_no_ipcc": {
+     "n": 282,
+     "q1": 4,
+     "median": "4 or 5",
+     "q3": 5,
+     "whisker_low": 3,
+     "whisker_high": 5,
+     "outliers": [
+      1,
+      2
+     ],
+     "median_note": "the median coincides with a box edge and the figure does not show which; the line-weight test (below) was negative; the whole sample's median is 4 and both IPCC-involved groups' is 5, so at least one of the two non-involved groups has median 4"
+    },
+    "affiliated_ipcc": {
+     "n": 51,
+     "q1": 4,
+     "median": 5,
+     "q3": 5,
+     "whisker_low": 3,
+     "whisker_high": 5,
+     "outliers": [
+      2
+     ],
+     "median_note": "median at the box edge marked by a doubled line (line-weight test)"
+    },
+    "affiliated_no_ipcc": {
+     "n": 102,
+     "q1": 4,
+     "median": "4 or 5",
+     "q3": 5,
+     "whisker_low": 3,
+     "whisker_high": 5,
+     "outliers": [
+      1,
+      2
+     ],
+     "median_note": "the median coincides with a box edge and the figure does not show which; the line-weight test (below) was negative; see climate_science_no_ipcc"
+    }
+   },
+   "whole_sample_quartiles_from_histogram": {
+    "q1": 4,
+    "median": 4,
+    "q3": 5
+   }
+  }
+ ]
+}
