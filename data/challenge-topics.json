@@ -1,0 +1,4166 @@
+{
+ "built": "2026-10-03",
+ "purpose": "09 §6 item 5: a dated list of the challenge literature's topics, typed by the 09 §1 typology, to turn the §3 observation that 'the public challenge concentrates on D and X' into a count.",
+ "types": {
+  "R": "radiative mechanism (whether the greenhouse effect exists and its first-order size)",
+  "D": "data (provenance, adjustment, homogenization, trends in observed series, including software that produces them)",
+  "X": "proxy inference (reconstructions, tree rings, 'hide the decline')",
+  "M": "method (physical models against observations; which instrument licenses the inference)",
+  "A": "attribution (how much of observed change is human; natural causes)",
+  "Q": "magnitude within a shared framework (sensitivity, feedbacks, forcing)",
+  "N": "nonlinearity and thresholds",
+  "PROC": "procedure: IPCC drafting and review, peer review and journals, freedom of information and data access, the conduct of inquiries",
+  "SOC": "sociological: funding, incentives, institutional capture, denigration or suppression of dissent",
+  "FRAME": "framing: what 'consensus', 'settled', 'unequivocal' assert",
+  "POL": "policy, economics, impacts outside the physical science",
+  "NOISE": "not classifiable (off-topic, personal, generic)"
+ },
+ "statements_method": "Topics are the distinct claims each statement makes as recorded in 08 §4–5 from the statements read in the original; each distinct claim is one count, typed by what kind of evidence would settle it (09 §1). 'conceded' marks what the statement grants to the mainstream; 'contested' what it asserts against it. Only contested topics enter the tallies.",
+ "statements": [
+  {
+   "id": "gcc-primer-1995",
+   "date": "1995-12-21",
+   "author": "Global Climate Coalition (Bernstein, STAC)",
+   "title": "Predicting Future Climate Change: A Primer (approval draft)",
+   "read": "P",
+   "where": "08 §4",
+   "topics": [
+    {
+     "problem": "P01",
+     "type": "R",
+     "stance": "conceded",
+     "text": "the greenhouse effect and the warming effect of emissions 'well established'"
+    },
+    {
+     "problem": "P07",
+     "type": "A",
+     "stance": "conceded",
+     "text": "contrarian alternatives (solar, etc.) 'do not offer convincing arguments'"
+    },
+    {
+     "problem": "P03",
+     "type": "M",
+     "stance": "contested",
+     "text": "models cannot yet predict the magnitude, timing or regional pattern of change"
+    },
+    {
+     "problem": "P07",
+     "type": "A",
+     "stance": "contested",
+     "text": "detection of a human signal not yet achieved"
+    }
+   ]
+  },
+  {
+   "id": "seitz-1996",
+   "date": "1996-06-12",
+   "author": "F. Seitz",
+   "title": "A Major Deception on Global Warming (Wall Street Journal)",
+   "read": "P",
+   "where": "08 §4",
+   "topics": [
+    {
+     "problem": null,
+     "type": "PROC",
+     "stance": "contested",
+     "text": "SAR chapter 8 changed after acceptance; 'corruption of the peer-review process'"
+    },
+    {
+     "problem": "P07",
+     "type": "A",
+     "stance": "contested",
+     "text": "the deleted sentences: no study has positively attributed the change to human causes"
+    }
+   ]
+  },
+  {
+   "id": "gcc-packet-1996",
+   "date": "1996-11-11",
+   "author": "Global Climate Coalition",
+   "title": "An Overview, with six briefing papers",
+   "read": "P",
+   "where": "08 §4",
+   "topics": [
+    {
+     "problem": "P01",
+     "type": "R",
+     "stance": "conceded",
+     "text": "natural greenhouse effect; concentrations rising; 0.5 °C warming since the late 19th century"
+    },
+    {
+     "problem": "P13",
+     "type": "A",
+     "stance": "contested",
+     "text": "'most, if not all' of the warming a natural trend begun ~400 years ago"
+    },
+    {
+     "problem": "P04",
+     "type": "Q",
+     "stance": "contested",
+     "text": "'no convincing evidence' that future increases will produce significant climatic effects"
+    },
+    {
+     "problem": "P03",
+     "type": "M",
+     "stance": "contested",
+     "text": "GCM outputs 'should not be regarded as predictions'"
+    },
+    {
+     "problem": "P08",
+     "type": "D",
+     "stance": "contested",
+     "text": "satellite record shows models overestimate warming 'by as much as 400%'"
+    },
+    {
+     "problem": null,
+     "type": "D",
+     "stance": "contested",
+     "text": "'no evidence that extreme weather events… increased' (quoting WG1)"
+    },
+    {
+     "problem": null,
+     "type": "POL",
+     "stance": "contested",
+     "text": "damage estimates tentative; near-term abatement unnecessary (quoting WG2/WG3)"
+    },
+    {
+     "problem": null,
+     "type": "PROC",
+     "stance": "contested",
+     "text": "'full supporting material' against the summaries; the Madrid draft quoted as IPCC conclusions"
+    }
+   ]
+  },
+  {
+   "id": "wegman-2006",
+   "date": "2006-07-14",
+   "author": "E. Wegman, D. Scott, Y. Said",
+   "title": "Ad Hoc Committee Report on the 'Hockey Stick'",
+   "read": "P",
+   "where": "08 §4",
+   "topics": [
+    {
+     "problem": "P09",
+     "type": "X",
+     "stance": "contested",
+     "text": "MBH98/99 methodology (decentred PCA) flawed; MM criticisms 'valid and compelling'"
+    },
+    {
+     "problem": "P09",
+     "type": "X",
+     "stance": "contested",
+     "text": "'hottest decade/year in a millennium' unverifiable"
+    },
+    {
+     "problem": null,
+     "type": "SOC",
+     "stance": "contested",
+     "text": "paleoclimate community a closed social network; 'too much reliance on peer review, which was not necessarily independent'"
+    },
+    {
+     "problem": "P08",
+     "type": "D",
+     "stance": "conceded",
+     "text": "'the instrumented temperature record makes it clear that global temperatures have risen'"
+    }
+   ]
+  },
+  {
+   "id": "lindzen-2008",
+   "date": "2008-09",
+   "author": "R. Lindzen",
+   "title": "Climate Science: Is it currently designed to answer questions? (arXiv)",
+   "read": "P (abstract)",
+   "where": "08 §4",
+   "topics": [
+    {
+     "problem": null,
+     "type": "SOC",
+     "stance": "contested",
+     "text": "'political bodies act to control scientific institutions'; opposition 'disposed of'"
+    },
+    {
+     "problem": "P08",
+     "type": "D",
+     "stance": "contested",
+     "text": "scientists 'adjust both data and even theory to accommodate politically correct positions'"
+    }
+   ]
+  },
+  {
+   "id": "mcintyre-2009-11",
+   "date": "2009-12 to 2011-03",
+   "author": "S. McIntyre",
+   "title": "Climate Audit posts on the 'trick', AR4 chapter 6 and the inquiries",
+   "read": "P",
+   "where": "08 §5.2",
+   "topics": [
+    {
+     "problem": "P09",
+     "type": "X",
+     "stance": "contested",
+     "text": "the divergence truncated in the WMO 1999 figure and AR4 chapter 6 ('hide the decline')"
+    },
+    {
+     "problem": "P09",
+     "type": "X",
+     "stance": "contested",
+     "text": "MBH98/99 statistics (MM03/05)"
+    },
+    {
+     "problem": null,
+     "type": "PROC",
+     "stance": "contested",
+     "text": "AR4 chapter 6 paragraph changed after expert review"
+    },
+    {
+     "problem": null,
+     "type": "PROC",
+     "stance": "contested",
+     "text": "data and code withheld; FOI refused"
+    },
+    {
+     "problem": null,
+     "type": "PROC",
+     "stance": "contested",
+     "text": "the inquiries' terms, witnesses and failure to examine the science"
+    }
+   ]
+  },
+  {
+   "id": "montford-2010",
+   "date": "2010-09",
+   "author": "A. W. Montford (GWPF)",
+   "title": "The Climategate Inquiries",
+   "read": "P",
+   "where": "08 §5.1",
+   "topics": [
+    {
+     "problem": null,
+     "type": "PROC",
+     "stance": "contested",
+     "text": "the inquiries' composition, scope and conduct (Commons, Oxburgh, Russell, Penn State)"
+    },
+    {
+     "problem": "P09",
+     "type": "X",
+     "stance": "contested",
+     "text": "'hide the decline' not examined by the panels"
+    },
+    {
+     "problem": null,
+     "type": "PROC",
+     "stance": "contested",
+     "text": "FOI breaches and peer-review subversion left unexamined"
+    }
+   ]
+  },
+  {
+   "id": "aps-critics-2014",
+   "date": "2014-01-08",
+   "author": "J. Curry, R. Lindzen, J. Christy (APS workshop)",
+   "title": "APS Climate Change Statement Review Workshop, closing panel",
+   "read": "P",
+   "where": "08 §4.1",
+   "topics": [
+    {
+     "problem": "P08",
+     "type": "D",
+     "stance": "conceded",
+     "text": "the warming since 1980 and its moderation since 1998 ('I don't disagree')"
+    },
+    {
+     "problem": "P02",
+     "type": "R",
+     "stance": "conceded",
+     "text": "the CO2 rise anthropogenic"
+    },
+    {
+     "problem": null,
+     "type": "D",
+     "stance": "conceded",
+     "text": "sea level continuing to rise"
+    },
+    {
+     "problem": "P07",
+     "type": "A",
+     "stance": "conceded",
+     "text": "an anthropogenic influence exists ('but I don't know how much')"
+    },
+    {
+     "problem": "P13",
+     "type": "A",
+     "stance": "contested",
+     "text": "'more than half' an expert judgment; '50 percent plus or minus a bit'; natural variability defined away"
+    },
+    {
+     "problem": "P04",
+     "type": "Q",
+     "stance": "contested",
+     "text": "sensitivity lower than the models'"
+    },
+    {
+     "problem": "P08",
+     "type": "M",
+     "stance": "contested",
+     "text": "tropical tropospheric amplification: models overestimate"
+    },
+    {
+     "problem": "P08",
+     "type": "D",
+     "stance": "contested",
+     "text": "'how dicey the data is' (Lindzen's ±0.2 °C)"
+    },
+    {
+     "problem": "P03",
+     "type": "M",
+     "stance": "contested",
+     "text": "AR5 scaling factors imply '25, 30 percent overprediction' (Koonin)"
+    }
+   ]
+  },
+  {
+   "id": "koonin-2014",
+   "date": "2014-09-19",
+   "author": "S. Koonin",
+   "title": "Climate Science Is Not Settled (Wall Street Journal)",
+   "read": "P",
+   "where": "08 §4",
+   "topics": [
+    {
+     "problem": "P07",
+     "type": "A",
+     "stance": "conceded",
+     "text": "the climate is changing and humans are influencing it: 'settled'"
+    },
+    {
+     "problem": "P13",
+     "type": "A",
+     "stance": "contested",
+     "text": "human impact 'comparable to the intrinsic, natural variability'"
+    },
+    {
+     "problem": "P03",
+     "type": "M",
+     "stance": "contested",
+     "text": "models differ by three times the century's warming; fail to capture the slowdown, Antarctic sea ice, the hot spot"
+    },
+    {
+     "problem": null,
+     "type": "D",
+     "stance": "contested",
+     "text": "'the rate of global sea-level rise 70 years ago was as large as what we observe today'"
+    },
+    {
+     "problem": "P04",
+     "type": "Q",
+     "stance": "contested",
+     "text": "the sensitivity range 'no different, and no more certain, than it was 30 years ago'"
+    },
+    {
+     "problem": null,
+     "type": "PROC",
+     "stance": "contested",
+     "text": "the open questions are in the reports but not in the Summary for Policymakers"
+    },
+    {
+     "problem": null,
+     "type": "FRAME",
+     "stance": "contested",
+     "text": "'settled science' as a misdescription"
+    }
+   ]
+  },
+  {
+   "id": "curry-2017",
+   "date": "2017-03-29",
+   "author": "J. Curry",
+   "title": "Written testimony, House Science Committee",
+   "read": "P",
+   "where": "08 §4",
+   "topics": [
+    {
+     "problem": null,
+     "type": "PROC",
+     "stance": "contested",
+     "text": "'an explicit consensus building process' under the UNFCCC mandate"
+    },
+    {
+     "problem": null,
+     "type": "FRAME",
+     "stance": "contested",
+     "text": "a hypothesis 'prematurely elevated… to a ruling theory through claims of a consensus'"
+    },
+    {
+     "problem": null,
+     "type": "SOC",
+     "stance": "contested",
+     "text": "dissenters 'called a denier'; overconfidence removes the motivation to challenge"
+    },
+    {
+     "problem": "P03",
+     "type": "M",
+     "stance": "contested",
+     "text": "models 'not fit for the purpose of attributing the causes of recent warming or for predicting'"
+    },
+    {
+     "problem": "P13",
+     "type": "A",
+     "stance": "contested",
+     "text": "the human share uncertain against natural variability"
+    }
+   ]
+  },
+  {
+   "id": "koonin-2021-24",
+   "date": "2021-04 / 2024",
+   "author": "S. Koonin",
+   "title": "Unsettled (introduction; chapters 4, 5, 6, 8, 10, 11; 2024 edition)",
+   "read": "P",
+   "where": "08 §4",
+   "topics": [
+    {
+     "problem": "P07",
+     "type": "A",
+     "stance": "conceded",
+     "text": "'the globe is warming, and… humans are exerting a warming influence upon it'"
+    },
+    {
+     "problem": "P13",
+     "type": "A",
+     "stance": "contested",
+     "text": "human influence 'growing, but physically small'; data deficiencies prevent untangling"
+    },
+    {
+     "problem": "P03",
+     "type": "M",
+     "stance": "contested",
+     "text": "models disagree with each other and observations; tuning; 'more divergent with each generation'; regional projections 'not fit for purpose'"
+    },
+    {
+     "problem": "P04",
+     "type": "Q",
+     "stance": "contested",
+     "text": "sensitivity: hot models; AR6 range biased; 1.75–2.7 °C"
+    },
+    {
+     "problem": null,
+     "type": "D",
+     "stance": "contested",
+     "text": "US heat records no more frequent than a century ago (CSSR Fig. ES.5 'running records')"
+    },
+    {
+     "problem": null,
+     "type": "D",
+     "stance": "contested",
+     "text": "hurricane trends: PDI since 1949; Kossin 2020 and its correction"
+    },
+    {
+     "problem": null,
+     "type": "A",
+     "stance": "contested",
+     "text": "'no detectable impact on hurricanes'; extremes attribution"
+    },
+    {
+     "problem": null,
+     "type": "D",
+     "stance": "contested",
+     "text": "sea-level rate: 1920–50 comparable to the satellite era; AR6's periods an 'obscuration'"
+    },
+    {
+     "problem": null,
+     "type": "A",
+     "stance": "contested",
+     "text": "'we don't know how much of the rise in global sea levels is due to human-caused warming'"
+    },
+    {
+     "problem": null,
+     "type": "D",
+     "stance": "contested",
+     "text": "Greenland mass loss no larger than in the 1930s"
+    },
+    {
+     "problem": null,
+     "type": "PROC",
+     "stance": "contested",
+     "text": "assessment review ('We disagree'), SPMs 'heavily influenced, if not written, by governments'; Red Team"
+    },
+    {
+     "problem": null,
+     "type": "PROC",
+     "stance": "contested",
+     "text": "'the long game of telephone': summaries and media misstate the reports"
+    },
+    {
+     "problem": null,
+     "type": "SOC",
+     "stance": "contested",
+     "text": "self-censorship; funding and tenure incentives; 'a self-reinforcing alignment of perspectives and interests'"
+    },
+    {
+     "problem": null,
+     "type": "FRAME",
+     "stance": "contested",
+     "text": "'The Science'; the '97 percent consensus… convincingly debunked'"
+    },
+    {
+     "problem": null,
+     "type": "POL",
+     "stance": "contested",
+     "text": "net economic impact minimal; RCP8.5 as 'business as usual'"
+    }
+   ]
+  }
+ ],
+ "per_statement_tallies": {
+  "gcc-primer-1995": {
+   "contested": {
+    "M": 1,
+    "A": 1
+   },
+   "conceded": {
+    "R": 1,
+    "A": 1
+   }
+  },
+  "seitz-1996": {
+   "contested": {
+    "PROC": 1,
+    "A": 1
+   },
+   "conceded": {}
+  },
+  "gcc-packet-1996": {
+   "contested": {
+    "A": 1,
+    "Q": 1,
+    "M": 1,
+    "D": 2,
+    "POL": 1,
+    "PROC": 1
+   },
+   "conceded": {
+    "R": 1
+   }
+  },
+  "wegman-2006": {
+   "contested": {
+    "X": 2,
+    "SOC": 1
+   },
+   "conceded": {
+    "D": 1
+   }
+  },
+  "lindzen-2008": {
+   "contested": {
+    "SOC": 1,
+    "D": 1
+   },
+   "conceded": {}
+  },
+  "mcintyre-2009-11": {
+   "contested": {
+    "X": 2,
+    "PROC": 3
+   },
+   "conceded": {}
+  },
+  "montford-2010": {
+   "contested": {
+    "PROC": 2,
+    "X": 1
+   },
+   "conceded": {}
+  },
+  "aps-critics-2014": {
+   "contested": {
+    "A": 1,
+    "Q": 1,
+    "M": 2,
+    "D": 1
+   },
+   "conceded": {
+    "D": 2,
+    "R": 1,
+    "A": 1
+   }
+  },
+  "koonin-2014": {
+   "contested": {
+    "A": 1,
+    "M": 1,
+    "D": 1,
+    "Q": 1,
+    "PROC": 1,
+    "FRAME": 1
+   },
+   "conceded": {
+    "A": 1
+   }
+  },
+  "curry-2017": {
+   "contested": {
+    "PROC": 1,
+    "FRAME": 1,
+    "SOC": 1,
+    "M": 1,
+    "A": 1
+   },
+   "conceded": {}
+  },
+  "koonin-2021-24": {
+   "contested": {
+    "A": 3,
+    "M": 1,
+    "Q": 1,
+    "D": 4,
+    "PROC": 2,
+    "SOC": 1,
+    "FRAME": 1,
+    "POL": 1
+   },
+   "conceded": {
+    "A": 1
+   }
+  }
+ },
+ "period_tallies_contested": {
+  "1995–96 (industry and Seitz)": {
+   "M": 2,
+   "A": 3,
+   "PROC": 2,
+   "Q": 1,
+   "D": 2,
+   "POL": 1
+  },
+  "2006–11 (the audit years)": {
+   "X": 5,
+   "SOC": 2,
+   "D": 1,
+   "PROC": 5
+  },
+  "2014–17 (the physicists' challenge)": {
+   "A": 3,
+   "Q": 2,
+   "M": 4,
+   "D": 2,
+   "PROC": 2,
+   "FRAME": 2,
+   "SOC": 1
+  },
+  "2021–24 (Unsettled)": {
+   "A": 3,
+   "M": 1,
+   "Q": 1,
+   "D": 4,
+   "PROC": 2,
+   "SOC": 1,
+   "FRAME": 1,
+   "POL": 1
+  }
+ },
+ "commons_2010": {
+  "source": "House of Commons Science and Technology Committee, HC 387 (2009–10), written evidence, memoranda CRU 01–57 as published at publications.parliament.uk/pa/cm200910/cmselect/cmsctech/387b/387we02.htm … 387we56.htm (55 memoranda, including three supplementary), plus the Global Warming Policy Foundation's CRU 27 from the printed volume HC 387-II. Not reached at those addresses: CRU 48, 49, 53 and 54 (institutional submissions — the list of written evidence names the Met Office, the University of East Anglia, the Government Chief Scientific Adviser, the Climate Change E-mails Review team and Richard Thomas among submitters not found).",
+  "method": "Each memorandum was read by an automated summarizer (WebFetch, 2026-10-03) under a fixed instruction to list every distinct topic or allegation in one line and tag it DATA / PROXY / FOI / PEER / IPCC / MODEL / SENS / ATTR / SOLAR / INQ / OTHER, and to state the submitter's stance. The lines were recorded as given (577 + 8). The tags were mapped to the typology's types (DATA→D, PROXY→X, FOI/PEER/IPCC/INQ→PROC, MODEL→M, SENS→Q, ATTR and SOLAR→A) and the 103 OTHER lines sorted by keyword into SOC, D, PROC, POL, R, FRAME and NOISE, with the result inspected line by line. Five memoranda (McKitrick CRU 31, McIntyre CRU 32, Montford CRU 36, Peiser CRU 38, Institute of Physics CRU 39) were compared with the memoranda as known to the project and found faithfully summarized; the memoranda were not otherwise read in full. A topic line is one count; memoranda differ in length (3 to 95 paragraphs), so the memorandum-level counts (how many memoranda raise a type at all) are the safer measure.",
+  "n_memoranda": 56,
+  "n_critical": 46,
+  "stances": {
+   "critical": 46,
+   "neutral": 5,
+   "supportive": 5
+  },
+  "lines_by_type_all": {
+   "D": 152,
+   "PROC": 252,
+   "X": 45,
+   "A": 28,
+   "NOISE": 11,
+   "POL": 9,
+   "SOC": 64,
+   "M": 16,
+   "Q": 4,
+   "R": 1,
+   "FRAME": 3
+  },
+  "lines_by_type_critical": {
+   "D": 120,
+   "PROC": 204,
+   "X": 38,
+   "A": 25,
+   "NOISE": 10,
+   "POL": 9,
+   "SOC": 58,
+   "M": 14,
+   "Q": 4,
+   "R": 1,
+   "FRAME": 1
+  },
+  "procedure_lines_by_subtag_critical": {
+   "FOI": 63,
+   "PEER": 65,
+   "INQ": 32,
+   "IPCC": 40
+  },
+  "memoranda_raising_type_all": {
+   "PROC": 55,
+   "X": 21,
+   "D": 44,
+   "A": 14,
+   "POL": 5,
+   "NOISE": 7,
+   "SOC": 25,
+   "M": 11,
+   "Q": 4,
+   "R": 1,
+   "FRAME": 3
+  },
+  "memoranda_raising_type_critical": {
+   "PROC": 45,
+   "X": 18,
+   "D": 35,
+   "A": 12,
+   "POL": 5,
+   "NOISE": 6,
+   "SOC": 21,
+   "M": 10,
+   "Q": 4,
+   "R": 1,
+   "FRAME": 1
+  },
+  "critical_memoranda_raising_D_or_X": 39,
+  "critical_memoranda_raising_M_Q_A_or_N": 18,
+  "critical_memoranda_raising_no_science_type": 6,
+  "memoranda": [
+   {
+    "page": "pdf",
+    "cru_number": "CRU 27",
+    "submitter": "Global Warming Policy Foundation",
+    "stance": "critical",
+    "length_paragraphs": 5,
+    "topics": [
+     {
+      "text": "CRU scientists adjusting raw surface temperature data without full objectivity",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Refusing dissenting scientists access to raw data",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Improperly avoiding Freedom of Information Act requests",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Preventing dissenting scientists' papers from peer review/publication",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Tree-ring proxies diverging from measured temperatures; the divergence concealed",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "NASA, NOAA datasets not wholly independent; satellite data differs from CRU",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Muir Russell review needs stronger focus on treatment of dissenting scientists",
+      "tag": "INQ",
+      "type": "PROC"
+     },
+     {
+      "text": "Committee members biased toward the climate-science establishment",
+      "tag": "INQ",
+      "type": "PROC"
+     }
+    ]
+   },
+   {
+    "page": "02",
+    "cru_number": "CRU 01",
+    "submitter": "Richard S Courtney",
+    "stance": "critical",
+    "length_paragraphs": 13,
+    "topics": [
+     {
+      "text": "Mean Global Temperature (MGT) estimates are unreliable and \"worthless\"",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Different MGT datasets (Jones, GISS, GHCN) show significantly divergent trends",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "MGT data sets undergo frequent unexplained alterations to historical values",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Attribution studies use flawed MGT data, producing \"garbage in, garbage out\" results",
+      "tag": "ATTR",
+      "type": "A"
+     },
+     {
+      "text": "Peer review process blocked publication of critical paper on MGT problems",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Nature journal rejected comparative dataset analysis without substantive scientific reason",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Data sets changed whenever paper was submitted, preventing publication",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Attribution methodology is fundamentally flawed; cannot prove anthropogenic causation",
+      "tag": "ATTR",
+      "type": "A"
+     },
+     {
+      "text": "MSU satellite and radiosonde data contradict surface temperature warming claims",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Solar variability correlates more strongly with temperature patterns than CO2",
+      "tag": "SOLAR",
+      "type": "A"
+     },
+     {
+      "text": "MGT lacks independent calibration for verification",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Compensation models for measurement equipment imperfections generate spurious trends",
+      "tag": "DATA",
+      "type": "D"
+     }
+    ]
+   },
+   {
+    "page": "03",
+    "cru_number": "CRU 02",
+    "submitter": "Edward Dilley",
+    "stance": "critical",
+    "length_paragraphs": 3,
+    "topics": [
+     {
+      "text": "Climate change science requires proper perspective and context",
+      "tag": "OTHER",
+      "type": "NOISE"
+     },
+     {
+      "text": "Decision-makers may be misled by incomplete climate information",
+      "tag": "OTHER",
+      "type": "POL"
+     }
+    ]
+   },
+   {
+    "page": "04",
+    "cru_number": "CRU 03",
+    "submitter": "Stuart Huggett",
+    "stance": "critical",
+    "length_paragraphs": 13,
+    "topics": [
+     {
+      "text": "CRU's scientific mandate questioned regarding impartiality",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Stifling of debate, peer review, and FOI requests",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Research manipulation described as serious fraud",
+      "tag": "OTHER",
+      "type": "D"
+     },
+     {
+      "text": "Data manipulation and irregular statistical practices alleged",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Loss of raw data sets documented",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "IPCC questionable practices: Himalayan glacier claims",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "GISS and NOAA temperature data manipulation alleged",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "\"Settled science\" and consensus claims losing credibility",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Independent review terms inadequate regarding financial consequences",
+      "tag": "INQ",
+      "type": "PROC"
+     }
+    ]
+   },
+   {
+    "page": "05",
+    "cru_number": "CRU 04",
+    "submitter": "Walter Radtke",
+    "stance": "critical",
+    "length_paragraphs": 5,
+    "topics": [
+     {
+      "text": "Institutional disregard for scientific method in multiple disciplines",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Funding and ideology influence research priorities and publication",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Suppression of competing theories from foundational hypotheses",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Researchers frozen out of publishing and funding access",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "PhD programs exhibit doctrinal prejudice and ideology filtration",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Need for permanent government whistleblower investigation body",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Climate research reflects broader systemic problems across sciences",
+      "tag": "OTHER",
+      "type": "SOC"
+     }
+    ]
+   },
+   {
+    "page": "06",
+    "cru_number": "CRU 05",
+    "submitter": "G R Ryan",
+    "stance": "critical",
+    "length_paragraphs": 4,
+    "topics": [
+     {
+      "text": "IPCC climate models don't apply comparable sampling protocols to different data types",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Urban heat island effect invalidates temperature comparisons from same locations over decades",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Sea level measurements lack atmospheric pressure and temperature records for proper adjustment",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Lack of proper sampling methodology undermines confidence in IPCC conclusions",
+      "tag": "IPCC",
+      "type": "PROC"
+     }
+    ]
+   },
+   {
+    "page": "07",
+    "cru_number": "CRU 06",
+    "submitter": "Geoffrey Sherrington",
+    "stance": "critical",
+    "length_paragraphs": 21,
+    "topics": [
+     {
+      "text": "Einstein quotes on scientific method and falsifiability",
+      "tag": "OTHER",
+      "type": "NOISE"
+     },
+     {
+      "text": "CRU integrity concerns and public loss of faith in science",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Mandatory scientific data and code release requirements needed",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Suspected coordinated effort to promote global warming hypotheses",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Independence of Russell Review's terms of reference questioned",
+      "tag": "INQ",
+      "type": "PROC"
+     },
+     {
+      "text": "CRU refusal to release data to critics for decades",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Data destruction by CRU contrary to university policy",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Attempted FOI law circumvention by CRU staff",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Alleged illegal use of British Meteorological Office data",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Collusion between CRU, NOAA, and GISS temperature records",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Falsified graphics combining instrumental and proxy temperature records",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "Severe temperature data manipulation shown in Darwin station graph",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Large error bounds render temperature dataset agreement meaningless",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Lack of raw data availability impedes independent audit",
+      "tag": "FOI",
+      "type": "PROC"
+     }
+    ]
+   },
+   {
+    "page": "08",
+    "cru_number": "CRU 07",
+    "submitter": "Lalu Hanuman",
+    "stance": "critical",
+    "length_paragraphs": 5,
+    "topics": [
+     {
+      "text": "UEA falsified climate change information undermining global climate action",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "CRU data disclosure damaged Copenhagen climate negotiations",
+      "tag": "OTHER",
+      "type": "POL"
+     },
+     {
+      "text": "Muir Russell review inadequate regarding FoI compliance examination",
+      "tag": "INQ",
+      "type": "PROC"
+     },
+     {
+      "text": "UEA institutional pattern of falsifications, distortions, misrepresentations",
+      "tag": "OTHER",
+      "type": "D"
+     },
+     {
+      "text": "CRU distortions compliant with University's existing policies/practices",
+      "tag": "INQ",
+      "type": "PROC"
+     },
+     {
+      "text": "Need for wider inquiry into UEA institutional failings",
+      "tag": "INQ",
+      "type": "PROC"
+     }
+    ]
+   },
+   {
+    "page": "09",
+    "cru_number": "CRU 08",
+    "submitter": "John Wadsworth",
+    "stance": "critical",
+    "length_paragraphs": 6,
+    "topics": [
+     {
+      "text": "Chair's pre-judgment of investigation outcomes regarding climate science quality",
+      "tag": "INQ",
+      "type": "PROC"
+     },
+     {
+      "text": "Concerns about committee independence and impartiality in reviewing CRU emails",
+      "tag": "INQ",
+      "type": "PROC"
+     },
+     {
+      "text": "Researcher lack of climate science credentials but engineering physics background",
+      "tag": "OTHER",
+      "type": "NOISE"
+     },
+     {
+      "text": "Emotional and dismissive responses from both sides of climate debate",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Skepticism about whether inquiry will be perceived as independent review",
+      "tag": "INQ",
+      "type": "PROC"
+     }
+    ]
+   },
+   {
+    "page": "10",
+    "cru_number": "CRU 09",
+    "submitter": "Peter Sinclair",
+    "stance": "critical",
+    "length_paragraphs": 7,
+    "topics": [
+     {
+      "text": "Use of language \"deniers\" reflects prejudice against climate skeptics",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Scientific skepticism and debate should be central to science",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Peer review process was corrupted by CRU",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Committee inquiry designed as propaganda platform for AGW advocacy",
+      "tag": "INQ",
+      "type": "PROC"
+     },
+     {
+      "text": "CRU motivated by protection of substantial research funding",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Public perception of climate scientists is already eroded",
+      "tag": "OTHER",
+      "type": "SOC"
+     }
+    ]
+   },
+   {
+    "page": "11",
+    "cru_number": "CRU 10",
+    "submitter": "Ian Goddard",
+    "stance": "critical",
+    "length_paragraphs": 3,
+    "topics": [
+     {
+      "text": "Use of derogatory language (\"climate change deniers\") toward skeptics",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Insufficient evidence standards; reliance on Al Gore film and Hockey Stick graph",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "Committee demonstrates partisan bias on climate science",
+      "tag": "INQ",
+      "type": "PROC"
+     },
+     {
+      "text": "Historical precedent: 1960s predictions favored cooling/ice age scenarios",
+      "tag": "SOLAR",
+      "type": "A"
+     }
+    ]
+   },
+   {
+    "page": "12",
+    "cru_number": "CRU 11",
+    "submitter": "Stephen McIntyre",
+    "stance": "critical",
+    "length_paragraphs": 2,
+    "topics": [
+     {
+      "text": "Independence of international temperature datasets",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Importance of 1000-year temperature reconstructions in Climategate",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "Independence of IPCC-used temperature reconstructions",
+      "tag": "IPCC",
+      "type": "PROC"
+     }
+    ]
+   },
+   {
+    "page": "13",
+    "cru_number": "CRU 12",
+    "submitter": "Martin Brumby",
+    "stance": "critical",
+    "length_paragraphs": 3,
+    "topics": [
+     {
+      "text": "Cherry picking and manipulation of raw climate data",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Inappropriate statistical methods and computer programming",
+      "tag": "MODEL",
+      "type": "M"
+     },
+     {
+      "text": "Refusal to comply with legitimate Freedom of Information requests",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Destruction of data requested under Freedom of Information",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Systematic attempts to prevent publication of conflicting research",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Concerns about inquiry independence and potential bias toward climate change consensus",
+      "tag": "INQ",
+      "type": "PROC"
+     },
+     {
+      "text": "Public funding of researchers influencing major UK political party policy",
+      "tag": "OTHER",
+      "type": "SOC"
+     }
+    ]
+   },
+   {
+    "page": "14",
+    "cru_number": "CRU 13",
+    "submitter": "Susan Ewens",
+    "stance": "critical",
+    "length_paragraphs": 25,
+    "topics": [
+     {
+      "text": "CRU emails confirm long-held suspicions about data disclosure disputes",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Concerns about moral and scientific ethics in CRU communications",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "CRU politically advocates debatable findings rather than pursuing impartial research",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "BBC maintains settled science policy, excluding contrarian scientist coverage",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Counter-arguments to AGW face ad hominem attacks instead of substantive response",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "CRU too closely entwined with IPCC, advocacy groups, government",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Global \"climatechangeism\" ideology entrenched across institutions with vested interests",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "CRU funded specifically to demonstrate anthropogenic signal, not pursue independent inquiry",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Raw temperature data subject to questionable adjustments and cherry-picked station selection",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Urban heat island effect significance underestimated despite massive population growth",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Sub-one-degree temperature changes insufficient basis for major policy changes",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Climate sensitivity and feedback mechanisms remain inadequately researched",
+      "tag": "SENS",
+      "type": "Q"
+     },
+     {
+      "text": "Historical temperature data adjusted downwards to artificially enhance warming trends",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "CRU data and code lack transparency; FOIA process obstructed",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Tree ring proxies inappropriately used as temperature reconstructions",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "Post-1960 tree ring divergence concealed rather than explained in graphs",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "Jones and Briffa as IPCC Lead Authors judged own research, excluded criticism",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Tight co-authorship network within CRU community reviewed each other's work",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Young scientists pressured to support AGW hypothesis or face retaliation",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "CRU politicized from IPCC involvement inception, staff motivated by funding",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Sir Muir Russell insufficiently independent; possesses Scottish Power association",
+      "tag": "INQ",
+      "type": "PROC"
+     },
+     {
+      "text": "Single investigator inadequate; need interdisciplinary team independent of IPCC clique",
+      "tag": "INQ",
+      "type": "PROC"
+     }
+    ]
+   },
+   {
+    "page": "15",
+    "cru_number": "CRU 14",
+    "submitter": "Roger Helmer MEP",
+    "stance": "critical",
+    "length_paragraphs": 6,
+    "topics": [
+     {
+      "text": "Hockey Stick graph comprehensively debunked by independent statisticians",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "IPCC Himalayan Glaciers 2035 melting prediction entirely without foundation",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "IPCC natural catastrophes cost claim not peer-reviewed, from lobby group",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "CRU emails show deliberate systematic attempt to falsify data",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Scientists attempted to \"hide the decline\" and exaggerate warming",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "CRU temperature data variance with satellite data shows moderate rise",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "CRU scientists linked with other institutions, casting doubt on basic data",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Stern Review conclusions unreliable due to discredited climate-catastrophe link",
+      "tag": "OTHER",
+      "type": "POL"
+     },
+     {
+      "text": "Independent statisticians should validate CRU source data and temperature records",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Committee should hear from data collection method critics",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Lord Stern should recalculate excluding natural disaster cost assumptions",
+      "tag": "OTHER",
+      "type": "POL"
+     },
+     {
+      "text": "Independent economists should verify Stern Review analysis and discount rate",
+      "tag": "OTHER",
+      "type": "POL"
+     }
+    ]
+   },
+   {
+    "page": "16",
+    "cru_number": "CRU 15",
+    "submitter": "Stephen Prower",
+    "stance": "critical",
+    "length_paragraphs": 4,
+    "topics": [
+     {
+      "text": "Met Office initially recommended full reanalysis of CRU temperature data",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Leaked emails suggested data manipulation and suppression at CRU",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Public confidence in climate science undermined by \"Climategate\" controversy",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Raw temperature data from weather stations not publicly accessible",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Independent Review terms should include \"admission\" and \"creation\" of data",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "CRU's 160-year global temperature record integrity compromised",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Met Office reversed position on reanalysis within hours",
+      "tag": "INQ",
+      "type": "PROC"
+     },
+     {
+      "text": "Debate between skeptics like Steve McIntyre and CRU unresolved",
+      "tag": "OTHER",
+      "type": "NOISE"
+     },
+     {
+      "text": "Government attempted to prevent Met Office reanalysis",
+      "tag": "INQ",
+      "type": "PROC"
+     },
+     {
+      "text": "Met Office planned data transparency before \"Climategate\" emerged",
+      "tag": "FOI",
+      "type": "PROC"
+     }
+    ]
+   },
+   {
+    "page": "17",
+    "cru_number": "CRU 16",
+    "submitter": "Eric Rasmusen",
+    "stance": "neutral",
+    "length_paragraphs": 8,
+    "topics": [
+     {
+      "text": "Criminal concealment of scientific research data lacks legal punishment in UK",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Statute of limitations prevents prosecution of data concealment offenses",
+      "tag": "INQ",
+      "type": "PROC"
+     },
+     {
+      "text": "Parliament should enact new legislation to punish nondisclosure of scientific data",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "UK could retroactively change law to prosecute already-illegal concealment",
+      "tag": "INQ",
+      "type": "PROC"
+     },
+     {
+      "text": "Officials may hide behind statute of limitations to avoid prosecution",
+      "tag": "INQ",
+      "type": "PROC"
+     }
+    ]
+   },
+   {
+    "page": "18",
+    "cru_number": "CRU 17",
+    "submitter": "Phillip Bratby",
+    "stance": "critical",
+    "length_paragraphs": 27,
+    "topics": [
+     {
+      "text": "Cherry-picking of data to confirm hypotheses rather than falsify them",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Selective use and fabrication of raw data, including accusations against Wang",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Undocumented, unarchived computer models kept secret from independent verification",
+      "tag": "MODEL",
+      "type": "M"
+     },
+     {
+      "text": "Manipulation of peer review to favor collaborators and exclude skeptical papers",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Threats to journal editors to control publication outcomes",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Deliberate obstruction of Freedom of Information Act requests",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Deletion of files to avoid FOI compliance",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Coordinated email deletion among scientists to circumvent FOI",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Inversion of scientific methodology: hypothesis-first rather than evidence-driven",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Absence of quality management systems in climate research",
+      "tag": "OTHER",
+      "type": "PROC"
+     },
+     {
+      "text": "Corruption extending beyond CRU to Met Office and Hadley Centre",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Twenty-year period of compromised climate science affecting entire generation",
+      "tag": "OTHER",
+      "type": "SOC"
+     }
+    ]
+   },
+   {
+    "page": "19",
+    "cru_number": "CRU 18",
+    "submitter": "Godfrey Bloom MEP",
+    "stance": "critical",
+    "length_paragraphs": 5,
+    "topics": [
+     {
+      "text": "Hockey Stick graph comprehensively debunked by independent statisticians",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "IPCC Himalayan Glaciers 2035 prediction entirely without foundation",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "IPCC natural catastrophes-warming link not peer-reviewed science",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Statistical corruption on grand scale evidenced from New Zealand",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "CRU emails show deliberate systematic attempt to falsify data",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Scientists attempted to \"hide the decline\" and exaggerate warming",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "CRU temperature data variance with satellite data showing moderate rise",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "CRU scientists linked with other institutions, casting doubt on IPCC data",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Stern Review conclusions unreliable due to discredited catastrophe-warming link",
+      "tag": "OTHER",
+      "type": "POL"
+     },
+     {
+      "text": "Current climate changes not exceptional compared to previous periods",
+      "tag": "SOLAR",
+      "type": "A"
+     },
+     {
+      "text": "Climate changes driven largely by natural terrestrial and astronomical cycles",
+      "tag": "SOLAR",
+      "type": "A"
+     },
+     {
+      "text": "No convincing evidence of significant human impact on climate",
+      "tag": "ATTR",
+      "type": "A"
+     },
+     {
+      "text": "Proposed mitigation efforts will have no effect",
+      "tag": "OTHER",
+      "type": "POL"
+     }
+    ]
+   },
+   {
+    "page": "20",
+    "cru_number": "CRU 19",
+    "submitter": "Clive Menzies",
+    "stance": "critical",
+    "length_paragraphs": 56,
+    "topics": [
+     {
+      "text": "Medieval Warm Period and Little Ice Age absent from hockey stick graph",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "MBH98 hockeystick methodology lacks statistical rigor and peer review independence",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "Temperature records affected by urban heat island effects and inconsistent station siting",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Proxy data limitations prevent comprehensive global temperature reconstruction",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "Satellite data show warming less pronounced than model predictions",
+      "tag": "MODEL",
+      "type": "M"
+     },
+     {
+      "text": "CO2 rise followed temperature increases by ~800 years historically",
+      "tag": "ATTR",
+      "type": "A"
+     },
+     {
+      "text": "Man-made CO2 represents only 3% of total CO2 emissions",
+      "tag": "ATTR",
+      "type": "A"
+     },
+     {
+      "text": "CO2 influence on warming is logarithmic and marginal at current levels",
+      "tag": "SENS",
+      "type": "Q"
+     },
+     {
+      "text": "Hurricane frequency increase attributable to improved monitoring, not climate change",
+      "tag": "SOLAR",
+      "type": "A"
+     },
+     {
+      "text": "Antarctic cooling observed 1966-2000; Arctic ice recently expanded",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Himalayan glacier retreat overstated by IPCC; solar radiation primary cause",
+      "tag": "SOLAR",
+      "type": "A"
+     },
+     {
+      "text": "Wikipedia articles on climate topics manipulated to suppress dissenting views",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "IPCC Summary for Policymakers inconsistent with underlying science submissions",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Only 53 IPCC authors explicitly supported significant human climate influence",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Structural financial incentives favor AGW hypothesis over alternative research funding",
+      "tag": "OTHER",
+      "type": "SOC"
+     }
+    ]
+   },
+   {
+    "page": "21",
+    "cru_number": "CRU 20",
+    "submitter": "Dr Michael Simons",
+    "stance": "critical",
+    "length_paragraphs": 11,
+    "topics": [
+     {
+      "text": "CRU concealed data requested under Freedom of Information Act",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Scientists discussed deleting data rather than making it public",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "CRU removed previously available data from its website",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "CRU claimed to have lost original raw climate data",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Scientists boycotted journals insisting on full data publication",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Mann suggested boycotting Climate Research journal over editorial decisions",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Efforts to remove editors deemed unfavorable to consensus views",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Pressure applied to BBC regarding climate science broadcast content",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Editorial policies manipulated to suppress contrary scientific viewpoints",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Research funding preferentially directed to support particular climate narrative",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Selective grant allocation created incentives for scientifically flawed behavior",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Scientific establishment tacitly condoned data concealment and malpractices",
+      "tag": "OTHER",
+      "type": "PROC"
+     },
+     {
+      "text": "Non-publication of climate models kept alongside data non-disclosure",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Scientific integrity undermined by lack of transparency in climate research",
+      "tag": "OTHER",
+      "type": "SOC"
+     }
+    ]
+   },
+   {
+    "page": "22",
+    "cru_number": "CRU 21",
+    "submitter": "Aporia",
+    "stance": "critical",
+    "length_paragraphs": 6,
+    "topics": [
+     {
+      "text": "Research funding priorities manipulation by \"machinery of government\" subversion",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Suppression of research data contrary to scholarly impartiality standards",
+      "tag": "OTHER",
+      "type": "PROC"
+     },
+     {
+      "text": "Violation of Haldane Principle regarding scientific independence",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Excellence-based funding assessment allegedly compromised",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Distinction between \"anonymous data\" and \"anonymised data\" in archival integrity",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Public interest disclosure practices requiring careful procedural handling",
+      "tag": "OTHER",
+      "type": "PROC"
+     }
+    ]
+   },
+   {
+    "page": "23",
+    "cru_number": "CRU 22",
+    "submitter": "David Shaw",
+    "stance": "critical",
+    "length_paragraphs": 29,
+    "topics": [
+     {
+      "text": "Temperature data cherry-picking and sensor exclusion practices",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "NASA reducing weather station sample from 6,000 to 1,000 without explanation",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Urban heat island effects inadequately addressed in surface measurements",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Satellite measurements show little warming compared to surface records",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Mann's hockey stick inappropriately mixes proxy and real temperature data",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "CRU released only 10 of 105 FOI requests in full",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Climate science operates as closed peer review system suppressing dissent",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "IPCC reports contain claims from non-peer-reviewed sources (Greenpeace, WWF)",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Complex climate models lack adequate data and contain unvalidated assumptions",
+      "tag": "MODEL",
+      "type": "M"
+     },
+     {
+      "text": "Burden of proof reversed; alternative hypothesis treated as default",
+      "tag": "ATTR",
+      "type": "A"
+     },
+     {
+      "text": "Publication bias favors positive findings over null results in climate research",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Solar cycles and natural variability better explain temperature patterns",
+      "tag": "SOLAR",
+      "type": "A"
+     },
+     {
+      "text": "Current temperatures unremarkable compared to historical cyclical warming trends",
+      "tag": "SOLAR",
+      "type": "A"
+     },
+     {
+      "text": "IPCC glacier claims acknowledged as erroneous after delayed withdrawal",
+      "tag": "IPCC",
+      "type": "PROC"
+     }
+    ]
+   },
+   {
+    "page": "24",
+    "cru_number": "CRU 23",
+    "submitter": "Dr D R Keiller",
+    "stance": "critical",
+    "length_paragraphs": 11,
+    "topics": [
+     {
+      "text": "Non-independence of NOAA, NASA GISS, and CRU temperature databases",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Systematic alteration of instrumental temperature data (1850-1980) undermines warming assessment",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Serious flaws in terrestrial surface-temperature databases prevent accurate trend determination",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Station closure bias toward removing cooler rural and high-altitude sites",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Multiple data adjustment procedures systematically increase apparent warming",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Urban heat island effect underestimated; current corrections inadequate",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Improper instrument siting introduces warm bias exceeding 1°C",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Instrument changes (HO-83 thermometer) created uncorrected discontinuities",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Post-homogenisation data processing obscures station quality problems",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Satellite measurements diverge from ground records, suggesting surface data warm bias",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "CRU conspiracy to obstruct legitimate data access requests",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "All peer-reviewed publications relying on CRU data should be withdrawn as unproven",
+      "tag": "PEER",
+      "type": "PROC"
+     }
+    ]
+   },
+   {
+    "page": "25",
+    "cru_number": "CRU 24",
+    "submitter": "David Holland",
+    "stance": "critical",
+    "length_paragraphs": 42,
+    "topics": [
+     {
+      "text": "Climate scientists colluded to subvert peer-review and IPCC processes",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Suppression of research disagreeing with consensus warming conclusions",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Deletion of procedural information to avoid freedom-of-information disclosures",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "IPCC assessment process lacked openness and transparency",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Medieval Warm Period evidence deliberately excluded from IPCC reports",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "Mann's \"hockey stick\" reconstruction comprehensively discredited by peer-reviewed studies",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "IPCC deadline changed retroactively to include Wahl-Ammann paper improperly",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Expert reviewers' comments ignored; informal review processes circumvented",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Confidential reviewer comments shared with authors of disputed papers",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Freedom-of-information requests systematically obstructed by multiple institutions",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Ministerial veto misused to prevent disclosure of government records",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Temperature datasets insufficiently scrutinized for methodological soundness",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Review editors' authority undermined; their reports never examined",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Government failed to ensure IPCC transparency and public accountability",
+      "tag": "IPCC",
+      "type": "PROC"
+     }
+    ]
+   },
+   {
+    "page": "26",
+    "cru_number": "CRU 25",
+    "submitter": "Ronald K Bolton",
+    "stance": "critical",
+    "length_paragraphs": 56,
+    "topics": [
+     {
+      "text": "CRU faked scientific data about global warming for funding",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "IPCC deliberately requested fabricated evidence of anthropogenic warming",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Solar activity (sunspots) is the major factor influencing Earth's climate",
+      "tag": "SOLAR",
+      "type": "A"
+     },
+     {
+      "text": "Greenhouse gases comprise only 5% of atmospheric composition; water vapor dominates",
+      "tag": "OTHER",
+      "type": "R"
+     },
+     {
+      "text": "CO2 increase follows temperature increases with ~800-year lag, not vice versa",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Medieval Warm Period and Little Ice Age demonstrate natural climate cycles",
+      "tag": "SOLAR",
+      "type": "A"
+     },
+     {
+      "text": "Al Gore misrepresented climate consensus and cherry-picked extreme projections",
+      "tag": "OTHER",
+      "type": "FRAME"
+     },
+     {
+      "text": "Global warming narrative serves agenda of establishing totalitarian world government",
+      "tag": "OTHER",
+      "type": "NOISE"
+     },
+     {
+      "text": "Rockefeller interests control pharmaceutical industry, UN, and promote depopulation",
+      "tag": "OTHER",
+      "type": "NOISE"
+     },
+     {
+      "text": "Scientists face funding pressure and career ostracism for questioning AGW",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Climate data manipulation constitutes serious crime warranting legal prosecution",
+      "tag": "OTHER",
+      "type": "D"
+     },
+     {
+      "text": "Independent review by UEA should ensure full disclosure, not cover-up",
+      "tag": "INQ",
+      "type": "PROC"
+     }
+    ]
+   },
+   {
+    "page": "27",
+    "cru_number": "CRU 25a",
+    "submitter": "Ronald K Bolton",
+    "stance": "critical",
+    "length_paragraphs": 9,
+    "topics": [
+     {
+      "text": "Police should investigate alleged crimes by CRU scientists",
+      "tag": "OTHER",
+      "type": "NOISE"
+     },
+     {
+      "text": "Parliament should investigate corruption of science supporting funded scares",
+      "tag": "OTHER",
+      "type": "NOISE"
+     },
+     {
+      "text": "Global warming claims contradicted by recent cold winters and snow",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Worldwide temperatures have declined for 15 years despite warming claims",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Swine flu vaccine caused more deaths than the actual disease",
+      "tag": "OTHER",
+      "type": "NOISE"
+     },
+     {
+      "text": "Scientists linked to pharmaceutical companies hyped swine flu risks",
+      "tag": "OTHER",
+      "type": "NOISE"
+     },
+     {
+      "text": "UN pushing politicians to support anthropogenic global warming without basis",
+      "tag": "ATTR",
+      "type": "A"
+     },
+     {
+      "text": "Much evidence supporting AGW has been discredited",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Need proper examination of what science really shows on AGW",
+      "tag": "ATTR",
+      "type": "A"
+     },
+     {
+      "text": "Committee should increase openness and public involvement in investigations",
+      "tag": "INQ",
+      "type": "PROC"
+     }
+    ]
+   },
+   {
+    "page": "28",
+    "cru_number": "CRU 26",
+    "submitter": "Dr Sonja Boehmer-Christiansen",
+    "stance": "critical",
+    "length_paragraphs": 95,
+    "topics": [
+     {
+      "text": "CRU attempts to manipulate peer review processes against *Energy & Environment* journal",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Libel threats considered against editorial team of skeptical climate journal",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Pressure applied to submitter's university department by CRU leadership",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Publication of papers questioning \"hockey stick\" graph methodology provoked CRU anger",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "CRU allegations of \"malicious\" interference with grant schedules and planning data use",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Close protective collaboration between CRU, Hadley Centre, and US research bodies",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Government-funded climate science required to support decarbonization policy agenda",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Research funding system tied to policy relevance creates pressure on scientists",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Climate science presented as environmental protection while serving energy policy goals",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "IPCC consensus allegedly politically created rather than independently derived",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Multiple international temperature datasets rely on same primary sources, not independent",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Urban heat island effect and declining measurement points affect data reliability",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Human contributions to postglacial climate change cannot yet be properly assessed",
+      "tag": "ATTR",
+      "type": "A"
+     }
+    ]
+   },
+   {
+    "page": "29",
+    "cru_number": "CRU 26a",
+    "submitter": "Dr Sonja Boehmer-Christiansen",
+    "stance": "critical",
+    "length_paragraphs": 7,
+    "topics": [
+     {
+      "text": "Absence of climate scientists critical of CRU/IPCC work from hearings",
+      "tag": "INQ",
+      "type": "PROC"
+     },
+     {
+      "text": "Peer review involves \"cliques\" selecting each other's work for publication",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Peer review does not typically involve checking original data or truth",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Government officials presented as pure scientists despite administrative roles",
+      "tag": "INQ",
+      "type": "PROC"
+     },
+     {
+      "text": "Government science managers avoid challenging consensus until retirement",
+      "tag": "INQ",
+      "type": "PROC"
+     },
+     {
+      "text": "Met Office claims about resolving earlier skeptical doubts unproven",
+      "tag": "OTHER",
+      "type": "D"
+     },
+     {
+      "text": "UK policy assumes rapid, dangerous warming caused by CO2",
+      "tag": "ATTR",
+      "type": "A"
+     },
+     {
+      "text": "Emission scenarios in climate models drive dangerous warming threat",
+      "tag": "MODEL",
+      "type": "M"
+     },
+     {
+      "text": "Hockey stick construction misused by policy-makers for advocacy",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "Temperature reconstructions methodology disputed among scientific critics",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "Recent warming appears to have stopped according to critics",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "IPCC's \"90% likely\" warming figure lacks transparent derivation",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Twenty years of slight warming not necessarily unusual or dangerous",
+      "tag": "SENS",
+      "type": "Q"
+     }
+    ]
+   },
+   {
+    "page": "30",
+    "cru_number": "CRU 28",
+    "submitter": "Dr Timothy J Osborn",
+    "stance": "supportive",
+    "length_paragraphs": 40,
+    "topics": [
+     {
+      "text": "Hacked files represent incomplete, non-random selection of documents",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "CRU did not destroy raw temperature station data",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Temperature data were not manipulated to show predetermined warming outcome",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Adjustments to station data tend to cancel out globally",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Peer-review system was not manipulated to disadvantage skeptical views",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Ben Santer article received appropriate editorial treatment based on merit",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Keith Briffa's editorial instruction was standard academic practice",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "IPCC authors reasonably select which papers merit inclusion",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Wahl and Ammann reference followed established IPCC procedural rules",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Computer code comments do not indicate undisclosed data manipulation",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "\"Fudge factor\" and adjustment notes were internal working documents",
+      "tag": "DATA",
+      "type": "D"
+     }
+    ]
+   },
+   {
+    "page": "31",
+    "cru_number": "CRU 29",
+    "submitter": "Professor Peter Cox",
+    "stance": "supportive",
+    "length_paragraphs": 9,
+    "topics": [
+     {
+      "text": "Public confidence in climate science undermined by email disclosures",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Use of word \"trick\" by Prof Jones to describe proxy-instrument record merge technique",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "Tree-ring divergence problem and temperature reconstruction for past 1,000 years",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "Allegations concerning scientific paper review and exclusion from IPCC reports",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Peer review integrity and whether papers rejected on scientific merit alone",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Independence and robustness of major international climate datasets",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Direct thermometer observations show robust climate change signal",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Natural climate variations before instrument record less certain than recent warming",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "Overall evidence of recent climate change remains overwhelming",
+      "tag": "OTHER",
+      "type": "FRAME"
+     }
+    ]
+   },
+   {
+    "page": "32",
+    "cru_number": "CRU 30",
+    "submitter": "Mike Haseler",
+    "stance": "critical",
+    "length_paragraphs": 32,
+    "topics": [
+     {
+      "text": "CRU emails reveal inappropriate scientific attitudes regarding research integrity",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Lack of warming since 1998 contradicts IPCC predictions; observational system inadequate",
+      "tag": "MODEL",
+      "type": "M"
+     },
+     {
+      "text": "Met Office temperature predictions consistently overestimate actual warming by ~6°C/century",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Groupthink culture at CRU hostile to scientific diversity and alternative viewpoints",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Scientists actively resisting Freedom of Information requests to withhold data",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Failed climate model predictions undermine scientific credibility of warming forecasts",
+      "tag": "MODEL",
+      "type": "M"
+     },
+     {
+      "text": "Peer review process manipulated to exclude critical papers from IPCC reports",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "IPCC reports contain unsubstantiated claims (e.g., Himalayan glacier melt by 2035)",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Natural climate variation consistent with observed 20th-century warming patterns",
+      "tag": "SOLAR",
+      "type": "A"
+     },
+     {
+      "text": "CO2 physics in climate science oversimplified and inadequately tested",
+      "tag": "MODEL",
+      "type": "M"
+     },
+     {
+      "text": "Independent review by UEA lacks credibility; secretive internal process insufficient",
+      "tag": "INQ",
+      "type": "PROC"
+     },
+     {
+      "text": "Raw temperature data adjustments lack transparency; adjustments' nature remains mysterious",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Climate science uses precautionary principle to reverse burden of proof",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Parallels between \"sexed up\" climate claims and Iraq WMD intelligence failures",
+      "tag": "OTHER",
+      "type": "SOC"
+     }
+    ]
+   },
+   {
+    "page": "33",
+    "cru_number": "CRU 31",
+    "submitter": "Professor Ross McKitrick",
+    "stance": "critical",
+    "length_paragraphs": 19,
+    "topics": [
+     {
+      "text": "CRU temperature data lacks adequate documentation for verification",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Published studies reject claims that CRU data are properly filtered",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Jones used IPCC authority to prevent critical studies from review",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Misleading information inserted into final IPCC report post-review",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "CRU data adjustments for non-climatic influences are inadequately explained",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Urbanization bias in CRU data not properly removed",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Jones email reveals intent to exclude McKitrick-Michaels 2004 paper",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "IPCC Chapter 3 omitted de Laat and Maurellis findings",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "New paragraph added to published IPCC report without expert review",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Statistical significance claims in IPCC report lack supporting evidence",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Urban heat island effects understated in IPCC Summary",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "CRU, NASA, GISS data products not fully independent",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Homogeneity adjustments to station records inadequately documented",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Correlation between warming patterns and industrial development significant",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "IPCC mischaracterized statistical significance of McKitrick-Michaels findings",
+      "tag": "IPCC",
+      "type": "PROC"
+     }
+    ]
+   },
+   {
+    "page": "34",
+    "cru_number": "CRU 32",
+    "submitter": "Stephen McIntyre",
+    "stance": "critical",
+    "length_paragraphs": 34,
+    "topics": [
+     {
+      "text": "CRU's pervasive influence over IPCC paleoclimate reconstructions through coauthorship and data provision",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "\"Bodging\" adjustments to tree-ring density chronologies lacking scientific justification",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "Failure to publish updated Polar Urals data showing different medieval-modern temperature patterns",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Preferential selection of Yamal chronology over Polar Urals without disclosure of reasons",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "Deletion of post-1960 Briffa MXD reconstruction values to hide decline in tree-ring data",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "Splicing instrumental temperature records onto proxy reconstructions to create false coherence",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "Withholding measurement data from external researchers and critics",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Using peer review process to suppress or delay adverse publications",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Providing soft reviews to close associates while rigorously reviewing critics' work",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Unprofessional language and ad hominem attacks in private communications",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "CRU's refusal to collaborate on reconciling methodological differences with McIntyre and McKitrick",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Editorial board members actively intervening to prevent disclosure requirements and critical reviews",
+      "tag": "PEER",
+      "type": "PROC"
+     }
+    ]
+   },
+   {
+    "page": "35",
+    "cru_number": "CRU 33",
+    "submitter": "Steven Mosher",
+    "stance": "critical",
+    "length_paragraphs": 15,
+    "topics": [
+     {
+      "text": "CRU data heavily dependent on same GHCN repository as NASA and NOAA series",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Inability to verify independence of datasets without access to actual data used",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "CRU commingled confidential and open data, refusing release of either",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "CRU failed to maintain proper records distinguishing releasable from restricted data",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "CRU has not objectively justified necessity of holding confidential temperature data",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "CRU unwilling to share data as used for quality assurance verification",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Claims about data independence remain unverifiable speculation without transparent access",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "CRU should cease acquiring confidential data since competitors achieve similar results",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "CRU lacks data control procedures segregating confidential from open data",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "NASA provides source code for temperature calculations; CRU should do likewise",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "CRU violates FOIA guidelines requiring necessity justification for confidential data",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Recommend open access policy matching NASA and NOAA data availability",
+      "tag": "FOI",
+      "type": "PROC"
+     }
+    ]
+   },
+   {
+    "page": "36",
+    "cru_number": "CRU 34",
+    "submitter": "Professor Darrel Ince",
+    "stance": "critical",
+    "length_paragraphs": 13,
+    "topics": [
+     {
+      "text": "Scientific software in climate research has poor quality and high error rates",
+      "tag": "OTHER",
+      "type": "D"
+     },
+     {
+      "text": "Climate researchers refused to publish computer programs, violating scientific principles",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Harry ReadMe emails reveal undocumented, problematic code in major climate database",
+      "tag": "OTHER",
+      "type": "D"
+     },
+     {
+      "text": "Professor Mann initially refused to release hockey stick model code",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Scientific software shows interface inconsistencies at alarming rates (1 in 7 in Fortran)",
+      "tag": "OTHER",
+      "type": "D"
+     },
+     {
+      "text": "University-developed scientific software lacks quality assurance and testing mechanisms",
+      "tag": "OTHER",
+      "type": "D"
+     },
+     {
+      "text": "Non-disclosure of code prevents the scientific principle of deniability and reproducibility",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Journals should mandate lodging of code and data before publication",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Research councils should require code/data deposit as funding condition",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Universities should contractually require researchers to lodge software and data",
+      "tag": "FOI",
+      "type": "PROC"
+     }
+    ]
+   },
+   {
+    "page": "37",
+    "cru_number": "CRU 35",
+    "submitter": "Warwick Hughes",
+    "stance": "critical",
+    "length_paragraphs": 10,
+    "topics": [
+     {
+      "text": "GHCN and CRU datasets differ greatly despite drawing from similar raw data sources",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Two datasets employ different methodologies producing distinctly different grid point trends",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Professor Jones refused to share station data, citing researcher's critical aims",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "GHCN and CRU show significant divergence at grid-box scale levels",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "57.1% of grid points show trend differences of 0.1°C/decade or greater",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Green crosses and red diamonds reveal data availability gaps between datasets",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Grid-point level differences cancel out at hemispheric and global scales",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Station-level differences would be even more pronounced if CRU data released",
+      "tag": "DATA",
+      "type": "D"
+     }
+    ]
+   },
+   {
+    "page": "38",
+    "cru_number": "CRU 36",
+    "submitter": "Andrew Montford",
+    "stance": "critical",
+    "length_paragraphs": 21,
+    "topics": [
+     {
+      "text": "Scientists withheld data and code from verification attempts",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "CRU staff resorted to breaches of Freedom of Information Act",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Peer review process was subverted by influential climate scientists",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Journal editors faced pressure to reject critical submissions",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Editors opposing gatekeeping efforts were forced from their positions",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Peer review inadequately assesses scientific findings for policymakers",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Government-funded scientists collaborated with environmental advocacy organizations",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "IPCC reports relied on publications from advocacy groups instead of journals",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Scientists advising government have financial conflicts of interest",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "NERC funding structure enables gatekeeping by advocacy-oriented scientists",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Climate science has lost objectivity due to pressure for dramatic results",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Scientists face pressure to present unprecedented warming narratives",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "University review independence compromised by implicated vice-chancellor",
+      "tag": "INQ",
+      "type": "PROC"
+     },
+     {
+      "text": "Independent review should be held publicly with skeptic participation",
+      "tag": "INQ",
+      "type": "PROC"
+     },
+     {
+      "text": "Major temperature datasets lack independence, relying on same station network",
+      "tag": "DATA",
+      "type": "D"
+     }
+    ]
+   },
+   {
+    "page": "39",
+    "cru_number": "CRU 37",
+    "submitter": "Richard Tyrwhitt-Drake",
+    "stance": "critical",
+    "length_paragraphs": 5,
+    "topics": [
+     {
+      "text": "Withholding of raw data and source code undermines scientific integrity",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Reproducibility fundamental to science since al-Haytham; CRU refused data to researchers",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Open Climate Initiative needed: open data, source code, preprints, review",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Independent Review by Muir Russell had inadequate scope and contact",
+      "tag": "INQ",
+      "type": "PROC"
+     },
+     {
+      "text": "Call for Public Inquiry into CRU disclosures",
+      "tag": "INQ",
+      "type": "PROC"
+     },
+     {
+      "text": "Low baseline of integrity in climate science requires restoration of trust",
+      "tag": "OTHER",
+      "type": "SOC"
+     }
+    ]
+   },
+   {
+    "page": "40",
+    "cru_number": "CRU 37a",
+    "submitter": "Richard Tyrwhitt-Drake",
+    "stance": "critical",
+    "length_paragraphs": 22,
+    "topics": [
+     {
+      "text": "Conduct of the Russell Inquiry into CRU data leak and conflicts of interest",
+      "tag": "INQ",
+      "type": "PROC"
+     },
+     {
+      "text": "Geoffrey Boulton's involvement in Russell Inquiry creates inappropriate conflicts",
+      "tag": "INQ",
+      "type": "PROC"
+     },
+     {
+      "text": "Use of term \"climate deniers\" as Holocaust comparison corrupts public discourse",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Mike Hulme's 2004 email comparing scientific critique to Holocaust denial",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Origins of \"climate denier\" terminology may trace to UEA scientists",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "International climate scientist group accepted inflammatory language without complaint",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Climate scientists became excessively politicized by May 2004 timeframe",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Sahel rainfall study authors unfairly labeled despite not denying local droughts",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Climate model predictions of Sahel rainfall changes proved delayed/inaccurate",
+      "tag": "MODEL",
+      "type": "M"
+     }
+    ]
+   },
+   {
+    "page": "41",
+    "cru_number": "CRU 38",
+    "submitter": "Dr Benny Peiser",
+    "stance": "critical",
+    "length_paragraphs": 25,
+    "topics": [
+     {
+      "text": "Climate scientists actively sought to prevent publication of fraud allegations paper",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Violations of academic integrity principles in peer review processes",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Jones-Keenan affair: chronology of suppression attempts documented in CRU emails",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Alleged fabrication of Chinese meteorological weather station data by Wei-Chyung Wang",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Urban heat island effects understated in Jones et al. (1990) cornerstone IPCC study",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "IPCC conclusion minimizing urbanization effects based on potentially fraudulent research",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Concerted pressure by prominent scientists to block Keenan paper publication",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Threats of legal action (libel suits) used to intimidate journal and editors",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Suppression of valid concerns about data reliability after peer review acceptance",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Incomplete disclosure of CRU email correspondence regarding fraud allegations",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Jones failed to publicly address data discrepancies despite colleague warnings",
+      "tag": "DATA",
+      "type": "D"
+     }
+    ]
+   },
+   {
+    "page": "42",
+    "cru_number": "CRU 39",
+    "submitter": "Institute of Physics",
+    "stance": "critical",
+    "length_paragraphs": 12,
+    "topics": [
+     {
+      "text": "Disclosed emails suggest violations of scientific integrity and freedom of information law",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Refusal to comply with open data exchange principles central to scientific method",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Two data categories involved: instrumental measurements and proxy temperature reconstructions",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Proxy reconstructions may be sensitive to methodological choices and statistical techniques",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "Apparent suppression of proxy results conflicting with instrumental measurements in IPCC graphics",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "Intolerance to scientific challenge impedes self-correction processes within the discipline",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Peer-review process requires examination for potential bias and manipulation vulnerability",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Scientific networks may exclude newcomers; electronic data archiving needed at publication",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Journals should require open electronic data archiving with raw data provenance",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Statistical procedures and computer modelling minimum disclosure requirements need consideration",
+      "tag": "MODEL",
+      "type": "M"
+     },
+     {
+      "text": "UEA review scope restricted to CRU, but emails involved international researchers",
+      "tag": "INQ",
+      "type": "PROC"
+     },
+     {
+      "text": "Review should examine broader departures from objective practice beyond data manipulation",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "International datasets involve processing differences affecting final compilations from common sources",
+      "tag": "DATA",
+      "type": "D"
+     }
+    ]
+   },
+   {
+    "page": "43",
+    "cru_number": "CRU 40",
+    "submitter": "David Andrew Cockroft",
+    "stance": "critical",
+    "length_paragraphs": 15,
+    "topics": [
+     {
+      "text": "Inadequacy of University of East Anglia's investigation scope limited to internal evidence",
+      "tag": "INQ",
+      "type": "PROC"
+     },
+     {
+      "text": "Allegations of impropriety beyond emails require broader examination",
+      "tag": "INQ",
+      "type": "PROC"
+     },
+     {
+      "text": "Steve McIntyre's disciplined contrary opinion deserves consideration",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "NOAA source data legitimacy is disputed and requires investigation",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Single untested data source (NOAA) basis for major economic policy",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Russian Institute analysis: Hadley CRU used only 25% of Russian stations",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Migration to coast: selective use of warmer stations, abandoning cooler inland sites",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Historical data inconsistency: newer warm coastal stations replace cooler historical records",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "CRU database poor integrity with duplicate and dummy stations documented",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "NOAA automation replacements positioned improperly, violating siting requirements",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Anthony Watts survey: 90% of US stations fail 30-meter separation standard",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Data, methodologies, and computer code must be publicly available for scrutiny",
+      "tag": "FOI",
+      "type": "PROC"
+     }
+    ]
+   },
+   {
+    "page": "44",
+    "cru_number": "CRU 41",
+    "submitter": "Anne Stallybrass",
+    "stance": "critical",
+    "length_paragraphs": 5,
+    "topics": [
+     {
+      "text": "Urban Heat Island effect significantly inflates global temperature records",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "CO2 follows temperature rather than leading warming trends",
+      "tag": "ATTR",
+      "type": "A"
+     },
+     {
+      "text": "Natural climate variations dwarf anthropogenic contributions to warming",
+      "tag": "ATTR",
+      "type": "A"
+     },
+     {
+      "text": "Scientific consensus suppresses legitimate skeptical debate on AGW",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "School children taught misleading information about CO2 and climate",
+      "tag": "OTHER",
+      "type": "POL"
+     },
+     {
+      "text": "Three surface temperature records used by IPCC contain systematic biases",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Amateur citizen scientists have conducted better analysis than professionals",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Jones' 1990 Urban Heat Island study has questionable methodology",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Greenhouse gas effects of CO2 already near maximum saturation",
+      "tag": "SENS",
+      "type": "Q"
+     },
+     {
+      "text": "Climate warming provides net environmental benefits, not harms",
+      "tag": "OTHER",
+      "type": "POL"
+     },
+     {
+      "text": "Freedom of Information and data access restrictions obstruct scientific integrity",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Multiple temperature datasets (CRU, NOAA, GISS) inadequately address UHI",
+      "tag": "DATA",
+      "type": "D"
+     }
+    ]
+   },
+   {
+    "page": "45",
+    "cru_number": "CRU 42",
+    "submitter": "Royal Society of Chemistry",
+    "stance": "neutral",
+    "length_paragraphs": 16,
+    "topics": [
+     {
+      "text": "Resistance to data disclosure undermines scientific integrity and public confidence",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Scientific research must be transparent and robust enough to survive scrutiny",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Access to reliable information vital for advancing research and solving global issues",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Scientific data benefits from being open to scrutiny outweigh perceived risks",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Freedom of Information Act should govern scientific information release",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Peer review system central to credibility of science and preventing unwarranted claims",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Independent auditing system needed with access to raw data sets",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Public confusion from inability to distinguish legitimate science from opinion online",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Misinformation in public domain must be tackled with verifiable evidence",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Scientists need backing from highest levels to engage openly with public",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Investigation needed into email exchanges to establish if data manipulated",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Review should examine CRU's peer review and data dissemination practices",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Research institutions must update protocols for managing and accessing research data",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Security issues surrounding release of information need examination",
+      "tag": "INQ",
+      "type": "PROC"
+     }
+    ]
+   },
+   {
+    "page": "46",
+    "cru_number": "CRU 43",
+    "submitter": "Professor Hans von Storch and Dr Myles R Allen",
+    "stance": "supportive",
+    "length_paragraphs": 9,
+    "topics": [
+     {
+      "text": "HadCRUT instrumental temperature record validity uncompromised",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Thermometer data shows unequivocal warming since 1850",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Tree-ring reconstructions more uncertain than instrumental records",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "\"Hockey stick\" confused with more reliable thermometer data",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "Software used in HadCRUT production was reliable",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Minor data errors affecting less than 1% identified",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Three surface temperature datasets show close correspondence",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Detection of warming based on speed, not unprecedented warmth",
+      "tag": "ATTR",
+      "type": "A"
+     },
+     {
+      "text": "Attribution relies on climate models to identify drivers",
+      "tag": "MODEL",
+      "type": "M"
+     },
+     {
+      "text": "Human greenhouse gases caused most recent warming",
+      "tag": "ATTR",
+      "type": "A"
+     },
+     {
+      "text": "Out-of-sample forecast prediction proved accurate",
+      "tag": "MODEL",
+      "type": "M"
+     },
+     {
+      "text": "Climate science cannot be conducted behind closed doors",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Concerns about \"team mentality\" among climate scientists raised",
+      "tag": "OTHER",
+      "type": "SOC"
+     }
+    ]
+   },
+   {
+    "page": "47",
+    "cru_number": "CRU 44",
+    "submitter": "Research Councils UK",
+    "stance": "neutral",
+    "length_paragraphs": 10,
+    "topics": [
+     {
+      "text": "Research Councils fund climate research at UEA including CRU grants",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Contract issued for British Atmospheric Data Centre to procure updated CRU dataset",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Making dataset and construction methodology more transparent and accessible",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Data suppression and misrepresentation of findings unacceptable in research",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Primary data should be preserved and accessible for 10-20+ years",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Climate change evidence from multiple sources beyond temperature records",
+      "tag": "OTHER",
+      "type": "FRAME"
+     },
+     {
+      "text": "Implications of disclosures for scientific research integrity",
+      "tag": "INQ",
+      "type": "PROC"
+     },
+     {
+      "text": "Adequacy of Independent Review terms of reference by Sir Muir Russell",
+      "tag": "INQ",
+      "type": "PROC"
+     },
+     {
+      "text": "Robustness of employing organisations' research integrity policies and procedures",
+      "tag": "INQ",
+      "type": "PROC"
+     },
+     {
+      "text": "Independence of other international climate datasets",
+      "tag": "DATA",
+      "type": "D"
+     }
+    ]
+   },
+   {
+    "page": "48",
+    "cru_number": "CRU 45",
+    "submitter": "Public Interest Research Centre",
+    "stance": "supportive",
+    "length_paragraphs": 33,
+    "topics": [
+     {
+      "text": "\"Mike's nature trick\" and \"hide the decline\" misinterpretation",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "Tree-ring divergence post-1960 documented in peer-reviewed literature",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "Trenberth's \"travesty\" comment on short-term temperature variability",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "IPCC process prevents individual scientists from manipulating reports",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Jones's private remark about excluding papers from IPCC",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Both contested papers were ultimately cited in IPCC report",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Peer review is imperfect but serves important legitimating function",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Scientists discussing flawed journals and editorial agendas appropriately",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "FOI requests used as harassment tool by critics",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Climate Audit submitted deliberately vexatious and repetitive FOI requests",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "CRU constrained by contractual confidentiality obligations on data",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "No errors detected in scientific data central to controversy",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Limited datasets discussed; broader climate evidence remains robust",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Multiple independent lines of evidence support anthropogenic warming",
+      "tag": "ATTR",
+      "type": "A"
+     },
+     {
+      "text": "Media allegations decontextualized and seriously exaggerated regarding misconduct",
+      "tag": "OTHER",
+      "type": "SOC"
+     }
+    ]
+   },
+   {
+    "page": "49",
+    "cru_number": "CRU 46",
+    "submitter": "Douglas J Keenan",
+    "stance": "critical",
+    "length_paragraphs": 60,
+    "topics": [
+     {
+      "text": "Jones falsely claimed peer-reviewed literature contained no criticisms of Parker (2006)",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Jones misrepresented publication timing of the DOE/CAS report on Chinese station data",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Jones claimed access to station histories when 49 stations lacked documented histories",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Jones et al. (1990) falsely stated stations were selected based on site histories",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Jones breached confidentiality by sharing submitted article with others during peer review",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Jones attempted to persuade editor to reject article through dishonest argumentation",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "IPCC cited Jones et al. (1990) despite Jones knowing Wang et al. claims were false",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Jones co-authored 2001 study contradicting Wang's claims about station relocations",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Jones selectively cited his own research while ignoring contradictory peer-reviewed work",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Jones abused his IPCC chapter responsibility to exclude contrarian research",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Chinese station data selection procedures were misrepresented in original publications",
+      "tag": "DATA",
+      "type": "D"
+     }
+    ]
+   },
+   {
+    "page": "50",
+    "cru_number": "CRU 47",
+    "submitter": "Royal Statistical Society",
+    "stance": "neutral",
+    "length_paragraphs": 10,
+    "topics": [
+     {
+      "text": "Scientific data should be made publicly available for independent verification",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Raw data and metadata must accompany published scientific analyses",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Confidentiality protections justified only in limited circumstances",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Commercial interests rarely justify withholding scientific data",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Data centers should professionally manage and fund public scientific records",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Peer review alone cannot guarantee published research correctness",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Others must examine detailed arguments and repeat experiments for quality",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Climate debate improved by placing data, methods, models publicly",
+      "tag": "FOI",
+      "type": "PROC"
+     }
+    ]
+   },
+   {
+    "page": "51",
+    "cru_number": "CRU 50",
+    "submitter": "Peter Taylor",
+    "stance": "critical",
+    "length_paragraphs": 36,
+    "topics": [
+     {
+      "text": "Temperature \"blip\" in 1920-1940 period unexplained by CO2 rise",
+      "tag": "MODEL",
+      "type": "M"
+     },
+     {
+      "text": "Arctic Oscillation natural cycle misunderstood by modelers",
+      "tag": "SOLAR",
+      "type": "A"
+     },
+     {
+      "text": "Post-1940 cooling coincided with rising CO2 levels",
+      "tag": "ATTR",
+      "type": "A"
+     },
+     {
+      "text": "Computer models incorrectly attributed cooling to sulphur particles",
+      "tag": "MODEL",
+      "type": "M"
+     },
+     {
+      "text": "Scientists attempted to \"remove the blip\" from records",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Tree-ring data replaced with instrumental data without disclosure",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "\"Hiding the decline\" involved splicing incompatible datasets together",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "Peer-review process subverted through editor and reviewer contacts",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Data withheld from critics; replication impossible",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Station data manipulated via \"homogenisation\" techniques",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Collusion between US and UK data teams; lacking independence",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Scientists prioritized policy certainty over scientific uncertainty",
+      "tag": "OTHER",
+      "type": "SOC"
+     },
+     {
+      "text": "Natural cycles and cloud feedback poorly understood",
+      "tag": "MODEL",
+      "type": "M"
+     },
+     {
+      "text": "Fundamental uncertainties hidden from public by false consensus",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Freedom of Information requests impeded via official briefings",
+      "tag": "FOI",
+      "type": "PROC"
+     }
+    ]
+   },
+   {
+    "page": "52",
+    "cru_number": "CRU 51",
+    "submitter": "John F Kelly",
+    "stance": "critical",
+    "length_paragraphs": 6,
+    "topics": [
+     {
+      "text": "Peer review manipulation corrupts scientific integrity and damages the profession",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "CRU staff previously faced similar charges regarding climate science practices",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Social networks and cliques among paleoclimate researchers undermine independence",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "\"Independent reconstructions\" lack true independence due to shared proxy data",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "IPCC report authors were same researchers who constructed underlying papers",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "\"Fudging\" of results and \"cherry picking\" of proxy data occurred",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Paleoclimate community isolates from mainstream statistical methods and expertise",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "Associate editors select referees from author references, enabling error propagation",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Peer review should include professional statisticians for paleoclimate publications",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Complex statistical analysis in climate publications requires heightened publication scrutiny",
+      "tag": "PEER",
+      "type": "PROC"
+     }
+    ]
+   },
+   {
+    "page": "53",
+    "cru_number": "CRU 52",
+    "submitter": "Peabody Energy Company",
+    "stance": "critical",
+    "length_paragraphs": 26,
+    "topics": [
+     {
+      "text": "CRU scientists downplayed uncertainty in proxy temperature reconstructions",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "Researchers suppressed contrary information and dissenting scientific views",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Hockey stick study purported unprecedented 20th-century warming",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "Hockey stick graph given prominent placement in IPCC TAR",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Hockey stick later discredited by NRC and Wegman Report",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "AR4 paleoclimate chapter drafting became political rather than scientific",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Lead authors instructed contributors to focus on policy-relevant science",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Authors told to present Medieval Warm Period dismissively",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "Scientists used \"trick\" grafting real temperatures onto proxy data",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "Divergence problem hidden: proxy data contradicted measured temperatures",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "Scientists stonewalled FOIA requests and withheld underlying research data",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Researchers destroyed emails to avoid Freedom of Information disclosure",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Scientists manipulated peer review to suppress contradictory publications",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Journal editors removed for publishing Medieval Warm Period evidence",
+      "tag": "PEER",
+      "type": "PROC"
+     },
+     {
+      "text": "Eleven-year trend of no global warming documented in data",
+      "tag": "MODEL",
+      "type": "M"
+     }
+    ]
+   },
+   {
+    "page": "54",
+    "cru_number": "CRU 55",
+    "submitter": "John Graham-Cumming",
+    "stance": "neutral",
+    "length_paragraphs": 18,
+    "topics": [
+     {
+      "text": "Software code quality at CRU was substandard with bugs and poor documentation",
+      "tag": "OTHER",
+      "type": "D"
+     },
+     {
+      "text": "BBC Newsnight criticized CRU code despite it not being CRUTEM3 production code",
+      "tag": "OTHER",
+      "type": "D"
+     },
+     {
+      "text": "Met Office data contained errors in station identifiers affecting less than 1%",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Errors in global warming trend error estimates and \"station errors\" calculations",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "CRUTEM3 code release was incomplete; station error code remains unreleased",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Discrepancy between released code and actual CRUTEM3 production code procedures",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Key climate warming conclusions remain robust despite identified data issues",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "CRU code lacked version control, visible testing, and professional engineering standards",
+      "tag": "OTHER",
+      "type": "D"
+     }
+    ]
+   },
+   {
+    "page": "55",
+    "cru_number": "CRU 56",
+    "submitter": "J Ronan",
+    "stance": "critical",
+    "length_paragraphs": 3,
+    "topics": [
+     {
+      "text": "\"Hide the Decline\" splice methodology not transparently disclosed in literature",
+      "tag": "PROXY",
+      "type": "X"
+     },
+     {
+      "text": "Spliced tree ring and instrumental record data used in IPCC reports",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Misleading diagrams presented by Al Gore and IPCC Summary for Policy Makers",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Policy makers and politicians unaware of data manipulation techniques employed",
+      "tag": "IPCC",
+      "type": "PROC"
+     },
+     {
+      "text": "Mismatch between tree ring and instrumental temperature records concealed",
+      "tag": "PROXY",
+      "type": "X"
+     }
+    ]
+   },
+   {
+    "page": "56",
+    "cru_number": "CRU 57",
+    "submitter": "Nicholas Barnes and David Jones",
+    "stance": "supportive",
+    "length_paragraphs": 23,
+    "topics": [
+     {
+      "text": "GISTEMP software clarity and engineering quality issues",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Minor bugs found in GISTEMP code affect results minimally",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Rounding errors do not significantly affect warming signal",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Urban heat-island adjustment does not drive results",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Weather station number changes in 1990s not significant",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "GISTEMP produces results substantially similar to HadCRUT3",
+      "tag": "DATA",
+      "type": "D"
+     },
+     {
+      "text": "Full publication of GISTEMP software and data enabled verification",
+      "tag": "FOI",
+      "type": "PROC"
+     },
+     {
+      "text": "Scientists receive little training in software development practices",
+      "tag": "OTHER",
+      "type": "NOISE"
+     }
+    ]
+   }
+  ]
+ }
+}
