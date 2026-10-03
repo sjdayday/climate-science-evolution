@@ -13,7 +13,7 @@ Every paper, report and book cited in `01-periods.md`, `02-problems/` and `03-op
 - Allen, M. R., et al. (2009). Warming caused by cumulative carbon emissions towards the trillionth tonne. *Nature*, 458(7242), 1163–1166. doi:10.1038/nature08019
 - Alley, R. B., et al. (1993). Abrupt increase in Greenland snow accumulation at the end of the Younger Dryas event. *Nature*, 362(6420), 527–529. doi:10.1038/362527a0
 - Alley, R. B., et al. (2003). Abrupt climate change. *Science*, 299(5615), 2005–2010. doi:10.1126/science.1081056
-- Anderegg, W. R. L., et al. (2010). Expert credibility in climate change. *PNAS*, 107(27), 12107–12109. doi:10.1073/pnas.1003187107
+- Anderegg, W. R. L., et al. (2010). Expert credibility in climate change. *PNAS*, 107(27), 12107–12109. doi:10.1073/pnas.1003187107 [Read in full from a copy supplied by Steve, 2026-10-03; `09` §4.2.]
 - Andrews, T., Gregory, J. M., & Webb, M. J. (2015). The dependence of radiative forcing and feedback on evolving patterns of surface temperature change in climate models. *J. Climate*, 28(4), 1630–1648. doi:10.1175/jcli-d-14-00545.1
 - Andrews, T., et al. (2018). Accounting for changing temperature patterns increases historical estimates of climate sensitivity. *Geophys. Res. Lett.*, 45(16), 8490–8499. doi:10.1029/2018gl078887
 - Ångström, K. (1900). Über die Bedeutung des Wasserdampfes und der Kohlensäure bei der Absorption der Erdatmosphäre. *Annalen der Physik*, 308(12), 720–732. doi:10.1002/andp.19003081208
@@ -148,7 +148,7 @@ Every paper, report and book cited in `01-periods.md`, `02-problems/` and `03-op
 - Dole, R., et al. (2011). Was there a basis for anticipating the 2010 Russian heat wave? *Geophys. Res. Lett.*, 38(6). doi:10.1029/2010gl046582
 - Domingues, C. M., et al. (2008). Improved estimates of upper-ocean warming and multi-decadal sea-level rise. *Nature*, 453(7198), 1090–1093. doi:10.1038/nature07080
 - Dong, Y., et al. (2019). Attributing historical and future evolution of radiative feedbacks to regional warming patterns using a Green's function approach: The preeminence of the western Pacific. *J. Climate*, 32(17), 5471–5491. doi:10.1175/JCLI-D-18-0843.1
-- Doran, P. T., & Zimmerman, M. K. (2009). Examining the scientific consensus on climate change. *Eos*, 90(3), 22–23. doi:10.1029/2009eo030002
+- Doran, P. T., & Zimmerman, M. K. (2009). Examining the scientific consensus on climate change. *Eos*, 90(3), 22–23. doi:10.1029/2009eo030002 [Read in full from a copy supplied by Steve, 2026-10-03; `09` §4.2.]
 - Douglass, D. H., et al. (2008). A comparison of tropical temperature trends with model predictions. *International Journal of Climatology*, 28(13), 1693–1701. doi:10.1002/joc.1651
 - Drijfhout, S., et al. (2015). Catalogue of abrupt shifts in Intergovernmental Panel on Climate Change climate models. *PNAS*, 112(43), E5777–E5786. doi:10.1073/pnas.1511451112
 - Dunne, E. M., et al. (2016). Global atmospheric particle formation from CERN CLOUD measurements. *Science*, 354(6316), 1119–1124. doi:10.1126/science.aaf2649
@@ -245,7 +245,7 @@ Every paper, report and book cited in `01-periods.md`, `02-problems/` and `03-op
 - Hartmann, D. L., Ockert-Bell, M. E., & Michelsen, M. L. (1992). The effect of cloud type on Earth's energy balance: Global analysis. *J. Climate*, 5(11), 1281–1304. doi:10.1175/1520-0442(1992)005<1281:teocto>2.0.co;2
 - Hasselmann, K. (1976). Stochastic climate models, Part I: Theory. *Tellus*, 28(6), 473. doi:10.3402/tellusa.v28i6.11316
 - Hasselmann, K. (1979). On the signal-to-noise problem in atmospheric response studies. In *Meteorology over the Tropical Oceans* (Royal Meteorological Society).
-- Hasselmann, K. (1993). Optimal fingerprints for the detection of time-dependent climate change. *J. Climate*, 6(10), 1957–1971. doi:10.1175/1520-0442(1993)006<1957:offtdo>2.0.co;2
+- Hasselmann, K. (1993). Optimal fingerprints for the detection of time-dependent climate change. *J. Climate*, 6(10), 1957–1971. doi:10.1175/1520-0442(1993)006<1957:offtdo>2.0.co;2 [Read in full from a copy supplied by Steve, 2026-10-03; premise quotation in `04` §2; printed reference list of 45 entries checked against the OpenAlex-resolved 21.]
 - Hausfather, Z., et al. (2013). Quantifying the effect of urbanization on U.S. Historical Climatology Network temperature records. *J. Geophys. Res.*, 118(2), 481–494. doi:10.1029/2012jd018509
 - Hausfather, Z., et al. (2016). Evaluating the impact of U.S. Historical Climatology Network homogenization using the U.S. Climate Reference Network. *Geophys. Res. Lett.*, 43(4), 1695–1701. doi:10.1002/2015gl067640
 - Hausfather, Z., et al. (2017). Assessing recent warming using instrumentally homogeneous sea surface temperature records. *Science Advances*, 3(1), e1601207. doi:10.1126/sciadv.1601207
@@ -602,7 +602,7 @@ Every paper, report and book cited in `01-periods.md`, `02-problems/` and `03-op
 - Stevens, B., & Feingold, G. (2009). Untangling aerosol effects on clouds and precipitation in a buffered system. *Nature*, 461(7264), 607–613. doi:10.1038/nature08281
 - Stevens, B., et al. (2019). DYAMOND: the DYnamics of the Atmospheric general circulation Modeled On Non-hydrostatic Domains. *Progress in Earth and Planetary Science*, 6(1). doi:10.1186/s40645-019-0304-z
 - Stocker, T. F., & Schmittner, A. (1997). Influence of CO₂ emission rates on the stability of the thermohaline circulation. *Nature*, 388(6645), 862–865. doi:10.1038/42224
-- Stenhouse, N., et al. (2014). Meteorologists' views about global warming: a survey of American Meteorological Society professional members. *Bulletin of the American Meteorological Society*, 95(7), 1029–1040. doi:10.1175/bams-d-13-00091.1 (cited from memory in `09`; not read this pass).
+- Stenhouse, N., et al. (2014). Meteorologists' views about global warming: a survey of American Meteorological Society professional members. *Bulletin of the American Meteorological Society*, 95(7), 1029–1040. doi:10.1175/bams-d-13-00091.1 [Read in full from a copy supplied by Steve, 2026-10-03; `09` §4.2.]
 - Stommel, H. (1961). Thermohaline convection with two stable regimes of flow. *Tellus*, 13(2), 224–230. doi:10.3402/tellusa.v13i2.9491
 - Stott, P. A., Stone, D. A., & Allen, M. R. (2004). Human contribution to the European heatwave of 2003. *Nature*, 432(7017), 610–614. doi:10.1038/nature03089
 - Stott, P. A., et al. (2000). External control of 20th century temperature by natural and anthropogenic forcings. *Science*, 290(5499), 2133–2137. doi:10.1126/science.290.5499.2133

@@ -370,7 +370,8 @@
    "openalex": "NOT-IN-REFS",
    "B_refs_indexed": 21,
    "check": "VARIANT",
-   "note": "Hasselmann 1993 J. Climate (21 refs) cites Hasselmann 1979 'signal-to-noise problem', Bell 1982, Barnett & Schlesinger 1987, Madden & Ramanathan 1980, Karoly 1989; the 1976 stochastic-model paper is not cited."
+   "note": "Hasselmann 1993 J. Climate (21 refs indexed by OpenAlex; 45 in the printed list, read in full 2026-10-03) cites Hasselmann 1979 'signal-to-noise problem', Bell 1982, Barnett & Schlesinger 1987, Madden & Ramanathan 1980, Karoly 1989; the 1976 stochastic-model paper is not cited. The stochastic tradition is cited through Frankignoul & Hasselmann 1977, Lemke et al. 1980 and Herterich & Hasselmann 1987 (spectral-domain model fitting, §5). Confirmed from the text 2026-10-03.",
+   "check_source": "printed reference list, read 2026-10-03"
   },
   {
    "A": "hasselmann1993",
