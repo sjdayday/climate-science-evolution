@@ -28,7 +28,8 @@
   },
   "S_class_works_with_sentences": "28 of 80 (mm2005 0/3, lindzen1990 0/1, lindzenchoi2009 1/6, lindzen2001 1/6, svensmark1997 3/16, spencerchristy1990 3/4, mckitrickchristy2018 6/13, lewiscurry2018 10/20, lewis2023 4/11)",
   "R_class_works_with_sentences": "9 of 27",
-  "note": "Semantic Scholar's record for Lindzen et al. 2001 is fragmented (64 citations in total, part of the paper's citation stream being attached to the Hartmann & Michelsen 2002 comment), so its coverage is partial; the fcl1991 S class was never enumerated by id and is not matched here."
+  "note": "Semantic Scholar's record for Lindzen et al. 2001 is fragmented (64 citations in total, part of the paper's citation stream being attached to the Hartmann & Michelsen 2002 comment), so its coverage is partial; the fcl1991 S class was never enumerated by id and is not matched here.",
+  "S_class_entries_checked_by_sentence": "50 of 80 (28 from Semantic Scholar sentences on 2026-10-02, 22 from the citing papers' full texts on 2026-10-03)"
  },
  "verdict_summary": {
   "S_works_with_sentences": 28,
@@ -37,7 +38,10 @@
   "S_reclassified_to_H_dataset_citation": 3,
   "R_works_with_sentences": 9,
   "R_confirmed": 7,
-  "R_reclassified_to_H": 2
+  "R_reclassified_to_H": 2,
+  "S_entries_read_in_full_text_2026_10_03": 22,
+  "S_full_text_endorses_or_own_group": 21,
+  "S_full_text_reclassified_to_H": 1
  },
  "rows": [
   {
@@ -419,6 +423,299 @@
    "title": "Understanding Model-Observation Discrepancies in Satellite Retrievals of Atmospheric Temperature Using GISS ModelE",
    "sentence": "One suite of important variables are the vertically-weighted atmospheric temperature changes seen by the Microwave Sounding Units (MSUs) (Spencer & Christy, 1990; Mears et al., 2003)…",
    "reading": "dataset citation"
+  },
+  {
+   "paper": "mm2005",
+   "id": "W3010957448",
+   "class_before": "S",
+   "class_after": "S",
+   "year": 2020,
+   "title": "How Much Human-Caused Global Warming Should We Expect with Business-As-Usual (BAU) Climate Policies? A Semi-Empirical Assessment (Connolly, Connolly, Carter & Soon, Energies)",
+   "sentence": "…the 'hockey stick' study (e.g., [150,151,177,180–189]) and the broader question of how the Medieval Warm Period and the Little Ice Age compare to the Current Warm Period … has been quite lively and contentious. … Some of these problems and uncertainties have been described by, e.g., [178,183–185,190–192,198,199]. [refs 184–185 = McIntyre & McKitrick 2005a,b]",
+   "reading": "list citation in a review arguing the claim's side",
+   "source": "citing paper's full text read in the browser, 2026-10-03"
+  },
+  {
+   "paper": "mckitrickchristy2018",
+   "id": "W4319985718",
+   "class_before": "S",
+   "class_after": "S",
+   "year": 2023,
+   "title": "CMIP6 GCM Validation Based on ECS and TCR Ranking for 21st Century Temperature Projections and Risk Assessment (Scafetta, Atmosphere)",
+   "sentence": "The fundamental issue is that a significant percentage of GCMs seem to be operating 'too hot' [5,6,7,…,18], which suggests that climate change policy should disregard the projections from the 'hot' models. [ref 6 = McKitrick & Christy 2018]",
+   "reading": "endorses",
+   "source": "citing paper's full text read in the browser, 2026-10-03"
+  },
+  {
+   "paper": "lewiscurry2018",
+   "id": "W4319985718",
+   "class_before": "S",
+   "class_after": "S",
+   "year": 2023,
+   "title": "CMIP6 GCM Validation Based on ECS and TCR Ranking … (Scafetta, Atmosphere)",
+   "sentence": "…the ECS of GCMs should be reduced by at least a factor of two … which would confirm the results from several authors [17,30,32,55,56,57,58,59]. [ref 55 = Lewis & Curry 2018]",
+   "reading": "endorses",
+   "source": "citing paper's full text read in the browser, 2026-10-03"
+  },
+  {
+   "paper": "lewis2023",
+   "id": "W4319985718",
+   "class_before": "S",
+   "class_after": "S",
+   "year": 2023,
+   "title": "CMIP6 GCM Validation Based on ECS and TCR Ranking … (Scafetta, Atmosphere)",
+   "sentence": "However, Lewis [17] reanalyzed the same data and, from multiple lines of evidences concluded that the actual ECS median should be 2.16 °C, its 17–83% range is 1.75–2.7 C … Lewis [17] and Scafetta [12,18] would imply that about two-thirds of the CMIP6 GCMs should be screened out for the policy.",
+   "reading": "endorses",
+   "source": "citing paper's full text read in the browser, 2026-10-03"
+  },
+  {
+   "paper": "lindzenchoi2009",
+   "id": "W3122498388",
+   "class_before": "S",
+   "class_after": "S",
+   "year": 2021,
+   "title": "Reconstruction of the Interannual to Millennial Scale Patterns of the Global Surface Temperature (Scafetta, Atmosphere)",
+   "sentence": "Other independent studies have concluded that the real climate sensitivity should be between 0.75 to 2.3 °C [5,14,60,61,62,63,64,65,66,67]. [refs 62–63 = Lindzen & Choi 2009, 2011]",
+   "reading": "endorses",
+   "source": "citing paper's full text read in the browser, 2026-10-03"
+  },
+  {
+   "paper": "mckitrickchristy2018",
+   "id": "W4386250464",
+   "class_before": "S",
+   "class_after": "S",
+   "year": 2023,
+   "title": "The Detection and Attribution of Northern Hemisphere Land Surface Warming (1850–2018) in Terms of Human and Natural Factors (Soon et al., Climate)",
+   "sentence": "We note also that concerns about the reliability of both the CMIP5 and CMIP6 hindcasts in replicating observed climate changes have been expressed [31,33,34,35,36,37,38,39,40,41]. [ref 39 = McKitrick & Christy 2018]",
+   "reading": "list citation on the claim's side",
+   "source": "citing paper's full text read in the browser, 2026-10-03"
+  },
+  {
+   "paper": "lewiscurry2018",
+   "id": "W4386250464",
+   "class_before": "S",
+   "class_after": "S",
+   "year": 2023,
+   "title": "The Detection and Attribution of Northern Hemisphere Land Surface Warming … (Soon et al., Climate)",
+   "sentence": "Although, if so, it probably would involve a much lower climate sensitivity to greenhouse gases than the CMIP6 models imply—as several studies have suggested, e.g., [17,18,31,33,34,138,…,148]. [ref 147 = Lewis & Curry 2018]",
+   "reading": "endorses",
+   "source": "citing paper's full text read in the browser, 2026-10-03"
+  },
+  {
+   "paper": "lewiscurry2018",
+   "id": "W4385429326",
+   "class_before": "S",
+   "class_after": "H",
+   "year": 2023,
+   "title": "Critical Review on Radiative Forcing and Climate Models for Global Climate Change since 1970 (Atmosphere)",
+   "sentence": "The bounds of uncertainties on equilibrium climate sensitivity (ECS) … given by GCMs are known to be very large and have not significantly diminished since the late 1970s [26,33,34]. … the ECS varies largely among climate models, is sensitive to model parameters, and is not well constrained by observations [26,33,34,53]. [ref 33 = Lewis & Curry 2018]",
+   "reading": "cited for the width of the ECS range, not its level: moved to H",
+   "source": "citing paper's full text read in the browser, 2026-10-03"
+  },
+  {
+   "paper": "lewiscurry2018",
+   "id": "W3209023207",
+   "class_before": "S",
+   "class_after": "S",
+   "year": 2021,
+   "title": "Solar and Anthropogenic Influences on Climate: Regression Analysis and Tentative Predictions (Stefani, Climate)",
+   "sentence": "Our range corresponds well with that of Lewis and Curry [52], 0.8–1.3 K, but is somewhat lower than the 'official' 1.0–2.5 K range [3].",
+   "reading": "builds on",
+   "source": "citing paper's full text read in the browser, 2026-10-03"
+  },
+  {
+   "paper": "lewiscurry2018",
+   "id": "W4296239055",
+   "class_before": "S",
+   "class_after": "S",
+   "year": 2022,
+   "title": "CMIP6 GCM ensemble members versus global surface temperatures (Scafetta, Climate Dynamics)",
+   "sentence": "…alternative studies, often empirical based, have suggested that the actual ECS could be even lower, probably between 1 and 2.5 °C (e.g.: Lewis and Curry 2018; Lindzen and Choi 2011; Scafetta 2013; Stefani 2021; Wijngaarden and Happer 2020). … as found by several independent studies (cf.: Lewis and Curry 2018; …).",
+   "reading": "endorses",
+   "source": "citing paper's full text read in the browser, 2026-10-03"
+  },
+  {
+   "paper": "lewiscurry2018",
+   "id": "W3000660161",
+   "class_before": "S",
+   "class_after": "S",
+   "year": 2020,
+   "title": "Climate sensitivity, agricultural productivity and the social cost of carbon in FUND (Dayaratna, McKitrick & Michaels, Environmental Economics and Policy Studies)",
+   "sentence": "The Lewis and Curry (2018) empirical ECS distribution is conditioned on the IPCC's updated estimates of observed historical aerosol forcing, lending it increased credibility. … If ECS values like those estimated in Lewis and Curry (2018) turn out to be approximately correct, then the FUND model indicates that CO2 is for all practical purposes not a negative global externality through mid-century.",
+   "reading": "builds on (uses the distribution)",
+   "source": "citing paper's full text read in the browser, 2026-10-03"
+  },
+  {
+   "paper": "mckitrickchristy2018",
+   "id": "W3000660161",
+   "class_before": "S",
+   "class_after": "S",
+   "year": 2020,
+   "title": "Climate sensitivity, agricultural productivity and the social cost of carbon in FUND (Dayaratna, McKitrick & Michaels)",
+   "sentence": "Also, while climate models with high ECS values can be made to fit the surface warming trend, they have shown demonstrably excess warming elsewhere, especially in the troposphere over the tropics (Fu et al. 2011; McKitrick and Christy 2018).",
+   "reading": "endorses (own group)",
+   "source": "citing paper's full text read in the browser, 2026-10-03"
+  },
+  {
+   "paper": "lindzen2001",
+   "id": "W3150965480",
+   "class_before": "S",
+   "class_after": "S",
+   "year": 2021,
+   "title": "The Iris Effect: A Review (Lindzen & Choi, Asia-Pacific J. Atmos. Sci.)",
+   "sentence": "LCH01 argued that the iris effect would be of fundamental importance in climate projection … These mechanisms, while different from LCH01 in terms of the origin, reconfirm the existence of the iris effect.",
+   "reading": "own group: endorses",
+   "source": "citing paper's full text read in the browser, 2026-10-03"
+  },
+  {
+   "paper": "lindzen1990",
+   "id": "W3150965480",
+   "class_before": "S",
+   "class_after": "S",
+   "year": 2021,
+   "title": "The Iris Effect: A Review (Lindzen & Choi)",
+   "sentence": "However, Lindzen (1990), in response to a review, had suggested the possibility of a mechanism for reducing the water vapor feedback.",
+   "reading": "historical sentence in the authors' own review; S by the own-group rule",
+   "source": "citing paper's full text read in the browser, 2026-10-03"
+  },
+  {
+   "paper": "lewis2023",
+   "id": "W4403184306",
+   "class_before": "S",
+   "class_after": "S",
+   "year": 2024,
+   "title": "Uncertainty of climate models and policy implications: a European perspective (Greiner, List Forum)",
+   "sentence": "Lewis (2023) resorted to an objective Bayesian method with computed, mathematical priors and obtained a median of 2.16 °C … This demonstrates that an objective Bayesian method yields a lower ECS and the confidence intervals are clearly smaller.",
+   "reading": "endorses",
+   "source": "citing paper's full text read in the browser, 2026-10-03"
+  },
+  {
+   "paper": "lindzenchoi2009",
+   "id": "W3014725631",
+   "class_before": "S",
+   "class_after": "S",
+   "year": 2020,
+   "title": "Saturation of the infrared absorption by carbon dioxide in the atmosphere (Schildknecht, Int. J. Mod. Phys. B)",
+   "sentence": "As pointed out in refs. 14 and 20, there is definite disagreement between the results from the radiation-flux measurements of f_exp < 0, and the predictions of a large number of atmospheric models that arrive at a positive feedback factor f > 0 … [refs 14, 20 = Lindzen & Choi 2009, 2011]",
+   "reading": "endorses",
+   "source": "citing paper's full text read in the browser, 2026-10-03"
+  },
+  {
+   "paper": "lindzen2001",
+   "id": "W3014725631",
+   "class_before": "S",
+   "class_after": "S",
+   "year": 2020,
+   "title": "Saturation of the infrared absorption by carbon dioxide in the atmosphere (Schildknecht)",
+   "sentence": "[ref. 13 = Lindzen, Chou & Hou 2001; the sentence carrying the superscript could not be located in the text layer]",
+   "reading": "sentence not located; paper stance S (adopts Lindzen & Choi's negative feedback)",
+   "source": "citing paper's full text read in the browser, 2026-10-03"
+  },
+  {
+   "paper": "lewis2023",
+   "id": "W4413178199",
+   "class_before": "S",
+   "class_after": "S",
+   "year": 2025,
+   "title": "Comment on 'Opinion: Can uncertainty in climate sensitivity be narrowed further?' by Sherwood and Forest (2024) (Lewis, Atmos. Chem. Phys.)",
+   "sentence": "This comment clarifies that, contrary to SF24's claims, L22 did not rule out a high ECS level based on historical evidence and did identify and correct errors in Sherwood et al. (2020)…",
+   "reading": "own author: defends",
+   "source": "citing paper's full text read in the browser, 2026-10-03"
+  },
+  {
+   "paper": "lewiscurry2018",
+   "id": "W4220880070",
+   "class_before": "S",
+   "class_after": "S",
+   "year": 2022,
+   "title": "Advanced Testing of Low, Medium, and High ECS CMIP6 GCM Simulations Versus ERA5-T2m (Scafetta, GRL)",
+   "sentence": "…other studies supported only low ECS values, for example, 0.5–2.5°C (Bates, 2016; Christy & McNider, 2017; Lewis & Curry, 2018; Lindzen & Choi, 2011; …).",
+   "reading": "endorses (list on the claim's side)",
+   "source": "citing paper's full text read in the browser, 2026-10-03"
+  },
+  {
+   "paper": "lewis2023",
+   "id": "W4386917715",
+   "class_before": "S",
+   "class_after": "S",
+   "year": 2023,
+   "title": "Reply to 'Comment on Advanced Testing…' by Schmidt et al. (2023) (Scafetta, GRL)",
+   "sentence": "Meanwhile, S2022 is now supported by the publication of other three works: … Lewis (2023) reassessed downward the likely range of the equilibrium climate sensitivity (ECS) previously estimated by Sherwood et al.",
+   "reading": "endorses",
+   "source": "citing paper's full text read in the browser, 2026-10-03"
+  },
+  {
+   "paper": "lindzenchoi2009",
+   "id": "W4226460768",
+   "class_before": "S",
+   "class_after": "S",
+   "year": 2022,
+   "title": "O protagonismo do CO2 como 'vilão' do aquecimento global e sua abordagem em livros didáticos (Calori & Cirino, book chapter)",
+   "sentence": "Portanto, uma vez que inúmeras pesquisas empíricas demonstram influências naturais na manutenção da temperatura global (Spencer, 2008; Friis-Christensen e Lassen, 1991; Svensmark, 2000; Lindzen, 2009), … a hipótese do aquecimento global antropogênico, não pode ser considerada um fato cientificamente estabelecido.",
+   "reading": "endorses",
+   "source": "citing paper's full text read in the browser, 2026-10-03"
+  },
+  {
+   "paper": "mm2005",
+   "id": "W4409647667",
+   "class_before": "S",
+   "class_after": "S",
+   "year": 2025,
+   "title": "Revisiting 2,000 Years of Climate Change (Bad Science and the 'Hockey Stick') (IgMin Research)",
+   "sentence": "Their original reviews: McKitrick (2005) and McIntyre and McKitrick (2005, 2006, 2007) provided strong evidence for faults in the MBH process.",
+   "reading": "endorses",
+   "source": "citing paper's full text read in the browser, 2026-10-03"
   }
- ]
+ ],
+ "full_text_pass_2026_10_03": {
+  "note": "Of the 39 S-class entries (28 distinct works) that had no Semantic Scholar citing sentence, 22 entries (16 works) were read in the citing papers' full texts in the browser on 2026-10-03 (MDPI HTML pages; Springer, arXiv, Copernicus, Wiley and other PDFs via pdf.js), the reference-list entry located and the sentences citing it extracted. 17 entries (12 works) were not reachable: Elsevier pages refused the browser (Gondwana Research 2025, Geoscience Frontiers 2023, New Techno Humanities 2023, JASTP 2024), Wiley's AJES 2024 and two Springer German book chapters are paywalled, MIT DSpace and Authorea sit behind verification pages, and the Mises Institute, SSRN and EarthArXiv files could not be downloaded.",
+  "entries_read": 22,
+  "works_read": 16,
+  "entries_unreached": 17,
+  "works_unreached": 12,
+  "result": "21 of the 22 entries cite the contested paper in a sentence that adopts or builds on its claim, or are the minority programme's own papers (Lindzen & Choi 2021; Lewis 2025; Dayaratna, McKitrick & Michaels 2020); one — a 2023 review citing Lewis & Curry 2018 for the width of the ECS range rather than its level — moves to H. One entry's sentence could not be located in the text layer (Schildknecht 2020 citing Lindzen et al. 2001) and keeps its paper-level S.",
+  "unreached": {
+   "W7203902725": [
+    "mm2005"
+   ],
+   "W4285118871": [
+    "lindzenchoi2009",
+    "lindzen2001"
+   ],
+   "W4285303851": [
+    "lindzenchoi2009"
+   ],
+   "W4410314676": [
+    "lindzen2001",
+    "mckitrickchristy2018",
+    "lewis2023"
+   ],
+   "W3033567486": [
+    "lindzen2001"
+   ],
+   "W4400070318": [
+    "spencerchristy1990"
+   ],
+   "W4391850268": [
+    "mckitrickchristy2018",
+    "lewiscurry2018"
+   ],
+   "W4399160936": [
+    "mckitrickchristy2018"
+   ],
+   "W7165534468": [
+    "mckitrickchristy2018"
+   ],
+   "W4380853689": [
+    "lewiscurry2018",
+    "lewis2023"
+   ],
+   "W4396499727": [
+    "lewiscurry2018"
+   ],
+   "W4392862244": [
+    "lewis2023"
+   ]
+  }
+ }
 }
