@@ -134,6 +134,7 @@ Every paper, report and book cited in `01-periods.md`, `02-problems/` and `03-op
 - D'Arrigo, R., Wilson, R., & Jacoby, G. (2006). On the long-term context for late twentieth century warming. *J. Geophys. Res.*, 111(D3). doi:10.1029/2005jd006352
 - Dai, A. (2013). Increasing drought under global warming in observations and models. *Nature Climate Change*, 3(1), 52–58. doi:10.1038/nclimate1633
 - Dansgaard, W., et al. (1993). Evidence for general instability of past climate from a 250-kyr ice-core record. *Nature*, 364(6434), 218–220. doi:10.1038/364218a0
+- Dawson, G. (2026). A Rothbardian approach to climate change. *Journal of Libertarian Studies*, 30(1), 254–278. doi:10.35297/001c.166899 [Read in full from a copy supplied by Steve, 2026-10-04; cites McIntyre & McKitrick 2005 — `09` §4.4a, S class confirmed.]
 - DeConto, R. M., & Pollard, D. (2016). Contribution of Antarctica to past and future sea-level rise. *Nature*, 531(7596), 591–597. doi:10.1038/nature17145
 - DeConto, R. M., et al. (2021). The Paris Climate Agreement and future sea-level rise from Antarctica. *Nature*, 593(7857), 83–89. doi:10.1038/s41586-021-03427-0
 - DelSole, T., Tippett, M. K., & Shukla, J. (2011). A significant component of unforced multidecadal variability in the recent acceleration of global warming. *J. Climate*, 24(3), 909–926. doi:10.1175/2010jcli3659.1
@@ -596,6 +597,7 @@ Every paper, report and book cited in `01-periods.md`, `02-problems/` and `03-op
 - Soden, B. J., et al. (2008). Quantifying climate feedbacks using radiative kernels. *J. Climate*, 21(14), 3504–3520. doi:10.1175/2007jcli2110.1
 - Solomon, S., Plattner, G.-K., Knutti, R., & Friedlingstein, P. (2009). Irreversible climate change due to carbon dioxide emissions. *PNAS*, 106(6), 1704–1709. doi:10.1073/pnas.0812721106
 - Soon, W., & Baliunas, S. (2003). Proxy climatic and environmental changes of the past 1000 years. *Climate Research*, 23, 89–110. doi:10.3354/cr023089
+- Spencer, R. W. (2024). Is Net Zero necessary? Meeting the Paris Agreement temperature target with 39% global emissions reductions by the 2070s. EarthArXiv preprint, not peer-reviewed. doi:10.31223/x52h6g [Read in full from a copy supplied by Steve, 2026-10-04; cites Lewis & Curry 2018 — `09` §4.4a, S class confirmed.]
 - Spencer, R. W., & Christy, J. R. (1990). Precise monitoring of global temperature trends from satellites. *Science*, 247(4950), 1558–1562. doi:10.1126/science.247.4950.1558
 - Spencer, R. W., Christy, J. R., & Braswell, W. D. (2017). UAH Version 6 global satellite temperature products: Methodology and results. *Asia-Pacific J. Atmos. Sci.*, 53(1), 121–130. doi:10.1007/s13143-017-0010-y
 - Steffen, W., et al. (2018). Trajectories of the Earth System in the Anthropocene. *PNAS*, 115(33), 8252–8259. doi:10.1073/pnas.1810141115

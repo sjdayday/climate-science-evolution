@@ -29,7 +29,7 @@
   "S_class_works_with_sentences": "28 of 80 (mm2005 0/3, lindzen1990 0/1, lindzenchoi2009 1/6, lindzen2001 1/6, svensmark1997 3/16, spencerchristy1990 3/4, mckitrickchristy2018 6/13, lewiscurry2018 10/20, lewis2023 4/11)",
   "R_class_works_with_sentences": "9 of 27",
   "note": "Semantic Scholar's record for Lindzen et al. 2001 is fragmented (64 citations in total, part of the paper's citation stream being attached to the Hartmann & Michelsen 2002 comment), so its coverage is partial; the fcl1991 S class was never enumerated by id and is not matched here.",
-  "S_class_entries_checked_by_sentence": "50 of 80 (28 from Semantic Scholar sentences on 2026-10-02, 22 from the citing papers' full texts on 2026-10-03)"
+  "S_class_entries_checked_by_sentence": "52 of 80 (28 from Semantic Scholar sentences on 2026-10-02, 22 from the citing papers' full texts on 2026-10-03, 2 from copies supplied on 2026-10-04)"
  },
  "verdict_summary": {
   "S_works_with_sentences": 28,
@@ -40,8 +40,9 @@
   "R_confirmed": 7,
   "R_reclassified_to_H": 2,
   "S_entries_read_in_full_text_2026_10_03": 22,
-  "S_full_text_endorses_or_own_group": 21,
-  "S_full_text_reclassified_to_H": 1
+  "S_full_text_endorses_or_own_group": 23,
+  "S_full_text_reclassified_to_H": 1,
+  "S_entries_read_from_supplied_copies_2026_10_04": 2
  },
  "rows": [
   {
@@ -665,19 +666,38 @@
    "sentence": "Their original reviews: McKitrick (2005) and McIntyre and McKitrick (2005, 2006, 2007) provided strong evidence for faults in the MBH process.",
    "reading": "endorses",
    "source": "citing paper's full text read in the browser, 2026-10-03"
+  },
+  {
+   "paper": "mm2005",
+   "id": "W7203902725",
+   "class_before": "S",
+   "class_after": "S",
+   "year": 2026,
+   "title": "A Rothbardian Approach to Climate Change (Dawson, Journal of Libertarian Studies 30(1), Mises Institute)",
+   "sentence": "The IPCC's Third Assessment Report (2001) drew on Mann (1999), which first represented the temperatures of the last two thousand years as resembling a hockey stick, but this was severely criticized for deficiencies in the use of proxies and in statistical analysis (McIntyre and McKitrick 2005; Montford 2010). [footnote 3 refers to Crok and May (2023, chap. 2) for the hockey-stick debate; the article argues that AR6 'rehabilitat[es]' the hockey stick to dismiss the first three climate anomalies of the last two millennia]",
+   "reading": "endorses (the criticism taken as established; the article's case against the IPCC rests on it)",
+   "source": "citing paper's full text read from a copy supplied by Steve, 2026-10-04"
+  },
+  {
+   "paper": "lewiscurry2018",
+   "id": "W4396499727",
+   "class_before": "S",
+   "class_after": "S",
+   "year": 2024,
+   "title": "Is Net Zero Necessary? Meeting the Paris Agreement Temperature Target with 39% Global Emissions Reductions by the 2070s (Spencer, EarthArXiv preprint, non-peer-reviewed)",
+   "sentence": "Climate sensitivity is currently believed by the Intergovernmental Panel on Climate Change (IPCC, 2021) to be 'very likely' in the range of 2 to 5 deg. C, with a best estimate of 3 deg. C, based mostly upon theoretical climate models. Recent observational studies are closer to 2 deg. C or less (Lewis & Curry, 2018; Spencer & Christy, 2024). [Table 1 carries the row 'ECS from obs (Lewis & Curry, 2018)' at 1.6–1.8 °C beside the IPCC best estimate of 3 °C]",
+   "reading": "own group: adopts the low observation-based sensitivity as the alternative to the IPCC's",
+   "source": "citing paper's full text read from a copy supplied by Steve, 2026-10-04"
   }
  ],
  "full_text_pass_2026_10_03": {
   "note": "Of the 39 S-class entries (28 distinct works) that had no Semantic Scholar citing sentence, 22 entries (16 works) were read in the citing papers' full texts in the browser on 2026-10-03 (MDPI HTML pages; Springer, arXiv, Copernicus, Wiley and other PDFs via pdf.js), the reference-list entry located and the sentences citing it extracted. 17 entries (12 works) were not reachable: Elsevier pages refused the browser (Gondwana Research 2025, Geoscience Frontiers 2023, New Techno Humanities 2023, JASTP 2024), Wiley's AJES 2024 and two Springer German book chapters are paywalled, MIT DSpace and Authorea sit behind verification pages, and the Mises Institute, SSRN and EarthArXiv files could not be downloaded.",
-  "entries_read": 22,
-  "works_read": 16,
-  "entries_unreached": 17,
-  "works_unreached": 12,
-  "result": "21 of the 22 entries cite the contested paper in a sentence that adopts or builds on its claim, or are the minority programme's own papers (Lindzen & Choi 2021; Lewis 2025; Dayaratna, McKitrick & Michaels 2020); one — a 2023 review citing Lewis & Curry 2018 for the width of the ECS range rather than its level — moves to H. One entry's sentence could not be located in the text layer (Schildknecht 2020 citing Lindzen et al. 2001) and keeps its paper-level S.",
+  "entries_read": 24,
+  "works_read": 18,
+  "entries_unreached": 15,
+  "works_unreached": 10,
+  "result": "21 of the 22 entries cite the contested paper in a sentence that adopts or builds on its claim, or are the minority programme's own papers (Lindzen & Choi 2021; Lewis 2025; Dayaratna, McKitrick & Michaels 2020); one — a 2023 review citing Lewis & Curry 2018 for the width of the ECS range rather than its level — moves to H. One entry's sentence could not be located in the text layer (Schildknecht 2020 citing Lindzen et al. 2001) and keeps its paper-level S. Supplement 2026-10-04: the Mises Institute article (citing McIntyre & McKitrick 2005) and the EarthArXiv preprint (Spencer, citing Lewis & Curry 2018), read from copies supplied by Steve, both confirm S; 24 of the 39 entries are now read, 15 (10 works) remain.",
   "unreached": {
-   "W7203902725": [
-    "mm2005"
-   ],
    "W4285118871": [
     "lindzenchoi2009",
     "lindzen2001"
@@ -710,12 +730,113 @@
     "lewiscurry2018",
     "lewis2023"
    ],
-   "W4396499727": [
-    "lewiscurry2018"
-   ],
    "W4392862244": [
     "lewis2023"
    ]
+  },
+  "supplement_2026_10_04": {
+   "note": "Two of the unreached works were supplied by Steve as PDFs on 2026-10-04 — the Mises Institute article (10.35297/001c.166899, W7203902725) and the EarthArXiv preprint (10.31223/x52h6g, W4396499727) — and read in full in the container (pdftotext): both confirm S. The ten works still unreached, with their open-access status as OpenAlex records it, are listed in 'unreached_2026_10_04'.",
+   "entries_read": 2,
+   "confirmed_S": 2,
+   "reclassified": 0,
+   "unreached_2026_10_04": {
+    "W4380853689": {
+     "doi": "10.1016/j.gsf.2023.101650",
+     "title": "Empirical assessment of the role of the Sun in climate change using balanced multi-proxy solar records",
+     "venue": "Geoscience Frontiers 2023",
+     "cites": [
+      "lewiscurry2018",
+      "lewis2023"
+     ],
+     "open_access": true
+    },
+    "W4410314676": {
+     "doi": "10.1016/j.gr.2025.05.001",
+     "title": "Detection, attribution, and modeling of climate change: Key open issues",
+     "venue": "Gondwana Research 2025",
+     "cites": [
+      "lindzen2001",
+      "mckitrickchristy2018",
+      "lewis2023"
+     ],
+     "open_access": true
+    },
+    "W4400070318": {
+     "doi": "10.1016/j.techum.2024.06.002",
+     "title": "The problem of tropospheric temperature trend measurements for global climate models",
+     "venue": "New Techno Humanities 2023",
+     "cites": [
+      "spencerchristy1990"
+     ],
+     "open_access": true
+    },
+    "W4391850268": {
+     "doi": "10.1016/j.jastp.2024.106187",
+     "title": "Reassessing the cooling that followed the 1991 volcanic eruption of Mt. Pinatubo",
+     "venue": "Journal of Atmospheric and Solar-Terrestrial Physics 2024",
+     "cites": [
+      "mckitrickchristy2018",
+      "lewiscurry2018"
+     ],
+     "open_access": false
+    },
+    "W4399160936": {
+     "doi": "10.1111/ajes.12579",
+     "title": "Carbon dioxide and a warming climate are not problems",
+     "venue": "American Journal of Economics and Sociology 2024",
+     "cites": [
+      "mckitrickchristy2018"
+     ],
+     "open_access": true
+    },
+    "W3033567486": {
+     "doi": "10.1140/epjp/s13360-020-00471-z",
+     "title": "An oversimplified picture of the climate behavior based on a single process can lead to distorted conclusions (Lindzen)",
+     "venue": "European Physical Journal Plus 2020",
+     "cites": [
+      "lindzen2001"
+     ],
+     "open_access": true,
+     "oa_copy": "MIT DSpace (verification page)"
+    },
+    "W4285118871": {
+     "doi": "10.1007/978-3-662-64548-2_5",
+     "title": "Sind wir Menschen überhaupt schuld am Klimawandel?",
+     "venue": "Springer book chapter 2022",
+     "cites": [
+      "lindzenchoi2009",
+      "lindzen2001"
+     ],
+     "open_access": false
+    },
+    "W4285303851": {
+     "doi": "10.1007/978-3-662-64548-2_1",
+     "title": "Grundlagen",
+     "venue": "Springer book chapter 2022",
+     "cites": [
+      "lindzenchoi2009"
+     ],
+     "open_access": false
+    },
+    "W4392862244": {
+     "doi": "10.22541/au.171053031.12464953",
+     "title": "The Physics of the Carbon Cycle: About the Origin of CO2 in the Atmosphere",
+     "venue": "Authorea preprint 2024",
+     "cites": [
+      "lewis2023"
+     ],
+     "open_access": true
+    },
+    "W7165534468": {
+     "doi": "10.2139/ssrn.6898238",
+     "title": "The Balance of the Earth — An Empirical Quantification of the Negative Feedbacks of Earth's Climate System",
+     "venue": "SSRN 2026",
+     "cites": [
+      "mckitrickchristy2018"
+     ],
+     "open_access": true
+    }
+   }
   }
  }
 }
