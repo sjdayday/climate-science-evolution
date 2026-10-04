@@ -86,6 +86,7 @@ Every paper, report and book cited in `01-periods.md`, `02-problems/` and `03-op
 - Callendar, G. S. (1961). Temperature fluctuations and trends over the Earth. *Quarterly Journal of the Royal Meteorological Society*, 87(371), 1–12. doi:10.1002/qj.49708737102
 - Canadell, J. G., et al. (2007). Contributions to accelerating atmospheric CO₂ growth from economic activity, carbon intensity, and efficiency of natural sinks. *PNAS*. doi:10.3410/f.1093824.554474
 - Cane, M. A., Zebiak, S. E., & Dolan, S. C. (1986). Experimental forecasts of El Niño. *Nature*, 321(6073), 827–832. doi:10.1038/321827a0
+- Catt, B. R. L. (2026). The balance of the Earth: a quantification of the feedbacks controlling Earth's energy balance. SSRN working paper 6898238. doi:10.2139/ssrn.6898238 [Read in full from a copy supplied by Steve, 2026-10-04; cites McKitrick & Christy 2018 — `09` §4.4a, S class confirmed.]
 - Ceppi, P., & Nowack, P. (2021). Observational evidence that cloud feedback amplifies global warming. *PNAS*, 118(30). doi:10.1073/pnas.2026290118
 - Ceppi, P., Brient, F., Zelinka, M. D., & Hartmann, D. L. (2017). Cloud feedback mechanisms and their representation in global climate models. *WIREs Climate Change*, 8(4). doi:10.1002/wcc.465
 - Cess, R. D. (1975). Global climate change: an investigation of atmospheric feedback mechanisms. *Tellus*, 27(3), 193. doi:10.3402/tellusa.v27i3.9901
@@ -273,6 +274,7 @@ Every paper, report and book cited in `01-periods.md`, `02-problems/` and `03-op
 - Huang, S., Pollack, H. N., & Shen, P.-Y. (2000). Temperature trends over the past five centuries reconstructed from borehole temperatures. *Nature*, 403(6771), 756–758. doi:10.1038/35001556
 - Huber, M., & Caballero, R. (2011). The early Eocene equable climate problem revisited. *Climate of the Past*, 7(2), 603–633. doi:10.5194/cp-7-603-2011
 - Huber, M., & Knutti, R. (2014). Natural variability, radiative forcing and climate response in the recent hiatus reconciled. *Nature Geoscience*, 7(9), 651–656. doi:10.1038/ngeo2228
+- Hudson, R. (2023). The problem of tropospheric temperature trend measurements for global climate models: complex versus direct empiricism. *New Techno-Humanities*, 3, 117–123. doi:10.1016/j.techum.2024.06.002 [Read in full from a copy supplied by Steve, 2026-10-04; cites Spencer & Christy 1990 as the history of the MSU record — `09` §4.4a, moved from S to H.]
 - Hughes, M. K., & Diaz, H. F. (1994). Was there a "Medieval Warm Period," and if so, where and when? *Climatic Change*, 26(2-3), 109–142. doi:10.1007/bf01092410
 - Hughes, T. (1981). The weak underbelly of the West Antarctic ice sheet. *Journal of Glaciology*, 27(97), 518–525. doi:10.1017/s002214300001159x
 - Hughes, T. P., et al. (2017). Global warming and recurrent mass bleaching of corals. *Nature*, 543(7645), 373–377. doi:10.1038/nature21707
@@ -355,6 +357,7 @@ Every paper, report and book cited in `01-periods.md`, `02-problems/` and `03-op
 - Lewis, N., & Curry, J. (2018). The impact of recent forcing and ocean heat uptake data on estimates of climate sensitivity. *J. Climate*, 31(15), 6051–6071. doi:10.1175/jcli-d-17-0667.1
 - Lin, B., et al. (2002). The iris hypothesis: A negative or positive cloud feedback? *J. Climate*, 15(1), 3–7. doi:10.1175/1520-0442(2002)015<0003:tihano>2.0.co;2
 - Lindzen, R. S. (1990). Some coolness concerning global warming. *Bull. Amer. Meteor. Soc.*, 71(3), 288–299. doi:10.1175/1520-0477(1990)071<0288:sccgw>2.0.co;2
+- Lindzen, R. S. (2020). An oversimplified picture of the climate behavior based on a single process can lead to distorted conclusions. *European Physical Journal Plus*, 135, 462. doi:10.1140/epjp/s13360-020-00471-z [Read in full from a copy supplied by Steve, 2026-10-04; cites Lindzen, Chou & Hou 2001 — `09` §4.4a, S class confirmed (own author).]
 - Lindzen, R. S., & Choi, Y.-S. (2009). On the determination of climate feedbacks from ERBE data. *Geophys. Res. Lett.*, 36(16). doi:10.1029/2009gl039628
 - Lindzen, R. S., & Choi, Y.-S. (2011). On the observational determination of climate sensitivity and its implications. *Asia-Pacific J. Atmos. Sci.*, 47(4), 377–390. doi:10.1007/s13143-011-0023-x
 - Lindzen, R. S., Chou, M.-D., & Hou, A. Y. (2001). Does the Earth have an adaptive infrared iris? *Bull. Amer. Meteor. Soc.*, 82(3), 417–432. doi:10.1175/1520-0477(2001)082<0417:dtehaa>2.3.co;2
@@ -410,6 +413,7 @@ Every paper, report and book cited in `01-periods.md`, `02-problems/` and `03-op
 - Mauritsen, T., & Stevens, B. (2015). Missing iris effect as a possible cause of muted hydrological change and high climate sensitivity in models. *Nature Geoscience*, 8(5), 346–351. doi:10.1038/ngeo2414
 - Mauritsen, T., et al. (2012). Tuning the climate of a global model. *J. Adv. Model. Earth Syst.*, 4(3). doi:10.1029/2012ms000154
 - Mauritsen, T., et al. (2025). Earth's energy imbalance more than doubled in recent decades. *AGU Advances*, 6(3). doi:10.1029/2024av001636
+- May, A., & Crok, M. (2024). Carbon dioxide and a warming climate are not problems. *American Journal of Economics and Sociology*. doi:10.1111/ajes.12579 [Read in full from a copy supplied by Steve, 2026-10-04; the author's final submitted version (andymaypetrophysicist.com); cites McKitrick & Christy 2018 — `09` §4.4a, S class confirmed.]
 - McIntyre, S., & McKitrick, R. (2003). Corrections to the Mann et al. (1998) proxy data base and Northern Hemispheric average temperature series. *Energy & Environment*, 14(6), 751–771. doi:10.1260/095830503322793632
 - McIntyre, S., & McKitrick, R. (2005). Hockey sticks, principal components, and spurious significance. *Geophys. Res. Lett.*, 32(3). doi:10.1029/2004gl021750
 - McKitrick, R., & Christy, J. (2018). A test of the tropical 200- to 300-hPa warming rate in climate models. *Earth and Space Science*, 5(9), 529–536. doi:10.1029/2018ea000401
@@ -520,6 +524,7 @@ Every paper, report and book cited in `01-periods.md`, `02-problems/` and `03-op
 - Rogelj, J., et al. (2019). Estimating and tracking the remaining carbon budget for stringent climate targets. *Nature*, 571(7765), 335–342. doi:10.1038/s41586-019-1368-z
 - Rohde, R., et al. (2013). A new estimate of the average Earth surface land temperature spanning 1753 to 2011. *Geoinformatics & Geostatistics: An Overview*, 01(01). doi:10.4172/2327-4581.1000101
 - Rohling, E. J., et al. (PALAEOSENS Project Members) (2012). Making sense of palaeoclimate sensitivity. *Nature*, 491(7426), 683–691. doi:10.1038/nature11574
+- Roth, E. (2024). The physics of the carbon cycle: about the origin of CO₂ in the atmosphere. Authorea preprint, 15 March 2024. doi:10.22541/au.171053031.12464953/v1 [Read in full from a copy supplied by Steve, 2026-10-04; cites Lewis 2023 in a list — `09` §4.4a, S class confirmed.]
 - Royer, D. L. (2006). CO₂-forced climate thresholds during the Phanerozoic. *Geochimica et Cosmochimica Acta*, 70(23), 5665–5675. doi:10.1016/j.gca.2005.11.031
 - Royer, D. L., et al. (2004). CO₂ as a primary driver of Phanerozoic climate. *GSA Today*, 14(3), 4. doi:10.1130/1052-5173(2004)014<4:caapdo>2.0.co;2
 - Rugenstein, M., et al. (2020). Equilibrium climate sensitivity estimated by equilibrating climate models. *Geophys. Res. Lett.*, 47(4). doi:10.1029/2019gl083898
@@ -540,6 +545,8 @@ Every paper, report and book cited in `01-periods.md`, `02-problems/` and `03-op
 - Sarmiento, J. L., & Sundquist, E. T. (1992). Revised budget for the oceanic uptake of anthropogenic carbon dioxide. *Nature*, 356(6370), 589–593. doi:10.1038/356589a0
 - Sarmiento, J. L., Orr, J. C., & Siegenthaler, U. (1992). A perturbation simulation of CO₂ uptake in an ocean general circulation model. *J. Geophys. Res.*, 97(C3), 3621–3645. doi:10.1029/91jc02849
 - Sausen, R., Barthel, K., & Hasselmann, K. (1988). Coupled ocean–atmosphere models with flux correction. *Climate Dynamics*, 2(3), 145–163. doi:10.1007/bf01053472
+- Scafetta, N. (2023). Empirical assessment of the role of the Sun in climate change using balanced multi-proxy solar records. *Geoscience Frontiers*, 14(6), 101650. doi:10.1016/j.gsf.2023.101650 [Read in full from a copy supplied by Steve, 2026-10-04; cites Lewis & Curry 2018 and Lewis 2023 — `09` §4.4a, S class confirmed.]
+- Scafetta, N. (2026). Detection, attribution, and modeling of climate change: key open issues. *Gondwana Research*, 152, 92–128 (online 2025). doi:10.1016/j.gr.2025.05.001 [Read in full from a copy supplied by Steve, 2026-10-04; cites Lindzen, Chou & Hou 2001, McKitrick & Christy 2018 and Lewis 2023 — `09` §4.4a, S class confirmed.]
 - Scaife, A. A., & Smith, D. (2018). A signal-to-noise paradox in climate science. *npj Climate and Atmospheric Science*, 1(1). doi:10.1038/s41612-018-0038-4
 - Schlesinger, M. E. (1985). Feedback analysis of results from energy balance and radiative-convective models. In *Projecting the Climatic Effects of Increasing Carbon Dioxide* (US DOE).
 - Schlesinger, M. E., & Mitchell, J. F. B. (1987). Climate model simulations of the equilibrium climatic response to increased carbon dioxide. *Reviews of Geophysics*, 25(4), 760–798. doi:10.1029/rg025i004p00760

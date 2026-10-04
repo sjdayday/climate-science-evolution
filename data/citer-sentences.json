@@ -29,7 +29,7 @@
   "S_class_works_with_sentences": "28 of 80 (mm2005 0/3, lindzen1990 0/1, lindzenchoi2009 1/6, lindzen2001 1/6, svensmark1997 3/16, spencerchristy1990 3/4, mckitrickchristy2018 6/13, lewiscurry2018 10/20, lewis2023 4/11)",
   "R_class_works_with_sentences": "9 of 27",
   "note": "Semantic Scholar's record for Lindzen et al. 2001 is fragmented (64 citations in total, part of the paper's citation stream being attached to the Hartmann & Michelsen 2002 comment), so its coverage is partial; the fcl1991 S class was never enumerated by id and is not matched here.",
-  "S_class_entries_checked_by_sentence": "52 of 80 (28 from Semantic Scholar sentences on 2026-10-02, 22 from the citing papers' full texts on 2026-10-03, 2 from copies supplied on 2026-10-04)"
+  "S_class_entries_checked_by_sentence": "62 of 80 (28 from Semantic Scholar sentences on 2026-10-02, 22 from the citing papers' full texts on 2026-10-03, 12 from copies supplied on 2026-10-04)"
  },
  "verdict_summary": {
   "S_works_with_sentences": 28,
@@ -40,9 +40,9 @@
   "R_confirmed": 7,
   "R_reclassified_to_H": 2,
   "S_entries_read_in_full_text_2026_10_03": 22,
-  "S_full_text_endorses_or_own_group": 23,
-  "S_full_text_reclassified_to_H": 1,
-  "S_entries_read_from_supplied_copies_2026_10_04": 2
+  "S_full_text_endorses_or_own_group": 32,
+  "S_full_text_reclassified_to_H": 2,
+  "S_entries_read_from_supplied_copies_2026_10_04": 12
  },
  "rows": [
   {
@@ -688,15 +688,125 @@
    "sentence": "Climate sensitivity is currently believed by the Intergovernmental Panel on Climate Change (IPCC, 2021) to be 'very likely' in the range of 2 to 5 deg. C, with a best estimate of 3 deg. C, based mostly upon theoretical climate models. Recent observational studies are closer to 2 deg. C or less (Lewis & Curry, 2018; Spencer & Christy, 2024). [Table 1 carries the row 'ECS from obs (Lewis & Curry, 2018)' at 1.6–1.8 °C beside the IPCC best estimate of 3 °C]",
    "reading": "own group: adopts the low observation-based sensitivity as the alternative to the IPCC's",
    "source": "citing paper's full text read from a copy supplied by Steve, 2026-10-04"
+  },
+  {
+   "paper": "mckitrickchristy2018",
+   "id": "W4399160936",
+   "class_before": "S",
+   "class_after": "S",
+   "year": 2024,
+   "title": "Carbon Dioxide and a Warming Climate are not problems (May & Crok, American Journal of Economics and Sociology; author's final submitted version)",
+   "sentence": "This is a problematic procedure when McKitrick and Christy, and AR6 itself, have shown that the models are not valid in the tropics, and probably globally, when compared to observations. The work of McKitrick and Christy is acknowledged in AR6, and they admit their overestimation of surface and ocean temperatures remains in the current AR6 models.",
+   "reading": "endorses",
+   "source": "citing paper's full text read from a copy supplied by Steve, 2026-10-04"
+  },
+  {
+   "paper": "spencerchristy1990",
+   "id": "W4400070318",
+   "class_before": "S",
+   "class_after": "H",
+   "year": 2023,
+   "title": "The problem of tropospheric temperature trend measurements for global climate models: Complex versus direct empiricism (Hudson, New Techno-Humanities)",
+   "sentence": "…the implementation of MSUs by Spencer and Christy was a welcome development as they promised just such global extent (Spencer and Christy 1990, 155). Spencer and Christy's MSU data initially contained a surprise: they could not find for the period 1979 to 1988 any 'obvious long-term trend' in tropospheric temperature, either warming or cooling (1990, 1562). … (Spencer and Christy 1990, 1559 …) 'nowhere are radiosonde data used'.",
+   "reading": "historical and methodological citations of the 1990 paper (the record's introduction, the absence of a trend to 1988, the calibration without radiosondes) in a philosophy-of-science paper that defends the UAH group's 'direct empiricism' against Santer et al. 2008 in the later dispute; the 1990 claim itself is not adopted — H by the sentence rule, the paper's sympathies notwithstanding",
+   "source": "citing paper's full text read from a copy supplied by Steve, 2026-10-04"
+  },
+  {
+   "paper": "lindzen2001",
+   "id": "W4410314676",
+   "class_before": "S",
+   "class_after": "S",
+   "year": 2025,
+   "title": "Detection, attribution, and modeling of climate change: Key open issues (Scafetta, Gondwana Research)",
+   "sentence": "van Wijngaarden and Happer (2023) expressed skepticism only toward climate change alarmism by arguing that the net climate feedback should predominantly be negative. This is a legitimate physical expectation that the authors supported by citing the findings of Lindzen et al. (2001) and Lindzen and Choi (2011) obtained by comparing high-frequency deseasonalized fluctuations in sea surface temperatures and the concurrent fluctuations in top-of-atmosphere (TOA) outgoing radiation…",
+   "reading": "endorses",
+   "source": "citing paper's full text read from a copy supplied by Steve, 2026-10-04"
+  },
+  {
+   "paper": "mckitrickchristy2018",
+   "id": "W4410314676",
+   "class_before": "S",
+   "class_after": "S",
+   "year": 2025,
+   "title": "Detection, attribution, and modeling of climate change: Key open issues (Scafetta, Gondwana Research)",
+   "sentence": "Furthermore, the GCMs significantly overestimate warming trends between 1979 and 2014 across the vertical atmospheric profile, particularly in the upper tropical troposphere (Mitchell et al., 2020; McKitrick and Christy, 2018, 2020; Hudson, 2023). … in the upper tropical troposphere the GCMs predict a 'hot-spot' that is not observed in the data (McKitrick and Christy, 2018, 2020; Mitchell et al., 2020).",
+   "reading": "endorses",
+   "source": "citing paper's full text read from a copy supplied by Steve, 2026-10-04"
+  },
+  {
+   "paper": "lewis2023",
+   "id": "W4410314676",
+   "class_before": "S",
+   "class_after": "S",
+   "year": 2025,
+   "title": "Detection, attribution, and modeling of climate change: Key open issues (Scafetta, Gondwana Research)",
+   "sentence": "…the reanalysis of the same line of evidences proposed by Lewis (2023) directly challenged the assessment by Sherwood et al. (2020) by highlighting a number of possible statistical errors and other shortcomings. … Lewis (2023) estimated that the same evidence could suggest a significantly lower ECS range, with a median of 2.16 °C … This empirically derived ECS range optimally fits the findings of Lewis (2023) and (Scafetta, 2021c, 2022, 2023b).",
+   "reading": "endorses and builds on",
+   "source": "citing paper's full text read from a copy supplied by Steve, 2026-10-04"
+  },
+  {
+   "paper": "lewiscurry2018",
+   "id": "W4380853689",
+   "class_before": "S",
+   "class_after": "S",
+   "year": 2023,
+   "title": "Empirical assessment of the role of the Sun in climate change using balanced multi-proxy solar records (Scafetta, Geoscience Frontiers)",
+   "sentence": "…the likely value of the actual ECS could be between 1.4 °C and 2.8 °C with a mean of 2.1 °C, which roughly corresponds to what has been found in other studies (Lewis and Curry, 2018; Scafetta, 2021c, 2022, 2023a, 2022; Lewis, 2023)…",
+   "reading": "builds on (agreement claimed)",
+   "source": "citing paper's full text read from a copy supplied by Steve, 2026-10-04"
+  },
+  {
+   "paper": "lewis2023",
+   "id": "W4380853689",
+   "class_before": "S",
+   "class_after": "S",
+   "year": 2023,
+   "title": "Empirical assessment of the role of the Sun in climate change using balanced multi-proxy solar records (Scafetta, Geoscience Frontiers)",
+   "sentence": "This ECS range is also compatible with the recent results by Lewis (2023), who utilized the same forcings.",
+   "reading": "builds on (agreement claimed)",
+   "source": "citing paper's full text read from a copy supplied by Steve, 2026-10-04"
+  },
+  {
+   "paper": "lindzen2001",
+   "id": "W3033567486",
+   "class_before": "S",
+   "class_after": "S",
+   "year": 2020,
+   "title": "An oversimplified picture of the climate behavior based on a single process can lead to distorted conclusions (Lindzen, European Physical Journal Plus)",
+   "sentence": "Most attempts to explain this [the Early Faint Sun Paradox] have relied on improbably high levels of various greenhouse gases, but, as Rondanelli and Lindzen [29] showed, it is readily accounted for by negative feedbacks from upper level cirrus clouds as was found earlier by Lindzen et al. [21].",
+   "reading": "own author: endorses",
+   "source": "citing paper's full text read from a copy supplied by Steve, 2026-10-04"
+  },
+  {
+   "paper": "lewis2023",
+   "id": "W4392862244",
+   "class_before": "S",
+   "class_after": "S",
+   "year": 2024,
+   "title": "The Physics of the Carbon Cycle: About the Origin of CO2 in the Atmosphere (Roth, Authorea preprint)",
+   "sentence": "It should only be repeated that its exact value [the climate sensitivity] is scientifically highly controversial; and for those interested, a few helpful publications are listed (Beemt, 2019; Curry, 2023; Koutsoyiannis, et al. 2023; Lewis, 2023; McKitrick & Christiy, 2020; Scafetta, 2022, 2024; Spencer, 2024; Spencer & Cristy, 2024; Vahrenholt & Lüning, 2020).",
+   "reading": "list on the claim's side; the paper's own claim is that anthropogenic emissions are not the main cause of the CO2 rise",
+   "source": "citing paper's full text read from a copy supplied by Steve, 2026-10-04"
+  },
+  {
+   "paper": "mckitrickchristy2018",
+   "id": "W7165534468",
+   "class_before": "S",
+   "class_after": "S",
+   "year": 2026,
+   "title": "The Balance of the Earth: A Quantification of the Feedbacks Controlling Earth's Energy Balance (Catt, SSRN)",
+   "sentence": "Long-term empirical data collected by satellites and radiosondes (including the UAH and RSS records) also confirms that the predicted warming in the active tropical troposphere condensation zone from 700 hPa to 500 hPa, most likely to show this effect, is not observed, directly falsifying GCM predictions, as reported by (McKitrick and Christy, 2018).",
+   "reading": "endorses",
+   "source": "citing paper's full text read from a copy supplied by Steve, 2026-10-04"
   }
  ],
  "full_text_pass_2026_10_03": {
   "note": "Of the 39 S-class entries (28 distinct works) that had no Semantic Scholar citing sentence, 22 entries (16 works) were read in the citing papers' full texts in the browser on 2026-10-03 (MDPI HTML pages; Springer, arXiv, Copernicus, Wiley and other PDFs via pdf.js), the reference-list entry located and the sentences citing it extracted. 17 entries (12 works) were not reachable: Elsevier pages refused the browser (Gondwana Research 2025, Geoscience Frontiers 2023, New Techno Humanities 2023, JASTP 2024), Wiley's AJES 2024 and two Springer German book chapters are paywalled, MIT DSpace and Authorea sit behind verification pages, and the Mises Institute, SSRN and EarthArXiv files could not be downloaded.",
-  "entries_read": 24,
-  "works_read": 18,
-  "entries_unreached": 15,
-  "works_unreached": 10,
-  "result": "21 of the 22 entries cite the contested paper in a sentence that adopts or builds on its claim, or are the minority programme's own papers (Lindzen & Choi 2021; Lewis 2025; Dayaratna, McKitrick & Michaels 2020); one — a 2023 review citing Lewis & Curry 2018 for the width of the ECS range rather than its level — moves to H. One entry's sentence could not be located in the text layer (Schildknecht 2020 citing Lindzen et al. 2001) and keeps its paper-level S. Supplement 2026-10-04: the Mises Institute article (citing McIntyre & McKitrick 2005) and the EarthArXiv preprint (Spencer, citing Lewis & Curry 2018), read from copies supplied by Steve, both confirm S; 24 of the 39 entries are now read, 15 (10 works) remain.",
+  "entries_read": 34,
+  "works_read": 25,
+  "entries_unreached": 5,
+  "works_unreached": 3,
+  "result": "21 of the 22 entries cite the contested paper in a sentence that adopts or builds on its claim, or are the minority programme's own papers (Lindzen & Choi 2021; Lewis 2025; Dayaratna, McKitrick & Michaels 2020); one — a 2023 review citing Lewis & Curry 2018 for the width of the ECS range rather than its level — moves to H. One entry's sentence could not be located in the text layer (Schildknecht 2020 citing Lindzen et al. 2001) and keeps its paper-level S. Supplement 2026-10-04: the Mises Institute article (citing McIntyre & McKitrick 2005) and the EarthArXiv preprint (Spencer, citing Lewis & Curry 2018), read from copies supplied by Steve, both confirm S; 24 of the 39 entries are now read, 15 (10 works) remain. Second supplement 2026-10-04: seven more works (ten entries) read from copies supplied by Steve; nine entries confirm S and one — Hudson 2023, citing Spencer & Christy 1990 as history — moves to H; 34 of the 39 entries are now read, 5 (3 works, paywalled for Steve as well) remain.",
   "unreached": {
    "W4285118871": [
     "lindzenchoi2009",
@@ -735,41 +845,11 @@
    ]
   },
   "supplement_2026_10_04": {
-   "note": "Two of the unreached works were supplied by Steve as PDFs on 2026-10-04 — the Mises Institute article (10.35297/001c.166899, W7203902725) and the EarthArXiv preprint (10.31223/x52h6g, W4396499727) — and read in full in the container (pdftotext): both confirm S. The ten works still unreached, with their open-access status as OpenAlex records it, are listed in 'unreached_2026_10_04'.",
-   "entries_read": 2,
-   "confirmed_S": 2,
-   "reclassified": 0,
+   "note": "Steve supplied nine of the unreached works as PDFs on 2026-10-04 — the Mises Institute article (W7203902725) and the EarthArXiv preprint (W4396499727) first, then the AJES article (W4399160936), Hudson's New Techno-Humanities paper (W4400070318), Scafetta's Gondwana Research review (W4410314676) and Geoscience Frontiers paper (W4380853689), Lindzen's 2020 EPJ Plus essay (W3033567486), Roth's Authorea preprint (W4392862244) and Catt's SSRN paper (W7165534468) — read in full in the container (pdftotext). Twelve entries: eleven confirm S; one moves to H (Hudson 2023 cites Spencer & Christy 1990 only as history). The three works still unreached — a paywalled JASTP paper and two Springer book chapters — are not reachable by Steve either.",
+   "entries_read": 12,
+   "confirmed_S": 11,
+   "reclassified": 1,
    "unreached_2026_10_04": {
-    "W4380853689": {
-     "doi": "10.1016/j.gsf.2023.101650",
-     "title": "Empirical assessment of the role of the Sun in climate change using balanced multi-proxy solar records",
-     "venue": "Geoscience Frontiers 2023",
-     "cites": [
-      "lewiscurry2018",
-      "lewis2023"
-     ],
-     "open_access": true
-    },
-    "W4410314676": {
-     "doi": "10.1016/j.gr.2025.05.001",
-     "title": "Detection, attribution, and modeling of climate change: Key open issues",
-     "venue": "Gondwana Research 2025",
-     "cites": [
-      "lindzen2001",
-      "mckitrickchristy2018",
-      "lewis2023"
-     ],
-     "open_access": true
-    },
-    "W4400070318": {
-     "doi": "10.1016/j.techum.2024.06.002",
-     "title": "The problem of tropospheric temperature trend measurements for global climate models",
-     "venue": "New Techno Humanities 2023",
-     "cites": [
-      "spencerchristy1990"
-     ],
-     "open_access": true
-    },
     "W4391850268": {
      "doi": "10.1016/j.jastp.2024.106187",
      "title": "Reassessing the cooling that followed the 1991 volcanic eruption of Mt. Pinatubo",
@@ -778,26 +858,8 @@
       "mckitrickchristy2018",
       "lewiscurry2018"
      ],
-     "open_access": false
-    },
-    "W4399160936": {
-     "doi": "10.1111/ajes.12579",
-     "title": "Carbon dioxide and a warming climate are not problems",
-     "venue": "American Journal of Economics and Sociology 2024",
-     "cites": [
-      "mckitrickchristy2018"
-     ],
-     "open_access": true
-    },
-    "W3033567486": {
-     "doi": "10.1140/epjp/s13360-020-00471-z",
-     "title": "An oversimplified picture of the climate behavior based on a single process can lead to distorted conclusions (Lindzen)",
-     "venue": "European Physical Journal Plus 2020",
-     "cites": [
-      "lindzen2001"
-     ],
-     "open_access": true,
-     "oa_copy": "MIT DSpace (verification page)"
+     "open_access": false,
+     "note": "not reachable by Steve either (paywalled)"
     },
     "W4285118871": {
      "doi": "10.1007/978-3-662-64548-2_5",
@@ -807,7 +869,8 @@
       "lindzenchoi2009",
       "lindzen2001"
      ],
-     "open_access": false
+     "open_access": false,
+     "note": "not reachable by Steve either (paywalled)"
     },
     "W4285303851": {
      "doi": "10.1007/978-3-662-64548-2_1",
@@ -816,27 +879,18 @@
      "cites": [
       "lindzenchoi2009"
      ],
-     "open_access": false
-    },
-    "W4392862244": {
-     "doi": "10.22541/au.171053031.12464953",
-     "title": "The Physics of the Carbon Cycle: About the Origin of CO2 in the Atmosphere",
-     "venue": "Authorea preprint 2024",
-     "cites": [
-      "lewis2023"
-     ],
-     "open_access": true
-    },
-    "W7165534468": {
-     "doi": "10.2139/ssrn.6898238",
-     "title": "The Balance of the Earth — An Empirical Quantification of the Negative Feedbacks of Earth's Climate System",
-     "venue": "SSRN 2026",
-     "cites": [
-      "mckitrickchristy2018"
-     ],
-     "open_access": true
+     "open_access": false,
+     "note": "not reachable by Steve either (paywalled)"
     }
-   }
+   },
+   "reclassified_entries": [
+    {
+     "paper": "spencerchristy1990",
+     "id": "W4400070318",
+     "from": "S",
+     "to": "H"
+    }
+   ]
   }
  }
 }

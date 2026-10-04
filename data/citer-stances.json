@@ -134,9 +134,7 @@
   },
   "spencerchristy1990": {
    "n": 31,
-   "S": [
-    "W4400070318"
-   ],
+   "S": [],
    "R": [
     "W3136197758",
     "W3035512096"
@@ -149,7 +147,7 @@
     "W4402163627",
     "W3094204188"
    ],
-   "H": 22
+   "H": 23
   },
   "mckitrickchristy2018": {
    "n": 25,
@@ -290,6 +288,10 @@
   {
    "date": "2026-10-04",
    "note": "Two further S-class entries read from copies supplied by Steve (Dawson 2026 in the Journal of Libertarian Studies, citing McIntyre & McKitrick 2005; Spencer 2024 on EarthArXiv, citing Lewis & Curry 2018): both confirm S; no class changes. See data/citer-sentences.json, full_text_pass_2026_10_03.supplement_2026_10_04."
+  },
+  {
+   "date": "2026-10-04",
+   "note": "Ten further S-class entries read from copies supplied by Steve (May & Crok 2024; Hudson 2023; Scafetta 2025 Gondwana Research and 2023 Geoscience Frontiers; Lindzen 2020; Roth 2024; Catt 2026): nine confirm S; Spencer & Christy 1990 — W4400070318 (Hudson 2023) moved from S to H (cites the paper as the history of the MSU record, not for its claim). Spencer & Christy 1990's 2020–26 S class is now empty. See data/citer-sentences.json."
   }
  ]
 }
