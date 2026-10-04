@@ -1,5 +1,5 @@
 {
- "built": "2026-10-04 (v0.38; statements unchanged from 2026-10-03)",
+ "built": "2026-10-04 (v0.38 Commons count; v0.41 adds the GCC pamphlet of spring 1996 and v0.42 the NIPCC summary of 2008 to the statements)",
  "purpose": "09 §6 item 5: a dated list of the challenge literature's topics, typed by the 09 §1 typology, to turn the §3 observation that 'the public challenge concentrates on D and X' into a count.",
  "types": {
   "R": "radiative mechanism (whether the greenhouse effect exists and its first-order size)",
@@ -70,6 +70,40 @@
      "type": "A",
      "stance": "contested",
      "text": "the deleted sentences: no study has positively attributed the change to human causes"
+    }
+   ]
+  },
+  {
+   "id": "gcc-cleansing-1996",
+   "date": "1996-05",
+   "author": "Global Climate Coalition",
+   "title": "The IPCC: Institutionalized 'Scientific Cleansing'?",
+   "read": "P (text copy, quote-limited fetch)",
+   "where": "08 §4",
+   "topics": [
+    {
+     "problem": null,
+     "type": "PROC",
+     "stance": "contested",
+     "text": "Chapter 8 changed after acceptance at Madrid; 'Nothing in the Rules permits or contemplates that anybody… has the right to change the underlying report'; republish as accepted or lose credibility"
+    },
+    {
+     "problem": null,
+     "type": "PROC",
+     "stance": "contested",
+     "text": "the revised chapter no longer 'comprehensive, objective, and balanced'; 'both sides of the story' not told; 'completely unambiguous' attribution 'a meaningless standard'"
+    },
+    {
+     "problem": "P07",
+     "type": "A",
+     "stance": "contested",
+     "text": "the deleted sentences: no study has shown clear evidence attributing the observed changes to greenhouse gases; 'We do not know' when an anthropogenic effect will be identified"
+    },
+    {
+     "problem": "P09",
+     "type": "X",
+     "stance": "contested",
+     "text": "deleted call for investigations not undertaken: paleoclimate data unable to reconstruct natural variability over 'even the past 1,000 years'"
     }
    ]
   },
@@ -184,6 +218,100 @@
      "type": "D",
      "stance": "contested",
      "text": "scientists 'adjust both data and even theory to accommodate politically correct positions'"
+    }
+   ]
+  },
+  {
+   "id": "nipcc-2008",
+   "date": "2008-03",
+   "author": "S. F. Singer (ed.), Nongovernmental International Panel on Climate Change / Heartland Institute",
+   "title": "Nature, Not Human Activity, Rules the Climate: Summary for Policymakers",
+   "read": "P (EPA docket copy, quote-limited fetch)",
+   "where": "08 §4",
+   "topics": [
+    {
+     "problem": "P08",
+     "type": "D",
+     "stance": "conceded",
+     "text": "warming has occurred ('Evidence of warming is not evidence that the cause is anthropogenic')"
+    },
+    {
+     "problem": "P07",
+     "type": "A",
+     "stance": "contested",
+     "text": "'natural causes are very likely to be the dominant cause'; 'little doubt that solar-wind variability is a primary cause of climate change'"
+    },
+    {
+     "problem": "P08",
+     "type": "M",
+     "stance": "contested",
+     "text": "the tropospheric fingerprint: models warm with altitude, observations the opposite — 'clearly falsifies the hypothesis of anthropogenic global warming' (Douglass et al. 2007)"
+    },
+    {
+     "problem": "P03",
+     "type": "M",
+     "stance": "contested",
+     "text": "models with adjustable parameters 'cannot make reliable predictions and should not be used in formulating government policy'"
+    },
+    {
+     "problem": "P04",
+     "type": "Q",
+     "stance": "contested",
+     "text": "model sensitivities of '1.5 to 11.5 C', 'simply chosen by expert opinion'"
+    },
+    {
+     "problem": "P08",
+     "type": "D",
+     "stance": "contested",
+     "text": "'The global temperature record is unreliable' (urban heat island, station distribution, data quality)"
+    },
+    {
+     "problem": null,
+     "type": "D",
+     "stance": "contested",
+     "text": "sea level rising 'about 1.8 mm per year' with 'an insignificant amount of acceleration, if any… since 1900'"
+    },
+    {
+     "problem": "P08",
+     "type": "D",
+     "stance": "contested",
+     "text": "ocean heat storage 'over-estimated by a large factor'; how much greenhouse energy heats the sea surface 'not known'"
+    },
+    {
+     "problem": "P02",
+     "type": "D",
+     "stance": "contested",
+     "text": "CO2 trends 'poorly understood and controversial'; carbon-cycle models 'rely on unknown sinks'"
+    },
+    {
+     "problem": "P09",
+     "type": "X",
+     "stance": "contested",
+     "text": "the hockey stick 'beset with methodological errors'; the Medieval Warm Period 'warmer than current temperatures'"
+    },
+    {
+     "problem": null,
+     "type": "PROC",
+     "stance": "contested",
+     "text": "IPCC procedure: the SAR changed after approval to 'conform' to the SPM; the TAR's 'spurious scientific papers'; AR4's SPM 'distorts the key result of the CCSP report'"
+    },
+    {
+     "problem": null,
+     "type": "SOC",
+     "stance": "contested",
+     "text": "'The IPCC is pre-programmed to produce reports to support the hypotheses of anthropogenic warming'; governments' bias toward government activity"
+    },
+    {
+     "problem": null,
+     "type": "FRAME",
+     "stance": "contested",
+     "text": "'the science is far from settled'"
+    },
+    {
+     "problem": null,
+     "type": "POL",
+     "stance": "contested",
+     "text": "higher CO2 'more beneficial than harmful'; modest warming economically positive; mitigation 'premature and misguided', 'futile and expensive'"
     }
    ]
   },
@@ -530,6 +658,14 @@
    },
    "conceded": {}
   },
+  "gcc-cleansing-1996": {
+   "contested": {
+    "PROC": 2,
+    "A": 1,
+    "X": 1
+   },
+   "conceded": {}
+  },
   "gcc-packet-1996": {
    "contested": {
     "A": 1,
@@ -558,6 +694,22 @@
     "D": 1
    },
    "conceded": {}
+  },
+  "nipcc-2008": {
+   "contested": {
+    "A": 1,
+    "M": 2,
+    "Q": 1,
+    "D": 4,
+    "X": 1,
+    "PROC": 1,
+    "SOC": 1,
+    "FRAME": 1,
+    "POL": 1
+   },
+   "conceded": {
+    "D": 1
+   }
   },
   "mcintyre-2009-11": {
    "contested": {
@@ -628,17 +780,23 @@
  "period_tallies_contested": {
   "1995–96 (industry and Seitz)": {
    "M": 2,
-   "A": 3,
-   "PROC": 2,
+   "A": 4,
+   "PROC": 4,
+   "X": 1,
    "Q": 1,
    "D": 2,
    "POL": 1
   },
   "2006–11 (the audit years)": {
-   "X": 5,
-   "SOC": 2,
-   "D": 1,
-   "PROC": 5
+   "X": 6,
+   "SOC": 3,
+   "D": 5,
+   "A": 1,
+   "M": 2,
+   "Q": 1,
+   "PROC": 6,
+   "FRAME": 1,
+   "POL": 1
   },
   "2014–17 (the physicists' challenge)": {
    "A": 3,
@@ -736,12 +894,12 @@
     "INQ": 43
    },
    "memoranda_raising": {
-    "D": 32,
-    "A": 11,
-    "SOC": 27,
     "PROC": 42,
-    "NOISE": 6,
+    "A": 11,
+    "D": 32,
+    "SOC": 27,
     "POL": 12,
+    "NOISE": 6,
     "X": 18,
     "FRAME": 5,
     "M": 9,
@@ -775,14 +933,14 @@
     "IPCC": 57
    },
    "memoranda_raising": {
-    "D": 47,
-    "SOC": 39,
-    "FRAME": 7,
     "PROC": 64,
+    "SOC": 39,
+    "D": 47,
+    "FRAME": 7,
     "X": 23,
     "A": 15,
-    "NOISE": 10,
     "POL": 12,
+    "NOISE": 10,
     "M": 10,
     "Q": 6
    }
@@ -810,17 +968,17 @@
     "INQ": 32
    },
    "memoranda_raising": {
-    "D": 35,
-    "A": 12,
     "PROC": 45,
-    "NOISE": 6,
+    "A": 12,
+    "D": 35,
     "POL": 5,
+    "NOISE": 6,
     "SOC": 21,
     "X": 18,
     "M": 10,
     "Q": 4,
-    "R": 1,
-    "FRAME": 1
+    "FRAME": 1,
+    "R": 1
    },
    "critical_memoranda_raising_D_or_X": 39,
    "critical_memoranda_raising_M_Q_A_or_N": 18,

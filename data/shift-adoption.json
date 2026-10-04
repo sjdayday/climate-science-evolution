@@ -1,0 +1,1480 @@
+{
+ "built": "2026-10-04",
+ "purpose": "09 §6 item 4: the premise-adoption numbers (years to 25 and 100 citing works, OpenAlex) for the anchoring paper(s) of each shift in 09 §2, so that the pre-1990 shifts, which no survey covers, carry at least these; contested papers beside them where there was one.",
+ "source": "data/openalex-traces.json (OpenAlex, queried 2026-09-30); era medians from 05 §2 (before 1980: 4 and 13 years; 1980–99: 2 and 4; 2000–14: 1 and 3; 2015–: 1 and 2).",
+ "problems": {
+  "P01": [
+   {
+    "shift": "~1960 (saturation argument dropped)",
+    "accepted": [
+     {
+      "key": "plass1956",
+      "label": "Plass 1956",
+      "year": 1956,
+      "citations": 251,
+      "y25": 1961,
+      "y100": 1984,
+      "years_to_25": 5,
+      "years_to_100": 28,
+      "era": "before 1980",
+      "era_median_to_25": 4,
+      "era_median_to_100": 13,
+      "peak": [
+       2015,
+       11
+      ]
+     }
+    ],
+    "contested": [
+     {
+      "key": "moller1963",
+      "label": "Möller 1963",
+      "year": 1963,
+      "citations": 178,
+      "y25": 1973,
+      "y100": 1992,
+      "years_to_25": 10,
+      "years_to_100": 29,
+      "era": "before 1980",
+      "era_median_to_25": 4,
+      "era_median_to_100": 13,
+      "peak": [
+       1971,
+       8
+      ]
+     }
+    ],
+    "note": "Möller 1963 is the 'indeterminate' position (surface balance), answered by Manabe & Wetherald 1967"
+   },
+   {
+    "shift": "~1975 (column result)",
+    "accepted": [
+     {
+      "key": "mw1967",
+      "label": "Manabe & Wetherald 1967",
+      "year": 1967,
+      "citations": 1763,
+      "y25": 1970,
+      "y100": 1975,
+      "years_to_25": 3,
+      "years_to_100": 8,
+      "era": "before 1980",
+      "era_median_to_25": 4,
+      "era_median_to_100": 13,
+      "peak": [
+       2023,
+       106
+      ]
+     }
+    ],
+    "contested": [],
+    "note": null
+   }
+  ],
+  "P02": [
+   {
+    "shift": "~1965 (accumulation)",
+    "accepted": [
+     {
+      "key": "revelle1957",
+      "label": "Revelle & Suess 1957",
+      "year": 1957,
+      "citations": 1042,
+      "y25": 1960,
+      "y100": 1973,
+      "years_to_25": 3,
+      "years_to_100": 16,
+      "era": "before 1980",
+      "era_median_to_25": 4,
+      "era_median_to_100": 13,
+      "peak": [
+       2022,
+       54
+      ]
+     },
+     {
+      "key": "keeling1960",
+      "label": "Keeling 1960",
+      "year": 1960,
+      "citations": 508,
+      "y25": 1970,
+      "y100": 2007,
+      "years_to_25": 10,
+      "years_to_100": 47,
+      "era": "before 1980",
+      "era_median_to_25": 4,
+      "era_median_to_100": 13,
+      "peak": [
+       2022,
+       34
+      ]
+     }
+    ],
+    "contested": [],
+    "note": "Keeling's record was used operationally within a few years (Bolin & Keeling 1963); the paper itself is cited late"
+   },
+   {
+    "shift": "1995–2004 (the partition)",
+    "accepted": [
+     {
+      "key": "tans1990",
+      "label": "Tans et al. 1990",
+      "year": 1990,
+      "citations": 2120,
+      "y25": 1991,
+      "y100": 1992,
+      "years_to_25": 1,
+      "years_to_100": 2,
+      "era": "1980–1999",
+      "era_median_to_25": 2,
+      "era_median_to_100": 4,
+      "peak": [
+       1993,
+       140
+      ]
+     },
+     {
+      "key": "sabine2004",
+      "label": "Sabine et al. 2004",
+      "year": 2004,
+      "citations": 4232,
+      "y25": 2005,
+      "y100": 2006,
+      "years_to_25": 1,
+      "years_to_100": 2,
+      "era": "2000–2014",
+      "era_median_to_25": 1,
+      "era_median_to_100": 3,
+      "peak": [
+       2022,
+       288
+      ]
+     }
+    ],
+    "contested": [],
+    "note": null
+   },
+   {
+    "shift": "2005–09 (the tail)",
+    "accepted": [
+     {
+      "key": "friedlingstein2006",
+      "label": "Friedlingstein et al. 2006",
+      "year": 2006,
+      "citations": 3202,
+      "y25": 2007,
+      "y100": 2007,
+      "years_to_25": 1,
+      "years_to_100": 1,
+      "era": "2000–2014",
+      "era_median_to_25": 1,
+      "era_median_to_100": 3,
+      "peak": [
+       2013,
+       265
+      ]
+     },
+     {
+      "key": "archer2009",
+      "label": "Archer et al. 2009",
+      "year": 2009,
+      "citations": 1032,
+      "y25": 2010,
+      "y100": 2012,
+      "years_to_25": 1,
+      "years_to_100": 3,
+      "era": "2000–2014",
+      "era_median_to_25": 1,
+      "era_median_to_100": 3,
+      "peak": [
+       2021,
+       109
+      ]
+     }
+    ],
+    "contested": [],
+    "note": null
+   }
+  ],
+  "P03": [
+   {
+    "shift": "1979 (GCMs as the instrument)",
+    "accepted": [
+     {
+      "key": "mw1975",
+      "label": "Manabe & Wetherald 1975",
+      "year": 1975,
+      "citations": 1109,
+      "y25": 1977,
+      "y100": 1979,
+      "years_to_25": 2,
+      "years_to_100": 4,
+      "era": "before 1980",
+      "era_median_to_25": 4,
+      "era_median_to_100": 13,
+      "peak": [
+       2024,
+       64
+      ]
+     },
+     {
+      "key": "manabebryan1969",
+      "label": "Manabe & Bryan 1969",
+      "year": 1969,
+      "citations": 304,
+      "y25": 1979,
+      "y100": 2009,
+      "years_to_25": 10,
+      "years_to_100": 40,
+      "era": "before 1980",
+      "era_median_to_25": 4,
+      "era_median_to_100": 13,
+      "peak": [
+       2019,
+       30
+      ]
+     },
+     {
+      "key": "schneider1974",
+      "label": "Schneider & Dickinson 1974",
+      "year": 1974,
+      "citations": 363,
+      "y25": 1977,
+      "y100": 1982,
+      "years_to_25": 3,
+      "years_to_100": 8,
+      "era": "before 1980",
+      "era_median_to_25": 4,
+      "era_median_to_100": 13,
+      "peak": [
+       2025,
+       22
+      ]
+     }
+    ],
+    "contested": [],
+    "note": null
+   },
+   {
+    "shift": "2020–21 (constraint over democracy)",
+    "accepted": [
+     {
+      "key": "zelinka2020",
+      "label": "Zelinka et al. 2020",
+      "year": 2020,
+      "citations": 1879,
+      "y25": 2020,
+      "y100": 2020,
+      "years_to_25": 0,
+      "years_to_100": 0,
+      "era": "2015–",
+      "era_median_to_25": 1,
+      "era_median_to_100": 2,
+      "peak": [
+       2023,
+       367
+      ]
+     },
+     {
+      "key": "hausfather2022",
+      "label": "Hausfather et al. 2022",
+      "year": 2022,
+      "citations": 527,
+      "y25": 2022,
+      "y100": 2023,
+      "years_to_25": 0,
+      "years_to_100": 1,
+      "era": "2015–",
+      "era_median_to_25": 1,
+      "era_median_to_100": 2,
+      "peak": [
+       2023,
+       143
+      ]
+     }
+    ],
+    "contested": [],
+    "note": null
+   }
+  ],
+  "P04": [
+   {
+    "shift": "1979 (framework, 3 °C)",
+    "accepted": [
+     {
+      "key": "charney1979",
+      "label": "Charney et al. 1979",
+      "year": 1979,
+      "citations": 102,
+      "y25": 2017,
+      "y100": 2025,
+      "years_to_25": 38,
+      "years_to_100": 46,
+      "era": "before 1980",
+      "era_median_to_25": 4,
+      "era_median_to_100": 13,
+      "peak": [
+       2022,
+       20
+      ]
+     },
+     {
+      "key": "hansen1984",
+      "label": "Hansen et al. 1984",
+      "year": 1984,
+      "citations": 1151,
+      "y25": 1986,
+      "y100": 1988,
+      "years_to_25": 2,
+      "years_to_100": 4,
+      "era": "1980–1999",
+      "era_median_to_25": 2,
+      "era_median_to_100": 4,
+      "peak": [
+       1991,
+       61
+      ]
+     }
+    ],
+    "contested": [],
+    "note": "the Charney report is under-indexed by OpenAlex (102 citations in all); Hansen et al. 1984 is the feedback analysis that carried the framework"
+   },
+   {
+    "shift": "2020–21 (2.5–4 °C likely)",
+    "accepted": [
+     {
+      "key": "sherwood2020",
+      "label": "Sherwood et al. 2020",
+      "year": 2020,
+      "citations": 1338,
+      "y25": 2020,
+      "y100": 2021,
+      "years_to_25": 0,
+      "years_to_100": 1,
+      "era": "2015–",
+      "era_median_to_25": 1,
+      "era_median_to_100": 2,
+      "peak": [
+       2022,
+       284
+      ]
+     }
+    ],
+    "contested": [
+     {
+      "key": "lewiscurry2018",
+      "label": "Lewis & Curry 2018",
+      "year": 2018,
+      "citations": 90,
+      "y25": 2020,
+      "y100": null,
+      "years_to_25": 2,
+      "years_to_100": null,
+      "era": "2015–",
+      "era_median_to_25": 1,
+      "era_median_to_100": 2,
+      "peak": [
+       2022,
+       21
+      ]
+     },
+     {
+      "key": "lewis2023",
+      "label": "Lewis 2023",
+      "year": 2022,
+      "citations": 32,
+      "y25": 2025,
+      "y100": null,
+      "years_to_25": 3,
+      "years_to_100": null,
+      "era": "2015–",
+      "era_median_to_25": 1,
+      "era_median_to_100": 2,
+      "peak": [
+       2023,
+       13
+      ]
+     },
+     {
+      "key": "hansen2023",
+      "label": "Hansen et al. 2023",
+      "year": 2023,
+      "citations": 342,
+      "y25": 2024,
+      "y100": 2024,
+      "years_to_25": 1,
+      "years_to_100": 1,
+      "era": "2015–",
+      "era_median_to_25": 1,
+      "era_median_to_100": 2,
+      "peak": [
+       2024,
+       138
+      ]
+     }
+    ],
+    "note": null
+   }
+  ],
+  "P05": [
+   {
+    "shift": "2005–09 (water vapour)",
+    "accepted": [
+     {
+      "key": "heldsoden2000",
+      "label": "Held & Soden 2000",
+      "year": 2000,
+      "citations": 1332,
+      "y25": 2003,
+      "y100": 2006,
+      "years_to_25": 3,
+      "years_to_100": 6,
+      "era": "2000–2014",
+      "era_median_to_25": 1,
+      "era_median_to_100": 3,
+      "peak": [
+       2021,
+       106
+      ]
+     },
+     {
+      "key": "soden2002",
+      "label": "Soden et al. 2002",
+      "year": 2002,
+      "citations": 567,
+      "y25": 2004,
+      "y100": 2007,
+      "years_to_25": 2,
+      "years_to_100": 5,
+      "era": "2000–2014",
+      "era_median_to_25": 1,
+      "era_median_to_100": 3,
+      "peak": [
+       2024,
+       52
+      ]
+     },
+     {
+      "key": "soden2005",
+      "label": "Soden et al. 2005",
+      "year": 2005,
+      "citations": 304,
+      "y25": 2007,
+      "y100": 2010,
+      "years_to_25": 2,
+      "years_to_100": 5,
+      "era": "2000–2014",
+      "era_median_to_25": 1,
+      "era_median_to_100": 3,
+      "peak": [
+       2007,
+       25
+      ]
+     }
+    ],
+    "contested": [
+     {
+      "key": "lindzen1990",
+      "label": "Lindzen 1990",
+      "year": 1990,
+      "citations": 441,
+      "y25": 1991,
+      "y100": 1994,
+      "years_to_25": 1,
+      "years_to_100": 4,
+      "era": "1980–1999",
+      "era_median_to_25": 2,
+      "era_median_to_100": 4,
+      "peak": [
+       1992,
+       28
+      ]
+     },
+     {
+      "key": "lindzen2001",
+      "label": "Lindzen, Chou & Hou 2001",
+      "year": 2001,
+      "citations": 406,
+      "y25": 2002,
+      "y100": 2005,
+      "years_to_25": 1,
+      "years_to_100": 4,
+      "era": "2000–2014",
+      "era_median_to_25": 1,
+      "era_median_to_100": 3,
+      "peak": [
+       2005,
+       45
+      ]
+     }
+    ],
+    "note": null
+   },
+   {
+    "shift": "2009–21 (cloud sign)",
+    "accepted": [
+     {
+      "key": "bonydufresne2005",
+      "label": "Bony & Dufresne 2005",
+      "year": 2005,
+      "citations": 1416,
+      "y25": 2007,
+      "y100": 2009,
+      "years_to_25": 2,
+      "years_to_100": 4,
+      "era": "2000–2014",
+      "era_median_to_25": 1,
+      "era_median_to_100": 3,
+      "peak": [
+       2021,
+       166
+      ]
+     },
+     {
+      "key": "myers2021",
+      "label": "Myers et al. 2021",
+      "year": 2021,
+      "citations": 264,
+      "y25": 2022,
+      "y100": 2023,
+      "years_to_25": 1,
+      "years_to_100": 2,
+      "era": "2015–",
+      "era_median_to_25": 1,
+      "era_median_to_100": 2,
+      "peak": [
+       2023,
+       63
+      ]
+     }
+    ],
+    "contested": [
+     {
+      "key": "lindzenchoi2009",
+      "label": "Lindzen & Choi 2009",
+      "year": 2009,
+      "citations": 106,
+      "y25": 2011,
+      "y100": 2022,
+      "years_to_25": 2,
+      "years_to_100": 13,
+      "era": "2000–2014",
+      "era_median_to_25": 1,
+      "era_median_to_100": 3,
+      "peak": [
+       2010,
+       18
+      ]
+     }
+    ],
+    "note": null
+   }
+  ],
+  "P06": [
+   {
+    "shift": "1992–95 (aerosols first-order)",
+    "accepted": [
+     {
+      "key": "charlson1992",
+      "label": "Charlson et al. 1992",
+      "year": 1992,
+      "citations": 3861,
+      "y25": 1992,
+      "y100": 1994,
+      "years_to_25": 0,
+      "years_to_100": 2,
+      "era": "1980–1999",
+      "era_median_to_25": 2,
+      "era_median_to_100": 4,
+      "peak": [
+       2022,
+       164
+      ]
+     }
+    ],
+    "contested": [],
+    "note": null
+   },
+   {
+    "shift": "2007 (solar small)",
+    "accepted": [
+     {
+      "key": "lockwood2007",
+      "label": "Lockwood & Fröhlich 2007",
+      "year": 2007,
+      "citations": 201,
+      "y25": 2008,
+      "y100": 2011,
+      "years_to_25": 1,
+      "years_to_100": 4,
+      "era": "2000–2014",
+      "era_median_to_25": 1,
+      "era_median_to_100": 3,
+      "peak": [
+       2011,
+       32
+      ]
+     }
+    ],
+    "contested": [
+     {
+      "key": "fcl1991",
+      "label": "Friis-Christensen & Lassen 1991",
+      "year": 1991,
+      "citations": 889,
+      "y25": 1993,
+      "y100": 1996,
+      "years_to_25": 2,
+      "years_to_100": 5,
+      "era": "1980–1999",
+      "era_median_to_25": 2,
+      "era_median_to_100": 4,
+      "peak": [
+       2011,
+       42
+      ]
+     },
+     {
+      "key": "svensmark1997",
+      "label": "Svensmark & Friis-Christensen 1997",
+      "year": 1997,
+      "citations": 1115,
+      "y25": 1998,
+      "y100": 2000,
+      "years_to_25": 1,
+      "years_to_100": 3,
+      "era": "1980–1999",
+      "era_median_to_25": 2,
+      "era_median_to_100": 4,
+      "peak": [
+       2004,
+       62
+      ]
+     }
+    ],
+    "note": null
+   }
+  ],
+  "P07": [
+   {
+    "shift": "1995 ('discernible')",
+    "accepted": [
+     {
+      "key": "santer1996",
+      "label": "Santer et al. 1996",
+      "year": 1996,
+      "citations": 448,
+      "y25": 1997,
+      "y100": 1999,
+      "years_to_25": 1,
+      "years_to_100": 3,
+      "era": "1980–1999",
+      "era_median_to_25": 2,
+      "era_median_to_100": 4,
+      "peak": [
+       1998,
+       38
+      ]
+     },
+     {
+      "key": "hasselmann1993",
+      "label": "Hasselmann 1993",
+      "year": 1993,
+      "citations": 348,
+      "y25": 1997,
+      "y100": 2007,
+      "years_to_25": 4,
+      "years_to_100": 14,
+      "era": "1980–1999",
+      "era_median_to_25": 2,
+      "era_median_to_100": 4,
+      "peak": [
+       2022,
+       28
+      ]
+     },
+     {
+      "key": "hegerl1996",
+      "label": "Hegerl et al. 1996",
+      "year": 1996,
+      "citations": 371,
+      "y25": 1998,
+      "y100": 2004,
+      "years_to_25": 2,
+      "years_to_100": 8,
+      "era": "1980–1999",
+      "era_median_to_25": 2,
+      "era_median_to_100": 4,
+      "peak": [
+       2022,
+       25
+      ]
+     }
+    ],
+    "contested": [],
+    "note": null
+   },
+   {
+    "shift": "2001 (likely)",
+    "accepted": [
+     {
+      "key": "tett1999",
+      "label": "Tett et al. 1999",
+      "year": 1999,
+      "citations": 514,
+      "y25": 2000,
+      "y100": 2002,
+      "years_to_25": 1,
+      "years_to_100": 3,
+      "era": "1980–1999",
+      "era_median_to_25": 2,
+      "era_median_to_100": 4,
+      "peak": [
+       2000,
+       41
+      ]
+     },
+     {
+      "key": "stott2000",
+      "label": "Stott et al. 2000",
+      "year": 2000,
+      "citations": 681,
+      "y25": 2002,
+      "y100": 2003,
+      "years_to_25": 2,
+      "years_to_100": 3,
+      "era": "2000–2014",
+      "era_median_to_25": 1,
+      "era_median_to_100": 3,
+      "peak": [
+       2005,
+       56
+      ]
+     }
+    ],
+    "contested": [],
+    "note": null
+   }
+  ],
+  "P08": [
+   {
+    "shift": "~2000–2012 (surface record)",
+    "accepted": [
+     {
+      "key": "jones1986",
+      "label": "Jones et al. 1986",
+      "year": 1986,
+      "citations": 529,
+      "y25": 1988,
+      "y100": 1990,
+      "years_to_25": 2,
+      "years_to_100": 4,
+      "era": "1980–1999",
+      "era_median_to_25": 2,
+      "era_median_to_100": 4,
+      "peak": [
+       1992,
+       49
+      ]
+     },
+     {
+      "key": "parker2004",
+      "label": "Parker 2004",
+      "year": 2004,
+      "citations": 155,
+      "y25": 2007,
+      "y100": 2013,
+      "years_to_25": 3,
+      "years_to_100": 9,
+      "era": "2000–2014",
+      "era_median_to_25": 1,
+      "era_median_to_100": 3,
+      "peak": [
+       2007,
+       17
+      ]
+     }
+    ],
+    "contested": [],
+    "note": null
+   },
+   {
+    "shift": "2005–06 (satellite)",
+    "accepted": [
+     {
+      "key": "mearswentz2005",
+      "label": "Mears & Wentz 2005",
+      "year": 2005,
+      "citations": 195,
+      "y25": 2006,
+      "y100": 2009,
+      "years_to_25": 1,
+      "years_to_100": 4,
+      "era": "2000–2014",
+      "era_median_to_25": 1,
+      "era_median_to_100": 3,
+      "peak": [
+       2008,
+       27
+      ]
+     }
+    ],
+    "contested": [
+     {
+      "key": "spencerchristy1990",
+      "label": "Spencer & Christy 1990",
+      "year": 1990,
+      "citations": 310,
+      "y25": 1991,
+      "y100": 1996,
+      "years_to_25": 1,
+      "years_to_100": 6,
+      "era": "1980–1999",
+      "era_median_to_25": 2,
+      "era_median_to_100": 4,
+      "peak": [
+       1995,
+       24
+      ]
+     }
+    ],
+    "note": null
+   },
+   {
+    "shift": "2015–17 (slowdown)",
+    "accepted": [
+     {
+      "key": "kosakaxie2013",
+      "label": "Kosaka & Xie 2013",
+      "year": 2013,
+      "citations": 1740,
+      "y25": 2014,
+      "y100": 2014,
+      "years_to_25": 1,
+      "years_to_100": 1,
+      "era": "2000–2014",
+      "era_median_to_25": 1,
+      "era_median_to_100": 3,
+      "peak": [
+       2018,
+       205
+      ]
+     },
+     {
+      "key": "karl2015",
+      "label": "Karl et al. 2015",
+      "year": 2015,
+      "citations": 653,
+      "y25": 2015,
+      "y100": 2016,
+      "years_to_25": 0,
+      "years_to_100": 1,
+      "era": "2015–",
+      "era_median_to_25": 1,
+      "era_median_to_100": 2,
+      "peak": [
+       2017,
+       118
+      ]
+     },
+     {
+      "key": "medhaug2017",
+      "label": "Medhaug et al. 2017",
+      "year": 2017,
+      "citations": 472,
+      "y25": 2017,
+      "y100": 2019,
+      "years_to_25": 0,
+      "years_to_100": 2,
+      "era": "2015–",
+      "era_median_to_25": 1,
+      "era_median_to_100": 2,
+      "peak": [
+       2021,
+       69
+      ]
+     }
+    ],
+    "contested": [],
+    "note": null
+   },
+   {
+    "shift": "amplification: open",
+    "accepted": [
+     {
+      "key": "santer2017",
+      "label": "Santer et al. 2017",
+      "year": 2017,
+      "citations": 52,
+      "y25": 2021,
+      "y100": null,
+      "years_to_25": 4,
+      "years_to_100": null,
+      "era": "2015–",
+      "era_median_to_25": 1,
+      "era_median_to_100": 2,
+      "peak": [
+       2023,
+       11
+      ]
+     }
+    ],
+    "contested": [
+     {
+      "key": "mckitrickchristy2018",
+      "label": "McKitrick & Christy 2018",
+      "year": 2018,
+      "citations": 26,
+      "y25": 2025,
+      "y100": null,
+      "years_to_25": 7,
+      "years_to_100": null,
+      "era": "2015–",
+      "era_median_to_25": 1,
+      "era_median_to_100": 2,
+      "peak": [
+       2023,
+       5
+      ]
+     }
+    ],
+    "note": null
+   }
+  ],
+  "P09": [
+   {
+    "shift": "~1980 (orbital pacing; not in the §2 shift column)",
+    "accepted": [
+     {
+      "key": "hays1976",
+      "label": "Hays, Imbrie & Shackleton 1976",
+      "year": 1976,
+      "citations": 3789,
+      "y25": 1977,
+      "y100": 1979,
+      "years_to_25": 1,
+      "years_to_100": 3,
+      "era": "before 1980",
+      "era_median_to_25": 4,
+      "era_median_to_100": 13,
+      "peak": [
+       2021,
+       190
+      ]
+     }
+    ],
+    "contested": [],
+    "note": null
+   },
+   {
+    "shift": "2006 (NRC, with caveats)",
+    "accepted": [
+     {
+      "key": "mbh1998",
+      "label": "Mann, Bradley & Hughes 1998",
+      "year": 1998,
+      "citations": 2016,
+      "y25": 1999,
+      "y100": 2000,
+      "years_to_25": 1,
+      "years_to_100": 2,
+      "era": "1980–1999",
+      "era_median_to_25": 2,
+      "era_median_to_100": 4,
+      "peak": [
+       2007,
+       119
+      ]
+     },
+     {
+      "key": "mbh1999",
+      "label": "Mann, Bradley & Hughes 1999",
+      "year": 1999,
+      "citations": 1883,
+      "y25": 2000,
+      "y100": 2001,
+      "years_to_25": 1,
+      "years_to_100": 2,
+      "era": "1980–1999",
+      "era_median_to_25": 2,
+      "era_median_to_100": 4,
+      "peak": [
+       2005,
+       130
+      ]
+     }
+    ],
+    "contested": [
+     {
+      "key": "mm2005",
+      "label": "McIntyre & McKitrick 2005",
+      "year": 2005,
+      "citations": 179,
+      "y25": 2006,
+      "y100": 2009,
+      "years_to_25": 1,
+      "years_to_100": 4,
+      "era": "2000–2014",
+      "era_median_to_25": 1,
+      "era_median_to_100": 3,
+      "peak": [
+       2007,
+       44
+      ]
+     }
+    ],
+    "note": null
+   },
+   {
+    "shift": "2013–19 (PAGES 2k)",
+    "accepted": [
+     {
+      "key": "neukom2019",
+      "label": "Neukom et al. 2019 (PAGES 2k)",
+      "year": 2019,
+      "citations": 522,
+      "y25": 2020,
+      "y100": 2021,
+      "years_to_25": 1,
+      "years_to_100": 2,
+      "era": "2015–",
+      "era_median_to_25": 1,
+      "era_median_to_100": 2,
+      "peak": [
+       2022,
+       108
+      ]
+     }
+    ],
+    "contested": [],
+    "note": null
+   }
+  ],
+  "P10": [
+   {
+    "shift": "1979–85 (ocean delay)",
+    "accepted": [
+     {
+      "key": "hansen1985",
+      "label": "Hansen et al. 1985",
+      "year": 1985,
+      "citations": 303,
+      "y25": 1990,
+      "y100": 2006,
+      "years_to_25": 5,
+      "years_to_100": 21,
+      "era": "1980–1999",
+      "era_median_to_25": 2,
+      "era_median_to_100": 4,
+      "peak": [
+       2011,
+       19
+      ]
+     }
+    ],
+    "contested": [],
+    "note": null
+   },
+   {
+    "shift": "2009–13 (TCRE)",
+    "accepted": [
+     {
+      "key": "allen2009",
+      "label": "Allen et al. 2009",
+      "year": 2009,
+      "citations": 1746,
+      "y25": 2009,
+      "y100": 2011,
+      "years_to_25": 0,
+      "years_to_100": 2,
+      "era": "2000–2014",
+      "era_median_to_25": 1,
+      "era_median_to_100": 3,
+      "peak": [
+       2021,
+       143
+      ]
+     },
+     {
+      "key": "matthews2009",
+      "label": "Matthews et al. 2009",
+      "year": 2009,
+      "citations": 1220,
+      "y25": 2010,
+      "y100": 2012,
+      "years_to_25": 1,
+      "years_to_100": 3,
+      "era": "2000–2014",
+      "era_median_to_25": 1,
+      "era_median_to_100": 3,
+      "peak": [
+       2021,
+       121
+      ]
+     }
+    ],
+    "contested": [],
+    "note": null
+   },
+   {
+    "shift": "2008–21 (ZEC)",
+    "accepted": [
+     {
+      "key": "matthewscaldeira2008",
+      "label": "Matthews & Caldeira 2008",
+      "year": 2008,
+      "citations": 609,
+      "y25": 2009,
+      "y100": 2011,
+      "years_to_25": 1,
+      "years_to_100": 3,
+      "era": "2000–2014",
+      "era_median_to_25": 1,
+      "era_median_to_100": 3,
+      "peak": [
+       2021,
+       74
+      ]
+     },
+     {
+      "key": "solomon2009",
+      "label": "Solomon et al. 2009",
+      "year": 2009,
+      "citations": 3268,
+      "y25": 2009,
+      "y100": 2010,
+      "years_to_25": 0,
+      "years_to_100": 1,
+      "era": "2000–2014",
+      "era_median_to_25": 1,
+      "era_median_to_100": 3,
+      "peak": [
+       2023,
+       254
+      ]
+     },
+     {
+      "key": "macdougall2020",
+      "label": "MacDougall et al. 2020",
+      "year": 2020,
+      "citations": 249,
+      "y25": 2021,
+      "y100": 2022,
+      "years_to_25": 1,
+      "years_to_100": 2,
+      "era": "2015–",
+      "era_median_to_25": 1,
+      "era_median_to_100": 2,
+      "peak": [
+       2022,
+       50
+      ]
+     }
+    ],
+    "contested": [],
+    "note": null
+   }
+  ],
+  "P11": [
+   {
+    "shift": "2002–09 (thermodynamic part)",
+    "accepted": [
+     {
+      "key": "alleningram2002",
+      "label": "Allen & Ingram 2002",
+      "year": 2002,
+      "citations": 3106,
+      "y25": 2004,
+      "y100": 2005,
+      "years_to_25": 2,
+      "years_to_100": 3,
+      "era": "2000–2014",
+      "era_median_to_25": 1,
+      "era_median_to_100": 3,
+      "peak": [
+       2021,
+       227
+      ]
+     },
+     {
+      "key": "heldsoden2006",
+      "label": "Held & Soden 2006",
+      "year": 2006,
+      "citations": 5142,
+      "y25": 2007,
+      "y100": 2008,
+      "years_to_25": 1,
+      "years_to_100": 2,
+      "era": "2000–2014",
+      "era_median_to_25": 1,
+      "era_median_to_100": 3,
+      "peak": [
+       2024,
+       409
+      ]
+     }
+    ],
+    "contested": [],
+    "note": null
+   },
+   {
+    "shift": "2016 (event attribution)",
+    "accepted": [
+     {
+      "key": "stott2004",
+      "label": "Stott, Stone & Allen 2004",
+      "year": 2004,
+      "citations": 1763,
+      "y25": 2005,
+      "y100": 2006,
+      "years_to_25": 1,
+      "years_to_100": 2,
+      "era": "2000–2014",
+      "era_median_to_25": 1,
+      "era_median_to_100": 3,
+      "peak": [
+       2020,
+       130
+      ]
+     }
+    ],
+    "contested": [],
+    "note": "the NAS 2016 report that formalized event attribution is not in the traced set"
+   },
+   {
+    "shift": "dynamical part: open",
+    "accepted": [
+     {
+      "key": "francisvavrus2012",
+      "label": "Francis & Vavrus 2012",
+      "year": 2012,
+      "citations": 1872,
+      "y25": 2013,
+      "y100": 2014,
+      "years_to_25": 1,
+      "years_to_100": 2,
+      "era": "2000–2014",
+      "era_median_to_25": 1,
+      "era_median_to_100": 3,
+      "peak": [
+       2021,
+       188
+      ]
+     }
+    ],
+    "contested": [],
+    "note": "Francis & Vavrus 2012 is the observational claim of the Arctic–midlatitude link, adopted fast and disputed since"
+   }
+  ],
+  "P12": [
+   {
+    "shift": "1993 (past abrupt change)",
+    "accepted": [
+     {
+      "key": "dansgaard1993",
+      "label": "Dansgaard et al. 1993",
+      "year": 1993,
+      "citations": 4901,
+      "y25": 1994,
+      "y100": 1995,
+      "years_to_25": 1,
+      "years_to_100": 2,
+      "era": "1980–1999",
+      "era_median_to_25": 2,
+      "era_median_to_100": 4,
+      "peak": [
+       2013,
+       201
+      ]
+     }
+    ],
+    "contested": [],
+    "note": null
+   },
+   {
+    "shift": "1995–2005 (bistability)",
+    "accepted": [
+     {
+      "key": "manabestouffer1988",
+      "label": "Manabe & Stouffer 1988",
+      "year": 1988,
+      "citations": 901,
+      "y25": 1990,
+      "y100": 1992,
+      "years_to_25": 2,
+      "years_to_100": 4,
+      "era": "1980–1999",
+      "era_median_to_25": 2,
+      "era_median_to_100": 4,
+      "peak": [
+       2003,
+       47
+      ]
+     },
+     {
+      "key": "rahmstorf1995",
+      "label": "Rahmstorf 1995",
+      "year": 1995,
+      "citations": 861,
+      "y25": 1997,
+      "y100": 1999,
+      "years_to_25": 2,
+      "years_to_100": 4,
+      "era": "1980–1999",
+      "era_median_to_25": 2,
+      "era_median_to_100": 4,
+      "peak": [
+       2001,
+       100
+      ]
+     }
+    ],
+    "contested": [],
+    "note": "Stommel 1961, the origin, reached 25 citations only in 2024 in OpenAlex's main record (05 §4: rediscovered 1986–88)"
+   },
+   {
+    "shift": "2008–22 (tipping framework)",
+    "accepted": [
+     {
+      "key": "lenton2008",
+      "label": "Lenton et al. 2008",
+      "year": 2008,
+      "citations": 4094,
+      "y25": 2008,
+      "y100": 2009,
+      "years_to_25": 0,
+      "years_to_100": 1,
+      "era": "2000–2014",
+      "era_median_to_25": 1,
+      "era_median_to_100": 3,
+      "peak": [
+       2023,
+       396
+      ]
+     },
+     {
+      "key": "armstrongmckay2022",
+      "label": "Armstrong McKay et al. 2022",
+      "year": 2022,
+      "citations": 1943,
+      "y25": 2022,
+      "y100": 2023,
+      "years_to_25": 0,
+      "years_to_100": 1,
+      "era": "2015–",
+      "era_median_to_25": 1,
+      "era_median_to_100": 2,
+      "peak": [
+       2023,
+       602
+      ]
+     }
+    ],
+    "contested": [],
+    "note": null
+   }
+  ],
+  "P13": [
+   {
+    "shift": "1976–80 (framework)",
+    "accepted": [
+     {
+      "key": "hasselmann1976",
+      "label": "Hasselmann 1976",
+      "year": 1976,
+      "citations": 1424,
+      "y25": 1979,
+      "y100": 1987,
+      "years_to_25": 3,
+      "years_to_100": 11,
+      "era": "before 1980",
+      "era_median_to_25": 4,
+      "era_median_to_100": 13,
+      "peak": [
+       2022,
+       71
+      ]
+     }
+    ],
+    "contested": [],
+    "note": null
+   },
+   {
+    "shift": "2001–21 (global bound)",
+    "accepted": [
+     {
+      "key": "hawkinssutton2009",
+      "label": "Hawkins & Sutton 2009",
+      "year": 2009,
+      "citations": 2849,
+      "y25": 2010,
+      "y100": 2011,
+      "years_to_25": 1,
+      "years_to_100": 2,
+      "era": "2000–2014",
+      "era_median_to_25": 1,
+      "era_median_to_100": 3,
+      "peak": [
+       2021,
+       277
+      ]
+     },
+     {
+      "key": "deser2012",
+      "label": "Deser et al. 2012",
+      "year": 2012,
+      "citations": 927,
+      "y25": 2013,
+      "y100": 2014,
+      "years_to_25": 1,
+      "years_to_100": 2,
+      "era": "2000–2014",
+      "era_median_to_25": 1,
+      "era_median_to_100": 3,
+      "peak": [
+       2018,
+       87
+      ]
+     }
+    ],
+    "contested": [
+     {
+      "key": "cohnlins2005",
+      "label": "Cohn & Lins 2005",
+      "year": 2005,
+      "citations": 374,
+      "y25": 2008,
+      "y100": 2011,
+      "years_to_25": 3,
+      "years_to_100": 6,
+      "era": "2000–2014",
+      "era_median_to_25": 1,
+      "era_median_to_100": 3,
+      "peak": [
+       2011,
+       32
+      ]
+     },
+     {
+      "key": "laepplehuybers2014",
+      "label": "Laepple & Huybers 2014",
+      "year": 2014,
+      "citations": 192,
+      "y25": 2016,
+      "y100": 2021,
+      "years_to_25": 2,
+      "years_to_100": 7,
+      "era": "2000–2014",
+      "era_median_to_25": 1,
+      "era_median_to_100": 3,
+      "peak": [
+       2022,
+       29
+      ]
+     }
+    ],
+    "note": null
+   }
+  ]
+ }
+}
